@@ -1,3 +1,3 @@
 # Python_exercises
 
-# Test markdown
+Exercises accompaning the book "The Programmers Apprentice"
