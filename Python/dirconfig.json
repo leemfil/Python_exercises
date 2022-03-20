@@ -2,5 +2,7 @@
     "evaluation": {
         "handler": "python"
     },
-    "programming_language": "python"
+    "programming_language": "python",
+    "author": "Filip Leeamns",
+    "contact": "leemf@zavo.be"
 }
