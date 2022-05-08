@@ -1,7 +1,19 @@
-### Opgave
+### Opdracht
 
-Maak Opgave 5 van Hoofdstuk 3 opnieuw: schrijf een programma dat aan de gebruiker de naam van een maand en een jaartal vraagt. Je programma geeft vervolgens het aantal dagen van die maand in dat jaar. Maak hierbij minstens één keer gebruik van een functie.
+Schrijf een functie die teruggeeft of van 2 gehele getallen, er exact 1 positief is. De functie krijgt 2 gehele getallen mee en geeft een string terug.
 
+(Het getal 0 wordt niet als positief beschouwd.)
+
+### Invoer
+
+2 gehele getallen.
+
+### UItvoer
+
+Eén stringwaarde.
+
+* De stringwaarde “EXACT 1 POSITIEF” als exact 1 van de 2 ingevoerde getallen positief is.
+* De stringwaarde “NIET VOLDAAN” als geen of beide ingevoerde getallen positief zijn.
 
 ### Voorbeeld 1
 
