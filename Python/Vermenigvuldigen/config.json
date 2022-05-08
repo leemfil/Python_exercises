@@ -1,12 +1,11 @@
 {
   "description": {
     "names": {
-      "en": "Function",
-      "nl": "Functie maken"
+      "nl": "1 van 2 positief"
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "pythia_judge": "doctest"
   },
   "labels": [
 
