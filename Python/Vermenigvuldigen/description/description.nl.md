@@ -1,6 +1,6 @@
 ### Opdracht
 
-Schrijf een functie die teruggeeft of van 2 gehele getallen, er exact 1 positief is. De functie krijgt 2 gehele getallen mee en geeft een string terug.
+Schrijf een functie `exact1positief` die teruggeeft of van 2 gehele getallen, er exact 1 positief is. De functie krijgt 2 gehele getallen mee en geeft een string terug.
 
 (Het getal 0 wordt niet als positief beschouwd.)
 
