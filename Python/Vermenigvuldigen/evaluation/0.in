@@ -3,7 +3,7 @@ EXACT 1 POSITIEF
 >>> exact1positief(8904, -3104)
 EXACT 1 POSITIEF
 >>> exact1positief(-5971, -7457)
-
+NIET VOLDAAN
 >>> exact1positief(5299, -8877)
 EXACT 1 POSITIEF
 >>> exact1positief(-9560, 7768)
