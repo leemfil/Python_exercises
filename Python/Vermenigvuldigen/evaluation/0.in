@@ -1,5 +1,5 @@
 >>> exact1positief(868, -9891)
-EXACT 1 POSITIEF
+"EXACT 1 POSITIEF"
 >>> exact1positief(8904, -3104)
 EXACT 1 POSITIEF
 >>> exact1positief(-5971, -7457)
