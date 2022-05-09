@@ -1,101 +1,40 @@
-868
--9891
-8904
--3104
--5971
--7457
-5299
--8877
--9560
-7768
--429
-7236
--9017
--4732
-1569
--5585
--8172
-1671
-8897
-1417
-720
-6155
--9479
-8212
-147
-3845
-9911
--880
--3062
-818
--3563
--6403
-7106
--9455
--6729
--7944
--4194
-7424
--694
--4795
-8700
--6065
--7462
--7008
-3095
-444
--3706
--7284
-353
-6878
-8013
-3239
--9499
-2711
-100
--2939
-2046
--1719
--8778
-713
-7669
--6039
--4209
--6209
-1450
-2484
-5670
-4843
--9474
--8858
--7488
-2533
-2722
-9469
--9196
--8326
--8931
-3981
--3487
--9769
--6260
-2637
-412
--6483
--6341
--6619
-4661
--7790
--2132
-6497
-9495
--4922
-8196
--9849
--9139
--726
--7264
--1678
--4599
--9227
+>>> exact1positief(868, -9891)
+EXACT 1 POSITIEF
+>>> exact1positief(8904, -3104)
+EXACT 1 POSITIEF
+>>> exact1positief(-5971, -7457)
 
+>>> exact1positief(5299, -8877)
+EXACT 1 POSITIEF
+>>> exact1positief(-9560, 7768)
+EXACT 1 POSITIEF
+>>> exact1positief(-429, 7236)
+EXACT 1 POSITIEF
+>>> exact1positief(-9017, -4732)
+NIET VOLDAAN
+>>> exact1positief(1569, -5585)
+EXACT 1 POSITIEF
+>>> exact1positief(-8172, 1671)
+EXACT 1 POSITIEF
+>>> exact1positief(8897, 1417)
+NIET VOLDAAN
+>>> exact1positief(720, 6155)
+NIET VOLDAAN
+>>> exact1positief(-9479, 8212)
+EXACT 1 POSITIEF
+>>> exact1positief(147, 3845)
+NIET VOLDAAN
+>>> exact1positief(9911, -880)
+EXACT 1 POSITIEF
+>>> exact1positief(-3062, 818)
+EXACT 1 POSITIEF
+>>> exact1positief(-3563, -6403)
+NIET VOLDAAN
+>>> exact1positief(7106, -9455)
+EXACT 1 POSITIEF
+>>> exact1positief(-6729, -7944)
+NIET VOLDAAN
+>>> exact1positief(-4194, 7424)
+EXACT 1 POSITIEF
+>>> exact1positief(-694, -4795)
+NIET VOLDAAN
