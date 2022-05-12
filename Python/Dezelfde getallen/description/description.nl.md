@@ -1,25 +1,22 @@
 ### Opdracht
 
-Schrijf een functie `exact1positief` die teruggeeft of van 2 gehele getallen, er exact 1 positief is. De functie krijgt 2 gehele getallen mee en geeft een string terug.
+Gegeven 3 gehele getallen.
 
-(Het getal 0 wordt niet als positief beschouwd.)
+Schrijf een functie die telt hoeveel gelijke getallen er zijn (0, 2 of 3).
 
-### Invoer
+Dit aantal moet vervolgens door de functie worden teruggegeven aan het programma.
 
-2 gehele getallen.
+### Beschrijving
 
-### UItvoer
+De functie `gelijkegetallen` krijgt drie gehele getallen.
+De functie onderzoekt hoeveel van de drie getallen hetzelfden zijn en geeft dit aantal terug. Mogelijke antwoorden zijn 0, 2 of 3.
 
-Eén stringwaarde.
-
-* De stringwaarde “EXACT 1 POSITIEF” als exact 1 van de 2 ingevoerde getallen positief is.
-* De stringwaarde “NIET VOLDAAN” als geen of beide ingevoerde getallen positief zijn.
 
 ### Voorbeelden
 
-    >>> exact1positief(-7103, 375)
-     EXACT 1 POSITIEF
+    >>> gelijkegetallen(7, 4, 7)
+    2
      
-    >>> exact1positief(71, 1264)
-    NIET VOLDAAN
+    >>> gelijkegetallen(1, 2, 3)
+    0
    
