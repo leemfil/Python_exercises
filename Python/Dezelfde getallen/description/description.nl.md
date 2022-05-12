@@ -2,7 +2,7 @@
 
 Gegeven 3 gehele getallen.
 
-Schrijf een functie die telt hoeveel gelijke getallen er zijn (0, 2 of 3).
+Schrijf een functie die telt hoeveel gelijke getallen er zijn.
 
 Dit aantal moet vervolgens door de functie worden teruggegeven aan het programma.
 
