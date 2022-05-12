@@ -31,7 +31,7 @@
 >>> gelijkegetallen(10, 3, 6)
 0
 >>> gelijkegetallen(5, -2, 0)
-
+0
 >>> gelijkegetallen(-2, 8, 4)
 0
 >>> gelijkegetallen(-5,-1,3)
