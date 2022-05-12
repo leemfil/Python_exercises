@@ -1,40 +1,50 @@
->>> exact1positief(868, -9891)
-"EXACT 1 POSITIEF"
->>> exact1positief(8904, -3104)
-"EXACT 1 POSITIEF"
->>> exact1positief(-5971, -7457)
-"NIET VOLDAAN"
->>> exact1positief(5299, -8877)
-"EXACT 1 POSITIEF"
->>> exact1positief(-9560, 7768)
-"EXACT 1 POSITIEF"
->>> exact1positief(-429, 7236)
-"EXACT 1 POSITIEF"
->>> exact1positief(-9017, -4732)
-"NIET VOLDAAN"
->>> exact1positief(1569, -5585)
-"EXACT 1 POSITIEF"
->>> exact1positief(-8172, 1671)
-"EXACT 1 POSITIEF"
->>> exact1positief(8897, 1417)
-"NIET VOLDAAN"
->>> exact1positief(720, 6155)
-"NIET VOLDAAN"
->>> exact1positief(-9479, 8212)
-"EXACT 1 POSITIEF"
->>> exact1positief(147, 3845)
-"NIET VOLDAAN"
->>> exact1positief(9911, -880)
-"EXACT 1 POSITIEF"
->>> exact1positief(-3062, 818)
-"EXACT 1 POSITIEF"
->>> exact1positief(-3563, -6403)
-"NIET VOLDAAN"
->>> exact1positief(7106, -9455)
-"EXACT 1 POSITIEF"
->>> exact1positief(-6729, -7944)
-"NIET VOLDAAN"
->>> exact1positief(-4194, 7424)
-"EXACT 1 POSITIEF"
->>> exact1positief(-694, -4795)
-"NIET VOLDAAN"
+>>> gelijkegetallen(7, 7, 7)
+3
+>>> gelijkegetallen(0, 0,-7)
+2
+>>> gelijkegetallen(2, -1, -3)
+0
+>>> gelijkegetallen(2, 3, 8)
+0
+>>> gelijkegetallen(8, 9, -9)
+0
+>>> gelijkegetallen(9, -3, -2)
+0
+>>> gelijkegetallen(5, 5, 9)
+2
+>>> gelijkegetallen(2, -8, 2)
+2
+>>> gelijkegetallen(-3, -7, -5)
+0
+>>> gelijkegetallen(5, 9, 9)
+2
+>>> gelijkegetallen(10, 10, 10)
+3
+>>> gelijkegetallen(3, -2, 3)
+2
+>>> gelijkegetallen(9, -3, 3)
+0
+>>> gelijkegetallen(-10,8,2)
+0
+>>> gelijkegetallen(-6,-8,5)
+0
+>>> gelijkegetallen(10, 3, 6)
+0
+>>> gelijkegetallen(5, -2, 0)
+
+>>> gelijkegetallen(-2, 8, 4)
+0
+>>> gelijkegetallen(-5,-1,3)
+0
+>>> gelijkegetallen(0, 1, 4)
+0
+>>> gelijkegetallen(8, 0, 2)
+0
+>>> gelijkegetallen(-1, 1, 9)
+0
+>>> gelijkegetallen(-4, -4, -4)
+3
+>>> gelijkegetallen(5, -8, -8)
+2
+>>> gelijkegetallen(7, 7, 4)
+2
