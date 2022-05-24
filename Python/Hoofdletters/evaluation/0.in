@@ -1,40 +1,6 @@
->>> exact1positief(868, -9891)
-"EXACT 1 POSITIEF"
->>> exact1positief(8904, -3104)
-"EXACT 1 POSITIEF"
->>> exact1positief(-5971, -7457)
-"NIET VOLDAAN"
->>> exact1positief(5299, -8877)
-"EXACT 1 POSITIEF"
->>> exact1positief(-9560, 7768)
-"EXACT 1 POSITIEF"
->>> exact1positief(-429, 7236)
-"EXACT 1 POSITIEF"
->>> exact1positief(-9017, -4732)
-"NIET VOLDAAN"
->>> exact1positief(1569, -5585)
-"EXACT 1 POSITIEF"
->>> exact1positief(-8172, 1671)
-"EXACT 1 POSITIEF"
->>> exact1positief(8897, 1417)
-"NIET VOLDAAN"
->>> exact1positief(720, 6155)
-"NIET VOLDAAN"
->>> exact1positief(-9479, 8212)
-"EXACT 1 POSITIEF"
->>> exact1positief(147, 3845)
-"NIET VOLDAAN"
->>> exact1positief(9911, -880)
-"EXACT 1 POSITIEF"
->>> exact1positief(-3062, 818)
-"EXACT 1 POSITIEF"
->>> exact1positief(-3563, -6403)
-"NIET VOLDAAN"
->>> exact1positief(7106, -9455)
-"EXACT 1 POSITIEF"
->>> exact1positief(-6729, -7944)
-"NIET VOLDAAN"
->>> exact1positief(-4194, 7424)
-"EXACT 1 POSITIEF"
->>> exact1positief(-694, -4795)
-"NIET VOLDAAN"
+In het Antwerpse Sportpaleis vindt vanavond het wereldkampioenschap "Counter-Strike" plaats.
+Dat is een online spel waarbij gamers van over heel de wereld het tegen elkaar opnemen. 
+Het is de grootste onlinewedstrijd die er ooit in België is geweest en lokt zo'n 175 miljoen trouwe kijkers.
+De kwart- en halve finales gaan door van 19 to 21 mei, om op zondag 22 mei te eindigen met de grote finale.
+Er is geen EHBO-post aanwezig.
+De ICT in ZAVO is op de hoogte. 
