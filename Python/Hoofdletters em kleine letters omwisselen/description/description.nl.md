@@ -10,7 +10,7 @@ Een tekst.
 
 Eén string. 
 In de string zijn voor elke letter in een woord de hoofdletters kleine letters geworden en de kleine letters hoofdletters geworden.
-En het woord "van" wordt telkens vervangen door "(-;".
+En de letters "van" wordt telkens vervangen door "(-;".
 
 ### Voorbeeld
 
@@ -20,7 +20,7 @@ En het woord "van" wordt telkens vervangen door "(-;".
 
 **Uitvoer**
     
-    eN VANDAAG IS IEDEREEN (-; zavo GOEDGEZIND.
+    eN (-;DAAG IS IEDEREEN (-; zavo GOEDGEZIND.
     
      
   
