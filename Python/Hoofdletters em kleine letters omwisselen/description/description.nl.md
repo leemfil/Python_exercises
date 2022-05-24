@@ -10,7 +10,7 @@ Een tekst.
 
 Eén string. 
 In de string zijn voor elke letter in een woord de hoofdletters kleine letters geworden en de kleine letters hoofdletters geworden.
-En het woord "van" wprdt telkens vervangen door "(-;".
+En het woord "van" wordt telkens vervangen door "(-;".
 
 ### Voorbeeld
 
