@@ -1,25 +1,23 @@
 ### Opdracht
 
-Schrijf een functie `exact1positief` die teruggeeft of van 2 gehele getallen, er exact 1 positief is. De functie krijgt 2 gehele getallen mee en geeft een string terug.
-
-(Het getal 0 wordt niet als positief beschouwd.)
+We gaan een tekst aanpassen door elk woord in de tekst te laten beginnen met een hoofdletter. Maak dus een programma die de tekst aanpast.
 
 ### Invoer
 
-2 gehele getallen.
+    Een tekst.
 
-### UItvoer
+### Uitvoer
 
-Eén stringwaarde.
+    Eén string. In de string is de eerste letter van elk woord een hoofdletter.
 
-* De stringwaarde “EXACT 1 POSITIEF” als exact 1 van de 2 ingevoerde getallen positief is.
-* De stringwaarde “NIET VOLDAAN” als geen of beide ingevoerde getallen positief zijn.
+### Voorbeeld
 
-### Voorbeelden
+**Invoer**
+    Hopelijk is het morgen mooi weer want de schoolweek eindigt vandaag al.
 
-    >>> exact1positief(-7103, 375)
-     EXACT 1 POSITIEF
+**Uitvoer**
+    Hopelijk Is Het Morgen Mooi Weer Want De Schoolweek Eindigt Vandaag Al.
+    
      
-    >>> exact1positief(71, 1264)
-    NIET VOLDAAN
+  
    
