@@ -8,7 +8,7 @@ Schrijf een functie `exact1positief` die teruggeeft of van 2 gehele getallen, er
 
 2 gehele getallen.
 
-### UItvoer
+### Uitvoer
 
 Eén stringwaarde.
 
