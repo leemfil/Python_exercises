@@ -33,8 +33,8 @@ Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen st
 
 **Uitvoer**
     
-    "De atleet is 5 keer over de lat gegaan."
-    "En hij heeft 6 keer gefaald."
+    De atleet is 5 keer over de lat gegaan.
+    En hij heeft 6 keer gefaald.
     
     5,00 - 5,19: 0
     5,20 - 5,39: 1
