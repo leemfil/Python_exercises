@@ -27,8 +27,19 @@ geen rijbewijs bezit: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
 
 **Uitvoer**
     
-    Hopelijk Is Het Morgen Mooi Weer Want De Schoolweek Eindigt Vandaag Al.
+    Je bent minstens 18 jaar oud!
+    Proficiat, je bezit een rijbewijs!
+     
+### Voorbeeld
+
+**Invoer**
     
+    7
+    -
+
+**Uitvoer**
+    
+    De toekomst lacht je toe!
      
   
    
