@@ -25,7 +25,7 @@ Een tekst waarin de haakjes vervangen zijn door <> en de woorden ertussen aangep
 **Uitvoer**
     
     In het Antwerpse Sportpaleis hebben zowat <16.000> uitzinnige <E-sportsFAns> zondag de finale van het officieuze 
-    wereldkampioenschap Counter-Strike <CS:GO> bijgewoond. Het voornamelijk <SCAnDInAvIsCHE) gamercollectief <FAZE> <CLAn> 
+    wereldkampioenschap Counter-Strike <CS:GO> bijgewoond. Het voornamelijk <SCAnDInAvIsCHE> gamercollectief <FAZE> <CLAn> 
     haalde het in een hoogstaande eindstrijd van het Oekraïense <NAVI>.  
     Wereldwijd volgden tientallen miljoenen fans de voorbije dagen het PGL Major 2022 van het nog steeds razend 
     populaire shootergame <CountEr-StrIKE>. Ook in het Sportpaleis zelf was het <puBLIEK> heel internationaal. 
