@@ -26,17 +26,17 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
 ### Opdracht
 
 <ol>
-  <li>Schrijf een functie <samp>`puntenspel`</samp> waaraan de volgende parameter wordt doorgegeven:<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;een string met 20 getallen gescheiden een spatie.<br><br>
-  De 20 getallen komen overeen met de omvergeworpen pins van 10 frames want we werpen 2 keer per frame.  
-    Gooide je een strike in een frame dan is het 2de getal van dar frame 0.<br><br>
+  <li>Schrijf een functie <samp>`puntenspel`</samp> waaraan 1 parameter wordt doorgegeven:<br>
+    <ul><li>een string met 20 getallen gescheiden een spatie.</li></ul><br><br>
+        De 20 getallen komen overeen met de omvergeworpen pins van 10 frames want we werpen 2 keer per frame.  
+        Gooide je een strike in een frame dan is het 2de getal van dar frame 0.<br><br>
   
-  Bereken het totaal van de 10 frames en return een string met het resultaat.<br>
-  Gebruik hiervoor volgende zin:<br><br>
-  <blockquote>
-  “Je hebt 10 frames gespeeld met volgend resultaat: &lt;punten frame 1&gt; + &lt;punten frame 2&gt; + … + &lt;punten frame 10&gt; = &lt;totaal aantal punten&gt;”
-  </blockquote>  
-  Op de plaatsen van de <...> zet je telkens het overeenkomstig getal.
+        Bereken het totaal van de 10 frames en return een string met het resultaat.<br>
+        Gebruik hiervoor volgende zin:<br><br>
+        <blockquote>
+        “Je hebt 10 frames gespeeld met volgend resultaat: &lt;punten frame 1&gt; + &lt;punten frame 2&gt; + … + &lt;punten frame 10&gt; = &lt;totaal aantal punten&gt;”
+        </blockquote>  
+       Op de plaatsen van de <...> zet je telkens het overeenkomstig getal.
   </li><br>
   
   <li>Schrijf een nieuwe functie <samp>`puntenframes`</samp> waaraan 1 parameters wordt doorgegeven:<br>
