@@ -39,9 +39,8 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
   Op de plaatsen van de <...> zet je telkens het overeenkomstig getal.
   </li><br>
   
-  <li>Schrijf een nieuwe functie <samp>`puntenframes`</samp> waaraan 2 parameters worden doorgegeven:<br>
-    <ul><li>een string met een aantal getallen gescheiden door een spatie,</li>
-      <li>en het aantal frames dat er gespeeld is.</li>
+  <li>Schrijf een nieuwe functie <samp>`puntenframes`</samp> waaraan 1 parameters wordt doorgegeven:<br>
+    <ul><li>een string met een even aantal getallen gescheiden door een spatie</li>
     </ul>
     <br>
     Bereken het totaal van het aantal frames en return opnieuw een gelijkaardige zin zoals bij de vorige functie.
