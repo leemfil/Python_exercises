@@ -14,17 +14,23 @@ Een tekst waarin de haakjes vervangen zijn door <> en de woorden aangepast. De l
 
 **Invoer**
     
-    In het Antwerpse Sportpaleis hebben zowat 16.000 uitzinnige e-sportsfans zondag de finale van het officieuze 
-    wereldkampioenschap Counter-Strike (CS:GO) bijgewoond. Het voornamelijk Scandinavische gamercollectief FaZe Clan 
-    haalde het in een hoogstaande eindstrijd van het Oekraïense NAVI.  
+    In het Antwerpse Sportpaleis hebben zowat (16.000) uitzinnige (e-sportsfans) zondag de finale van het officieuze 
+    wereldkampioenschap Counter-Strike (CS:GO) bijgewoond. Het voornamelijk (Scandinavische) gamercollectief (FaZe) (Clan) 
+    haalde het in een hoogstaande eindstrijd van het Oekraïense (NAVI).  
     Wereldwijd volgden tientallen miljoenen fans de voorbije dagen het PGL Major 2022 van het nog steeds razend 
-    populaire shootergame Counter-Strike. Ook in het Sportpaleis zelf was het publiek heel internationaal. 
+    populaire shootergame (Counter-Strike). Ook in het Sportpaleis zelf was het (publiek) heel internationaal. 
     Zij kregen niet alleen hun favoriete gamers live aan het werk te zien, maar ook showgames, signeersessies en 
-    andere vormen van randanimatie.
+    andere vormen van (randanimatie).
 
 **Uitvoer**
     
-    Hopelijk Is Het Morgen Mooi Weer Want De Schoolweek Eindigt Vandaag Al.
+    In het Antwerpse Sportpaleis hebben zowat <16.000> uitzinnige <E-sportsFAns> zondag de finale van het officieuze 
+    wereldkampioenschap Counter-Strike <CS:GO> bijgewoond. Het voornamelijk <SCAnDInAvIsCHE) gamercollectief <FAZE> <CLAn> 
+    haalde het in een hoogstaande eindstrijd van het Oekraïense <NAVI>.  
+    Wereldwijd volgden tientallen miljoenen fans de voorbije dagen het PGL Major 2022 van het nog steeds razend 
+    populaire shootergame <CountEr-StrIKE>. Ook in het Sportpaleis zelf was het <puBLIEK> heel internationaal. 
+    Zij kregen niet alleen hun favoriete gamers live aan het werk te zien, maar ook showgames, signeersessies en 
+    andere vormen van <rAnDAnIMAtIE>.
     
      
   
