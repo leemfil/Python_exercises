@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Hoofdletters"
+      "nl": "Polsstokspringen"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "6qRzP6jXGQ9HygpXwwjDHcZtMKGWB_uSvpwZxcDTUqN47rjVm2Pq7_szBmjusS-H",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
