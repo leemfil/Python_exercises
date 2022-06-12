@@ -1,0 +1,8 @@
+>>> puntenframes("4 6 0 10 4 3 10 0", 4)
+62
+>>> puntenframes("9 1 5 3 8 0 0 5 10 0 6 4 0 0", 7)
+71
+>>> puntenframes("10 0 6 4 2 8 0 10 4 4", 5)
+78
+>>> puntenframes("0 0", 1)
+0
