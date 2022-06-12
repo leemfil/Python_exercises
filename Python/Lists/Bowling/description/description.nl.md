@@ -34,8 +34,8 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
   Bereken het totaal van de 10 frames en return een string met het resultaat.<br>
   Gebruik hiervoor volgende zin:<br><br>
   <blockquote>
-  “Je hebt 5 keer geworpen met volgend resultaat <br> 
-    &lt;punten frame 1&gt; + &lt;punten frame 2&gt; + … + &lt;punten frame 5&gt; = &lt;totaal aantal punten&gt;”
+  “Je hebt 10 frames gespeeld met volgend resultaat <br> 
+    &lt;punten frame 1&gt; + &lt;punten frame 2&gt; + … + &lt;punten frame 10&gt; = &lt;totaal aantal punten&gt;”
   </blockquote>  
   Op de plaatsen van de <...> zet je telkens het overeenkomstig getal.
   </li><br>
