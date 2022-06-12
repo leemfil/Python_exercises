@@ -44,19 +44,7 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
     <ul><li>een string met een even aantal getallen gescheiden door een spatie, dus het aantal frames kan variëren.</li></ul>
     <br>
     Bereken het totaal van het aantal frames en return opnieuw een gelijkaardige zin zoals bij de vorige functie.
-  </li><br>
-  
-  <li>
-    Bij de echte puntentellig zijn de bonuspunten van een strike of een spare afhankelijk van het volgende frame.<br><br>
-    Pas het programma aan zodat de extra punten die een strike oplevert gelijk is aan 10 plus 2 keer de punten van de volgende worp.<br>
-    Dus stel dat de volgende worp 6 punten oplevert dan zal de strike 10 + 2 x 6 = 22 punten opleveren.<br>
-    De 6 punten van de volgende worp blijven ook gewoon meetellen in het totaal van de worpen.<br><br>
-    Pas het programma aan zodat de extra punten die een spare oplevert gelijk is aan 10 plus 1 keer de punten van de volgende worp.<br>
-    Dus stel dat de volgende worp 6 punten oplevert dan zal de strike 10 + 1 x 6 = 16 punten opleveren.<br>
-    De 6 punten van de volgende worp blijven ook gewoon meetellen in het totaal van de worpen.<br><br>
-    Bij de laatste frame is er geen volgende frame, dus daar behouden we de originele puntentelling:<br>
-    10 extra punten voor een strike en 5 extra punten voor een spare.
-  </li>  
+  </li>
 </ol>
 
 
