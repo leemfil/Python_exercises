@@ -40,7 +40,7 @@ Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen st
     5,20 - 5,39: 1
     5,40 - 5,59: 1
     5,60 - 5,79: 3
-    5,80 - 5,59: 0
+    5,80 - 5,99: 0
     6,00 - 6,19: 0
     
      
