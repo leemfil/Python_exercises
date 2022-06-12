@@ -1,6 +1,9 @@
-In het Antwerpse Sportpaleis vindt vanavond het wereldkampioenschap "Counter-Strike" plaats.
-Dat is een online spel waarbij gamers van over heel de wereld het tegen elkaar opnemen. 
-Het is de grootste onlinewedstrijd die er ooit in België is geweest en lokt zo'n 175 miljoen trouwe kijkers.
-De kwart- en halve finales gaan door van 19 tot 21 mei, om op zondag 22 mei te eindigen met de grote finale.
-Er is geen EHBO-post aanwezig.
-De ICT in ZAVO is op de hoogte. 
+>>> puntenspel("3 5 6 4 3 0 6 1 7 2 8 2 10 0 9 0 0 3 0 10")
+109
+>>> puntenspel("2 4 0 10 7 0 10 0 2 3 8 1 7 3 9 1 5 5 4 4")
+120
+>>> puntenspel("10 0 10 0 10 0 10 0 10 0 10 0 10 0 10 0 10 0 10 0")
+200
+>>> puntenspel("5 5 6 4 7 3 9 1 2 8 3 7 1 9 4 6 5 5 8 2")
+150
+
