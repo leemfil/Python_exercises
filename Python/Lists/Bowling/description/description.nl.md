@@ -1,6 +1,6 @@
 ### Opdracht
 
-We gaan een tekst aanpassen door elk woord in de tekst te laten beginnen met een hoofdletter. Maak dus een programma die de tekst aanpast.
+[Show image](bowling.jpg){: .dodona-lightbox}
 
 ### Invoer
 
