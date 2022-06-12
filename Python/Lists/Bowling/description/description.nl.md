@@ -56,8 +56,8 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
     >>> puntenspel("2 4 0 10 7 0 10 0 2 3 8 1 7 3 9 1 5 5 4 4")
     120
     
-    >>> puntenframes("4 6 0 10 4 3 10 0", 4)
+    >>> puntenframes("4 6 0 10 4 3 10 0")
     62
     
-    >>> puntenframes("9 1 5 3 8 0 0 5 10 0 6 4 0 0", 7)
+    >>> puntenframes("9 1 5 3 8 0 0 5 10 0 6 4 0 0")
     71
