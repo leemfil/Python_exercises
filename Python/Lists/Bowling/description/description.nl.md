@@ -64,14 +64,14 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
 
 ### Voorbeeld
 
-**Invoer**
-    
-    Hopelijk is het morgen mooi weer want de schoolweek eindigt vandaag al.
+    >>> puntenspel("3 5 6 4 3 0 6 1 7 2 8 2 10 0 9 0 0 3 0 10")
+    109
 
-**Uitvoer**
+    >>> puntenspel("2 4 0 10 7 0 10 0 2 3 8 1 7 3 9 1 5 5 4 4")
+    120
     
-    Hopelijk Is Het Morgen Mooi Weer Want De Schoolweek Eindigt Vandaag Al.
+    >>> puntenframes("4 6 0 10 4 3 10 0", 4)
+    62
     
-     
-  
-   
+    >>> puntenframes("9 1 5 3 8 0 0 5 10 0 6 4 0 0", 7)
+    71
