@@ -30,8 +30,8 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
     <ul><li>een string met 20 getallen gescheiden een spatie.</li></ul>
         <br>
         De 20 getallen komen overeen met de omvergeworpen pins van 10 frames want we werpen 2 keer per frame.  
-        Gooide je een strike in een frame dan is het 2de getal van dar frame 0.<br><br>
-  
+        Gooide je een strike in een frame dan is het 2de getal van dar frame 0.
+    <br>
    Bereken het totaal van de 10 frames en return een string met het resultaat.<br>
    Gebruik hiervoor volgende zin:<br><br>
    <blockquote>
