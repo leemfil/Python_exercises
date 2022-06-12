@@ -1,5 +1,5 @@
 >>> puntenspel("3 5 6 4 3 0 6 1 7 2 8 2 10 0 9 0 0 3 0 10")
-Je hebt 10 frames gespeeld met volgend resultaat: 8 + 15 + 3 + 7 + 9 + 15 + 20 + 9 + 3 + 20 = 109
+Je hebt 10 frames gespeeld met volgend resultaa: 8 + 15 + 3 + 7 + 9 + 15 + 20 + 9 + 3 + 20 = 109
 >>> puntenspel("2 4 0 10 7 0 10 0 2 3 8 1 7 3 9 1 5 5 4 4")
 Je hebt 10 frames gespeeld met volgend resultaat: 6 + 20 + 7 + 20 + 5 + 9 + 15 + 15 + 15 + 8 = 120
 >>> puntenspel("10 0 10 0 10 0 10 0 10 0 10 0 10 0 10 0 10 0 10 0")
