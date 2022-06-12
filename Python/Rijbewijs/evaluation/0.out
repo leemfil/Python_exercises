@@ -1,7 +1,26 @@
+Je bent minstens 18 jaar oud!
+Proficiat, je bezit een rijbewijs!
+De toekomst lacht je toe!
+
+Je bent minstens 18 jaar oud!
+Je bezit geen rijbewijs, gebruik het openbaar vervoer!
+Je bent minstens 18 jaar oud!
+Proficiat, je bezit een rijbewijs!
+De toekomst lacht je toe!
+
+Je bent minstens 18 jaar oud!
+Proficiat, je bezit een rijbewijs!
+Je bent minstens 18 jaar oud!
+Je bezit geen rijbewijs, gebruik het openbaar vervoer!
+Je bent minstens 18 jaar oud!
+Je bezit geen rijbewijs, gebruik het openbaar vervoer!
+De toekomst lacht je toe!
+
+De toekomst lacht je toe!
 
 --------------------------------------------------
-tab name: Hoofdletters
+tab name: Rijbewijs
 python input without prompt: true
 block count: multi
-input block size: 1
-output block size: 1
+input block size: 2
+output block size: 2
