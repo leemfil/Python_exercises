@@ -1,6 +1,6 @@
 ### Opdracht
 
-[Show image](bowling.jpg){: .dodona-lightbox}
+[Show image](bowling.png){: .dodona-lightbox}
 
 ### Invoer
 
