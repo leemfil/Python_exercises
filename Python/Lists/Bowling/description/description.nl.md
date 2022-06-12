@@ -28,23 +28,37 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
 <ol>
   <li>Schrijf een functie <samp>`puntenspel`</samp> waaraan de volgende parameter wordt doorgegeven:<br>
   &nbsp;&nbsp;&nbsp;&nbsp;een string met 20 getallen gescheiden een spatie.<br><br>
-  De 20 getallen komen overeen met de omvergeworpen pins van 10 frames want we werpem 2 keer per frame.  
+  De 20 getallen komen overeen met de omvergeworpen pins van 10 frames want we werpen 2 keer per frame.  
     Gooide je een strike in een frame dan is het 2de getal van dar frame 0.<br><br>
   
   Bereken het totaal van de 10 frames en return een string met het resultaat.<br>
-  Gebruik hiervoor volgende zin:<br><br>
+  Gebruik hiervoor volgende zin:
+  <blockquote>
   “Je hebt 5 keer geworpen met volgend resultaat <br> 
-    &ltpunten worp 1&gt + &ltpunten worp 2&gt + … + &ltpunten worp 5&gt = &lttotaal aantal punten&gt”<br><br>
+    &lt;punten worp 1&gt; + &lt;punten worp 2&gt; + … + &lt;punten worp 5&gt; = &lt;totaal aantal punten&gt;”
+  </blockquote>  
   Op de plaatsen van de <...> zet je telkens het overeenkomstig getal.
-  </li>
+  </li><br>
   
   <li>Schrijf een nieuwe functie <samp>`puntenframes`</samp> waaraan 2 parameters worden doorgegeven:<br>
-    * een string met een aantal getallen gescheiden een spatie,
-    * het aantal frames dat er gespeeld is.<br><br>
-    
-    
-  </li>  
+    <ul><li>een string met een aantal getallen gescheiden door een spatie,</li>
+      <li>en het aantal frames dat er gespeeld is.</li>
+    </ul>
+    <br>
+    Bereken het totaal van het aantal frames en return opnieuw een gelijkaardige zin zoals bij de vorige functie.
+  </li><br>
   
+  <li>
+    Bij de echte puntentellig zijn de bonuspunten van een strike of een spare afhankelijk van het volgende frame.<br><br>
+    Pas het programma aan zodat de extra punten die een strike oplevert gelijk is aan 10 plus 2 keer de punten van de volgende worp.<br>
+    Dus stel dat de volgende worp 6 punten oplevert dan zal de strike 10 + 2 x 6 = 22 punten opleveren.<br>
+    De 6 punten van de volgende worp blijven ook gewoon meetellen in het totaal van de worpen.<br><br>
+    Pas het programma aan zodat de extra punten die een spare oplevert gelijk is aan 10 plus 1 keer de punten van de volgende worp.<br>
+    Dus stel dat de volgende worp 6 punten oplevert dan zal de strike 10 + 1 x 6 = 16 punten opleveren.<br>
+    De 6 punten van de volgende worp blijven ook gewoon meetellen in het totaal van de worpen.<br><br>
+    Bij de laatste frame is er geen volgende frame, dus daar behouden we de originele puntentelling:<br>
+    10 extra punten voor een strike en 5 extra punten voor een spare.
+  </li>  
 </ol>
 
 
