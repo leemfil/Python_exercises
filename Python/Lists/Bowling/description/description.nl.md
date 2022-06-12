@@ -1,6 +1,6 @@
 ### Opdracht
 
-[Show image](media/bowling.png){: .dodona-lightbox}
+<div class="dodona-centered-group"><img src="media/bowling.png" width="600" height="300"></div>
 
 ### Invoer
 
