@@ -37,10 +37,10 @@ Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen st
     "En hij heeft 6 keer gefaald."
     
     5,00 - 5,19: 0
-    5,20 - 5,39: 0
-    5,40 - 5,59: 2
-    5,60 - 5,79: 2
-    5,80 - 5,59: 1
+    5,20 - 5,39: 1
+    5,40 - 5,59: 1
+    5,60 - 5,79: 3
+    5,80 - 5,59: 0
     6,00 - 6,19: 0
     
      
