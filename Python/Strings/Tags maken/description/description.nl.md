@@ -8,7 +8,7 @@ Een tekst met woorden tussen ().
 
 ### Uitvoer
 
-Een tekst waarin de haakjes vervangen zijn door <> en de woorden aangepast. De letters die tot de eerste helft van het alfabet behoren worden hoofdletters.
+Een tekst waarin de haakjes vervangen zijn door <> en de woorden ertussen aangepast. De letters die tot de eerste helft van het alfabet behoren worden hoofdletters.
 
 ### Voorbeeld
 
