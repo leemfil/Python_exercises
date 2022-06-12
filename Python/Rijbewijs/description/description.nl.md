@@ -14,7 +14,7 @@ De leeftijd van de persoon. En indien de persoon in bezit is van een rijbewijs d
 * Als de persoon 18 is of ouder: "Je bent minstens 18 jaar oud!"
 Als hij jonger is: "De toekomst lacht je toe!"
 
-* Als de persoon minstens 18 is en\ 
+* Als de persoon minstens 18 is en \ 
 als de persoon een rijbewijs bezit: "Proficiat, je bezit een rijbewijs!", en\
 als hij geen rijbewijs bezit: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
 
