@@ -32,7 +32,7 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
     Gooide je een strike in een frame dan is het 2de getal van dar frame 0.<br><br>
   
   Bereken het totaal van de 10 frames en return een string met het resultaat.<br>
-  Gebruik hiervoor volgende zin:<br>
+  Gebruik hiervoor volgende zin:<br><br>
   <blockquote>
   “Je hebt 5 keer geworpen met volgend resultaat <br> 
     &lt;punten worp 1&gt; + &lt;punten worp 2&gt; + … + &lt;punten worp 5&gt; = &lt;totaal aantal punten&gt;”
