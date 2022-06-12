@@ -1,8 +1,8 @@
 ### Opdracht
-  
-  
+
+<br>  
 <div class="dodona-centered-group"><img src="media/bowling.png" width="600" height="300"></div>
-  
+<br>
   
 Bij bowling is het de bedoeling om met een bal op een baan van kunststof of hout de 10 kegels, ook wel pins genoemd, aan de andere kant van de baan om te gooien met een zogenaamde bowlingbal.
 
