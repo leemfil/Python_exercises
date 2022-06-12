@@ -27,7 +27,8 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
 
 <ol>
   <li>Schrijf een functie <samp>`puntenspel`</samp> waaraan 1 parameter wordt doorgegeven:<br>
-    <ul><li>een string met 20 getallen gescheiden een spatie.</li></ul><br><br>
+    <ul><li>een string met 20 getallen gescheiden een spatie.</li></ul>
+        <br>
         De 20 getallen komen overeen met de omvergeworpen pins van 10 frames want we werpen 2 keer per frame.  
         Gooide je een strike in een frame dan is het 2de getal van dar frame 0.<br><br>
   
@@ -40,8 +41,7 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
   </li><br>
   
   <li>Schrijf een nieuwe functie <samp>`puntenframes`</samp> waaraan 1 parameters wordt doorgegeven:<br>
-    <ul><li>een string met een even aantal getallen gescheiden door een spatie</li>
-    </ul>
+    <ul><li>een string met een even aantal getallen gescheiden door een spatie</li></ul>
     <br>
     Bereken het totaal van het aantal frames en return opnieuw een gelijkaardige zin zoals bij de vorige functie.
   </li><br>
