@@ -15,8 +15,8 @@ De leeftijd van de persoon. En indien de persoon in bezit is van een rijbewijs d
 Als hij jonger is: "De toekomst lacht je toe!"
 
 * Als de persoon minstens 18 is en   
-als de persoon een rijbewijs bezit: "Proficiat, je bezit een rijbewijs!", en\
-als hij geen rijbewijs bezit: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
+een rijbewijs bezit: "Proficiat, je bezit een rijbewijs!", en  
+geen rijbewijs bezit: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
 
 ### Voorbeeld
 
