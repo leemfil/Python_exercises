@@ -64,7 +64,7 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
 
     >>> puntenspel("3 5 6 4 3 0 6 1 7 2 8 2 10 0 9 0 0 3 0 10")
     Je hebt 10 frames gespeeld met volgend resultaat:
-    frame1: 8
+    frame 1: 8
     frame 2: 10
     frame 3: 3
     frame 4: 7
@@ -78,7 +78,7 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
 
     >>> puntenspel("2 4 0 10 7 0 10 0 2 3 8 1 7 3 9 1 5 5 4 4")
     Je hebt 10 frames gespeeld met volgend resultaat:
-    frame1: 6
+    frame 1: 6
     frame 2: 10
     frame 3: 7
     frame 4: 10
