@@ -91,7 +91,7 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
     totaal: 85
     
     >>> puntenframes("4 6 0 10 4 3 10 0")
-    62
+    "Je hebt 4 frames gespeeld met volgend resultaat: 15 + 20 + 7 + 20 = 62"
     
     >>> puntenframes("9 1 5 3 8 0 0 5 10 0 6 4 0 0")
-    71
+    "Je hebt 7 frames gespeeld met volgend resultaat: 15 + 8 + 8 + 5 + 20 + 15 + 0 = 71"
