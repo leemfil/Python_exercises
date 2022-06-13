@@ -63,32 +63,11 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
 ### Voorbeeld
 
     >>> puntenspel("3 5 6 4 3 0 6 1 7 2 8 2 10 0 9 0 0 3 0 10")
-    Je hebt 10 frames gespeeld met volgend resultaat:
-    frame 1: 8
-    frame 2: 10
-    frame 3: 3
-    frame 4: 7
-    frame 5: 9
-    frame 6: 10
-    frame 7: 10
-    frame 8: 9
-    frame 9: 3
-    frame 10: 10
-    totaal: 79
-
+    [8, 10, 3, 7, 9, 10, 10, 9, 3, 10, 79]
+    
     >>> puntenspel("2 4 0 10 7 0 10 0 2 3 8 1 7 3 9 1 5 5 4 4")
-    Je hebt 10 frames gespeeld met volgend resultaat:
-    frame 1: 6
-    frame 2: 10
-    frame 3: 7
-    frame 4: 10
-    frame 5: 5
-    frame 6: 9
-    frame 7: 10
-    frame 8: 10
-    frame 9: 10
-    frame 10: 8
-    totaal: 85
+    [6, 10,7, 10, 5, 9, 10, 10, 10, 8, 85]
+    
     
     >>> puntenframes("4 6 0 10 4 3 10 0")
     "Je hebt 4 frames gespeeld met volgend resultaat: 15 + 20 + 7 + 20 = 62"
