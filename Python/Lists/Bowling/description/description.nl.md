@@ -31,15 +31,11 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
         <br>
         De 20 getallen komen overeen met de omvergeworpen pins van 10 frames want we werpen 2 keer per frame.
     <br><br>
-   Bereken het totaal van de 10 frames zonder rekening te houden met strikes of spares en return een string met het resultaat.<br>
-   Gebruik hiervoor volgende zin:<br><br>
+   Bereken het totaal van de 10 frames zonder rekening te houden met strikes of spares.<br>
+   Return een lijst met het totaal per frame en als laatste element het totaal van alle frames.<br>
+   Voorbeeld lijst:<br><br>
    <blockquote>
-        “Je hebt 10 frames gespeeld met volgend resultaat: <br>
-        frame 1: &lt;punten frame 1&gt;<br>
-        frame 2: &lt;punten frame 2&gt;<br>
-        …<br>
-        frame 10: &lt;punten frame 10&gt;<br>
-        totaal: &lt;totaal aantal punten&gt;”
+        [&lt;punten frame 1&gt;, &lt;punten frame 2&gt;, … , &lt;punten frame 10&gt;, &lt;totaal aantal punten&gt;]
   </blockquote>  
   Op de plaatsen van de <...> zet je telkens het overeenkomstig getal.
   </li><br>
@@ -50,7 +46,7 @@ Gooi je een open frame (dus niet alles om na twee beurten, dan heb je alleen de 
     Bereken het totaal van het aantal frames en houdt rekening met strikes en spares. <br>
     Een strike levert 20 punten op en een spare 15 punten. <br>
     Gooide je een strike in een frame dan is het 2de getal van dat frame 0.<br>
-    Return deze keer volgende zin:<br><br>
+    Return de volgende zin:<br><br>
    <blockquote>
         “Je hebt 10 frames gespeeld met volgend resultaat: &lt;punten frame 1&gt; + &lt;punten frame 2&gt; + … + &lt;punten frame 10&gt; = &lt;totaal aantal punten&gt;”
   </blockquote>  
