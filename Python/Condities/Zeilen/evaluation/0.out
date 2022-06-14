@@ -1,33 +1,38 @@
-De atleet is 5 keer over de lat gegaan.
-En hij heeft 6 keer gefaald.
+De zeiler heeft 80 punten verzameld.
+En hij heeft 4 strafpunten gekregen.
 
-5,00 - 5,19: 0
-5,20 - 5,39: 1
-5,40 - 5,59: 1
-5,60 - 5,79: 3
-5,80 - 5,99: 0
-6,00 - 6,19: 0
-De atleet is 6 keer over de lat gegaan.
-En hij heeft 5 keer gefaald.
+1 - 5: 3
+6 - 10: 4
+11 - 15: 3
+16 - 20: 0
+20 - 25: 0
+De zeiler heeft 60 punten verzameld.
+En hij heeft 4 strafpunten gekregen.
 
-5,00 - 5,19: 3
-5,20 - 5,39: 0
-5,40 - 5,59: 0
-5,60 - 5,79: 0
-5,80 - 5,99: 0
-6,00 - 6,19: 0
-De atleet is 7 keer over de lat gegaan.
-En hij heeft 3 keer gefaald.
+1 - 5: 2
+6 - 10: 1
+11 - 15: 0
+16 - 20: 1
+20 - 25: 1
+De zeiler heeft 27 punten verzameld.
+En hij heeft 1 strafpunten gekregen.
 
-5,00 - 5,19: 0
-5,20 - 5,39: 0
-5,40 - 5,59: 1
-5,60 - 5,79: 2
-5,80 - 5,99: 2
-6,00 - 6,19: 2
+1 - 5: 6
+6 - 10: 0
+11 - 15: 0
+16 - 20: 0
+20 - 25: 0
+De zeiler heeft 153 punten verzameld.
+En hij heeft 0 strafpunten gekregen.
+
+1 - 5: 3
+6 - 10: 2
+11 - 15: 2
+16 - 20: 2
+20 - 25: 3
 --------------------------------------------------
-tab name: Hoofdletters
+tab name: Zeilen
 python input without prompt: true
 block count: multi
-input block size: ends with 
-output block size: 9
+input block size: ends with -1
+output block size: 8
