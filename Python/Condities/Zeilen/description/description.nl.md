@@ -10,7 +10,7 @@ Bij het zeilen bestaat elke wedstrijd uit een aantal races. De winnaar van elke 
 
 ### Invoer
 
-* De plaatsen (punten) van verschillende races van een zeiler. Er kunnen tot 25 zeilers deelnemen aan een race en elk resultaat staat op een aparte regel. De resultaten worden afgesloten met -1 (laatste resultaat). 
+* De plaatsen (punten) van verschillende races van een zeiler. Er kunnen tot 25 zeilers deelnemen aan een race en elk resultaat staat op een aparte regel. De resultaten worden afgesloten met de S van stop (laatste resultaat). 
 * Een zeiler kan tijdens een race ook strafpunten krijgen omwille van het overtreden van een regel. Dit staat ook in de invoer achter de race waarin de strafpunten werden toegekend en wordt aangeduid met een X.
 
 
@@ -37,7 +37,7 @@ Bij het zeilen bestaat elke wedstrijd uit een aantal races. De winnaar van elke 
     X
     6
     X
-    -1
+    S
     
 
 **Uitvoer**
