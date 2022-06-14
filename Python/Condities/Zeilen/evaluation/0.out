@@ -34,5 +34,5 @@ En hij heeft 0 strafpunten gekregen.
 tab name: Zeilen
 python input without prompt: true
 block count: multi
-input block size: ends with -1
+input block size: ends with S
 output block size: 8
