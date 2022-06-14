@@ -1,7 +1,7 @@
 ### Opdracht
 
 <br>  
-<div class="dodona-centered-group"><img src="media/zeilen.png" width="600" height="300"></div>
+<div class="dodona-centered-group"><img src="media/zeilen.jpeg" width="600" height="300"></div>
 <br>  
 
 ### Invoer
