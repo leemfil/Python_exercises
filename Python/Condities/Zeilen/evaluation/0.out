@@ -5,7 +5,7 @@ En hij heeft 4 strafpunten gekregen.
 6 - 10: 4
 11 - 15: 3
 16 - 20: 0
-20 - 25: 0
+21 - 25: 0
 De zeiler heeft 60 punten verzameld.
 En hij heeft 4 strafpunten gekregen.
 
@@ -13,7 +13,7 @@ En hij heeft 4 strafpunten gekregen.
 6 - 10: 1
 11 - 15: 0
 16 - 20: 1
-20 - 25: 1
+21 - 25: 1
 De zeiler heeft 27 punten verzameld.
 En hij heeft 1 strafpunten gekregen.
 
@@ -21,7 +21,7 @@ En hij heeft 1 strafpunten gekregen.
 6 - 10: 0
 11 - 15: 0
 16 - 20: 0
-20 - 25: 0
+21 - 25: 0
 De zeiler heeft 153 punten verzameld.
 En hij heeft 0 strafpunten gekregen.
 
@@ -29,7 +29,7 @@ En hij heeft 0 strafpunten gekregen.
 6 - 10: 2
 11 - 15: 2
 16 - 20: 2
-20 - 25: 3
+21 - 25: 3
 --------------------------------------------------
 tab name: Zeilen
 python input without prompt: true
