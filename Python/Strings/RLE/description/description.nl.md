@@ -1,9 +1,16 @@
 ### Opdracht
 
-Bij polsstokhoogspringen probeert men met behulp van een flexibele stok zo hoog mogelijk over een dwarslat te springen. Deze lat is zo geplaatst dat zij bij aanraking naar beneden valt. Eénmaal de atleet over de lat gaat zonder dat ze valt, mag hij naar de volgende hoogte. Atleten worden uitgesloten na drie opeenvolgende mislukte pogingen, op welke hoogte dan ook.
+Run-length encoding, kortweg RLE, is het vervangen van herhalende patronen in data door het aantal herhalingen plus wat herhaald moest worden. Een voorbeeld: stel dat we de volgende tekenreeks in het alfabet (a-z) willen comprimeren:
 
-Telkens de atleet een sprong maakt voeren we de hoogte in indien hij erover gaat of voeren we een 'X' in bij een gefaalde poging.  
-Bepaal het aantal keer dat de polsstokspringer over de lat is gegaan en hoeveel keer hij gefaald heeft.  
+    dghakaaaaaaaaaaaaaabbbbaaakhffff
+
+We kunnen dan ons alfabet uitbreiden met de tekens (0-9) om herhalingen aan te geven, en zouden dan de tekst als volgt kunnen comprimeren:
+
+    dghak14a4b3akh4f
+
+aaaaaaaaaaaaaa vervangen we door 14a, bbbb door 4b, aaa door 3a en ffff door 4f.
+
+Een geval waarin RLE uitermate effectief is, is het comprimeren van grafische afbeeldingen zoals logo's en animaties. In deze beelden bevinden zich vaak grote gedeelten met pixels van dezelfde kleur. In sommige gevallen kan de bestandsgroote van een afbeelding of animatie door RLE tientallen keren worden verkleind. 
 
 ### Invoer
 
