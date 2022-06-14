@@ -2,45 +2,53 @@
 
 <br>  
 <div class="dodona-centered-group"><img src="media/zeilen.jpeg" width="600" height="300"></div>
-<br>  
+<br>
+
+De Laser is een snelle Olympische eenmansboot. Je kunt er 3 maten zeil op zetten, van klein naar groot. Het is de grootste eenheidsklasse in de wereld. Daarom kom je overal Lasers tegen en kan je wereldwijd wedstrijden varen.
+
+Bij het zeilen bestaat elke wedstrijd uit een aantal races. De winnaar van elke race krijgt 1 punt, de nummer 2 krijgt 2 punten enz. Degene met aan het eind het minste aantal punten wint het toernooi.
 
 ### Invoer
 
-Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen stopt de invoer.
+* De plaatsen (punten) van verschillende races van een zeiler. Elk resultaat staat op een aparte regel. De resultaten worden afgesloten met -1 (laatste resultaat). 
+* Een zeiler kan tijdens een race ook strafpunten krijgen omwille van het overtreden van een regel. Dit staat ook in de invoer achter de race waarin de strafpunten werden toegekend en wordt aangeduid met een X.
+
 
 ### Uitvoer
 
-* Het aantal keer dat de atleet over de lat is gegaan en het aantal keer dat hij gefaald heeft.
-* Verdeel de hoogte tussen 5,00 m en 6,20 m in stukken van 20 cm. Geef per deel van 20 cm aan hoeveel keer hij erover is gegaan.
+* Het aantal punten die de zeiler heeft verzameld en het aantal keer dat hij strafpunten heeft gekregen.
+* Verdeel het aantal punten in opeenvolgende schijven. Geef per schijf van 5 punten aan hoeveel keer hij daarin is geëindigd.
 
 ### Voorbeeld
 
 **Invoer**
     
-    5,35
-    5,50
-    5,60
+    15
+    3
     X
-    5,70
+    7
+    12
+    5
+    X 
+    8
+    4
+    13
+    7
     X
+    6
     X
-    5,75
-    X
-    X
-    X
+    -1
     
 
 **Uitvoer**
     
-    De atleet is 5 keer over de lat gegaan.
-    En hij heeft 6 keer gefaald.
+    De zeiler heeft 80 punten verzameld.
+    En hij heeft 4 strafpunten gekregen.
     
-    5,00 - 5,19: 0
-    5,20 - 5,39: 1
-    5,40 - 5,59: 1
-    5,60 - 5,79: 3
-    5,80 - 5,99: 0
-    6,00 - 6,19: 0
+    1 - 5: 3
+    6 - 10: 4
+    11 - 15: 3
+
     
      
   
