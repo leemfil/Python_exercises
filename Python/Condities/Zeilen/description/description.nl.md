@@ -1,9 +1,8 @@
 ### Opdracht
 
-Bij polsstokhoogspringen probeert men met behulp van een flexibele stok zo hoog mogelijk over een dwarslat te springen. Deze lat is zo geplaatst dat zij bij aanraking naar beneden valt. Eénmaal de atleet over de lat gaat zonder dat ze valt, mag hij naar de volgende hoogte. Atleten worden uitgesloten na drie opeenvolgende mislukte pogingen, op welke hoogte dan ook.
-
-Telkens de atleet een sprong maakt voeren we de hoogte in indien hij erover gaat of voeren we een 'X' in bij een gefaalde poging.  
-Bepaal het aantal keer dat de polsstokspringer over de lat is gegaan en hoeveel keer hij gefaald heeft.  
+<br>  
+<div class="dodona-centered-group"><img src="media/zeilen.png" width="600" height="300"></div>
+<br>  
 
 ### Invoer
 
