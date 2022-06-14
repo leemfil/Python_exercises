@@ -14,41 +14,22 @@ Een geval waarin RLE uitermate effectief is, is het comprimeren van grafische af
 
 ### Invoer
 
-Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen stopt de invoer.
+Een string met eventueel herhalingen van bepaalde letters.
 
 ### Uitvoer
 
-* Het aantal keer dat de atleet over de lat is gegaan en het aantal keer dat hij gefaald heeft.
-* Verdeel de hoogte tussen 5,00 m en 6,20 m in stukken van 20 cm. Geef per deel van 20 cm aan hoeveel keer hij erover is gegaan.
+Een string waarin de herhalingen achter elkaar van een bepaalde letter worden vervangen door een getal met daarachter de letter. Het getal geeft het aantal herhalingen weer.
 
 ### Voorbeeld
 
 **Invoer**
     
-    5,35
-    5,50
-    5,60
-    X
-    5,70
-    X
-    X
-    5,75
-    X
-    X
-    X
+    hhhbgefvvvvvvvvvtdsfkkkknuudsssss
     
 
 **Uitvoer**
     
-    De atleet is 5 keer over de lat gegaan.
-    En hij heeft 6 keer gefaald.
-    
-    5,00 - 5,19: 0
-    5,20 - 5,39: 1
-    5,40 - 5,59: 1
-    5,60 - 5,79: 3
-    5,80 - 5,99: 0
-    6,00 - 6,19: 0
+    3hbgef9vtdsf4kn2ud5s
     
      
   
