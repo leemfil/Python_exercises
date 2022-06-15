@@ -9,7 +9,7 @@ Een tekst.
 ### Uitvoer
 
 * Het langste woord in een tekst. Indien er meerdere zijn neem je het eerste.
-* Aantal keer dat het langste woord in de tekst staat.
+* Aantal keer dat het langste woord in de tekst staat en geef aan of het een even of oneven aantal letters bevat.
 
 ### Voorbeeld
 
@@ -21,5 +21,5 @@ Een tekst.
     
 **Uitvoer**
      
-     woord: Galápagosreuzenschildpad, aantal: 2
+     woord: Galápagosreuzenschildpad, aantal: 2 en even
     
