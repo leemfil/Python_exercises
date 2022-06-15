@@ -24,12 +24,12 @@ Een string waarin de herhalingen achter elkaar van een bepaalde letter worden ve
 
 **Invoer**
     
-    hhhbgefvvvvvvvvvtdsfkkkknuudsssss
+    hhhbgefvvvvvvvvvtdsfkkkknuudhhhhh
     
 
 **Uitvoer**
     
-    3hbgef9vtdsf4kn2ud5s
+    3hbgef9vtdsf4kn2ud5h
     
      
   
