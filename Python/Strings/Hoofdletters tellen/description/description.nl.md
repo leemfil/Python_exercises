@@ -1,48 +1,29 @@
 ### Opdracht
 
-Bij polsstokhoogspringen probeert men met behulp van een flexibele stok zo hoog mogelijk over een dwarslat te springen. Deze lat is zo geplaatst dat zij bij aanraking naar beneden valt. Eénmaal de atleet over de lat gaat zonder dat ze valt, mag hij naar de volgende hoogte. Atleten worden uitgesloten na drie opeenvolgende mislukte pogingen, op welke hoogte dan ook.
-
-Telkens de atleet een sprong maakt voeren we de hoogte in indien hij erover gaat of voeren we een 'X' in bij een gefaalde poging.  
-Bepaal het aantal keer dat de polsstokspringer over de lat is gegaan en hoeveel keer hij gefaald heeft.  
+Tel in een tekst alle hoofdletters en voeg na elke hoolfdletter een * toe aan de tekst. 
+Tel ook het aantal cijfers in de tekst. Denk eraan dat een getal uit meerdere cijfers kan bestaan bv. 345 bestaat uit 3 cijfers.
 
 ### Invoer
 
-Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen stopt de invoer.
+Een tekst.
 
 ### Uitvoer
 
-* Het aantal keer dat de atleet over de lat is gegaan en het aantal keer dat hij gefaald heeft.
-* Verdeel de hoogte tussen 5,00 m en 6,20 m in stukken van 20 cm. Geef per deel van 20 cm aan hoeveel keer hij erover is gegaan.
+* Het aantal hoofdletters in de tekst. 
+* Het aantal cijfers in de tekst.
+* De tekst met telkens een * na elke hoofdletter.
 
 ### Voorbeeld
 
 **Invoer**
     
-    5,35
-    5,50
-    5,60
-    X
-    5,70
-    X
-    X
-    5,75
-    X
-    X
-    X
-    
+    De mannetjes van de  Galápagosreuzenschildpad kunnen tot 1,2 meter lang worden. Deze massieve Galápagosreuzenschildpad 
+    worden meer dan 100 jaar en leven rond de Galápagoseilanden. Het dier heeft een lange hals en stevige kaken, waarmee ze 
+    allerlei soorten eten kunnen kauwen. Zoals 5 verschillende soorten cactussen.
 
 **Uitvoer**
     
-    De atleet is 5 keer over de lat gegaan.
-    En hij heeft 6 keer gefaald.
-    
-    5,00 - 5,19: 0
-    5,20 - 5,39: 1
-    5,40 - 5,59: 1
-    5,60 - 5,79: 3
-    5,80 - 5,99: 0
-    6,00 - 6,19: 0
-    
-     
-  
-   
+    Er zijn 7 hoofdletters en 6 cijfers in de tekst.
+    D*e mannetjes van de  G*alápagosreuzenschildpad kunnen tot 1,2 meter lang worden. D*eze massieve G*alápagosreuzenschildpad 
+    worden meer dan 100 jaar en leven rond de G*alápagoseilanden. H*et dier heeft een lange hals en stevige kaken, waarmee ze 
+    allerlei soorten eten kunnen kauwen. Z*oals 5 verschillende soorten cactussen.
