@@ -15,7 +15,8 @@ Een tekst.
 
 **Invoer**
     
-     De mannetjes van de  Galápagosreuzenschildpad kunnen tot 1,2 meter lang worden. Deze massieve  Galápagosreuzenschildpad worden meer dan 100 jaar. Het dier heeft een lange hals en stevige kaken, waarmee ze allerlei soorten eten kunnen kauwen. Zoals cactussen.
+     De mannetjes van de  Galápagosreuzenschildpad kunnen tot 1,2 meter lang worden. Deze massieve  Galápagosreuzenschildpad worden meer dan 100 jaar. 
+     Het dier heeft een lange hals en stevige kaken, waarmee ze allerlei soorten eten kunnen kauwen. Zoals cactussen.
     
 **Uitvoer**
      woord: Galápagosreuzenschildpad, aantal: 2
