@@ -11,7 +11,7 @@ Een tekst.
 
 * Het aantal hoofdletters in de tekst. 
 * Het aantal cijfers in de tekst.
-* De tekst met telkens een * na elke hoofdletter.
+* De tekst met telkens een * toegevoegd na elke hoofdletter.
 
 ### Voorbeeld
 
