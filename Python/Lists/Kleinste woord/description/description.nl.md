@@ -15,8 +15,8 @@ Een tekst.
 
 **Invoer**
     
-     Python is de programmeertaal die zich mag verheugen in de meeste belangstelling. Dat blijkt uit de Computable Index. Java en Javascript vervolledigen de top drie.
+     De mannetjes van de  Galápagosreuzenschildpad kunnen tot 1,2 meter lang worden. Deze massieve  Galápagosreuzenschildpad worden meer dan 100 jaar. Het dier heeft een lange hals en stevige kaken, waarmee ze allerlei soorten eten kunnen kauwen. Zoals cactussen.
     
 **Uitvoer**
-
+     woord: Galápagosreuzenschildpad, aantal: 2
     
