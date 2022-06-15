@@ -20,5 +20,6 @@ Een tekst.
      Zoals cactussen.
     
 **Uitvoer**
+     
      woord: Galápagosreuzenschildpad, aantal: 2
     
