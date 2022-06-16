@@ -9,7 +9,7 @@ Een tekst.
 
 ### Uitvoer
 
-* Het aantal klinkers in de tekst. 
+* Het aantal klinkers in de tekst. De klinkers zijn a, e, i, o, en u.
 * Het aantal cijfers in de tekst.
 * De tekst maar zonder klinkers.
 
