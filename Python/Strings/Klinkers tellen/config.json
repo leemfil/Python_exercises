@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Hoofdletters tellen"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "saqA4aqe5qaZxH8DIchgbnF9VriCshzSwVIJm2Ph7EKnkDU4NaKykeK4YVu9Br_n",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
