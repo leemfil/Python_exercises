@@ -7,7 +7,7 @@ Bepaal het aantal keer dat de polsstokspringer over de lat is gegaan en hoeveel 
 
 ### Invoer
 
-Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen stopt de invoer.
+Verschillende hoogten en gefaalde pogingen na elkaar. Na 3 gefaalde pogingen stopt de invoer met de letter S.
 
 ### Uitvoer
 
@@ -29,6 +29,7 @@ Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen st
     X
     X
     X
+    S
     
 
 **Uitvoer**
@@ -43,6 +44,3 @@ Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen st
     5,80 - 5,99: 0
     6,00 - 6,19: 0
     
-     
-  
-   
