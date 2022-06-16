@@ -1,7 +1,7 @@
 woord: De, aantal: 8 en even
-woord: kleine, aantal: 6 en even
-woord: de, aantal: 5 en oneven
-woord: diverse, aantal: 2 en even
+woord: kleine, aantal: 7 en oneven
+woord: de, aantal: 8 en even
+woord: 19de, aantal: 3 en oneven
 --------------------------------------------------
 tab name: Woorden die eidigen met e
 python input without prompt: true
