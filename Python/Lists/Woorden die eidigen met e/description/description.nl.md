@@ -1,6 +1,6 @@
 ### Opdracht
 
-Ga op zoek naar het langste woord in een tekst en tel hoeveel keer dat het in de tekst voorkomt.
+Ga op zoek naar woorden die eindigen met e in een tekst en tel hoeveel keer deze woorden voorkomen. En check of het aantal even of oneven is.
 
 ### Invoer
 
@@ -8,8 +8,8 @@ Een tekst.
 
 ### Uitvoer
 
-* Het langste woord in een tekst. Indien er meerdere zijn neem je het eerste.
-* Aantal keer dat het langste woord in de tekst staat en geef aan of het een even of oneven aantal letters bevat.
+* Het eerste woord dat eindigt met een e in de tekst.
+* Het aantal woorden in de tekst die met een e eindigen en geef aan of dit aantal een even of oneven getal is.
 
 ### Voorbeeld
 
@@ -21,5 +21,5 @@ Een tekst.
     
 **Uitvoer**
      
-     woord: Galápagosreuzenschildpad, aantal: 2 en even
-    
+     woord: De, aantal:  en oneven
+  
