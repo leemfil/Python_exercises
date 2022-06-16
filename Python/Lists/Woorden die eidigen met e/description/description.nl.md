@@ -22,5 +22,5 @@ Een tekst.
     
 **Uitvoer**
      
-     woord: De, aantal:  en oneven
+     woord: De, aantal: 8 en even
   
