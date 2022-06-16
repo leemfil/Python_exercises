@@ -1,9 +1,9 @@
 woord: De, aantal: 7 en oneven
-woord: , aantal: 1 en even
-woord: Oost-Vlaanderen, aantal: 1 en oneven
-woord: oorspronkelijk, aantal: 2 en even
+woord: kleine, aantal: 6 en even
+woord: de, aantal: 5 en oneven
+woord: diverse, aantal: 2 en even
 --------------------------------------------------
-tab name: Langste woord
+tab name: Woorden die eidigen met e
 python input without prompt: true
 block count: multi
 input block size: 1 
