@@ -29,5 +29,5 @@ En hij heeft 3 keer gefaald.
 tab name: Polsstokspringen
 python input without prompt: true
 block count: multi
-input block size: ends with 
+input block size: ends with S
 output block size: 9
