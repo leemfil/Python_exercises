@@ -49,4 +49,4 @@ Bij het zeilen bestaat elke wedstrijd uit een aantal races. De winnaar van elke 
     6 - 10: 4
     11 - 15: 3
     16 - 20: 0
-    20 - 25: 0
+    21 - 25: 0
