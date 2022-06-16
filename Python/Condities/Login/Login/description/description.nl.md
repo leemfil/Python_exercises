@@ -1,45 +1,54 @@
 ### Opdracht
 
-Tijdens een enquête wordt aan mensen gevraagd of ze een rijbewijs bezitten. Bij het verwerken van de gegevens willen we tijd uitsparen door alleen de formulieren te checken van personen die 18 zijn of ouder. Personen jonger dan 18 kunnen nog geen rijbewijs bezitten.
-* Indien de persoon 18 is of ouder dan zet je volgende boodschap op het scherm: "Je bent minstens 18 jaar oud!" Als hij jonger is dan "De toekomst lacht je toe!"
-* Indien de persoon minstens 18 is en een rijbewijs bezit zet je op het scherm: "Proficiat, je bezit een rijbewijs!". 
-Als de persoon minstens 18 is en geen rijbewijs heeft dan zet je de boodschap: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
+Om in te loggen op een website heb je een gebruikersnaam en een wachtwoord nodig. Eerst wordt de gebruikersnaam gecheckt en daarna het wachtwoord.
+* Als de gebruikersnaam niet gekend is dan wordt het wachtwoord niet meer gecheckt en krijg je volgende boodschap: "Deze gebruikersnaam is niet gekend!"
+* Als de gebruikersnaam wel gekend is dan krijg je deze boodschap: "De gebruikersnaam is gekend."
+* Bij een juist wachtwoord wordt de boodschap aangevuld met: "Hallo, je bent ingelogd". 
+* En als het wachtwoord niet klopt dan wordt er aangevuld met: "Wachtwoord is fout, probeer opnieuw!"
 
 ### Invoer
 
-De leeftijd van de persoon. En indien de persoon in bezit is van een rijbewijs de afkorting "R" en anders de afkorting "-". 
+    gebruikersnaam
+    G of NG
+    wachtwoord
+    J of F
+
+G is gekend en NG is niet gekend
+
+J is juist en F is fout
 
 ### Uitvoer
 
-* Als de persoon 18 is of ouder: "Je bent minstens 18 jaar oud!"
-Als hij jonger is: "De toekomst lacht je toe!"
-
-* Als de persoon minstens 18 is en   
-een rijbewijs bezit: "Proficiat, je bezit een rijbewijs!", of  
-geen rijbewijs bezit: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
+* Als de gebruikersnaam niet gekend is: "Deze gebruikersnaam is niet gekend!"
+* Als de gebruikersnaam wel gekend is: "De gebruikersnaam is gekend."
+* Als gebruikersnaam gekend is en bij een juist wachtwoord wordt de boodschap aangevuld met: "Hallo, je bent ingelogd.". 
+* Als gebruikersnaam gekend is en als het wachtwoord niet klopt dan wordt er aangevuld met: "Wachtwoord is fout, probeer opnieuw!"
 
 ### Voorbeeld
 
 **Invoer**
     
-    24
-    R
+    CasualGamer
+    G
+    Z1ONN0101
+    J
+    
 
 **Uitvoer**
     
-    Je bent minstens 18 jaar oud!
-    Proficiat, je bezit een rijbewijs!
+    De gebruikersnaam is gekend.
+    Hallo, je bent ingelogd.
      
 ### Voorbeeld
 
 **Invoer**
     
-    7
-    -
+    SuikerDruifje
+    NG
+    night2005
+    F
+    
 
 **Uitvoer**
     
-    De toekomst lacht je toe!
-     
-  
-   
+    Deze gebruikersnaam is niet gekend!
