@@ -1,7 +1,8 @@
 ### Opdracht
 
 Om in te loggen op een website heb je een gebruikersnaam en een wachtwoord nodig. Eerst wordt de gebruikersnaam gecheckt en daarna het wachtwoord.
-* Als de gebruikersnaam niet gekend is dan wordt het wachtwoord niet meer gecheckt en krijg je volgende boodschap: "Deze gebruikersnaam is niet gekend!"
+* Als de gebruikersnaam niet gekend is dan wordt het wachtwoord niet meer gecheckt en krijg je volgende boodschap:  
+"Deze gebruikersnaam is niet gekend!"
 * Als de gebruikersnaam wel gekend is dan krijg je deze boodschap: "De gebruikersnaam is gekend."
 * Bij een juist wachtwoord wordt de boodschap aangevuld met: "Hallo, je bent ingelogd". 
 * En als het wachtwoord niet klopt dan wordt er aangevuld met: "Wachtwoord is fout, probeer opnieuw!"
