@@ -1,1 +1,14 @@
+{
+  "description": {
+    "names": {
+      "nl": "som van 3 getallen"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
 
+  ],
+  "access": "public"
+}
