@@ -3,20 +3,29 @@
 <div class="dodona-centered-group">
      <img src="media/digitale_klok.png" />
 </div>
+Een tijdstip bestaat uit een aantal uren (11), een aantal minuten (51) en een aantal seconden(40).
 
 ### Opdracht
 
-Schrijf een programma dat:
+Gegeven twee tijdstippen op dezelfde dag.
+Het tweede tijdstip valt later dat het eerste tijdtsip.
+Schrijf een programma dat berekent hoeveel seconden er tussen de beide tijdstippen zitten.
 
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
-
-### Voorbeeld
+Het programma ...
+- berekent op basis van de gegeven tijdstippen de tijd die er tussen beide tijdstippen zit (uitgedrukt in seconden).
+- drukt de berekende waarde af op het scherm.
 
 **Gegeven**
 
-Drie gehele getallen g1, g2 en g3.
+Het eerste tijdstip bestaat uit 3 natuurlijke getallen u1, m1 en s1.
+Het tweede tijdstip bestaat uit 3 natuurlijke getallen u2, m2 en s2.
+Waarbij geldt:
+- 0 <= u <= 23
+- 0 <= m <= 59
+- 0 <= s <= 59
 
 **Uitvoer**
 
-     De som is 25
+     Eén natuurlijk getal dat overeenkomt met de tijd (in seconden) tussen de 2 tojdstippen.
+     
+### Voorbeeld
