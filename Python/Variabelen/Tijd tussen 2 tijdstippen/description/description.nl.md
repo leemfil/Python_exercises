@@ -29,3 +29,12 @@ Waarbij geldt:
 Eén natuurlijk getal dat overeenkomt met de tijd (in seconden) tussen de 2 tojdstippen.
      
 ### Voorbeeld
+
+**Gegeven**
+
+tijdstip 1 -> 14:07:58
+tijdstip 2 -> 23:56:02
+
+**Uitvoer**
+
+    35284
