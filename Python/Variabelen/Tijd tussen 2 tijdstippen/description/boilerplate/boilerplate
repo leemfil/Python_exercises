@@ -1,6 +1,11 @@
-# Drie getallen die we willen optellen
-g1 = 7
-g2 = 12
-g3 = 6
+# tijdstip 1
+u1 = 14
+m2 = 7
+s1 = 58
+
+# tijdstip 2
+u2 = 23
+m2 = 56
+s2 = 02
 
 # Schrijf hier de rest van de code
