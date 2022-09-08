@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Som van 3 getallen"
+      "nl": "Tijd tussen 2 tijdstippen"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "y2yzM8jKbJQeJXy5k2SWYPrnhJ7DfhsEEtgNM9UD9RT7zEWz_N8mmAGvpfaeZZNc",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
