@@ -1,6 +1,8 @@
 ### Achtergrondinformatie
 
-![Digitale Klok](media/digitale_klok.png)
+<div class="dodona-centered-group">
+     <img src="media/digitale_klok.png"></img>
+</div>
 
 ### Opdracht
 
