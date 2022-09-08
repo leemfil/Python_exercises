@@ -1,7 +1,7 @@
 ### Achtergrondinformatie
 
 <div class="dodona-centered-group">
-     <img src="media/digitale_klok.png"></img>
+     <img src="media/digitale_klok.png" />
 </div>
 
 ### Opdracht
