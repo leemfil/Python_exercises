@@ -1,7 +1,6 @@
 ### Achtergrondinformatie
 
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
+![Digitale Klok](media/digitale_klok.png)
 
 ### Opdracht
 
