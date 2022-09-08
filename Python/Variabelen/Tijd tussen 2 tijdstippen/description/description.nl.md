@@ -26,6 +26,6 @@ Waarbij geldt:
 
 **Uitvoer**
 
-     Eén natuurlijk getal dat overeenkomt met de tijd (in seconden) tussen de 2 tojdstippen.
+Eén natuurlijk getal dat overeenkomt met de tijd (in seconden) tussen de 2 tojdstippen.
      
 ### Voorbeeld
