@@ -37,4 +37,4 @@ tijdstip 2 -> 23:56:02
 
 **Uitvoer**
 
-    35284
+    Het verschil in seconden is 35284.
