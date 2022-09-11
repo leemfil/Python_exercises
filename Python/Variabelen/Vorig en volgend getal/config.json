@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Som van 3 getallen"
+      "nl": "Vorig en volgend getal"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "PgP-3HgJvy8BaBkhaXeaGsWfDiZNcMYg7GrAHs_tAdXqAmqEygFXyWIX3ptniFCk",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
