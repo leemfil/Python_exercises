@@ -1,7 +1,8 @@
-De som is 25
+Het getal links van het getal 179 is het getal 178.
+Het getal rechs van het getal 179 is het getal 180.
 --------------------------------------------------
-tab name: Som van 3 getallen
+tab name: Vorig en volgend getal
 python input without prompt: true
 block count: 1
 input block size: 0
-output block size: 1
+output block size: 2
