@@ -1,6 +1,6 @@
 ### Opdracht
 
-Schrijf een programma dat op basis van een gegeven geheel getal, 2 regfels takst op het scherm afdrukt.
+Schrijf een programma dat op basis van een gegeven geheel getal, 2 regels tekst op het scherm afdrukt. In de eerste regel wordt het vorig getal afgedrukt en in de tweede regel het volgende getal. Zet het vorig en volgend getal eerst in een variabele voor het afdrukken.
 
 **Gegeven**
 
