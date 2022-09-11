@@ -1,21 +1,22 @@
-### Achtergrondinformatie
-
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
-
 ### Opdracht
 
-Schrijf een programma dat:
+Schrijf een programma dat op basis van een gegeven geheel getal, 2 regfels takst op het scherm afdrukt.
 
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
+**Gegeven**
+
+Eén geheel getal.
+
+**Uitvoer**
+
+Twee lijnen tekst waarin het vorige en het volgende getal vermeld worden. Zie voorbeeld.
 
 ### Voorbeeld
 
 **Gegeven**
 
-Drie gehele getallen g1, g2 en g3.
-
+     179
+     
 **Uitvoer**
 
-     De som is 25
+     Het getal links van het getal 179 is het getal 178.
+     Het getal rechts van het getal 179 is het getal 180.
