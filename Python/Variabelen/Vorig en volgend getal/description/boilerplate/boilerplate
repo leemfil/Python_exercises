@@ -1,6 +1,4 @@
-# Drie getallen die we willen optellen
-g1 = 7
-g2 = 12
-g3 = 6
+# Het geheel getal
+getal = 179
 
 # Schrijf hier de rest van de code
