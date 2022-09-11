@@ -13,7 +13,8 @@ Schrijf een programma dat berekent hoeveel seconden er tussen de beide tijdstipp
 
 Het programma ...
 - berekent op basis van de gegeven tijdstippen de tijd die er tussen beide tijdstippen zit (uitgedrukt in seconden).
-- drukt de berekende waarde af op het scherm.
+- zet de berekende waarde in een variabele.
+- drukt de waarde van de variabele af op het scherm.
 
 **Gegeven**
 
