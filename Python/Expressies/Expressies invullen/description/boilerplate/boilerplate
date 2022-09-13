@@ -2,4 +2,4 @@ print("14 ... 4 heeft als resultaat 2.")
 
 print("Het data type van 21 / 7 is ....")
 
-print("hand" ... "doek", "resulteert in handdoek.")
+print('"hand" ... "doek" resulteert in handdoek.')
