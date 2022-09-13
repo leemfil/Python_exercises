@@ -1,6 +1,9 @@
-# Drie getallen die we willen optellen
-g1 = 7
-g2 = 12
-g3 = 6
+# Verbeter indien nodig. Verwachte uitvoer staat na de code.
 
-# Schrijf hier de rest van de code
+print("Een mooie luchtballon.')    # Een mooie luchtballon
+
+print('7 + 11')   # 18
+
+print('Ik heb gisteren naar 'Monty Python' gekeken.')   # Ik heb gisteren naar 'Monty Python' gekeken.
+
+print("Breng je deze 7 video's naar boven!")   # Breng je deze 7 video's naar boven!
