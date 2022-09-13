@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Som van 3 getallen"
+      "nl": "Strings verbeteren"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "xusISHG_4nfXRDp6pHxC2VcB2_BCgxeadaidbYTqEXUGSBnEuNFvRFQ3sKactca-",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
