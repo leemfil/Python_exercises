@@ -1,6 +1,6 @@
 # Verbeter indien nodig. Verwachte uitvoer staat na de code.
 
-print("Een mooie luchtballon.')    # Een mooie luchtballon
+print("Een mooie luchtballon.')    # Een mooie luchtballon.
 
 print('7 + 11')   # 18
 
