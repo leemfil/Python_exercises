@@ -1,21 +1,17 @@
-### Achtergrondinformatie
-
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
-
 ### Opdracht
 
 Schrijf een programma dat:
 
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
+- het aantal kooekjes berekent dat ik kan kopen met 26,75 euro. Eén koekje kost 0,55 euro.
+- het resultaat berekent met behulp van één operator.
+- Het resultaat afbeeldt op het scherm
 
 ### Voorbeeld
 
 **Gegeven**
 
-Drie gehele getallen g1, g2 en g3.
+26,75 euro
 
 **Uitvoer**
 
-     De som is 25
+     48.0
