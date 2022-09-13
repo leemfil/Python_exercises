@@ -1,6 +1,5 @@
-# Drie getallen die we willen optellen
-g1 = 7
-g2 = 12
-g3 = 6
+print("14 ... 4 heeft als resultaat 2.")
 
-# Schrijf hier de rest van de code
+print("Het data type van 21 / 7 is ....")
+
+print("hand" ... "doek", "resulteert in handdoek.")
