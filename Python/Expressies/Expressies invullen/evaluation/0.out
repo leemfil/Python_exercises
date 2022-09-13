@@ -1,7 +1,9 @@
-De som is 25
+14 % 4 heeft als resultaat 2.
+Het datatype van 21 / 7 is float.
+"hand" + "doek" resulteert in handdoek.
 --------------------------------------------------
-tab name: Som van 3 getallen
+tab name: Expressies invullen
 python input without prompt: true
 block count: 1
 input block size: 0
-output block size: 1
+output block size: 3
