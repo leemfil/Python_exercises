@@ -1,6 +1,5 @@
-# Drie teksten
-tekst1 = "Teach me and I may remember"
-tekst2 = "Involve me and I learn"
-tekst3 = "Tell me and I forget"
+# Variabelen
+inhoud_zak = 10
+gemiddelde_portie = 350
 
 # Schrijf hier de rest van de code
