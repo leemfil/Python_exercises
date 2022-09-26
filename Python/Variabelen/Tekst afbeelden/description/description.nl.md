@@ -1,21 +1,18 @@
-### Achtergrondinformatie
-
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
-
 ### Opdracht
 
-Schrijf een programma dat:
-
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
+Het programma bevat reeds een aantal variabelen die elk een deel van een tekst van Benjamin Franklin bevatten.  
+Gebruik deze variabelen om de volledige tekst in de juiste volgorde af te beelden.
 
 ### Voorbeeld
 
 **Gegeven**
 
-Drie gehele getallen g1, g2 en g3.
+De variabelen tekst1, tekst2 en tekst3.
+
+- tekst1: Teach me and I may remember
+- tekst2: Involve me and I learn
+- tekst3: Tell me and I forget
 
 **Uitvoer**
 
-     De som is 25
+    Tell me and I forget. Teach me and I may remember. Involve me and I learn.
