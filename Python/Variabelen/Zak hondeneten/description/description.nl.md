@@ -1,17 +1,22 @@
 ### Opdracht
 
-Het programma bevat reeds een aantal variabelen die elk een deel van een tekst van Benjamin Franklin bevatten.  
-**Gebruik deze variabelen** om de volledige tekst in de juiste volgorde af te beelden op het scherm **zonder de tekst onderdelen aan te passen**.
-
+Het programma bevat een variabele met de grootte van de inhoud van een zak hondeneten en een variabele met de gemiddelde portie die mijn hond eet per dag.  
+Bereken hoeveel dagen ik mijn hond volledig kan voeden.
 
 **Gegeven**
 
-De variabelen tekst1, tekst2 en tekst3.
+De variabelen inhoud_zak in kg en gemiddelde_portie in g.
 
-- tekst1: Teach me and I may remember
-- tekst2: Involve me and I learn
-- tekst3: Tell me and I forget
+- inhoud_zak: 10 kg
+- gemiddelde_portie: 350 g
+
+### Voorbeeld
+
+**Gegeven**
+
+    10
+    350
 
 **Uitvoer**
 
-    Tell me and I forget. Teach me and I may remember. Involve me and I learn.
+    Mijn hond kan 28 dagen eten van een zak hondeneten.
