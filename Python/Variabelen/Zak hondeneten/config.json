@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Tekst afbeelden"
+      "nl": "Zak hondeneten"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "BPzV-RCBBicSDq2NMu4Gds-PfaEBsn9FwZU4gXuCWF8CK2CxixFwz_gJ8kGwTevk",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
