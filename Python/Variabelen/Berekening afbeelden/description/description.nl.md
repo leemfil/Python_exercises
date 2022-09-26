@@ -1,17 +1,21 @@
 ### Opdracht
 
-Het programma bevat reeds een aantal variabelen die elk een deel van een tekst van Benjamin Franklin bevatten.  
-**Gebruik deze variabelen** om de volledige tekst in de juiste volgorde af te beelden op het scherm **zonder de tekst onderdelen aan te passen**.
-
+Het programma bevat een variabele die een natuurlijk getal bevat.
+Maak de gevraagde berekening met de variabele en stop het resultaat in een andere variabele.  
+Beeld het resultaat van de berekening af op het scherm zoals in het uitvoer voorbeeld.
 
 **Gegeven**
 
-De variabelen tekst1, tekst2 en tekst3.
+De variabele getal.  
+Bereken volgende formule x + x.x + x.x.x met de variabele als x.  
+Stop het resultaat in een variabele en toon deze op het scherm zoals hieronder afgebeeld.
 
-- tekst1: Teach me and I may remember
-- tekst2: Involve me and I learn
-- tekst3: Tell me and I forget
+### Voorbeeld
+
+**Invoer**
+
+    10
 
 **Uitvoer**
 
-    Tell me and I forget. Teach me and I may remember. Involve me and I learn.
+    Het resultaat van de berekening: 1110
