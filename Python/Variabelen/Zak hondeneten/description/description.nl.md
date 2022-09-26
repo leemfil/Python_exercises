@@ -10,6 +10,9 @@ De variabelen inhoud_zak in kg en gemiddelde_portie in g.
 - inhoud_zak: 10 kg
 - gemiddelde_portie: 350 g
 
+Bereken het aantal dagen dat ik mijn hond volledig kan voeden zonder de inhpud van de variabelen te veranderen.  
+Gebruik een nieuwe variabele om het resultaat in te bewaren.
+
 ### Voorbeeld
 
 **Gegeven**
