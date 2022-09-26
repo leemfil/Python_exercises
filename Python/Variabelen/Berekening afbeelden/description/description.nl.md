@@ -12,7 +12,7 @@ Stop het resultaat in een variabele en toon deze op het scherm zoals hieronder a
 
 ### Voorbeeld
 
-**Invoer**
+**Gegeven**
 
     10
 
