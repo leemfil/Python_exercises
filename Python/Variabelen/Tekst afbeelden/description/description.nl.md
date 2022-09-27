@@ -11,7 +11,7 @@ De variabelen tekst1, tekst2 en tekst3.
 - tekst2: Involve me and I learn
 - tekst3: Tell me and I forget  
 
- Let op je mag de teksten in de variabelen **niet** aanpassen**. En let op de leestekens.
+ Let op je mag de teksten in de variabelen **niet** aanpassen. En let op de leestekens.
 
 **Uitvoer**
 
