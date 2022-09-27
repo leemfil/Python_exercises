@@ -8,7 +8,7 @@ Een tijdstip bestaat uit een aantal uren (11), een aantal minuten (51) en een aa
 ### Opdracht
 
 Gegeven twee tijdstippen op dezelfde dag.
-Het tweede tijdstip valt later dat het eerste tijdtsip.
+Het tweede tijdstip valt later dan het eerste tijdtstip.
 Schrijf een programma dat berekent hoeveel seconden er tussen de beide tijdstippen zitten.
 
 Het programma ...
