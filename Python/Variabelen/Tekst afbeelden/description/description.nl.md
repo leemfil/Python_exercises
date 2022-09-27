@@ -1,8 +1,8 @@
 ### Opdracht
 
 Het programma bevat reeds een aantal variabelen die elk een deel van een tekst van Benjamin Franklin bevatten.  
-**Gebruik deze variabelen** om de volledige tekst in de juiste volgorde af te beelden op het scherm **zonder de tekst onderdelen aan te passen**.
-
+**Gebruik deze variabelen** om de volledige tekst in de juiste volgorde af te beelden op het scherm **zonder de tekst onderdelen aan te passen**.  
+Let op de leestekens.
 
 **Gegeven**
 
