@@ -1,5 +1,5 @@
 print("14 ... 4 heeft als resultaat 3.")
 
-print("Het datatype van 21 % 7 is ....")
+print("Het datatype van 21 % 7 is ...")
 
 print('"hand" ... resulteert in "handhandhand".')
