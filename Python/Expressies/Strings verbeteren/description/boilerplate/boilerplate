@@ -6,4 +6,4 @@ print('7 + 11')   # 18
 
 print('Ik heb gisteren naar 'Monty Python' gekeken.')   # Ik heb gisteren naar 'Monty Python' gekeken.
 
-print("Breng je deze 7 video's naar boven!")   # Breng je deze 7 video's naar boven!
+print("Breng je deze" " 7 video's naar boven!")   # Breng je deze 7 video's naar boven!
