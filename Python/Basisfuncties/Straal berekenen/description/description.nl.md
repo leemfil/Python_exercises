@@ -23,4 +23,4 @@ De straal van de cirkel.
 
 **Uitvoer**
 
-    De straal r is 2.86
+    De straal is 2.86
