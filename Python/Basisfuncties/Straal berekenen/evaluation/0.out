@@ -1,7 +1,13 @@
-Tell me and I forget. Teach me and may remember. Involve me and I learn.
+2.68
+6.81
+3.29
+8.68
+1.59
+42.52
+0.59
 --------------------------------------------------
-tab name: Tekst afbeelden
+tab name: Straal berekenen
 python input without prompt: true
-block count: 1
-input block size: 0
+block count: 7
+input block size: 1
 output block size: 1
