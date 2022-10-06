@@ -8,6 +8,6 @@
 --------------------------------------------------
 tab name: Straal berekenen
 python input without prompt: true
-block count: 7
+block count: multi
 input block size: 1
 output block size: 1
