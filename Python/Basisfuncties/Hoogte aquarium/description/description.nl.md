@@ -32,4 +32,4 @@ De hoogte van de aquarium als een kommagetal.
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.00 cm.
+    De hoogte van het aquarium is 40.0 cm.
