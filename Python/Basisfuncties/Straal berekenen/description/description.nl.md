@@ -19,4 +19,4 @@ De straal van de cirkel.
 
 **Uitvoer**
 
-    
+    De straal r is 2.86
