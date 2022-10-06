@@ -1,12 +1,18 @@
 ### Opdracht
 
 Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
+
 Volume:  
-$$ volume = l.h.b $$
-Hoogte is gelijk aan breedte dus: 
+
+$$ volume = l.h.b $$  
+
+Hoogte is gelijk aan breedte dus:  
+
 $$ volume = l.h.h $$
-Dus is 
-$$ h^2 = volume \over l $$
+
+Dus is  
+
+$$ h^2 = {volume \over l} $$
 
 ### Invoer
 
