@@ -9,5 +9,5 @@
 tab name: Straal berekenen
 python input without prompt: true
 block count: 1
-input block size: 1
-output block size: 1
+input block size: 7
+output block size: 7
