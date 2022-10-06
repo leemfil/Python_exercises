@@ -1,7 +1,9 @@
-Tell me and I forget. Teach me and may remember. Involve me and I learn.
+De hoogte van het aquarium is 40.0 cm.
+De hoogte van het aquarium is 120.0 cm.
+De hoogte van het aquarium is 70.0 cm.
 --------------------------------------------------
-tab name: Tekst afbeelden
+tab name: Hoogte aquarium
 python input without prompt: true
-block count: 1
-input block size: 0
+block count: multi
+input block size: 2
 output block size: 1
