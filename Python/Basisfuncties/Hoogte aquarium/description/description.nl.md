@@ -16,8 +16,8 @@ $$ h^2 = {volume \over l} $$
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een geheel getal.  
-Ook de lengte van het aquarium wordt gevraagd en is een geheel getal.  
+het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
+Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
 
 ### Uitvoer
 
@@ -27,7 +27,8 @@ De hoogte van de aquarium als een kommagetal.
 
 **Invoer**
 
-    160000
+    160000.0
+    100.0
 
 **Uitvoer**
 
