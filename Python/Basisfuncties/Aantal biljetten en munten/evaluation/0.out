@@ -1,7 +1,20 @@
-Tell me and I forget. Teach me and may remember. Involve me and I learn.
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
 --------------------------------------------------
-tab name: Tekst afbeelden
+tab name: Aantal biljetten en muntstukken
 python input without prompt: true
-block count: 1
-input block size: 0
+block count: multi
+input block size: 1
 output block size: 1
