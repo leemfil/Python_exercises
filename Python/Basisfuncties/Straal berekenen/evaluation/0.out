@@ -1,4 +1,4 @@
-2.68
+2.86
 6.81
 3.29
 8.68
@@ -8,6 +8,6 @@
 --------------------------------------------------
 tab name: Straal berekenen
 python input without prompt: true
-block count: 1
-input block size: 7
-output block size: 7
+block count: 7
+input block size: 1
+output block size: 1
