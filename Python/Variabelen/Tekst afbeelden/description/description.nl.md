@@ -16,3 +16,5 @@ De variabelen tekst1, tekst2 en tekst3.
 **Uitvoer**
 
     Tell me and I forget. Teach me and I may remember. Involve me and I learn.
+
+$$ a \over b $$
