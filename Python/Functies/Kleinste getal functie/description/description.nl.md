@@ -1,18 +1,18 @@
 ### Opdracht
 
-Schrijf een functie *kwadraat* die het kwadraat teruggeeft van een geheel getal.
+Schrijf een functie *kleinste_getal* die het kleinste getal teruggeeft van drie gehele getallen.
 
 
 ### Invoer
 
-Een geheel getal.
+Drie gehele getallen.
 
 ### Uitvoer
 
-Het kwadraat van het geheel getal.
+Het kleinste getal van de drie.
 
 ### Voorbeeld
 
-    >>> kwadraat(5)
-    25
+    >>> kleinste_getal(10, 27, 5)
+    5
         
