@@ -4,7 +4,7 @@
 >>> kwadraat(12)
 144
 
-kwadraat(20)
+>>> kwadraat(20)
 400
 
 >>> kwadraat(37)
