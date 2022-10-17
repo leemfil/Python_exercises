@@ -1,17 +1,18 @@
 ### Opdracht
 
-Het programma bevat reeds een aantal variabelen die elk een deel van een tekst van Benjamin Franklin bevatten.  
-**Gebruik deze variabelen** om de volledige tekst in de juiste volgorde af te beelden op het scherm **zonder de tekst onderdelen aan te passen**.
+Schrijf een functie *kwadraat* die het kwadraat teruggeeft van een geheel getal.
 
 
-**Gegeven**
+### Invoer
 
-De variabelen tekst1, tekst2 en tekst3.
+Een geheel getal.
 
-- tekst1: Teach me and I may remember
-- tekst2: Involve me and I learn
-- tekst3: Tell me and I forget
+### Uitvoer
 
-**Uitvoer**
+Het kwadraat van het geheel getal.
 
-    Tell me and I forget. Teach me and I may remember. Involve me and I learn.
+### Voorbeeld
+
+    >>> kwadraat(5)
+    25
+        
