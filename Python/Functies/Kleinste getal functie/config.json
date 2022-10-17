@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Kwadraat functie"
+      "nl": "Kleinste getal functie"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "S4EaZNEpnaG64UHNtkHIzH5EE7J9aS7RiuI64EJZGqzT8jKkXvGDJIVHF9ruHNqj",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
