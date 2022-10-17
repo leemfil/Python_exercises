@@ -1,11 +1,11 @@
->>> gemiddelde(5)
+>>> kwadraat(5)
 25
 
->>> gemiddelde(12)
+>>> kwadraat(12)
 144
 
-gemiddelde(20)
+kwadraat(20)
 400
 
->>> gemiddelde(37)
+>>> kwadraat(37)
 1369
