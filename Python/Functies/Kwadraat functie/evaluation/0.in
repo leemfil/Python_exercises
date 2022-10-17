@@ -1,1 +1,11 @@
+>>> gemiddelde(5)
+25
 
+>>> gemiddelde(12)
+144
+
+gemiddelde(20)
+400
+
+>>> gemiddelde(37)
+1369
