@@ -7,5 +7,5 @@ De correcte invoer is 5.
 tab name: Corecte invoer
 python input without prompt: true
 block count: multi
-input block size: ends with S
+input block size: ends with 
 output block size: 1
