@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Kwadraat functie"
+      "nl": "Do not Repeat Yourself"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "56GGA53mTBQ3XEhAFkWfRDK_hPvRFZpqEMh_BAE7Y8hIfq2h-yAuQu5MmCaRumfB",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
