@@ -1,17 +1,32 @@
 ### Opdracht
 
-Het programma bevat reeds een aantal variabelen die elk een deel van een tekst van Benjamin Franklin bevatten.  
-**Gebruik deze variabelen** om de volledige tekst in de juiste volgorde af te beelden op het scherm **zonder de tekst onderdelen aan te passen**.
+Maak een game die verloopt volgens onderstaand schema.
+Op het scherm verschijnt:
 
+Welcome to the Angry Goblin Hunt
+An award-winning game full of adventure and excitement (!)
 
-**Gegeven**
+Type in your name: Stephen
 
-De variabelen tekst1, tekst2 en tekst3.
+Stephen, do you think you can find the goblin hiding in the kitchen cupboards?
+|_||_||_||_||_|
 
-- tekst1: Teach me and I may remember
-- tekst2: Involve me and I learn
-- tekst3: Tell me and I forget
+Which cupboard do you think the goblin is in [type in number]: 2
+Sorry! The goblin is still lurking somewhere else.
 
-**Uitvoer**
+Which cupboard do you think the goblin is in [type in number]: 4
+Sorry! The goblin is still lurking somewhere else.
 
-    Tell me and I forget. Teach me and I may remember. Involve me and I learn.
+Which cupboard do you think the goblin is in [type in number]: 3
+Sorry! The goblin is still lurking somewhere else.
+
+Which cupboard do you think the goblin is in [type in number]: 1
+Well done!! You have found the goblin. He was so scared he ran away.
+Here’s a summary:
+
+Show a welcome message.
+Ask the player for their name, and once they type in their name present the next part of the welcome message.
+Show a "graphical" representation of the kitchen cupboards (yes, we’re keeping it very, very simple here!)
+Ask the player to guess where the goblin is hiding by typing in the number of the cupboard.
+If the guess is incorrect, display a message and ask again.
+If the guess is correct, display a winning message and end the game.
