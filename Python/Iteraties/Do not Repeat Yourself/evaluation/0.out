@@ -6,6 +6,6 @@ Don't Repeat Yourself.
 --------------------------------------------------
 tab name: Do not Repeat Yourself
 python input without prompt: true
-block count: 1
+block count: multi
 input block size: 1
 output block size: 5
