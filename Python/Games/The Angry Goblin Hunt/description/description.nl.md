@@ -8,7 +8,7 @@ An award-winning game full of adventure and excitement (!)*
 
 *Type in your name: Stephen*
 
-*Stephen, do you think you can find the goblin hiding in the kitchen cupboards?*
+*Stephen, do you think you can find the goblin hiding in the kitchen cupboards?*  
 |\_||\_||\_||\_||\_|
 
 *Which cupboard do you think the goblin is in [type in number]: 2
