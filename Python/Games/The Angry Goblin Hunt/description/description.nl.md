@@ -30,4 +30,4 @@ Hier is een samenvatting:
 - Toon een "grafische" voorstelling van de keukenkast (ja, we houden het hier heel, heel simpel).
 - Vraag de speler om te raden waar de Goblin zich verbergt door het nummer van het keukenkastje te geven.
 - Als de gok niet correct is, geef dan de gepaste boodschap en vraag dan om opnieuw een gok te wagen. 
-- Als de gok wel correctis, geef dan de winnende boodschap en eindig het spel.
+- Als de gok wel correct is, geef dan de winnende boodschap en eindig het spel.
