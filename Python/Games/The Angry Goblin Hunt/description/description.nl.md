@@ -11,16 +11,16 @@ An award-winning game full of adventure and excitement (!)*
 *Stephen, do you think you can find the goblin hiding in the kitchen cupboards?*  
 |\_||\_||\_||\_||\_|
 
-*Which cupboard do you think the goblin is in [type in number]: 2
+*Which cupboard do you think the goblin is in [type in number]: 2  
 Sorry! The goblin is still lurking somewhere else.*
 
-*Which cupboard do you think the goblin is in [type in number]: 4
+*Which cupboard do you think the goblin is in [type in number]: 4  
 Sorry! The goblin is still lurking somewhere else.*
 
-*Which cupboard do you think the goblin is in [type in number]: 3
+*Which cupboard do you think the goblin is in [type in number]: 3  
 Sorry! The goblin is still lurking somewhere else.*
 
-*Which cupboard do you think the goblin is in [type in number]: 1
+*Which cupboard do you think the goblin is in [type in number]: 1  
 Well done!! You have found the goblin. He was so scared he ran away.*
 
 
