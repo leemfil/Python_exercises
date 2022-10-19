@@ -2,6 +2,6 @@ Don't Repeat Yourself.
 --------------------------------------------------
 tab name: Langste woord
 python input without prompt: true
-block count: multi
+block count: 1
 input block size: 1 
 output block size: 1
