@@ -25,4 +25,4 @@ tab name: Do not Repeat Yourself
 python input without prompt: true
 block count: multi
 input block size: 1 
-output block size: ends with
+output block size: 5
