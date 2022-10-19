@@ -1,6 +1,6 @@
 ### Opdracht
 
-Vraag aan de gebruiker een positief getal. Controleer dat het getal kleiner of gelijk is aan 5. Indien het groter is dan 5 dan je een nieuw getal aan de gebruiker. Herhaal dit tot de gebruiker een correcte invoer geeft. Geef de correcte invoer weer op het scherm.
+Vraag aan de gebruiker een positief getal. Controleer dat het getal kleiner of gelijk is aan 5. Indien het groter is dan 5 dan vraag je een nieuw getal aan de gebruiker. Herhaal dit tot de gebruiker een correcte invoer geeft. Geef de correcte invoer weer op het scherm.
 
 
 ### Invoer
