@@ -1,18 +1,13 @@
 {
   "description": {
     "names": {
-      "nl": "Kwadraat functie"
+      "nl": "Correcte invoer"
     }
   },
   "evaluation": {
-    "pythia_judge": "doctest"
+    "pythia_judge": "output"
   },
   "labels": [
 
-  ],
-  "access": "public",
-  "internals": {
-    "token": "-BTXWmfrRDsFNxcKC5GP2XpmCpqHseaeNUUStsZvWH-Mx5wU-RXq7YGGvDy5zk6T",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
