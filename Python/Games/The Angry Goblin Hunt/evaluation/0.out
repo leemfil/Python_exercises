@@ -1,6 +1,6 @@
 --------------------------------------------------
 tab name: The Angry Goblin Hunt
 python input without prompt: true
-block count: 0
-input block size: 0
+block count: multi
+input block size: 1
 output block size: 0
