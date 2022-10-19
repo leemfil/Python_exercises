@@ -1,2 +1,6 @@
 --------------------------------------------------
-tab name: Kwadraat functie
+tab name: Corecte invoer
+python input without prompt: true
+block count: multi
+input block size: ends with S
+output block size: 1
