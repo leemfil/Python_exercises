@@ -1,27 +1,27 @@
 ### Opdracht
 
-Maak een game die verloopt volgens onderstaand schema.
-Op het scherm verschijnt:
+Maak een game die verloopt volgens onderstaand schema.  
+Op het scherm verschijnt het volgende:
 
-Welcome to the Angry Goblin Hunt
-An award-winning game full of adventure and excitement (!)
+*Welcome to the Angry Goblin Hunt
+An award-winning game full of adventure and excitement (!)*
 
-Type in your name: Stephen
+*Type in your name: Stephen*
 
-Stephen, do you think you can find the goblin hiding in the kitchen cupboards?
-|_||_||_||_||_|
+*Stephen, do you think you can find the goblin hiding in the kitchen cupboards?*
+|\_||\_||\_||\_||\_||
 
-Which cupboard do you think the goblin is in [type in number]: 2
-Sorry! The goblin is still lurking somewhere else.
+*Which cupboard do you think the goblin is in [type in number]: 2
+Sorry! The goblin is still lurking somewhere else.*
 
-Which cupboard do you think the goblin is in [type in number]: 4
-Sorry! The goblin is still lurking somewhere else.
+*Which cupboard do you think the goblin is in [type in number]: 4
+Sorry! The goblin is still lurking somewhere else.*
 
-Which cupboard do you think the goblin is in [type in number]: 3
-Sorry! The goblin is still lurking somewhere else.
+*Which cupboard do you think the goblin is in [type in number]: 3
+Sorry! The goblin is still lurking somewhere else.*
 
-Which cupboard do you think the goblin is in [type in number]: 1
-Well done!! You have found the goblin. He was so scared he ran away.
+*Which cupboard do you think the goblin is in [type in number]: 1
+Well done!! You have found the goblin. He was so scared he ran away.*
 
 
 Hier is een samenvatting:
