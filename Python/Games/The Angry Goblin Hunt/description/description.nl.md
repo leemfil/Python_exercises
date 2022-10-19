@@ -22,11 +22,12 @@ Sorry! The goblin is still lurking somewhere else.
 
 Which cupboard do you think the goblin is in [type in number]: 1
 Well done!! You have found the goblin. He was so scared he ran away.
-Here’s a summary:
 
-Show a welcome message.
-Ask the player for their name, and once they type in their name present the next part of the welcome message.
-Show a "graphical" representation of the kitchen cupboards (yes, we’re keeping it very, very simple here!)
-Ask the player to guess where the goblin is hiding by typing in the number of the cupboard.
-If the guess is incorrect, display a message and ask again.
-If the guess is correct, display a winning message and end the game.
+
+Hier is een samenvatting:
+- Toon een welkomboodschap.
+- Vraag de speler naar hun naam, en wanneer ze hun naam ingegeven hebben dan volgt de rest van de welkomboodschap.
+- Toon een "grafische" voorstelling van de keukenkast (ja, we houden het hier heel, heel simpel).
+- Vraag de speler om te raden waar de Goblin zich verbergt door het nummer van het keukenkastje te geven.
+- Als de gok niet correct is, geef dan de gepaste boodschap en vraag dan om opnieuw een gok te wagen. 
+- Als de gok wel correctis, geef dan de winnende boodschap en eindig het spel.
