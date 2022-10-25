@@ -26,4 +26,4 @@ De zijde van het vierkant als een kommagetal met 2 cijfers na de komma.
 
 **Uitvoer**
 
-    De zijde van vierkant is 7.25 cm.
+    De zijde van het vierkant is 7.25 cm.
