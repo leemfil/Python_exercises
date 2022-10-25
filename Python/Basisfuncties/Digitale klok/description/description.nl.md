@@ -13,6 +13,9 @@ Het programma ...
 - berekent op basis van het ingevoerd aantal minuten de uren en minuten op de digitale klok.
 - beeldt de uren en minuten af op scherm zoals beschreven in de uitvoer.
 
+**Tip:**
+Het aantal minuten kan meer zijn dan een volledige dag.
+
 ### Invoer
 
 Eén natuurlijk getal.
