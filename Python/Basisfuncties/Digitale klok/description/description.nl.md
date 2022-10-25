@@ -1,5 +1,9 @@
 ### Opdracht
 
+<br>  
+<div class="dodona-centered-group"><img src="media/digitale_klok.jpeg" width="275" height="207"></div>
+<br>
+
 We gaan een tekst aanpassen door elk woord in de tekst te laten beginnen met een hoofdletter. Maak dus een programma die de tekst aanpast.
 
 ### Invoer
