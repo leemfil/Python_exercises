@@ -4,26 +4,39 @@
 <div class="dodona-centered-group"><img src="media/digitale_klok.jpeg" width="275" height="207"></div>
 <br>
 
-We gaan een tekst aanpassen door elk woord in de tekst te laten beginnen met een hoofdletter. Maak dus een programma die de tekst aanpast.
+Schrijf een programma dat, op basis van het aantal minuten verstreken sinds middernacht, bepaalt wat er weergegeven moet worden op de digitale klok.
+
+### Een mogelijke aanpak
+
+Het programma ...
+- vraagt de gebruiker naar een getal. Dit getal is het aantal minuten verstreken sinds middernacht of 0 uur.
+- berekent op basis van het ingevoerd aantal minuten de uren en minuten op de digitale klok.
+- beeldt de uren en minuten af op scherm zoals beschreven in de uitvoer.
 
 ### Invoer
 
-Een tekst.
+Eén natuurlijk getal.
 
 ### Uitvoer
 
-Eén string. In de string is de eerste letter van elk woord een hoofdletter.
+Twee getallen op één regel gescheiden door een :.
 
-### Voorbeeld
+### Voorbeeld 1
 
 **Invoer**
     
-    Hopelijk is het morgen mooi weer want de schoolweek eindigt vandaag al.
+    806
 
 **Uitvoer**
     
-    Hopelijk Is Het Morgen Mooi Weer Want De Schoolweek Eindigt Vandaag Al.
+    13:26
     
-     
-  
-   
+### Voorbeeld 2
+
+**Invoer**
+    
+    1718
+
+**Uitvoer**
+    
+    4:38
