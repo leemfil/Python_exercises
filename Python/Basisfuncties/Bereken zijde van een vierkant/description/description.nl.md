@@ -1,35 +1,29 @@
 ### Opdracht
 
-Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
+Bereken de zijde van een vierkant aan de hand van zijn oppervlakte. 
 
-Volume:  
+Oppervlakte:  
 
-$$ volume = l.h.b $$  
-
-Hoogte is gelijk aan breedte dus:  
-
-$$ volume = l.h.h $$
+$$ oppervlakte = z.z $$  
 
 Dus is  
 
-$$ h^2 = {volume \over l} $$
+$$ z^2 = oppervlakte $$
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
-Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
+De oppervlakte van het vierkant wordt aan de gebruiker gevraagd en is gegeven in $$ m^2 $$. De oppervlakte is een kommagetal. 
 
 ### Uitvoer
 
-De hoogte van de aquarium als een kommagetal.
+De zijde van het vierkant als een kommagetal met 2 cijfers na de komma.
 
 ### Voorbeeld
 
 **Invoer**
 
-    160000.0
-    100.0
+    52.6
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.0 cm.
+    De zijde van vierkant is 7.25 cm.
