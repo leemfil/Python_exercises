@@ -13,7 +13,7 @@ Het programma ...
 - berekent op basis van het ingevoerd aantal minuten de uren en minuten op de digitale klok.
 - beeldt de uren en minuten af op scherm zoals beschreven in de uitvoer.
 
-**Tip:**
+**Tip:**  
 Het aantal uren kan meer zijn dan een volledige dag. Je moet dus de overschot hebben als je de volledige dagen eruit gehaald hebt.
 
 ### Invoer
