@@ -14,7 +14,7 @@ Het programma ...
 - beeldt de uren en minuten af op scherm zoals beschreven in de uitvoer.
 
 **Tip:**
-Het aantal minuten kan meer zijn dan een volledige dag.
+Het aantal uren kan meer zijn dan een volledige dag. Je moet dus de overschot hebben als je de volledige dagen eruit gehaald hebt.
 
 ### Invoer
 
