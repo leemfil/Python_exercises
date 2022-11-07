@@ -1,35 +1,42 @@
 ### Opdracht
 
-Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
-
-Volume:  
-
-$$ volume = l.h.b $$  
-
-Hoogte is gelijk aan breedte dus:  
-
-$$ volume = l.h.h $$
-
-Dus is  
-
-$$ h^2 = {volume \over l} $$
+Schrijf een programma dat van een onbepaalde reeks getallen bepaalt hoeveel getallen in de reeks groter zijn dan het vorig getal in de reeks.
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
-Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
+- Zoveel van nul verschillende natuurlijke getallen als gewenst door de gebruiker.
+- Als laatste wordt 0 ingevoerd, dit markeert het einde van de reeks.  
+
+Alle waarden worden op een afzonderlijke regel ingevoerd.
 
 ### Uitvoer
 
-De hoogte van de aquarium als een kommagetal.
+Eén natuurlijk getal –> het aantal getallen dat groter is dan het vorig getal in de reeks.
 
 ### Voorbeeld
 
 **Invoer**
 
-    160000.0
-    100.0
+    1
+    7
+    9
+    0
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.0 cm.
+    2  
+    
+### Voorbeeld
+
+**Invoer**
+
+    1
+    5
+    2
+    4
+    3
+    0
+
+**Uitvoer**
+
+    2
