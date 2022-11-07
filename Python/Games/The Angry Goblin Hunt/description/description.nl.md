@@ -31,3 +31,23 @@ Hier is een samenvatting:
 - Vraag de speler om te raden waar de Goblin zich verbergt door het nummer van het keukenkastje te geven.
 - Als de gok niet correct is, geef dan de gepaste boodschap en vraag dan om opnieuw een gok te wagen. 
 - Als de gok wel correct is, geef dan de winnende boodschap en eindig het spel.
+
+***Testen***
+- Als de goblin in keukenkastje 3 verstopt is dan zal de test bij een correct programma slagen en krijg je een groen scherm.
+- Wanneer je een correct programma hebt gemaakt dan kan je het aanpassen en de goblin in een willekeurige keukenkastje verstoppen. Je kan een willekeurig getal genereren met behulp van de **random** module.  
+
+***Achtergrondinformatie***  
+
+De **random** module bevat een functie **randint(begingetal, eingetal)** die een willekeurig integer getal teruggeeft tussen het begingetal en tot en met het eindgetal. De import van de random module gebeurt op de 1ste regel van het programma.  
+
+**Voorbeeld 1:**  
+
+import random
+
+willekeurig_getal = random.randint(1, 10)
+
+**Of voorbeeld 2:**  
+
+from random import randint
+
+willekeurig_getal = randint(1, 10)
