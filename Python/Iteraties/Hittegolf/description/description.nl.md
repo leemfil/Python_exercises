@@ -31,4 +31,23 @@ De tekst hittegolf als binnen de gegeven periode minstens één hittegolf werd w
 
 **Uitvoer**
 
-    hittegolf
+    hittegolf  
+    
+    
+### Voorbeeld
+
+**Invoer**
+
+    26.0
+    24.1
+    29.4
+    32.8
+    34.0
+    25.5
+    20.1
+    19.0
+    stop
+
+**Uitvoer**
+
+    geen hittegolf
