@@ -1,35 +1,33 @@
 ### Opdracht
 
-Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
+Een **hittegolf** is een periode die gekenmerkt wordt door uitzonderlijk hoge temperaturen. Wanneer men precies van een hittegolf begint te spreken, hangt echter in sterke mate af van waar men zich op aarde bevindt. Het KMI (België) definiëren een hittegolf bijvoorbeeld als een periode van ten minste vijf opeenvolgende dagen met een maximumtemperatuur van 25 °C of meer (zomerse dagen).  
+Hieronder staan twee fictieve voorbeelden van een echte hittegolf (links) en een warme periode die echter niet als hittegolf aangerekend wordt (rechts).
 
-Volume:  
-
-$$ volume = l.h.b $$  
-
-Hoogte is gelijk aan breedte dus:  
-
-$$ volume = l.h.h $$
-
-Dus is  
-
-$$ h^2 = {volume \over l} $$
+<br>  
+<div class="dodona-centered-group"><img src="media/hittegolf_tabel.png" width="512" height="380"></div>
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
-Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
+Een reeks floating point getallen die elk op een afzonderlijke regel staan. Deze getallen stellen de maximumtemperaturen voor die in een weerhut gemeten werden voor alle opeenvolgende dagen uit een bepaalde periode. De reeks wordt afgesloten door een regel die het woord stop bevat.  
 
 ### Uitvoer
 
-De hoogte van de aquarium als een kommagetal.
+De tekst hittegolf als binnen de gegeven periode minstens één hittegolf werd waargenomen volgens de definitie van het KMI, of anders de tekst geen hittegolf.
 
 ### Voorbeeld
 
 **Invoer**
 
-    160000.0
-    100.0
+    24.7
+    25.1
+    28.9
+    31.0
+    28.6
+    30.6
+    32.4
+    23.0
+    stop
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.0 cm.
+    hittegolf
