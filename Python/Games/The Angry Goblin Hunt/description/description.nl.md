@@ -34,7 +34,7 @@ Hier is een samenvatting:
 
 ***Testen***
 - Als de goblin in keukenkastje 3 verstopt is dan zal de test bij een correct programma slagen en krijg je een groen scherm.
-- Wanneer je een correct programma hebt gemaakt dan kan je het aanpassen en de goblin in een willekeurige keukenkastje verstoppen. Je kan een willekeurig getal genereren met behulp van de **random** module.  
+- Wanneer je een correct programma hebt gemaakt dan kan je het aanpassen en de goblin in een willekeurige keukenkastje verstoppen. Je kan een willekeurig getal genereren met behulp van de **random** module. De test zal dan echter niet meer slagen.  
 
 ***Achtergrondinformatie***  
 
