@@ -1,6 +1,7 @@
 ### Opdracht
 
 Een **hittegolf** is een periode die gekenmerkt wordt door uitzonderlijk hoge temperaturen. Wanneer men precies van een hittegolf begint te spreken, hangt echter in sterke mate af van waar men zich op aarde bevindt. Het KMI (België) definiëren een hittegolf bijvoorbeeld als een periode van ten minste vijf opeenvolgende dagen met een maximumtemperatuur van 25 °C of meer (zomerse dagen).  
+
 Hieronder staan twee fictieve voorbeelden van een echte hittegolf (links) en een warme periode die echter niet als hittegolf aangerekend wordt (rechts).
 
 <br>  
