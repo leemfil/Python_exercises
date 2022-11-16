@@ -1,4 +1,12 @@
-
+De combinatie van de bloedsoorten A en A resulteert in bloedgroep A.
+De combinatie van de bloedsoorten A en B resulteert in bloedgroep AB.
+De combinatie van de bloedsoorten A en O resulteert in bloedgroep A.
+De combinatie van de bloedsoorten B en A resulteert in bloedgroep AB.
+De combinatie van de bloedsoorten B en B resulteert in bloedgroep B.
+De combinatie van de bloedsoorten B en B resulteert in bloedgroep B.
+De combinatie van de bloedsoorten O en A resulteert in bloedgroep A.
+De combinatie van de bloedsoorten O en B resulteert in bloedgroep B.
+De combinatie van de bloedsoorten O en O resulteert in bloedgroep O.
 --------------------------------------------------
 tab name: Bloedgroep
 python input without prompt: true
