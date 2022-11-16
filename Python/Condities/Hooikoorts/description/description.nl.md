@@ -3,7 +3,7 @@
 Elke dag worden in België de hoeveelheid graspollen gemeten en op basis van deze meting wordt er eventueel een waarschuwing gegeven over het risico voor personen die last hebben van een allergie. Afhankelijk van het aantal gemeten korrels stuifmeel wordt het risico hierbij als volgt uitgedrukt:
 
 <br>  
-<div class="dodona-centered-group"><img src="media/hooikoorts.jpeg" width="626" height="430"></div>
+<div class="dodona-centered-group"><img src="media/hooikoorts.png" width="626" height="430"></div>
 <br>
 
 Shrijf een geschikte boodschap op het scherm in functie van het aantal korrels stuifmeel.
