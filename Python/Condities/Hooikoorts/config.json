@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Hoogte aquarium"
+      "nl": "Hooikoorts"
     }
   },
   "evaluation": {
@@ -9,10 +9,5 @@
   },
   "labels": [
 
-  ],
-  "access": "public",
-  "internals": {
-    "token": "w-5W5FpyEFMbJzgYej6ZXt4NGfPX4CADYMS7G9f8vSICudtCNaIwuw4eq8PsZcYm",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
