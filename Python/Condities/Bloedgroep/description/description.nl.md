@@ -1,35 +1,39 @@
 ### Opdracht
 
-Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
+Bij patiënten die extra bloed nodig hebben is het belangrijk om te weten welke bloedgroep ze bezitten. Er bestaan 3 bloedsoorten die aangeduid worden met A, B of O. Een bloedgroep wordt samengesteld uit 2 bloedsoorten zoals aangegeven in de tabel:
 
-Volume:  
+<br>  
+<div class="dodona-centered-group"><img src="media/bloedgroep.png" width="200" height="287"></div>
+<br>
 
-$$ volume = l.h.b $$  
-
-Hoogte is gelijk aan breedte dus:  
-
-$$ volume = l.h.h $$
-
-Dus is  
-
-$$ h^2 = {volume \over l} $$
+Shrijf een programma dat op basis van 2 bloedsoorten de juiste bloedgroep weergeeft.
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
-Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
+2 bloedsoorten A, B of C op afzonderlijke regels.  
 
 ### Uitvoer
 
-De hoogte van de aquarium als een kommagetal.
+Volgende boodschap: "De combinatie van de bloedsoorten *x* en *y* resulteert in bloedgroep *z*.". Waarbij x moet vervangen worden door de 1ste bloedsoort, y door de 2de bloedsoort en z door de juiste bloedgroep.
 
-### Voorbeeld
+### Voorbeeld 1
 
 **Invoer**
 
-    160000.0
-    100.0
+    B
+    A
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.0 cm.
+    De combinatie van de bloedsoorten B en A resulteert in bloedgroep AB.
+    
+### Voorbeeld 2
+
+**Invoer**
+
+    B
+    O
+
+**Uitvoer**
+
+    De combinatie van de bloedsoorten B en O resulteert in bloedgroep B.
