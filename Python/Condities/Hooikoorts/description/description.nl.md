@@ -14,7 +14,7 @@ Het aantal gemeten stuifmeelkorrels per kubieke meter.
 
 ### Uitvoer
 
-Volgende boodschap: "Er is *xxx* risico op allergie bij *n* korrels". Waarbij xxx moet vervangen worden door het risico uit de tabel en n door het aantal korrels dat gegeven is.
+Volgende boodschap: "Er is *xxx* risico op allergie bij *n* korrels.". Waarbij xxx moet vervangen worden door het risico uit de tabel en n door het aantal korrels dat gegeven is.
 
 ### Voorbeeld 1
 
