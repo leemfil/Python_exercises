@@ -1,35 +1,37 @@
 ### Opdracht
 
-Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
+Elke dag worden in België de hoeveelheid graspollen gemeten en op basis van deze meting wordt er eventueel een waarschuwing gegeven over hey risico voor personen die last hebben van een allergie. Afhankelijk van het aantal gemeten korrels stuifmeel wordt het risico hierbij als volgt uitgedrukt:
 
-Volume:  
+<br>  
+<div class="dodona-centered-group"><img src="media/hooikoorts.jpeg" width="626" height="430"></div>
+<br>
 
-$$ volume = l.h.b $$  
-
-Hoogte is gelijk aan breedte dus:  
-
-$$ volume = l.h.h $$
-
-Dus is  
-
-$$ h^2 = {volume \over l} $$
+Shrijf een geschikte boodschap op het scherm in functie van het aantal korrels stuifmeel.
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
-Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
+Het aantal gemeten stuifmeelkorrels per kubieke meter.  
 
 ### Uitvoer
 
-De hoogte van de aquarium als een kommagetal.
+Volgende boodschap: "Er is *xxx* risico op allergie bij *n* korrels". Waarbij xxx moet vervangen worden door het risico uit de tabel en n door het aantal korrels dat gegeven is.
 
-### Voorbeeld
+### Voorbeeld 1
 
 **Invoer**
 
-    160000.0
-    100.0
+    18
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.0 cm.
+    Er is matig risico op allergie bij 18 korrels per kubieke meter.
+    
+### Voorbeeld 2
+
+**Invoer**
+
+    40
+
+**Uitvoer**
+
+    Er is hoog risico op allergie bij 40 korrels per kubieke meter.
