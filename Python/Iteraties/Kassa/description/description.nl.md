@@ -1,21 +1,25 @@
-### Achtergrondinformatie
-
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
+Aan de kassa van het grootwarenhuis worden de prijzen van de producten een voor een ingescand. Nadien verschijnt op de display van de kassa de totale prijs.
+<br>  
+<div class="dodona-centered-group"><img src="media/kassa.png" width="200" height="204"></div>
+<br>
 
 ### Opdracht
 
-Schrijf een programma dat:
-
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
+In deze oefening simuleren we het scannen van prijzen. De prijzen van de producten lees je een voor een in. Wanneer -1 wordt ingegeven, weet het programma dat de prijzen van alle producten ingelezen werden. Je toont de totale prijs op een geformateerde wijze.
 
 ### Voorbeeld
 
-**Gegeven**
+**Invoer**
 
-Drie gehele getallen g1, g2 en g3.
+    93.93
+    59.45
+    50.91
+    26.27
+    37.83
+    30.98
+    37.5
+    -1
 
 **Uitvoer**
 
-     De som is 25
+     De totale prijs is 336.87 euro.
