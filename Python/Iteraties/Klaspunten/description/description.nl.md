@@ -1,35 +1,37 @@
+We ontwerpen een programma om het klasgemiddelde en het hoogste punt van de klas te berekenen! De gebruiker voert in uit hoeveel leerlingen een klasgroep bestaat, waarna hij of zij de mogelijkheid krijgt om per leerling het cijfer in te voeren. Op het einde wordt het klasgemiddelde, het hoogste punt en de plaats van het hoogste punt in de reeks weergegeven.
+
 ### Opdracht
 
-Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
-
-Volume:  
-
-$$ volume = l.h.b $$  
-
-Hoogte is gelijk aan breedte dus:  
-
-$$ volume = l.h.h $$
-
-Dus is  
-
-$$ h^2 = {volume \over l} $$
+Maak een programma dat:
+- vraagt om het aantal leerlingen in te voeren,
+- voor elke leerling zijn cijfer op 20 opvraagt en deze bij elkaar optelt,
+- het gemiddelde berekent en op het scherm weergeeft,
+- het hoogste punt op het scherm weergeeft,
+- de plaats van het hoogste punt op het scherm weergeeft.
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
-Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
+Aantal leerlingen en per leerling een cijferscore op 20.
 
 ### Uitvoer
 
-De hoogte van de aquarium als een kommagetal.
+Het klasgemiddelde, het hoogste punt en de plaats van het hoogste punt in de reeks.
 
 ### Voorbeeld
 
 **Invoer**
 
-    160000.0
-    100.0
+    9
+    15
+    12
+    6
+    11
+    17
+    13
+    9
+    10
+    12
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.0 cm.
+    Het klasgemiddelde is 11.7, het hoogste punt is 17 en de plaats in de reeks is 5.
