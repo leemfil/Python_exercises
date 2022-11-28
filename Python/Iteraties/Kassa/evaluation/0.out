@@ -22,5 +22,5 @@ De totale prijs is 237.10 euro. Het duurste product heeft een prijs van 85.36 eu
 tab name: Kassa
 python input without prompt: true
 block count: multi
-input block size: ends with 0
+input block size: ends with -1
 output block size: 1
