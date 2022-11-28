@@ -7,7 +7,7 @@ Maak een programma dat:
 - voor elke leerling zijn cijfer op 20 opvraagt en deze bij elkaar optelt,
 - het gemiddelde berekent en op het scherm weergeeft,
 - het hoogste punt op het scherm weergeeft,
-- de plaats van het hoogste punt op het scherm weergeeft.
+- de plaats van het hoogste punt op het scherm weergeeft. Indien het hoogste punt meerdere keren voorkomt geven we de plaats van het eerste hoogste punt.
 
 ### Invoer
 
