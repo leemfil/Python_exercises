@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Som van 3 getallen"
+      "nl": "Kassa"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "JRq-B6H__WYeZmE6kbp2Nc_Jni3Ury_SZ9GhhMzUpcvIBmYSa--vvmZwC9ix-9Av",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
