@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Hoogte aquarium"
+      "nl": "vraag 1"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "q-crrTNpCmYjzG3gQDY7FfvW2CWFZTaQWjYseF_Zvb4XXkfmncbSE3KmUHa2D7ZB",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
