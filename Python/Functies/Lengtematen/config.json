@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Som van 3 getallen"
+      "nl": "Lengtematen"
     }
   },
   "evaluation": {
@@ -9,10 +9,5 @@
   },
   "labels": [
 
-  ],
-  "access": "public",
-  "internals": {
-    "token": "VThXmEDdNYfkAyqjS7s3mkp9NQjvUhMmSiS7H3DZrVXUmSKQdIcx8kmSq9tsVUF4",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
