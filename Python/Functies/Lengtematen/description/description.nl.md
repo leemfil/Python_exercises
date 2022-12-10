@@ -1,21 +1,49 @@
-### Achtergrondinformatie
+Het Imperial (Standard) System is een niet-standaard systeem van maten en gewichten.
 
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
+Het verband tussen de lengtematen inch, foot en yard is als volgt.
 
-### Opdracht
+<div align="center">
+     
+| Imperial | SI-eenheid |
+|:--------:|:----------:|
+|1 inch    | 2.54 cm    |
+|1 feet    | 30.48 cm   |
+|1 yard    | 91.44 cm   |
 
-Schrijf een programma dat:
+</div>
 
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
+### Opgave
 
-### Voorbeeld
+Schrijf een programma dat voor een gegeven aantal meter uitrekent met hoeveel yard, feet en inch dit overeenkomt.
 
-**Gegeven**
+Zorg ervoor dat het aantal feet en het aantal yard een geheel getal is, terwijl de kleinste eenheid inch een kommagetal (afgerond op 2 cijfers) is.
 
-Drie gehele getallen g1, g2 en g3.
+### Invoer
+
+Een kommagetal dat een afstand in meter voorstelt.
+
+### Uitvoer
+
+De overeenkomstige afstand in yard, feet en inch in de zin:  
+
+     Dit stemt overeen met x yard y feet z inch.
+
+Met x en y gehele getallen en z een kommagetal afgerond op 2 cijfers.
+
+### Voorbeelden
+
+**Invoer**
+
+     1.80
 
 **Uitvoer**
 
-     De som is 25
+     Dit stemt overeen met 1 yard 2 feet 10.87 inch.
+     
+**Invoer**
+
+     2,21
+
+**Uitvoer**
+
+     Dit stemt overeen met 2 yard 1 feet 3.01 inch.
