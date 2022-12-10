@@ -17,19 +17,52 @@ Met behulp van de BMI-index kunnen we een uitspraak doen over het gewicht van ee
 Als je gespierd bent is de body mass index niet zeer betrouwbaar omdat spieren een grotere massadichtheid hebben.
 
 
-### Opdracht
+### Opgave
 
 Schrijf een programma dat:
 
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
+- de lengte en het gewicht van de persoon waarvan de BMI moet berekend worden vraagt aan de gebruiker,
+- en ook vraagt of de persoon gespierd is,
+- de BMI berekend van de persoon,
+- de juiste boodschap afbeeldt rekening houdend met de spiermassa van de persoon.
 
-### Voorbeeld
+### Invoer
 
-**Gegeven**
+De lengte, gewicht en spiermassa van de persoon. De lengte is een kommagetal uitgedrukt in meter (m), het gewicht is een kommagetal uitegdrukt in kilogram (kg) en de spiermassa wordt weergegeven als "gewoon" of "gespierd".
 
-Drie gehele getallen g1, g2 en g3.
+### Uitvoer
+
+Volgende boodschap:  
+
+gewoon gespierd:
+
+     Je heb een BMI van <berekende waarde> en heeft een <oordeel> gewicht. 
+     
+gespierd en een BMI boven de 25:
+
+     Je hebt een gespierd lichaam met een BMI van <berekende waarde> maar deze index is niet betrouwbaar voor gespierde personen.
+     
+Waarbij \<berekende waarde\> vervangen wordt door het resultaat van je berekening afgerond op 1 cijfer na de komma en \<oordeel\> door de juiste indicatie uit de tabel.
+
+### Voorbeelden
+
+**Invoer**
+
+     1.72
+     70.0
+     gewoon
 
 **Uitvoer**
 
-     De som is 25
+     Je hebt een BMI van 23,7 en heeft een gezond gewicht.  
+     
+**Invoer**
+
+     1.75
+     86.5
+     gespierd
+
+**Uitvoer**
+
+     Je hebt een gespierd lichaam BMI van 28,2 maar deze index is niet betrouwbaar voor gespierde personen.
+
