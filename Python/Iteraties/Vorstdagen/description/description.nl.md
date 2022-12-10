@@ -1,7 +1,7 @@
 Met de energiecrisis is het belangrijk dat we de de temperaturen voor de volgende dagen kunnen voorspellen. Daarom analyseren we de dagelijkse temperaturen van de afgelopen maanden.
 
 <br>  
-<div class="dodona-centered-group"><img src="media/vorst_bevroren_sloot.jpeg" width="198" height="111"></div>
+<div class="dodona-centered-group"><img src="media/vorst-bevroren-sloot.jpeg" width="198" height="111"></div>
 <br>
 
 ### Opdracht
