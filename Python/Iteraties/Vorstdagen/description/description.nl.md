@@ -1,20 +1,22 @@
-### Achtergrondinformatie
+Met de energiecrisis is het belangrijk dat we de de temperaturen voor de volgende dagen kunnen voorspellen. Daarom analyseren we de dagelijkse temperaturen van de afgelopen maanden.
 
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
+<br>  
+<div class="dodona-centered-group"><img src="media/vorst_bevroren_sloot.jpeg" width="198" height="111"></div>
+<br>
 
 ### Opdracht
 
 Schrijf een programma dat:
 
-- de som van de 3 gegeven gehele getallen berekent endeze waarde toekent aan een variabele (bv. som).
-- de berekende waarde op het scherm afdrukt.
+- de aan de gebruiker het aantal dagen vraagt dat hij wil ingeven vraagt,
+- en daarna de dagelijkse temperaturen inleest die door de gebruiker worden gegeven,
+- de temperaturen analyseert en het aantal dagen dat het vries, de gemiddelde temperatuur van de vriesdagen en de positie van de ergste vriesdag in de reeks weergeeft.
 
 ### Voorbeeld
 
-**Gegeven**
+**Invoer**
 
-Drie gehele getallen g1, g2 en g3.
+
 
 **Uitvoer**
 
