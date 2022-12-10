@@ -19,7 +19,8 @@ Schrijf een programma dat:
 
 ### Uitvoer
 
-     Het heeft de in de periode x dagen gevroren met als gemiddelde vriestemperatuur y graden celsius. Op dag z was de temperatuur het laagst. 
+     Het heeft de in de periode x dagen gevroren met als gemiddelde vriestemperatuur y graden celsius. 
+     Op dag z was de temperatuur het laagst. 
      
 x moet vervangen worden door het aantal vorstdagen, y door de gemiddelde vriestemperatuur en z door de laagste temperatuur. 
 De gemiddelde vriestemperatuur is de gemiddelde temperatuur van de vorstdagen.     
@@ -44,4 +45,5 @@ De gemiddelde vriestemperatuur is de gemiddelde temperatuur van de vorstdagen.
 
 **Uitvoer**
 
-     Het heeft in de periode 6 dagen gevroren met als gemiddelde vriestemperatuur -2,8 graden celsius. Op dag 7 was de temperatuur het laagst.
+     Het heeft in de periode 6 dagen gevroren met als gemiddelde vriestemperatuur -2,8 graden celsius.  
+     Op dag 7 was de temperatuur het laagst.
