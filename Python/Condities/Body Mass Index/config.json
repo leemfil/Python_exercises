@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Som van 3 getallen"
+      "nl": "Body Mass Index"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "T4khFADIZ9ynd3WGY7wTmb2_3ruz4zhYzjJFf5j__DcYmmEtXF9EuuVTevNb9VJv",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
