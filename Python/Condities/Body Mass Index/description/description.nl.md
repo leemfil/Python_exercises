@@ -1,7 +1,16 @@
-### Achtergrondinformatie
+De body-mass index (BMI) is een index die de verhouding tussen lengte en gewicht bij een persoon weergeeft. De BMI-index wordt veel gebruikt om een indicatie te krijgen van overgewicht of ondergewicht. De BMI-index heeft een goede correlatie met de hoeveelheid lichaamsvet.
 
-- De natuurrlijke getallen: 0,1, 2, 3, 4 ...
-- De gehele getallen: ..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...
+De BMI-index van een persoon wordt als volgt berekend:
+<br>  
+<div class="dodona-centered-group"><img src="media/form_bmi.jpeg" width="500" height="144"></div>
+<br>
+In deze formule wordt gewicht uitgedrukt in kg en lengte in m.  
+
+> Om het BMI van een persoon van 1.73 m en 68 kg te berekenen maken we volgende berekening:
+><br>  
+><div class="dodona-centered-group"><img src="media/ber_bmi.jpeg" width="476" height="150"></div>
+><br>
+
 
 ### Opdracht
 
