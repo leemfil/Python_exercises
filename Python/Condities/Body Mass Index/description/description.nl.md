@@ -2,14 +2,19 @@ De body-mass index (BMI) is een index die de verhouding tussen lengte en gewicht
 
 De BMI-index van een persoon wordt als volgt berekend:
 <br>  
-<div class="dodona-centered-group"><img src="media/form_bmi.jpeg" width="500" height="144"></div>
+<div class="dodona-centered-group"><img src="media/form_bmi.png" width="250" height="72"></div>
 <br>
 In deze formule wordt gewicht uitgedrukt in kg en lengte in m.  
 
 > Om het BMI van een persoon van 1.73 m en 68 kg te berekenen maken we volgende berekening:
 ><br>  
-><div class="dodona-centered-group"><img src="media/ber_bmi.jpeg" width="476" height="150"></div>
+><div class="dodona-centered-group"><img src="media/ber_bmi.png" width="238" height="75"></div>
 ><br>
+Met behulp van de BMI-index kunnen we een uitspraak doen over het gewicht van een persoon:
+<br>  
+<div class="dodona-centered-group"><img src="media/tabel_bmi.png" width="315" height="170"></div>
+<br>
+Als je gespierd bent is de body mass index niet zeer betrouwbaar omdat spieren een grotere massadichtheid hebben.
 
 
 ### Opdracht
