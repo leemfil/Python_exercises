@@ -38,7 +38,7 @@ gewoon gespierd:
 
      Je heb een BMI van <berekende waarde> en dus een <indicatie> gewicht. 
      
-gespierd en een BMI boven de 25:
+gespierd en een BMI vanaf 25:
 
      Je hebt een gespierd lichaam met een BMI van <berekende waarde> maar deze index is niet betrouwbaar voor gespierde personen.
      
