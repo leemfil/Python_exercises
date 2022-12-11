@@ -21,6 +21,6 @@ Dit stemt overeen met 3 yard 1 feet 3.62 inch.
 --------------------------------------------------
 tab name: Lengtematen
 python input without prompt: true
-block count: multiple
+block count: multi
 input block size: 1
 output block size: 1
