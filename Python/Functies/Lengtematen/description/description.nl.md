@@ -4,7 +4,7 @@ Het verband tussen de lengtematen inch, foot en yard is als volgt.
 
 <div align="center">
 <table style="width:30%">
-     <tr style="font-weight:normal">
+     <tr>
           <th>Imperial</th>
           <th>SI-eenheid</th>
      </tr>
