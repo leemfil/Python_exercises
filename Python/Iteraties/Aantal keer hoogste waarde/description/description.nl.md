@@ -2,14 +2,14 @@ Bij het verwerken van data moet er dikwijls gezocht worden naar een bepaalde waa
 Om het belang van de waarde te bepalen zoeken we hoeveel keer ze voorkomt in de reeks.
 
 <br>  
-<div class="dodona-centered-group"><img src="media/zeilen.jpeg" width="600" height="300"></div>
+<div class="dodona-centered-group"><img src="media/hoogste_waarde.png" width="324" height="172"></div>
 <br>
 
 ### Opgave
 
 Schrijf een programma dat:
 
-- vraag aan de gevruiker om gehele getallen in te voeren,
+- vraag aan de gebruiker om gehele getallen in te voeren,
 - de reeks wordt beëindigd bij een getal dat kleiner is als -10,
 - zoek hoeveel keer de hoogste waarde in de reeks voorkomt,
 - en beeld deze waarde af op het scherm. 
