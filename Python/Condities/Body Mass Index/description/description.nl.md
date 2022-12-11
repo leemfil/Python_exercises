@@ -64,5 +64,5 @@ Waarbij \<berekende waarde\> vervangen wordt door het resultaat van je berekenin
 
 **Uitvoer**
 
-     Je hebt een gespierd lichaam BMI van 28,2 maar deze index is niet betrouwbaar voor gespierde personen.
+     Je hebt een gespierd lichaam met een BMI van 28,2 maar deze index is niet betrouwbaar voor gespierde personen.
 
