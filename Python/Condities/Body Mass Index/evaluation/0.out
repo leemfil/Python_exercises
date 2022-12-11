@@ -12,5 +12,5 @@ Je hebt een BMI van 21.6 en dus een gezond gewicht gewicht.
 tab name: Body Mass Index
 python input without prompt: true
 block count: multi
-input block size: 1
+input block size: 3
 output block size: 1
