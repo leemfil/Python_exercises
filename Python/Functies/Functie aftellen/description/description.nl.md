@@ -1,18 +1,21 @@
-### Opdracht
+Maak een functie die een aantal opeenvolgende getallen bij elkaar optelt.  
+Het begingetal en het eindgetal worden met de functie meegegeven.
 
-Schrijf een functie *kwadraat* die het kwadraat teruggeeft van een geheel getal.
+### Opgave
 
+Schrijf een functie die:
+- de naam optellen heeft,
+- twee parameters bezit met respectievelijk het begingetal en het eindgetal,
+- de som maakt van de getallen beginnend bij het begingetal en eindigend met het eindgetal,
+- de som teruggeeft.
 
-### Invoer
+### Voorbeelden
 
-Een geheel getal.
-
-### Uitvoer
-
-Het kwadraat van het geheel getal.
-
-### Voorbeeld
-
-    >>> kwadraat(5)
-    25
-        
+    >>> optellen(5, 10)
+    45
+    
+    >>> optellen(2, 4)
+    9
+    
+    >>> optellen(7, 7)
+    7
