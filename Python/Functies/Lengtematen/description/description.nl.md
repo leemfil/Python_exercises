@@ -3,7 +3,7 @@ Het Imperial (Standard) System is een niet-standaard systeem van maten en gewich
 Het verband tussen de lengtematen inch, foot en yard is als volgt.
 
 <div align="center">
-<table>
+<table style="width:30%">
      <tr>
           <th>Imperial</th>
           <th>SI-eenheid</th>
