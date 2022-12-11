@@ -36,13 +36,13 @@ Volgende boodschap:
 
 gewoon gespierd:
 
-     Je heb een BMI van <berekende waarde> en heeft een <oordeel> gewicht. 
+     Je heb een BMI van <berekende waarde> en dus een <indicatie> gewicht. 
      
 gespierd en een BMI boven de 25:
 
      Je hebt een gespierd lichaam met een BMI van <berekende waarde> maar deze index is niet betrouwbaar voor gespierde personen.
      
-Waarbij \<berekende waarde\> vervangen wordt door het resultaat van je berekening afgerond op 1 cijfer na de komma en \<oordeel\> door de juiste indicatie uit de tabel.
+Waarbij \<berekende waarde\> vervangen wordt door het resultaat van je berekening afgerond op 1 cijfer na de komma en \<indicatie\> door de juiste indicatie uit de tabel.
 
 ### Voorbeelden
 
@@ -54,7 +54,7 @@ Waarbij \<berekende waarde\> vervangen wordt door het resultaat van je berekenin
 
 **Uitvoer**
 
-     Je hebt een BMI van 23,7 en heeft een gezond gewicht.  
+     Je hebt een BMI van 23,7 en dus een gezond gewicht.  
      
 **Invoer**
 
