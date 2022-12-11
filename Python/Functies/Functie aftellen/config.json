@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Kwadraat functie"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "2KmfrHS2QAfqSZJ6jditEecSiub7PPB-sxjDXUMQvQD34uDuru8hGVZj-5FqbFPz",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
