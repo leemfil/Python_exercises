@@ -14,7 +14,7 @@ Schrijf een programma dat:
 
 ### Invoer
 
-- Aantal dagen dat gegevn wordt.
+- Aantal dagen dat gegeven wordt.
 - De dagelijkse temperaturen van de periode als kommagetal.
 
 ### Uitvoer
