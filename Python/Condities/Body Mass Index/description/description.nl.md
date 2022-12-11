@@ -24,7 +24,7 @@ Schrijf een programma dat:
 - de lengte en het gewicht van de persoon waarvan de BMI moet berekend worden vraagt aan de gebruiker,
 - en ook vraagt of de persoon gespierd is,
 - de BMI berekend van de persoon,
-- de juiste boodschap afbeeldt rekening houdend met de spiermassa van de persoon.
+- de juiste boodschap afbeeldt rekening houdend met de BMI en de spiermassa van de persoon.
 
 ### Invoer
 
