@@ -2,15 +2,26 @@ Het Imperial (Standard) System is een niet-standaard systeem van maten en gewich
 
 Het verband tussen de lengtematen inch, foot en yard is als volgt.
 
-
-     
-     | Imperial | SI-eenheid |
-     |:--------:|:----------:|
-     |1 inch    | 2.54 cm    |
-     |1 feet    | 30.48 cm   |
-     |1 yard    | 91.44 cm   |
-
-
+<div align="center">
+<table>
+     <tr>
+          <th>Imperial</th>
+          <th>SI-eenheid</th>
+     </tr>
+     <tr>
+          <th>1 inch</th>
+          <th>2.54 cm</th>
+     </tr>
+     <tr>
+          <th>1 feet</th>
+          <th>30.48 cm</th>
+     </tr>
+     <tr>
+          <th>1 yard</th>
+          <th>91.44 cm</th>
+     </tr>
+</table>
+</div>
 
 ### Opgave
 
