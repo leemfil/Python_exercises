@@ -4,11 +4,11 @@ Het verband tussen de lengtematen inch, foot en yard is als volgt.
 
 
      
-| Imperial | SI-eenheid |
-|:--------:|:----------:|
-|1 inch    | 2.54 cm    |
-|1 feet    | 30.48 cm   |
-|1 yard    | 91.44 cm   |
+     | Imperial | SI-eenheid |
+     |:--------:|:----------:|
+     |1 inch    | 2.54 cm    |
+     |1 feet    | 30.48 cm   |
+     |1 yard    | 91.44 cm   |
 
 
 
