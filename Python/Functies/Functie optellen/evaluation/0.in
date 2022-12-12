@@ -1,11 +1,14 @@
->>> kwadraat(5)
-25
+>>> optellen(5, 10)
+45
 
->>> kwadraat(12)
-144
+>>> optellen(2, 4)
+9
 
->>> kwadraat(20)
-400
+>>> optellen(7, 7)
+7
 
->>> kwadraat(37)
+>>> optellen(3, 99)
+1369
+
+>>> optellen(0, 1000)
 1369
