@@ -1,7 +1,36 @@
-De som is 25
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 7 en komt 5 keer voor in de reeks.
+De hoogst waarde is 5 en komt 1 keer voor in de reeks.
+De hoogst waarde is 5 en komt 2 keer voor in de reeks.
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 8 en komt 1 keer voor in de reeks.
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 5 en komt 1 keer voor in de reeks.
+De hoogst waarde is 10 en komt 3 keer voor in de reeks.
+De hoogst waarde is 4 en komt 1 keer voor in de reeks.
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 5 en komt 1 keer voor in de reeks.
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 13 en komt 4 keer voor in de reeks.
+De hoogst waarde is 5 en komt 4 keer voor in de reeks.
+De hoogst waarde is 5 en komt 2 keer voor in de reeks.
+De hoogst waarde is 5 en komt 2 keer voor in de reeks.
+De hoogst waarde is 11 en komt 3 keer voor in de reeks.
+De hoogst waarde is 5 en komt 2 keer voor in de reeks.
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 5 en komt 1 keer voor in de reeks.
+De hoogst waarde is 5 en komt 1 keer voor in de reeks.
+De hoogst waarde is 16 en komt 2 keer voor in de reeks.
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 5 en komt 6 keer voor in de reeks.
+De hoogst waarde is 5 en komt 5 keer voor in de reeks.
+De hoogst waarde is 9 en komt 2 keer voor in de reeks.
+De hoogst waarde is 5 en komt 2 keer voor in de reeks.
+De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+De hoogst waarde is 14 en komt 1 keer voor in de reeks.
 --------------------------------------------------
-tab name: Som van 3 getallen
+tab name: Aantal keer hoogste waarde
 python input without prompt: true
-block count: 1
-input block size: 0
+block count: multi
+input block size: ends with 
 output block size: 1
