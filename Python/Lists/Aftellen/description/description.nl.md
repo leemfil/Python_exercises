@@ -4,8 +4,10 @@ Een wedstrijd start steevast met aftellen naar de start. Soms wordt er afgeteld 
 
 Schrijf een programma dat:
 - aan de gebruiker vraagt om het begingetal van waar we beginnen af te tellen,
-- op scherm het begingetal afbeeldt en telkens op de volgende regel verminderen we het getal met 2 tot we 2 of 1 bereiken
-- en als laatste regel "Start!" afbeelden.
+- het volgende getallen berekend door telkens het vorige getal met 2 te verminderen tot we 2 of 1 bereiken,
+- alle getallen toevoegt aan een lijst,
+- en als laatste nog "Start!" toevoegt aan de lijst,
+- en de lijst afbeeldt op het scherm.
 
 ### Invoer
 
@@ -13,7 +15,7 @@ Een natuurlijk getal.
 
 ### Uitvoer
 
-Een reeks getallen op afzonderlijke regels die aftellen per 2 naar Start!
+Een reeks getallen in een lijst die aftellen per 2 naar Start!
 
 ### Voorbeelden
 
@@ -23,12 +25,7 @@ Een reeks getallen op afzonderlijke regels die aftellen per 2 naar Start!
 
 **Uitvoer**
     
-    10
-    8
-    6
-    4
-    2
-    Start!
+    [10, 8, 6, 4, 2, "Start!"]
     
 **Invoer**
     
@@ -36,11 +33,5 @@ Een reeks getallen op afzonderlijke regels die aftellen per 2 naar Start!
 
 **Uitvoer**
     
-    11
-    9
-    7
-    5
-    3
-    1
-    Start!  
+    [11, 9, 7, 5, 3, 1, "Start!"]  
    
