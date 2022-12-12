@@ -17,7 +17,7 @@ Schrijf een programma dat:
 ### Invoer
 
 - Zoveel gehele getallen als gewenst door de gebruiker.
-- Als laatste wordt een gtal kleiner dan -10 ingevoerd, dit markeert het einde van de reeks.
+- Als laatste wordt een getal kleiner dan -10 ingevoerd, dit markeert het einde van de reeks.
 
 ### Uitvoer
 
