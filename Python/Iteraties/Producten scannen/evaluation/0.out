@@ -1,26 +1,26 @@
-De totale prijs is 733.19 euro. Het duurste product heeft een prijs van 85.00 euro en bevindt zich op plaats 15.
-De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en bevindt zich op plaats 0.
-De totale prijs is 105.52 euro. Het duurste product heeft een prijs van 66.09 euro en bevindt zich op plaats 2.
-De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en bevindt zich op plaats 0.
-De totale prijs is 393.75 euro. Het duurste product heeft een prijs van 83.16 euro en bevindt zich op plaats 6.
-De totale prijs is 238.37 euro. Het duurste product heeft een prijs van 89.12 euro en bevindt zich op plaats 1.
-De totale prijs is 1324.32 euro. Het duurste product heeft een prijs van 81.98 euro en bevindt zich op plaats 16.
-De totale prijs is 18.45 euro. Het duurste product heeft een prijs van 18.45 euro en bevindt zich op plaats 1.
-De totale prijs is 325.17 euro. Het duurste product heeft een prijs van 88.54 euro en bevindt zich op plaats 2.
-De totale prijs is 6.00 euro. Het duurste product heeft een prijs van 6.00 euro en bevindt zich op plaats 1.
-De totale prijs is 83.83 euro. Het duurste product heeft een prijs van 83.83 euro en bevindt zich op plaats 1.
-De totale prijs is 1036.90 euro. Het duurste product heeft een prijs van 89.17 euro en bevindt zich op plaats 6.
-De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en bevindt zich op plaats 0.
-De totale prijs is 79.40 euro. Het duurste product heeft een prijs van 43.93 euro en bevindt zich op plaats 2.
-De totale prijs is 144.25 euro. Het duurste product heeft een prijs van 71.15 euro en bevindt zich op plaats 4.
-De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en bevindt zich op plaats 0.
-De totale prijs is 42.51 euro. Het duurste product heeft een prijs van 42.51 euro en bevindt zich op plaats 1.
-De totale prijs is 484.76 euro. Het duurste product heeft een prijs van 81.19 euro en bevindt zich op plaats 8.
-De totale prijs is 184.01 euro. Het duurste product heeft een prijs van 87.07 euro en bevindt zich op plaats 3.
-De totale prijs is 237.10 euro. Het duurste product heeft een prijs van 85.36 euro en bevindt zich op plaats 1.
+De totale prijs is 733.19 euro. Het duurste product heeft een prijs van 85.00 euro en er zijn in totaal 15 producten.
+De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en er zijn in totaal 0 producten.
+De totale prijs is 105.52 euro. Het duurste product heeft een prijs van 66.09 euro en er zijn in totaal 2 producten.
+De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en er zijn in totaal 0 producten.
+De totale prijs is 393.75 euro. Het duurste product heeft een prijs van 83.16 euro en er zijn in totaal 7 producten.
+De totale prijs is 238.37 euro. Het duurste product heeft een prijs van 89.12 euro en er zijn in totaal 5 producten.
+De totale prijs is 1324.32 euro. Het duurste product heeft een prijs van 81.98 euro en er zijn in totaal 28 producten.
+De totale prijs is 18.45 euro. Het duurste product heeft een prijs van 18.45 euro en er zijn in totaal 1 producten.
+De totale prijs is 325.17 euro. Het duurste product heeft een prijs van 88.54 euro en er zijn in totaal 6 producten.
+De totale prijs is 6.00 euro. Het duurste product heeft een prijs van 6.00 euro en er zijn in totaal 1 producten.
+De totale prijs is 83.83 euro. Het duurste product heeft een prijs van 83.83 euro en er zijn in totaal 1 producten.
+De totale prijs is 1036.90 euro. Het duurste product heeft een prijs van 89.17 euro en er zijn in totaal 23 producten.
+De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en er zijn in totaal 0 producten.
+De totale prijs is 79.40 euro. Het duurste product heeft een prijs van 43.93 euro en er zijn in totaal 3 producten.
+De totale prijs is 144.25 euro. Het duurste product heeft een prijs van 71.15 euro en er zijn in totaal 5 producten.
+De totale prijs is 0.00 euro. Het duurste product heeft een prijs van 0.00 euro en er zijn in totaal 0 producten.
+De totale prijs is 42.51 euro. Het duurste product heeft een prijs van 42.51 euro en er zijn in totaal 1 producten.
+De totale prijs is 484.76 euro. Het duurste product heeft een prijs van 81.19 euro en er zijn in totaal 10 producten.
+De totale prijs is 184.01 euro. Het duurste product heeft een prijs van 87.07 euro en er zijn in totaal 3 producten.
+De totale prijs is 237.10 euro. Het duurste product heeft een prijs van 85.36 euro en er zijn in totaal 5 producten.
 --------------------------------------------------
-tab name: Kassa
+tab name: Producten scannen
 python input without prompt: true
 block count: multi
-input block size: ends with -1
+input block size: ends with -10
 output block size: 1
