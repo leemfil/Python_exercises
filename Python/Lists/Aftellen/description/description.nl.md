@@ -11,7 +11,7 @@ Schrijf een programma dat:
 
 ### Invoer
 
-Een natuurlijk getal.
+Een getal groter dan 0.
 
 ### Uitvoer
 
