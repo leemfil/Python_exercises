@@ -26,4 +26,4 @@ In deze oefening simuleren we het scannen van prijzen. De prijzen van de product
 
 **Uitvoer**
 
-     De totale prijs is 336.87 euro. Het duurste product heeft een prijs van 93.93 euro en bevindt zich op plaats 1.
+     De totale prijs is 336.87 euro. Het duurste product heeft een prijs van 93.93 euro en er zijn in totaal 7 producten.
