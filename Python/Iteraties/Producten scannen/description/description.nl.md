@@ -11,9 +11,9 @@ In deze oefening simuleren we het scannen van prijzen. De prijzen van de product
 - de hoogste prijs in de reeks, 
 - en het aantal producten in de reeks onder elkaar.
 
-opmerking: 
-Om afrondingsfouten te voorkemen kan je het totaal afronden met behulp van de round functie op 2 cijfers na de komma op volgende manier:  
-round(totaal, 2)
+opmerking:  
+Om afrondingsfouten te voorkemen kan je het totaal afronden met behulp van de round functie op 2 cijfers na de komma  
+op volgende manier: round(totaal, 2)
 
 ### Voorbeeld
 
