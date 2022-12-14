@@ -9,7 +9,7 @@ In deze oefening simuleren we het scannen van prijzen. De prijzen van de product
 - Wanneer -10 wordt ingegeven, weet het programma dat de prijzen van alle producten ingelezen werden. 
 - Je toont de totale prijs, 
 - de hoogste prijs in de reeks, 
-- en het aantal producten in de reeks.
+- en het aantal producten in de reeks onder elkaar.
 
 ### Voorbeeld
 
@@ -26,4 +26,6 @@ In deze oefening simuleren we het scannen van prijzen. De prijzen van de product
 
 **Uitvoer**
 
-     De totale prijs is 336.87 euro. Het duurste product heeft een prijs van 93.93 euro en er zijn in totaal 7 producten.
+     336.87
+     93.93
+     7
