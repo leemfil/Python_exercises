@@ -53,7 +53,7 @@ Met x en y gehele getallen en z een kommagetal afgerond op 2 cijfers.
      
 **Invoer**
 
-     2,21
+     2.21
 
 **Uitvoer**
 
