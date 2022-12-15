@@ -19,7 +19,7 @@ Schrijf een programma dat:
 
 ### Uitvoer
 
-     Het heeft de in de periode x dagen gevroren met als gemiddelde vriestemperatuur y graden celsius. 
+     Het heeft in de periode x dagen gevroren met als gemiddelde vriestemperatuur y graden celsius. 
      Op dag z was de temperatuur het laagst. 
      
 x moet vervangen worden door het aantal vorstdagen, y door de gemiddelde vriestemperatuur en z door de laagste temperatuur. 
