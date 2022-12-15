@@ -8,7 +8,7 @@ Met de energiecrisis is het belangrijk dat we de de temperaturen voor de volgend
 
 Schrijf een programma dat:
 
-- de aan de gebruiker het aantal dagen vraagt dat hij wil ingeven vraagt,
+- aan de gebruiker het aantal dagen vraagt dat hij wil ingeven,
 - en daarna de dagelijkse temperaturen inleest die door de gebruiker worden gegeven,
 - de temperaturen analyseert en het aantal dagen dat het vries, de gemiddelde temperatuur van de vriesdagen en de positie van de ergste vriesdag in de reeks weergeeft.
 
