@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Vorstdagen"
+      "nl": "Vorst"
     }
   },
   "evaluation": {
@@ -9,10 +9,5 @@
   },
   "labels": [
 
-  ],
-  "access": "public",
-  "internals": {
-    "token": "tvHDgGUw-MgcEp6Mu_e_6_2AvGACz3u2xSnVRiUNzqSXRpdxqvaiPBkQEnscc7mN",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
