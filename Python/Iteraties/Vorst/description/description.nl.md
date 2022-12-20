@@ -8,28 +8,26 @@ Met de energiecrisis is het belangrijk dat we de de temperaturen voor de volgend
 
 Schrijf een programma dat:
 
-- aan de gebruiker het aantal dagen vraagt dat hij wil ingeven,
-- en daarna de dagelijkse temperaturen inleest die door de gebruiker worden gegeven,
-- de temperaturen analyseert en het aantal dagen dat het vries, de gemiddelde temperatuur van de vriesdagen en de positie van de ergste vriesdag in de reeks weergeeft.
+- de dagelijkse temperaturen inleest die door de gebruiker worden gegeven,
+- de temperaturen analyseert en het aantal dagen dat het vriest (negatieve temperaturen) en dat het niet vriest, de gemiddelde temperatuur en de ergste vriesdag in de reeks weergeeft,
+- stopt wanneer een temperatuur van -100 wordt ingegeven.
 
 ### Invoer
 
-- Aantal dagen dat gegeven wordt.
-- De dagelijkse temperaturen van de periode als kommagetal.
+- De dagelijkse temperaturen van de periode als kommagetal,
+- de laatste invoer is -100.
 
 ### Uitvoer
 
-     Het heeft in de periode x dagen gevroren met als gemiddelde vriestemperatuur y graden celsius. 
-     Op dag z was de temperatuur het laagst. 
+     Het heeft in de periode x dagen gevroren en y dagen niet met als gemiddelde temperatuur z graden celsius. 
+     De laagste temperatuur was t. 
      
-x moet vervangen worden door het aantal vorstdagen, y door de gemiddelde vriestemperatuur en z door de laagste temperatuur. 
-De gemiddelde vriestemperatuur is de gemiddelde temperatuur van de vorstdagen.     
+x moet vervangen worden door het aantal vorstdagen, y door het aantal niet-vorstdagen, z door de gemiddelde temperatuur en t de laagste temperatuur.     
 
 ### Voorbeeld
 
 **Invoer**
 
-     12
      5.1
      2.3
      0.0
@@ -42,8 +40,9 @@ De gemiddelde vriestemperatuur is de gemiddelde temperatuur van de vorstdagen.
      4.0
      -2.6
      1.5
+     -100
 
 **Uitvoer**
 
-     Het heeft in de periode 6 dagen gevroren met als gemiddelde vriestemperatuur -2,8 graden celsius.  
-     Op dag 7 was de temperatuur het laagst.
+    Het heeft in de periode 6 dagen gevroren en 6 dagen niet met als gemiddelde temperatuur -0.2 graden celsius. 
+    De laagste temperatuur was -5.2. 
