@@ -1,26 +1,26 @@
-Het heeft in de periode 6 dagen gevroren met als gemiddelde vriestemperatuur -3.4 graden celsius.  
-Op dag 7 was de temperatuur het laagst.
-Het heeft in de periode 6 dagen gevroren met als gemiddelde vriestemperatuur -1.9 graden celsius.  
-Op dag 11 was de temperatuur het laagst.
-Het heeft in de periode 5 dagen gevroren met als gemiddelde vriestemperatuur -4.4 graden celsius.  
-Op dag 5 was de temperatuur het laagst.
-Het heeft in de periode 0 dagen gevroren met als gemiddelde vriestemperatuur 0.0 graden celsius.  
-Op dag 1 was de temperatuur het laagst.
-Het heeft in de periode 2 dagen gevroren met als gemiddelde vriestemperatuur -2.8 graden celsius.  
-Op dag 5 was de temperatuur het laagst.
-Het heeft in de periode 6 dagen gevroren met als gemiddelde vriestemperatuur -3.6 graden celsius.  
-Op dag 2 was de temperatuur het laagst.
-Het heeft in de periode 2 dagen gevroren met als gemiddelde vriestemperatuur -3.2 graden celsius.  
-Op dag 5 was de temperatuur het laagst.
-Het heeft in de periode 5 dagen gevroren met als gemiddelde vriestemperatuur -9.4 graden celsius.  
-Op dag 5 was de temperatuur het laagst.
-Het heeft in de periode 4 dagen gevroren met als gemiddelde vriestemperatuur -3.0 graden celsius.  
-Op dag 4 was de temperatuur het laagst.
-Het heeft in de periode 3 dagen gevroren met als gemiddelde vriestemperatuur -2.0 graden celsius.  
-Op dag 5 was de temperatuur het laagst.
+Het heeft in de periode 6 dagen gevroren en 6 dagen niet met als gemiddelde temperatuur -0.2 graden celsius. 
+De laagste temperatuur was -5.2.
+Het heeft in de periode 6 dagen gevroren en 5 dagen niet met als gemiddelde temperatuur 0.1 graden celsius. 
+De laagste temperatuur was 2.5.
+Het heeft in de periode 5 dagen gevroren en 0 dagen niet met als gemiddelde temperatuur -4.4 graden celsius. 
+De laagste temperatuur was -6.6.
+Het heeft in de periode 0 dagen gevroren en 7 dagen niet met als gemiddelde temperatuur 4.0 graden celsius. 
+De laagste temperatuur was 1.0.
+Het heeft in de periode 2 dagen gevroren en 8 dagen niet met als gemiddelde temperatuur 1.5 graden celsius. 
+De laagste temperatuur was -2.4.
+Het heeft in de periode 6 dagen gevroren en 1 dagen niet met als gemiddelde temperatuur -3.0 graden celsius. 
+De laagste temperatuur was -5.3.
+Het heeft in de periode 2 dagen gevroren en 3 dagen niet met als gemiddelde temperatuur 0.2 graden celsius. 
+De laagste temperatuur was -3.2.
+Het heeft in de periode 5 dagen gevroren en 3 dagen niet met als gemiddelde temperatuur -4.8 graden celsius. 
+De laagste temperatuur was -12.2.
+Het heeft in de periode 4 dagen gevroren en 0 dagen niet met als gemiddelde temperatuur -3.0 graden celsius. 
+De laagste temperatuur was -3.0.
+Het heeft in de periode 3 dagen gevroren en 2 dagen niet met als gemiddelde temperatuur -1.2 graden celsius. 
+De laagste temperatuur was -2.0.
 --------------------------------------------------
 tab name: Vorstdagen
 python input without prompt: true
 block count: multi
-input block size: ends with
+input block size: ends with -100
 output block size: 2
