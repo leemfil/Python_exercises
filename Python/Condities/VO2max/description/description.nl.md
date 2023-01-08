@@ -1,21 +1,10 @@
-De body-mass index (BMI) is een index die de verhouding tussen lengte en gewicht bij een persoon weergeeft. De BMI-index wordt veel gebruikt om een indicatie te krijgen van overgewicht of ondergewicht. De BMI-index heeft een goede correlatie met de hoeveelheid lichaamsvet.
+De VO<sub>2</sub>max of het of het maximale zuurstofopnamevermogen is het maximale volume zuurstof dat het menselijk licdhaam kan transporteren en verwerken.
 
-De BMI-index van een persoon wordt als volgt berekend:
+Gemiddeld gesproken hebben mannen een VO<sub>2</sub>max tussen de 35 en 40 ml/kg/min. Voor vrouwen ligt dit tussen de 27 en 31 ml/kg/min. Topsporters kunnen waarden bereiken die tussen de 60 en 95 ml/kg/min liggen.
+
 <br>  
 <div class="dodona-centered-group"><img src="media/form_bmi.png" width="250" height="72"></div>
 <br>
-In deze formule wordt gewicht uitgedrukt in kg en lengte in m.  
-
-> Om het BMI van een persoon van 1.73 m en 68 kg te berekenen maken we volgende berekening:
-><br>  
-><div class="dodona-centered-group"><img src="media/ber_bmi.png" width="238" height="75"></div>
-><br>
-Met behulp van de BMI-index kunnen we een uitspraak doen over het gewicht van een persoon:
-<br>  
-<div class="dodona-centered-group"><img src="media/tabel_bmi.png" width="315" height="170"></div>
-<br>
-Als je gespierd bent is de body mass index niet zeer betrouwbaar omdat spieren een grotere massadichtheid hebben.
-
 
 ### Opgave
 
