@@ -1,0 +1,16 @@
+Je hebt een BMI van 21.6 en dus een gezond gewicht.
+Je hebt een BMI van 23.6 en dus een gezond gewicht.
+Je hebt een BMI van 17.8 en dus een ondergewicht.
+Je hebt een BMI van 35.6 en dus een obees gewicht.
+Je hebt een gespierd lichaam met een BMI van 25.7 maar deze index is niet betrouwbaar voor gespierde personen.
+Je hebt een gespierd lichaam met een BMI van 31.0 maar deze index is niet betrouwbaar voor gespierde personen.
+Je hebt een BMI van 20.8 en dus een gezond gewicht.
+Je hebt een BMI van 18.5 en dus een ondergewicht.
+Je hebt een BMI van 23.8 en dus een gezond gewicht.
+Je hebt een BMI van 27.1 en dus een overgewicht.
+--------------------------------------------------
+tab name: Body Mass Index
+python input without prompt: true
+block count: multi
+input block size: 3
+output block size: 1
