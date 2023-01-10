@@ -1,15 +1,25 @@
-Je hebt een BMI van 21.6 en dus een gezond gewicht.
-Je hebt een BMI van 23.6 en dus een gezond gewicht.
-Je hebt een BMI van 17.8 en dus een ondergewicht.
-Je hebt een BMI van 35.6 en dus een obees gewicht.
-Je hebt een gespierd lichaam met een BMI van 25.7 maar deze index is niet betrouwbaar voor gespierde personen.
-Je hebt een gespierd lichaam met een BMI van 31.0 maar deze index is niet betrouwbaar voor gespierde personen.
-Je hebt een BMI van 20.8 en dus een gezond gewicht.
-Je hebt een BMI van 18.5 en dus een ondergewicht.
-Je hebt een BMI van 23.8 en dus een gezond gewicht.
-Je hebt een BMI van 27.1 en dus een overgewicht.
+Je hebt een VO2max van 43.2 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 33.2 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 47.2 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 29.0 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 38.1 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 53.4 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 65.5 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 62.6 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 43.6 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 24.9 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 16.4 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 51.5 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 31.2 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 24.9 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 37.5 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 20.7 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 61.4 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 25.1 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 28.9 ml/kg/min en dus een goede conditie.
+Je hebt een VO2max van 38.4 ml/kg/min en dus een goede conditie.
 --------------------------------------------------
-tab name: Body Mass Index
+tab name: VO2max
 python input without prompt: true
 block count: multi
 input block size: 3
