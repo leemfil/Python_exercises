@@ -9,8 +9,8 @@ Gemiddeld gesproken hebben mannen een VO<sub>2</sub>max tussen de 35 en 40 ml/kg
 <br>
 <table>
      <tr>
-          <th><div class="dodona-centered-group"><img src="media/VO2max_waarderingen_mannen.png" width="514" height="288"></div></th>
-          <th><div class="dodona-centered-group"><img src="media/VO2max_waarderingen_vrouwen.png" width="514" height="288"></div></th>
+          <th><div class="dodona-centered-group"><img src="media/VO2max_waarderingen_mannen.png" width="411" height="231"></div></th>
+          <th><div class="dodona-centered-group"><img src="media/VO2max_waarderingen_vrouwen.png" width="411" height="231"></div></th>
      </tr>
 </table>
 <br>
