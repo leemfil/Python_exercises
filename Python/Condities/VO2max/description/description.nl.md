@@ -27,7 +27,7 @@ waarbij $d$<sub>12</sub> de afstand in meter die men aflegt in 12 minuten.
 
 Schrijf een programma dat:
 
-- de afstand $d$<sub>12</sub> in meter vraagt,
+- de afstand $$d$$<sub>12</sub> in meter vraagt,
 - het geslacht vraagt,
 -  de leeftijd vraagt,
 - de VO<sub>2</sub>max schatting op 1 cijfer na de komma berekent
