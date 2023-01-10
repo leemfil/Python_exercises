@@ -36,7 +36,7 @@ Schrijf een programma dat:
 ### Invoer
 
 - De afstand afgelegd in 12 minuten in meter.
-- Het geslacht.
+- Het geslacht: man/vrouw.
 - De leeftijd.
 
 ### Uitvoer
