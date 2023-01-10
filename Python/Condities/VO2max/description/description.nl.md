@@ -21,7 +21,7 @@ Een methode om de VO<sub>2</sub>max te schatten maakt gebruik van de coopertest.
 <div class="dodona-centered-group"><img src="media/form_vo2max.png" width="190" height="62"></div>
 <br>
 
-waarbij $d$<sub>12</sub> de afstand in meter die men aflegt in 12 minuten.
+waarbij $$d$$<sub>12</sub> de afstand in meter die men aflegt in 12 minuten.
 
 ### Opgave
 
