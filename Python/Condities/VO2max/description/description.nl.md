@@ -18,7 +18,7 @@ Gemiddeld gesproken hebben mannen een VO<sub>2</sub>max tussen de 35 en 40 ml/kg
 Een methode om de VO<sub>2</sub>max te schatten maakt gebruik van de coopertest. Bij de coopertest is het de bedoeling dat je in 12 minuten een zo groot mogelijke afstand aflegt. Met behulp van de afgelegde afstand kan je dan met onderstaande formule de VO<sub>2</sub>max benaderen.:
 
 <br>  
-<div class="dodona-centered-group"><img src="media/form_vo2max.png" width="237" height="78"></div>
+<div class="dodona-centered-group"><img src="media/form_vo2max.png" width="190" height="62"></div>
 <br>
 
 waarbij $d$<sub>12</sub> de afstand in meter die men aflegt in 12 minuten.
