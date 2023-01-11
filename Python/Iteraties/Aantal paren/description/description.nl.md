@@ -1,9 +1,4 @@
-Bij het verwerken van data moet er dikwijls gezocht worden naar een bepaalde waarde in de reeks.  
-Om het belang van de waarde te bepalen zoeken we hoeveel keer ze voorkomt in de reeks.
-
-<br>  
-<div class="dodona-centered-group"><img src="media/hoogste_waarde.png" width="324" height="172"></div>
-<br>
+In een reeks getallen zoeken we naar twee dezelfde opeenvolgende getallen. Twee dezelfde opeenvolgende getallen noemen we een paar.
 
 ### Opgave
 
@@ -11,8 +6,10 @@ Schrijf een programma dat:
 
 - vraag aan de gebruiker om gehele getallen in te voeren,
 - de reeks wordt beëindigd bij een getal dat kleiner is als -10,
-- zoek hoeveel keer de hoogste waarde in de reeks voorkomt,
+- zoek hoeveel paren delfde opeenvolgende getallen voorkomen in de reeks,
 - en beeld deze waarde af op het scherm. 
+
+opmerking: Dezelfde getallen komen geen 3 maal achter elkaar voor in de reeksen.
 
 ### Invoer
 
@@ -21,11 +18,11 @@ Schrijf een programma dat:
 
 ### Uitvoer
 
-Hoeveel keer de hoogste waarde voorkomt in de reeks, in de volgende zin:
+Hoeveel paren dezelfde opeenvolgende getallen voorkomen, in de volgende zin:
 
-     De hoogst waarde is x en komt y keer voor in de reeks.
+     Het aantal paren dezelfde getallen is gelijk aan x.
      
-x is de hoogste waarde en y het aantal keer dat x voorkomt in de reeks.
+x is het aantal paren die voorkomen in de reeks.
 
 ### Voorbeeld
 
@@ -34,10 +31,13 @@ x is de hoogste waarde en y het aantal keer dat x voorkomt in de reeks.
      2
      4
      3
+     3
      5
      5
      4
      5
+     7
+     7
      1
      -20
 
