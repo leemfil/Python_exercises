@@ -39,8 +39,8 @@ x is het aantal paren die voorkomen in de reeks.
      7
      7
      1
-     -20
+     -15
 
 **Uitvoer**
 
-     De hoogst waarde is 5 en komt 3 keer voor in de reeks.
+     Het aantal paren dezelfde getallen is gelijk aan 3.
