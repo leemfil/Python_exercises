@@ -9,8 +9,8 @@ Gemiddeld gesproken hebben mannen een VO<sub>2</sub>max tussen de 35 en 40 ml/kg
 <br>
 <table>
      <tr>
-          <th><div class="dodona-centered-group"><img src="media/VO2max_waarderingen_mannen.png" width="411" height="231"></div></th>
-          <th><div class="dodona-centered-group"><img src="media/VO2max_waarderingen_vrouwen.png" width="411" height="231"></div></th>
+          <th><div class="dodona-centered-group"><img src="media/VO2max_mannen.png" width="411" height="125"></div></th>
+          <th><div class="dodona-centered-group"><img src="media/VO2max_vrouwen.png" width="411" height="125"></div></th>
      </tr>
 </table>
 <br>
@@ -29,7 +29,6 @@ Schrijf een programma dat:
 
 - de afstand $$d$$<sub>12</sub> in meter vraagt,
 - het geslacht vraagt,
--  de leeftijd vraagt,
 - de VO<sub>2</sub>max schatting op 1 cijfer na de komma berekent
 - en vervolgens de juiste boodschap op het scherm zet afhankelijk van het geslacht en de leeftijd.
 
@@ -37,7 +36,6 @@ Schrijf een programma dat:
 
 - De afstand afgelegd in 12 minuten in meter.
 - Het geslacht: man/vrouw.
-- De leeftijd.
 
 ### Uitvoer
 
@@ -54,7 +52,6 @@ en \<waardering\> door de juiste waardering uit de tabel: "slechte", "gemiddelde
 
      2450
      man
-     45
 
 **Uitvoer**
 
@@ -64,7 +61,6 @@ en \<waardering\> door de juiste waardering uit de tabel: "slechte", "gemiddelde
 
      2000
      vrouw
-     29
 
 **Uitvoer**
 
