@@ -1,35 +1,36 @@
-De hoogst waarde is 5 en komt 3 keer voor in de reeks.
-De hoogst waarde is 7 en komt 5 keer voor in de reeks.
-De hoogst waarde is -2 en komt 2 keer voor in de reeks.
-De hoogst waarde is 5 en komt 2 keer voor in de reeks.
-De hoogst waarde is 5 en komt 3 keer voor in de reeks.
-De hoogst waarde is 8 en komt 1 keer voor in de reeks.
-De hoogst waarde is 5 en komt 3 keer voor in de reeks.
-De hoogst waarde is 5 en komt 1 keer voor in de reeks.
-De hoogst waarde is 10 en komt 3 keer voor in de reeks.
-De hoogst waarde is 4 en komt 4 keer voor in de reeks.
-De hoogst waarde is 5 en komt 3 keer voor in de reeks.
-De hoogst waarde is 5 en komt 1 keer voor in de reeks.
-De hoogst waarde is 4 en komt 3 keer voor in de reeks.
-De hoogst waarde is 13 en komt 4 keer voor in de reeks.
-De hoogst waarde is 5 en komt 4 keer voor in de reeks.
-De hoogst waarde is 5 en komt 2 keer voor in de reeks.
-De hoogst waarde is 5 en komt 1 keer voor in de reeks.
-De hoogst waarde is 11 en komt 3 keer voor in de reeks.
-De hoogst waarde is 5 en komt 2 keer voor in de reeks.
-De hoogst waarde is 5 en komt 3 keer voor in de reeks.
-De hoogst waarde is 4 en komt 1 keer voor in de reeks.
-De hoogst waarde is 5 en komt 1 keer voor in de reeks.
-De hoogst waarde is 5 en komt 1 keer voor in de reeks.
-De hoogst waarde is 16 en komt 2 keer voor in de reeks.
-De hoogst waarde is 5 en komt 6 keer voor in de reeks.
-De hoogst waarde is 5 en komt 5 keer voor in de reeks.
-De hoogst waarde is 9 en komt 2 keer voor in de reeks.
-De hoogst waarde is 5 en komt 2 keer voor in de reeks.
-De hoogst waarde is 5 en komt 3 keer voor in de reeks.
-De hoogst waarde is 14 en komt 1 keer voor in de reeks.
+Het aantal paren dezelfde getallen is gelijk aan 3.
+Het aantal paren dezelfde getallen is gelijk aan 3.
+Het aantal paren dezelfde getallen is gelijk aan 4.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 3.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 3.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 0.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 0.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 3.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 4.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 3.
+Het aantal paren dezelfde getallen is gelijk aan 2.
+Het aantal paren dezelfde getallen is gelijk aan 0.
+Het aantal paren dezelfde getallen is gelijk aan 1.
+Het aantal paren dezelfde getallen is gelijk aan 0.
+Het aantal paren dezelfde getallen is gelijk aan 4.
 --------------------------------------------------
-tab name: Aantal keer hoogste waarde
+tab name: Aantal paren
 python input without prompt: true
 block count: multi
 input block size: ends with 
