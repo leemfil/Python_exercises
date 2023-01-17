@@ -29,16 +29,16 @@ Een tekst bestaande uit 2 zinnen.
     Hallo-wereld-!-Hoe-gaat-het-ermee-? 
 
 **Uitvoer**
-    
-   Hallo wereld ! Hoe gaat het ermee ?  
-   Hallo wereld ! Hoe gaat het ermee ?  
-   Hallo wereld! Hoe gaat het ermee?  
-   Hallo Wereld!  
-   Hoe gaat het ermee?  
-   Hallo  
-   wereld!  
-   Hoe  
-   gaat  
-   het  
-   ermee?
+
+    Hallo wereld ! Hoe gaat het ermee ?  
+    Hallo wereld ! Hoe gaat het ermee ?  
+    Hallo wereld! Hoe gaat het ermee?  
+    Hallo Wereld!  
+    Hoe gaat het ermee?  
+    Hallo  
+    wereld!  
+    Hoe  
+    gaat  
+    het  
+    ermee?
    
