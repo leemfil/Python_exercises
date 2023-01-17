@@ -1,29 +1,44 @@
 ### Opdracht
 
-Tel in een tekst alle hoofdletters en voeg na elke hoolfdletter een * toe aan de tekst. 
-Tel ook het aantal cijfers in de tekst. Denk eraan dat een getal uit meerdere cijfers kan bestaan bv. 345 bestaat uit 3 cijfers.
+Vraag een tekst aan de grbuiker.
+Wijzig een tekst die bestaat uit 2 zinnen op de volgende manieren:
+
+1. Vervang alle "-" door een spatie met de replace methode.
+2. Doe hetzelfde maar nu met de split en join methoden.
+3. Verwijder de spatie voor de leestekens met de replace methode.
+4. Deel de tekst op in 2 aparte zinnen met de find methode. En beeld ze onder elkaar af op het scherm.
+5. Splits de tekst in woorden en beeld elk woord af op een aparte regel.  
+Leestekens mogen aan de woorden blijven vastzitten.
 
 ### Invoer
 
-Een tekst.
+Een tekst bestaande uit 2 zinnen.
 
 ### Uitvoer
 
-* Het aantal hoofdletters in de tekst. 
-* Het aantal cijfers in de tekst.
-* De tekst met telkens een * toegevoegd na elke hoofdletter.
+* Tekst met spaties tussen de woorden. 
+* Tekst met spaties tussen de woorden.
+* Tekst zonder spaties voor de leestekens.
+* 2 zinnen onder elkaar.
+* Aparte woorden onder elkaar.
 
 ### Voorbeeld
 
 **Invoer**
     
-    De mannetjes van de Galápagosreuzenschildpad kunnen tot 1,2 meter lang worden. Deze massieve Galápagosreuzenschildpad 
-    worden meer dan 100 jaar en leven rond de Galápagoseilanden. Het dier heeft een lange hals en stevige kaken, waarmee ze 
-    allerlei soorten eten kunnen kauwen. Zoals 5 verschillende soorten cactussen.
+    Hallo-wereld-!-Hoe-gaat-het-ermee-? 
 
 **Uitvoer**
     
-    Er zijn 7 hoofdletters en 6 cijfers in de tekst.
-    D*e mannetjes van de  G*alápagosreuzenschildpad kunnen tot 1,2 meter lang worden. D*eze massieve G*alápagosreuzenschildpad 
-    worden meer dan 100 jaar en leven rond de G*alápagoseilanden. H*et dier heeft een lange hals en stevige kaken, waarmee ze 
-    allerlei soorten eten kunnen kauwen. Z*oals 5 verschillende soorten cactussen.
+   Hallo wereld ! Hoe gaat het ermee ?
+   Hallo wereld ! Hoe gaat het ermee ?
+   Hallo wereld! Hoe gaat het ermee?
+   Hallo Wereld!
+   Hoe gaat het ermee?
+   Hallo
+   wereld!
+   Hoe
+   gaat
+   het
+   ermee?
+   
