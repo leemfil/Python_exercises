@@ -26,17 +26,17 @@ Een tekst bestaande uit 2 zinnen.
 
 **Invoer**
     
-    Hallo-wereld-!-Hoe-gaat-het-ermee-? 
+    Hallo-wereld-.-Hoe-gaat-het-ermee-? 
 
 **Uitvoer**
 
-    Hallo wereld ! Hoe gaat het ermee ?  
-    Hallo wereld ! Hoe gaat het ermee ?  
-    Hallo wereld! Hoe gaat het ermee?  
-    Hallo Wereld!  
+    Hallo wereld . Hoe gaat het ermee ?  
+    Hallo wereld . Hoe gaat het ermee ?  
+    Hallo wereld. Hoe gaat het ermee?  
+    Hallo Wereld.  
     Hoe gaat het ermee?  
     Hallo  
-    wereld!  
+    wereld.
     Hoe  
     gaat  
     het  
