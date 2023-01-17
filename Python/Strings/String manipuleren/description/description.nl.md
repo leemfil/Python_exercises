@@ -30,15 +30,15 @@ Een tekst bestaande uit 2 zinnen.
 
 **Uitvoer**
     
-   Hallo wereld ! Hoe gaat het ermee ?
-   Hallo wereld ! Hoe gaat het ermee ?
-   Hallo wereld! Hoe gaat het ermee?
-   Hallo Wereld!
-   Hoe gaat het ermee?
-   Hallo
-   wereld!
-   Hoe
-   gaat
-   het
+   Hallo wereld ! Hoe gaat het ermee ?  
+   Hallo wereld ! Hoe gaat het ermee ?  
+   Hallo wereld! Hoe gaat het ermee?  
+   Hallo Wereld!  
+   Hoe gaat het ermee?  
+   Hallo  
+   wereld!  
+   Hoe  
+   gaat  
+   het  
    ermee?
    
