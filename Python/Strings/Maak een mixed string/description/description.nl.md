@@ -1,29 +1,34 @@
 ### Opdracht
 
-Tel in een tekst alle hoofdletters en voeg na elke hoolfdletter een * toe aan de tekst. 
-Tel ook het aantal cijfers in de tekst. Denk eraan dat een getal uit meerdere cijfers kan bestaan bv. 345 bestaat uit 3 cijfers.
+Schrijf een programma dat een nieuwe woord maakt met behupl van 2 woorden van 3 letters. Het nieuwe woord start met de 1ste letter van het 1ste woord. Gevolgd door de laatste letter van het 2de woord. Daarna komt de 2de letter van het 1ste woord en dan de voorlaatste letter van het 2de woord. Dan nemen we nog de 3de letter van het woord en als laatste nog de 1ste letter van het 2de woord. Maw we draaien het 2de woord om en nemen afwisselend een letter van het 1ste woord en dan van het 2de omgekeerde woord.
 
 ### Invoer
 
-Een tekst.
+2 woorden van 3 letters
 
 ### Uitvoer
 
-* Het aantal hoofdletters in de tekst. 
-* Het aantal cijfers in de tekst.
-* De tekst met telkens een * toegevoegd na elke hoofdletter.
+Woord gevormd door afwisselend letters te nemen van het 1ste woord en het omgekeerde 2de woord.  
+Zet het woord in de zin: Het gemengde woord is <woord>.
 
-### Voorbeeld
+<woord> vervangen we door het nieuwe woord.
+
+### Voorbeelden
 
 **Invoer**
     
-    De mannetjes van de Galápagosreuzenschildpad kunnen tot 1,2 meter lang worden. Deze massieve Galápagosreuzenschildpad 
-    worden meer dan 100 jaar en leven rond de Galápagoseilanden. Het dier heeft een lange hals en stevige kaken, waarmee ze 
-    allerlei soorten eten kunnen kauwen. Zoals 5 verschillende soorten cactussen.
+    lat
+    pop
 
 **Uitvoer**
     
-    Er zijn 7 hoofdletters en 6 cijfers in de tekst.
-    D*e mannetjes van de  G*alápagosreuzenschildpad kunnen tot 1,2 meter lang worden. D*eze massieve G*alápagosreuzenschildpad 
-    worden meer dan 100 jaar en leven rond de G*alápagoseilanden. H*et dier heeft een lange hals en stevige kaken, waarmee ze 
-    allerlei soorten eten kunnen kauwen. Z*oals 5 verschillende soorten cactussen.
+    Het gemengde woord is lpaotp.
+    
+**Invoer**
+    
+    dag
+    zak
+
+**Uitvoer**
+    
+    Het gemengde woord is dkaagz.
