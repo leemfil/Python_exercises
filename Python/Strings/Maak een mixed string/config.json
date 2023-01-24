@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Hoofdletters tellen"
+      "nl": "Maak een mixed string"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "JPbS7h86UfXHCpcGU7kSnZfgf4g2X--vY9Vygk_rV_qPkGQeJ8acT8TukeG4QR4m",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
