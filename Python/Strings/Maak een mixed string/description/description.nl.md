@@ -9,12 +9,12 @@ Schrijf een programma dat een nieuwe woord maakt met behupl van 2 woorden van 3 
 ### Uitvoer
 
 Woord gevormd door afwisselend letters te nemen van het 1ste woord en het omgekeerde 2de woord.  
-Zet het woord in de zin: Het gemengde woord is <woord>.
+Zet het woord in de zin: Het gemengde woord is ...
 
-<woord> vervangen we door het nieuwe woord.
+Vervang de ... door het nieuwe woord.
 
 ### Voorbeelden
-
+   
 **Invoer**
     
     lat
