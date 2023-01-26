@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "String manipuleren"
+      "nl": "Strings aanpassen"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "hUGs4J-ahadsBkiasnYQM3gqptiin_-9cCD73XUNQz-2tTGQah9BHkxdJiQUBMCV",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
