@@ -50,7 +50,7 @@ Leestekens mogen aan de woorden blijven vastzitten.
 
     z12345.zavo.be
     Sinds - 2020 - is - de - gasprijs - 2 - keer - duurder - geworden.
-    SindS 2020 iS de gasPrijS 2 Keer duuREder gewOrdeN.
+    SindS 2020 iS de gasPrijS 2 Keer duuRder gewOrdeN.
     Het aantal cijfers in de tekst is 5.
     r nie
 
