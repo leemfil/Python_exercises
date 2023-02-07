@@ -6,7 +6,7 @@ Schrijf een programma dat:
 
 1. Wis eerste en elk 3de teken van tekst 1.
 2. Tel het aantal kleine letters e, r en t vanaf de 6de letter in tekst 2.
-3. Vervang elke kleine letter e door een hoofdletter E in tekst 1.
+3. Vervang elke kleine letter e door een hoofdletter E in tekst 1 zonder de replace methode te gebruiken.
 4. Verdeel tekst 2 in 2 delen door na de eerste t een nieuwe regel te beginnen.
 
 ### Invoer
@@ -17,7 +17,7 @@ Schrijf een programma dat:
 
 * Tekst 1 zonder eerste en elk 3de teken.
 * "In tekst 2 is het aantal e's gelijk aan ..., het aantal r's aan ... en het aantal t's aan ...."
-* Tekst 1 met elke "e" vervangen door "E".
+* Tekst 1 met elke "e" vervangen door "E" zonder replace.
 * 1ste deel van tekst 1.  
   2de deel van tekst 2 na de letter t.
 
