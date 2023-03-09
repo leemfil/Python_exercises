@@ -1,6 +1,6 @@
 ### Opdracht
 
-Ga op zoek naar het langste cijfer in een tekst en geef de positie van het cijfer in de reeks zonder een teller variabele te gebruiken.
+Ga op zoek naar het langste cijfer in een tekst en geef de positie van het cijfer in de reeks zonder een teller variabele in de lus te gebruiken.
 
 ### Invoer
 
@@ -11,7 +11,7 @@ Een tekst van cijfers.
 * Het langste cijfer in een tekst. Indien er meerdere zijn neem je het eerste.
 * De positie van het langste cijfer in de reeks. Als er meerdere langste cijfers zijn geef je de positie van het laatste langste cijfer weer.
 
-opmerking: **Gebruik geen teller variabele** om de positie van het langste cijfer te bepalen.
+opmerking: **Gebruik geen teller variabele in de lus** om de positie van het langste cijfer te bepalen.
 
 ### Voorbeeld
 
