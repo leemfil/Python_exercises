@@ -18,7 +18,7 @@ Een getal groter dan 0.
 ### Uitvoer
 
 Een reeks getallen in een lijst die aftellen naar Start!  
-Dezelfde reeks maar zonder de "Start".
+Dezelfde reeks maar zonder de "Start!".
 De omgekeerde reeks.
 
 ### Voorbeelden
