@@ -1,0 +1,10 @@
+woord: Galápagosreuzenschildpad, aantal: 2 en even
+woord: buideldieren, aantal: 1 en oneven
+woord: Oost-Vlaanderen, aantal: 1 en oneven
+woord: oorspronkelijk, aantal: 2 en even
+--------------------------------------------------
+tab name: Langste woord
+python input without prompt: true
+block count: multi
+input block size: 1 
+output block size: 1
