@@ -21,5 +21,5 @@ opmerking: **Gebruik geen teller variabele** om de positie van het langste cijfe
     
 **Uitvoer**
      
-     Het lengste cijfer is 254895412.
+     Het langste cijfer is 254895412.
      De positie van het langste cijfer is 13.
