@@ -2,10 +2,10 @@ Ilyas Arbib
 Betty
 Fido
 dict_keys(['voornaam', 'achternaam', 'echtgenoot', 'kinderen', 'huisdieren', 'leeftijd'])
-dict_values(['Ilyas', 'Arbib', 'Ava', ['Ralph', 'Betty', 'Joey'], {'hond': 'Fido', 'kat': 'Sox'}, 50])
+dict_values(['Ilyas', 'Arbib', 'Sofia', ['Ralph', 'Betty', 'Joey'], {'hond': 'Fido', 'kat': 'Sox'}, 50])
 ('voornaam', 'Ilyas')
 ('achternaam', 'Arbib')
-('echtgenoot', 'Ava')
+('echtgenoot', 'Sofia')
 ('kinderen', ['Ralph', 'Betty', 'Joey'])
 ('huisdieren', {'hond': 'Fido', 'kat': 'Sox'})
 ('leeftijd', 50)
