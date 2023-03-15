@@ -1,6 +1,11 @@
 ### Opdracht
 
-Haal alle getallen langer dan 3 cijfers uit een lijst en zet in een nieuwe lijst.
+Schrijf een programma dat:
+* alle getallen langer dan 3 cijfers uit een lijst haalt en in een nieuwe lijst zet,
+* de volgorde van de getallen in de nieuwe lijst omkeert,
+* de positie in de nieuwe lijst van het eerste getal met minstens 4 cijfers uit de oorspronkelijke lijst,
+* het eerste getal van minstens 4 cijfers uit de oorspronkelijke lijst afbeeldt en verwijdert uit de lijst, 
+* de getallen uit de nieuwe lijst onder elkaar afbeeldt.
 
 ### Invoer
 
@@ -8,18 +13,29 @@ Een tekst van getallen.
 
 ### Uitvoer
 
-* Het langste woord in een tekst. Indien er meerdere zijn neem je het eerste.
-* Aantal keer dat het langste woord in de tekst staat en geef aan of het een even of oneven aantal letters bevat.
+* Een lijst van getallen bestaande uit minstens 4 cijfers.
+* Positie van het eerste getal uit oorspronkelijke lijst met minstens 4 cijfers in de nieuwe lijst.
+* Het eerste getal uit oorspronkelijke lijst met minstens 4 cijfers.
+* De getallen uit de nieuwe lijst onder elkaar.
 
 ### Voorbeeld
 
 **Invoer**
     
-     De mannetjes van de  Galápagosreuzenschildpad kunnen tot 1,2 meter lang worden. Deze massieve  Galápagosreuzenschildpad 
-     worden meer dan 100 jaar. Het dier heeft een lange hals en stevige kaken, waarmee ze allerlei soorten eten kunnen kauwen. 
-     Zoals cactussen.
+     25 8 596 258125 25 6895 253 5 98563 25472 20 10 5 48569 2563 857 14256 2 56987 425369 2582414752 25 2
     
 **Uitvoer**
      
-     woord: Galápagosreuzenschildpad, aantal: 2 en even
-    
+     [258125, 6895, 98563, 25472, 48569, 2563, 14256, 56987, 425369, 2582414752]
+     4
+     258125
+     2582414752
+     425369
+     56987
+     14256
+     2563
+     48569
+     25472
+     98563
+     6895
+     258125
