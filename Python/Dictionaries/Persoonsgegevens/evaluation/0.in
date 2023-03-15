@@ -1,2 +1,5 @@
-("voornaam","Ilyas") ("achternaam","Arbib") ("echtgenoot","Ava") ("kinderen",["Ralph", "Betty", "Joey"]) ("huisdieren",{"hond": "Fido", "kat": "Sox"})
- 
+Ilyas
+Arbib
+Ava
+["Ralph", "Betty", "Joey"]
+{"hond": "Fido", "kat": "Sox"}
