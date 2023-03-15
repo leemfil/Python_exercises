@@ -11,7 +11,7 @@ dict_values(['Ilyas', 'Arbib', 'Sofia', ['Ralph', 'Betty', 'Joey'], {'hond': 'Fi
 ('leeftijd', 50)
 None
 Sofia
-{'voornaam':'Ilyas', 'achternaam': 'Arbib', 'kinderen': ['Ralph', 'Betty', 'Joey'], 'huisdieren': {'hond': 'Fido', 'kat': 'Sox', 'leeftijd': 50}}
+{'voornaam': 'Ilyas', 'achternaam': 'Arbib', 'kinderen': ['Ralph', 'Betty', 'Joey'], 'huisdieren': {'hond': 'Fido', 'kat': 'Sox', 'leeftijd': 50}}
 --------------------------------------------------
 tab name: Persoonsgegevens
 python input without prompt: true
