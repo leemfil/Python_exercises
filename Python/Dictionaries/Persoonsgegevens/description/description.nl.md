@@ -1,48 +1,61 @@
 ### Opdracht
 
-Bij polsstokhoogspringen probeert men met behulp van een flexibele stok zo hoog mogelijk over een dwarslat te springen. Deze lat is zo geplaatst dat zij bij aanraking naar beneden valt. Eénmaal de atleet over de lat gaat zonder dat ze valt, mag hij naar de volgende hoogte. Atleten worden uitgesloten na drie opeenvolgende mislukte pogingen, op welke hoogte dan ook.
+Alle gegevens van een persoon worden opgeslagen in een dictionary. We beheren de gegevens zodat ze up-to-date blijven.
 
-Telkens de atleet een sprong maakt voeren we de hoogte in indien hij erover gaat of voeren we een 'X' in bij een gefaalde poging.  
-Bepaal het aantal keer dat de polsstokspringer over de lat is gegaan en hoeveel keer hij gefaald heeft.  
+Schrijf een programma dat:
+* een lijst van tuples vraagt aan de gebruiker,  
+* elke tuple uit de lijst toevoegt aan de dictionary,  
+* de "voornaam" en "achternaam" uit de dictionary haalt en afbeeldt,
+* de leeftijd toevoegt aan de dictionary met als key "leeftijd" en als value 50,
+* de naam van de "echtgenoot" aanpast naar "Sofia",
+* het 2de kind uit de lijst kinderen haalt en afbeeldt,
+* de naam van de "hond" uit "huisdieren" haalt en afbeeldt,
+* de keys uit de dictionary haalt en afbeeldt,
+* de values uit de dictionary haalt en afbeeldt,
+* de items uit de dictionary haalt en ze onder elkaar afbeeldt,
+* de "geboorteplaats" uit de dictionary haalt met de get() methode en afbeeldt,
+* de naam van de echtgenoot verwijdert uit de dictionary en deze naam afbeeldt,
+* de hele dictionary afbeeldt. 
 
 ### Invoer
 
-Verschillende hoogten en gefaalde pogingen na elkaar. Bij 3 gefaalde pogingen stopt de invoer.
+Een lijst van tuples. Zie voorbeeld.
 
 ### Uitvoer
 
-* Het aantal keer dat de atleet over de lat is gegaan en het aantal keer dat hij gefaald heeft.
-* Verdeel de hoogte tussen 5,00 m en 6,20 m in stukken van 20 cm. Geef per deel van 20 cm aan hoeveel keer hij erover is gegaan.
+* voornaam achternaam
+* naam van 2de kind
+* naam van de hond
+* keys
+* values
+* items onder elkaar
+* geboorteplaats
+* naam echtgenoot
+* hele dictionary
 
 ### Voorbeeld
 
 **Invoer**
-    
-    5,35
-    5,50
-    5,60
-    X
-    5,70
-    X
-    X
-    5,75
-    X
-    X
-    X
-    
+
+    [("voornaam", "Ilyas"),  
+    ("achternaam", "Arbib"),  
+    ("echtgenoot", "Ava"),  
+    ("kinderen", ["Ralph", "Betty", "Joey"]),  
+    ("huisdieren", {"hond": "Fido", "kat": "Sox"})]
 
 **Uitvoer**
     
-    De atleet is 5 keer over de lat gegaan.
-    En hij heeft 6 keer gefaald.
-    
-    5,00 - 5,19: 0
-    5,20 - 5,39: 1
-    5,40 - 5,59: 1
-    5,60 - 5,79: 3
-    5,80 - 5,99: 0
-    6,00 - 6,19: 0
-    
-     
-  
-   
+    Ilyas Arbib  
+    Betty
+    Fido
+    dict_keys(["voornaam", "achternaam", "echtgenoot", "kinderen", huisdieren", "leeftijd"])  
+    dict_values(["Ilyas", "Arbib", "Ava", ["Ralph", "Betty", "Joey"], {"hond": "Fido", "kat": "Sox"}, 50])
+    ("voornaam", "Ilyas")  
+    ("achternaam", "Arbib")  
+    ("echtgenoot", "Ava")  
+    ("kinderen", ["Ralph", "Betty", "Joey"])  
+    ("huisdieren", {"hond": "Fido", "kat": "Sox"})
+    ("leeftijd", 50)
+    None
+    Sofia
+    {"voornaam":"Ilyas", "achternaam": "Arbib", "kinderen": ["Ralph", "Betty", "Joey"], "huisdieren": {"hond": "Fido", "kat": "Sox", "leeftijd": 50}}
