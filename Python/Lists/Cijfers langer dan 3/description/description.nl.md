@@ -38,4 +38,3 @@ Een tekst van getallen.
      25472
      98563
      6895
-     258125
