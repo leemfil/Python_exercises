@@ -16,5 +16,5 @@ Sofia
 tab name: Persoonsgegevens
 python input without prompt: true
 block count: multi
-input block size: 1
+input block size: 5
 output block size: 14
