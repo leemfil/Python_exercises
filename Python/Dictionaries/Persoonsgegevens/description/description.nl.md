@@ -3,8 +3,8 @@
 Alle gegevens van een persoon worden opgeslagen in een dictionary. We beheren de gegevens zodat ze up-to-date blijven.
 
 Schrijf een programma dat:
-* een lijst van tuples vraagt aan de gebruiker,  
-* elke tuple uit de lijst toevoegt aan de dictionary,  
+* een string vraagt aan de gebruiker waarin meerdere tuples zitten,  
+* elke tuple uit de string toevoegt aan de dictionary,  
 * de "voornaam" en "achternaam" uit de dictionary haalt en afbeeldt,
 * de leeftijd toevoegt aan de dictionary met als key "leeftijd" en als value 50,
 * de naam van de "echtgenoot" aanpast naar "Sofia",
@@ -37,11 +37,7 @@ Een lijst van tuples. Zie voorbeeld.
 
 **Invoer**
 
-    [("voornaam", "Ilyas"),  
-    ("achternaam", "Arbib"),  
-    ("echtgenoot", "Ava"),  
-    ("kinderen", ["Ralph", "Betty", "Joey"]),  
-    ("huisdieren", {"hond": "Fido", "kat": "Sox"})]
+    ("voornaam", "Ilyas"),("achternaam", "Arbib"),("echtgenoot", "Ava"),("kinderen", ["Ralph", "Betty", "Joey"]),("huisdieren", {"hond": "Fido", "kat": "Sox"})
 
 **Uitvoer**
     
