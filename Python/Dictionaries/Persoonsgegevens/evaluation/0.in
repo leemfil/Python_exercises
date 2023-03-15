@@ -1,1 +1,1 @@
-[("voornaam", "Ilyas"), ("achternaam", "Arbib"), ("echtgenoot", "Ava"), ("kinderen", ["Ralph", "Betty", "Joey"]), ("huisdieren", {"hond": "Fido", "kat": "Sox"})]
+("voornaam", "Ilyas"),("achternaam", "Arbib"),("echtgenoot", "Ava"),("kinderen", ["Ralph", "Betty", "Joey"]),("huisdieren", {"hond": "Fido", "kat": "Sox"})
