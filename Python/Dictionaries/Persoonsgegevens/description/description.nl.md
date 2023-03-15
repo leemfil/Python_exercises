@@ -3,7 +3,8 @@
 Alle gegevens van een persoon worden opgeslagen in een dictionary. We beheren de gegevens zodat ze up-to-date blijven.
 
 Schrijf een programma dat:
-* een string vraagt aan de gebruiker waarin meerdere tuples zitten,  
+* aan de gebruiker volgende gegevens vraagt:  
+voornaam, achternaam, echtgenoot, kinderen en huisdieren (kinderen is een list en huisdieren een dictionary),  
 * elke tuple uit de string toevoegt aan de dictionary,  
 * de "voornaam" en "achternaam" uit de dictionary haalt en afbeeldt,
 * de leeftijd toevoegt aan de dictionary met als key "leeftijd" en als value 50,
@@ -19,7 +20,7 @@ Schrijf een programma dat:
 
 ### Invoer
 
-Een lijst van tuples. Zie voorbeeld.
+
 
 ### Uitvoer
 
