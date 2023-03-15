@@ -58,4 +58,5 @@ Een lijst van tuples. Zie voorbeeld.
     ("leeftijd", 50)
     None
     Sofia
-    {"voornaam":"Ilyas", "achternaam": "Arbib", "kinderen": ["Ralph", "Betty", "Joey"], "huisdieren": {"hond": "Fido", "kat": "Sox", "leeftijd": 50}}
+    {"voornaam":"Ilyas", "achternaam": "Arbib", "kinderen": ["Ralph", "Betty", "Joey"],  
+    "huisdieren": {"hond": "Fido", "kat": "Sox", "leeftijd": 50}}
