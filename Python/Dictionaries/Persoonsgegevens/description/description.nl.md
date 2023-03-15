@@ -4,7 +4,8 @@ Alle gegevens van een persoon worden opgeslagen in een dictionary. We beheren de
 
 Schrijf een programma dat:
 * aan de gebruiker volgende gegevens vraagt:  
-voornaam, achternaam, echtgenoot, kinderen en huisdieren (kinderen is een list en huisdieren een dictionary),  
+voornaam, achternaam, echtgenoot, kinderen en huisdieren  
+(kinderen is een list en huisdieren zijn 1 list met keys en 1 list met corresponderende values),  
 * elke tuple uit de string toevoegt aan de dictionary,  
 * de "voornaam" en "achternaam" uit de dictionary haalt en afbeeldt,
 * de leeftijd toevoegt aan de dictionary met als key "leeftijd" en als value 50,
@@ -20,7 +21,12 @@ voornaam, achternaam, echtgenoot, kinderen en huisdieren (kinderen is een list e
 
 ### Invoer
 
-
+* voornaam
+* achternaam
+* naam van echtgenoot
+* lijst met kinderen
+* lijst met keys voor huisdieren
+* lijst met corresponderende namen voor huisdieren
 
 ### Uitvoer
 
@@ -41,8 +47,9 @@ voornaam, achternaam, echtgenoot, kinderen en huisdieren (kinderen is een list e
     Ilyas
     Arbib
     Ava
-    ["Ralph", "Betty", "Joey"]
-    {"hond": "Fido", "kat": "Sox"}
+    ['Ralph', 'Betty', 'Joey']
+    ['hond', 'kat']
+    ['Fido', 'Sox']
 
 **Uitvoer**
     
