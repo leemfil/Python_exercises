@@ -1,10 +1,10 @@
 ### Opdracht
 
-Ga op zoek naar het langste woord in een tekst en tel hoeveel keer dat het in de tekst voorkomt.
+Haal alle getallen langer dan 3 cijfers uit een lijst en zet in een nieuwe lijst.
 
 ### Invoer
 
-Een tekst.
+Een tekst van getallen.
 
 ### Uitvoer
 
