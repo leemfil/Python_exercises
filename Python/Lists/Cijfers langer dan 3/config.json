@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Langste woord"
+      "nl": "Cijfers langer dan 3"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "K-DBUbKaiGbBiMynZtKR4KiRuhdst7qPQEuKJruBzy3cQ_aJsPwGZrNkxIUxXDA4",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
