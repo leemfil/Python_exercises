@@ -37,7 +37,7 @@ Een lijst van tuples. Zie voorbeeld.
 
 **Invoer**
 
-    ("voornaam", "Ilyas"),("achternaam", "Arbib"),("echtgenoot", "Ava"),("kinderen", ["Ralph", "Betty", "Joey"]),("huisdieren", {"hond": "Fido", "kat": "Sox"})
+    ("voornaam", "Ilyas") ("achternaam", "Arbib") ("echtgenoot", "Ava") ("kinderen", ["Ralph", "Betty", "Joey"]) ("huisdieren", {"hond": "Fido", "kat": "Sox"})
 
 **Uitvoer**
     
