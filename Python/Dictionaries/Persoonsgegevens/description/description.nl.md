@@ -38,7 +38,11 @@ voornaam, achternaam, echtgenoot, kinderen en huisdieren (kinderen is een list e
 
 **Invoer**
 
-    ("voornaam", "Ilyas") ("achternaam", "Arbib") ("echtgenoot", "Ava") ("kinderen", ["Ralph", "Betty", "Joey"]) ("huisdieren", {"hond": "Fido", "kat": "Sox"})
+    Ilyas
+    Arbib
+    Ava
+    ["Ralph", "Betty", "Joey"]
+    {"hond": "Fido", "kat": "Sox"}
 
 **Uitvoer**
     
