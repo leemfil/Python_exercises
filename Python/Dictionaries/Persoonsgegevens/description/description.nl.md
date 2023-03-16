@@ -47,9 +47,9 @@ voornaam, achternaam, echtgenoot, kinderen en huisdieren
     Ilyas
     Arbib
     Ava
-    ['Ralph', 'Betty', 'Joey']
-    ['hond', 'kat']
-    ['Fido', 'Sox']
+    Ralph Betty Joey
+    hond kat
+    Fido Sox
 
 **Uitvoer**
     
