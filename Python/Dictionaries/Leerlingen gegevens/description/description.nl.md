@@ -1,6 +1,7 @@
 ### Opdracht
 
-Alle gegevens van een persoon worden opgeslagen in een dictionary. We beheren de gegevens zodat ze up-to-date blijven.
+Alle gegevens van een leerling worden opgeslagen in een dictionary.  
+We beheren de gegevens zodat ze up-to-date blijven.
 
 Schrijf een programma dat:
 * aan de gebruiker volgende gegevens vraagt:  
