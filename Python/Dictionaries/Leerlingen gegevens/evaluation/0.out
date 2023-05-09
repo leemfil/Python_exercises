@@ -25,3 +25,9 @@ Ava Sels
 2007
 dans
 67.8
+--------------------------------------------------
+tab name: Leerlingengegevens
+python input without prompt: true
+block count: multi
+input block size: 4
+output block size: 9
