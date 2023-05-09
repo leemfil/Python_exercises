@@ -12,7 +12,7 @@ Schrijf een functie die:
 ### Voorbeelden
 
     >>> naam_met_beginletter("P")
-    []
+    
     
     >>> naam_met_beginletter("K")
     9
