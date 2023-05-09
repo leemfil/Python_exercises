@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Polsstokspringen"
+      "nl": "Leerlingengegevens"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "-2Hg5dKRYM3rWXmWeNrE8a7a6NyKdcXCwW75GEnfcT3I7AU8HA3UJcZas5xHgjv-",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
