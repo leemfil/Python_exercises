@@ -9,10 +9,19 @@ Schrijf een functie die:
 - de namen met als eerste letter de beginletter,
 - een lijst van de geselecteerde namen teruggeeft.
 
+Schrijf een tweede functie die:
+- de naam_met_lengte heeft,
+- één parameter bezit die de lengte aangeeft,
+- de namen met de correcte lengte selecteert,
+- een lijst van de geselecteerde namen teruggeeft.
+
 ### Voorbeelden
 
     >>> naam_met_beginletter("P")
-    
+    ['Poppy', 'Phoebe', 'Penny']
     
     >>> naam_met_beginletter("K")
-    9
+    ['Keemiya', 'Katie', 'Kian', 'Khai', 'Kai', 'Karlis']
+    
+    >>> namen_met_lengte(9)
+    ['Charlotte', 'Elizabeth', 'Annabelle', 'Alexandra', 'Francesca', 'Alexander', 'Catherine', 'Sebastian', 'Frederick', 'Salahdeen']
