@@ -24,16 +24,14 @@ Schrijf een programma dat:
 ### Uitvoer
 
 * voornaam  
-  achternaam
-* gewicht
-* lijst van hobbies
+  achternaam  
+  gewicht  
+  lijst van hobbies
 * voornaam achternaam
-* 
-* values
-* items onder elkaar
-* geboorteplaats
-* naam echtgenoot
-* hele dictionary
+* 2006
+* 2007
+* eerste hobby
+* gewicht
 
 ### Voorbeeld
 
@@ -41,25 +39,17 @@ Schrijf een programma dat:
 
     Ilyas
     Arbib
-    Ava
-    Ralph Betty Joey
-    hond kat
-    Fido Sox
+    68.5
+    "voetbal gamen"
 
 **Uitvoer**
     
-    Ilyas Arbib  
-    Betty
-    Fido
-    dict_keys(["voornaam", "achternaam", "echtgenoot", "kinderen", huisdieren", "leeftijd"])  
-    dict_values(["Ilyas", "Arbib", "Ava", ["Ralph", "Betty", "Joey"], {"hond": "Fido", "kat": "Sox"}, 50])
-    ("voornaam", "Ilyas")  
-    ("achternaam", "Arbib")  
-    ("echtgenoot", "Ava")  
-    ("kinderen", ["Ralph", "Betty", "Joey"])  
-    ("huisdieren", {"hond": "Fido", "kat": "Sox"})
-    ("leeftijd", 50)
-    None
-    Sofia
-    {"voornaam":"Ilyas", "achternaam": "Arbib", "kinderen": ["Ralph", "Betty", "Joey"],  
-    "huisdieren": {"hond": "Fido", "kat": "Sox", "leeftijd": 50}}
+    Ilyas
+    Arbib
+    68.5
+    ["voetbal", "gamen"]
+    Ilyas Arbib
+    2006
+    2007
+    voetbal
+    73.5
