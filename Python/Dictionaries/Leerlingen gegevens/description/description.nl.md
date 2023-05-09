@@ -5,7 +5,7 @@ We beheren de gegevens zodat ze up-to-date blijven.
 
 Schrijf een programma dat:
 * aan de gebruiker volgende gegevens vraagt:  
-* voornaam, achternaam, gewicht en hobbies 
+* voornaam, achternaam, gewicht en hobbies en toevoegt aan een lege dictionary  
 (hobbies worden gegeven in één string gescheiden door een spatie),  
 * beeldt alle informatie uit de dictionary met behulp van een lus,  
 * de "voornaam" en "achternaam" uit de dictionary haalt en afbeeldt,
