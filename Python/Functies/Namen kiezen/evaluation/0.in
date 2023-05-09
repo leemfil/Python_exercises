@@ -1,14 +1,5 @@
->>> optellen(5, 10)
-45
+>>> naam_met_beginletter("P")
+['Poppy', 'Phoebe', 'Penny']
 
->>> optellen(2, 4)
-9
-
->>> optellen(7, 7)
-7
-
->>> optellen(3, 99)
-4947
-
->>> optellen(0, 1000)
-500500
+>>> naam_met_beginletter("K")
+['Keemiya', 'Katie', 'Kian', 'Khai', 'Kai', 'Karlis']
