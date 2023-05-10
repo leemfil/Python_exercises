@@ -1,5 +1,5 @@
->>> naam_met_beginletter("P")
+>>> namen_met_beginletter("P")
 ['Poppy', 'Phoebe', 'Penny']
 
->>> naam_met_beginletter("K")
+>>> namen_met_beginletter("K")
 ['Keemiya', 'Katie', 'Kian', 'Khai', 'Kai', 'Karlis']
