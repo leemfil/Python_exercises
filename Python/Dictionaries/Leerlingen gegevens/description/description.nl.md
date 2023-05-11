@@ -5,14 +5,14 @@ We beheren de gegevens zodat ze up-to-date blijven.
 
 Schrijf een programma dat:
 * aan de gebruiker volgende gegevens vraagt:  
-* voornaam, achternaam, gewicht en hobbies en toevoegt aan een lege dictionary  
+* voornaam, achternaam, massa en hobbies en toevoegt aan een lege dictionary  
 (hobbies worden gegeven in één string gescheiden door een spatie),  
 * beeldt alle informatie uit de dictionary met behulp van een lus,  
 * de "voornaam" en "achternaam" uit de dictionary haalt en afbeeldt,
 * het geboortejaar toevoegt aan de dictionary en de standwaarde 2006 invult en afbeeldt,
 * het geboortejaar aanpast naar 2007 en afbeeldt,
 * de eerste hobby uit de lijst afbeeldt,
-* 5,0 kg toevoegt aan het gewicht en afbeeldt.
+* 5,0 kg toevoegt aan het massa en afbeeldt.
 
 ### Invoer
 
@@ -31,7 +31,7 @@ Schrijf een programma dat:
 * 2006
 * 2007
 * eerste hobby
-* gewicht
+* massa
 
 ### Voorbeeld
 
