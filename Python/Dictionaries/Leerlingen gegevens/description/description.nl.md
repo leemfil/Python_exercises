@@ -40,7 +40,7 @@ Schrijf een programma dat:
     Ilyas
     Arbib
     68.5
-    "voetbal gamen"
+    voetbal gamen
 
 **Uitvoer**
     
