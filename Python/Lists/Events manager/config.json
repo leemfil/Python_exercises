@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "String manipuleren"
+      "nl": "Events manager"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "KDiRpJFTG96AUpr6CzSnHnI4urT_kzfZcNDE9XcjkJvPxauhBb6BJVQVdqHRzQ62",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
