@@ -1,48 +1,48 @@
-De 1ste lijst is ['zwemmen', 'galabal', 'festival', 'theater'].  
-De 2de lijst is ['voetbal'].  
-De 3de list is [].  
-zwemmen  
-theater  
-De 1ste lijst is ['galabal', 'zwemmen', 'festival', 'theater'].  
-De 2de lijst is ['themadag'].  
+De 1ste lijst is ['zwemmen', 'galabal', 'festival', 'theater'].
+De 2de lijst is ['voetbal'].
+De 3de list is [].
+zwemmen
+theater
+De 1ste lijst is ['galabal', 'zwemmen', 'festival', 'theater'].
+De 2de lijst is ['themadag'].
 De 3de list is ['voetbal'].
 
-De 1ste lijst is ['leerlingenraad', 'muziek', 'volleybal', 'eetdag', 'galabal', 'proclamatie', 'sportdag'].  
-De 2de lijst is ['wetenschapsbeurs'].  
-De 3de list is [].  
-leerlingenraad  
+De 1ste lijst is ['leerlingenraad', 'muziek', 'volleybal', 'eetdag', 'galabal', 'proclamatie', 'sportdag'].
+De 2de lijst is ['wetenschapsbeurs'].
+De 3de list is [].
+leerlingenraad
 eetdag
 sportdag
 De activiteit is al aanwezig in de 1ste lijst.
-De 1ste lijst is ['muziek', 'leerlingenraad', 'volleybal', 'eetdag', 'galabal', 'proclamatie'].  
-De 2de lijst is ['sportdag'].  
+De 1ste lijst is ['muziek', 'leerlingenraad', 'volleybal', 'eetdag', 'galabal', 'proclamatie']. 
+De 2de lijst is ['sportdag'].
 De 3de list is ['wetenschapsbeurs'].
 
-De 1ste lijst is ['quizavond, 'frisbee', 'toneel'].  
-De 2de lijst is ['basketbal'].  
-De 3de list is [].  
+De 1ste lijst is ['quizavond, 'frisbee', 'toneel'].
+De 2de lijst is ['basketbal'].
+De 3de list is [].
 qiuzavond
-De 1ste lijst is ['frisbee', 'quizavond, 'toneel'].  
-De 2de lijst is ['oudercontact'].  
+De 1ste lijst is ['frisbee', 'quizavond, 'toneel'].
+De 2de lijst is ['oudercontact'].
 De 3de list is ['basketbal'].
 
-De 1ste lijst is ['voorleesmiddag', 'lezing'].  
-De 2de lijst is ['themadag'].  
-De 3de list is [].  
+De 1ste lijst is ['voorleesmiddag', 'lezing'].
+De 2de lijst is ['themadag'].
+De 3de list is [].
 voorleesmiddag
-De 1ste lijst is ['lezing', 'voorleesmiddag'].  
-De 2de lijst is ['badminton'].  
+De 1ste lijst is ['lezing', 'voorleesmiddag'].
+De 2de lijst is ['badminton'].
 De 3de list is ['themadag'].
 
-De 1ste lijst is ['muziek', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival'].  
-De 2de lijst is ['karaoke'].  
-De 3de list is [].  
-leerlingenraad  
+De 1ste lijst is ['muziek', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival'].
+De 2de lijst is ['karaoke'].
+De 3de list is [].
+leerlingenraad
 eetdag
 sportdag
 De activiteit is al aanwezig in de 1ste lijst.
-De 1ste lijst is ['tennis', 'muziek', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal'].  
-De 2de lijst is ['festival'].  
+De 1ste lijst is ['tennis', 'muziek', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal'].
+De 2de lijst is ['festival'].
 De 3de list is ['karaoke'].
 
 ----------------------------------------
