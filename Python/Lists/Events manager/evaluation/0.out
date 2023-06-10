@@ -1,11 +1,20 @@
-De 1ste lijst is ['zwemmen', 'galabal', 'festival', 'theater'].
-De 2de lijst is ['voetbal'].
-De 3de lijst is [].
+voetbal galabal festival theater
 zwemmen
-theater
-De 1ste lijst is ['galabal', 'zwemmen', 'festival', 'theater'].
-De 2de lijst is ['themadag'].
-De 3de lijst is ['voetbal'].
+wetenschapsbeurs muziek volleybal eetdag galabal proclamatie sportdag
+leerlingenraad
+basketbal frisbee toneel
+quizavond
+themadag lezing
+voorleesmiddag
+karaoke tennis eetdag oudercontact zwemmen uitstap proclamatie galabal festival
+muziek
+
+De 1ste lijst is ['galabal', 'festival', 'theater', 'zwemmen'].
+De 2de lijst is ['voetbal'].
+galabal
+zwemmen
+De 1ste lijst is ['Galabal', 'Zwemmen', 'Festival', 'Theater'].
+De 2de lijst is ['zwemmen', 'voetbal'].
 
 De 1ste lijst is ['leerlingenraad', 'muziek', 'volleybal', 'eetdag', 'galabal', 'proclamatie', 'sportdag'].
 De 2de lijst is ['wetenschapsbeurs'].
@@ -50,5 +59,5 @@ De 3de lijst is ['karaoke'].
 tab name: Activiteiten manager
 python input without prompt: true
 block count: multi
-input block size: 3
+input block size: 2
 output block size: ends with
