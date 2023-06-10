@@ -16,8 +16,8 @@ De 2de lijst is ['wetenschapsbeurs', 'sportdag'].
 De 1ste lijst is ['frisbee', 'toneel', 'quizavond'].
 De 2de lijst is ['basketbal'].
 frisbee
-De 1ste lijst is ['Quizavond', 'Frisbee'].
-De 2de lijst is ['oudercontact', 'toneel'].
+De 1ste lijst is ['Toneel', 'Frisbee'].
+De 2de lijst is ['basketbal', 'quizavond'].
 
 De 1ste lijst is ['lezing', 'voorleesmiddag'].
 De 2de lijst is ['themadag'].
@@ -25,14 +25,14 @@ lezing
 De 1ste lijst is ['Lezing'].
 De 2de lijst is ['themadag', 'voorleesmiddag'].
 
-De activiteit is al aanwezig in de 1ste lijst.
+De activiteit uitstap is al aanwezig in de 1ste lijst.
 De 1ste lijst is ['tennis', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival', 'muziek'].
 De 2de lijst is ['karaoke'].
 tennis
 zwemmen
 galabal
 De 1ste lijst is ['eetdag', 'tennis', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival'].
-De 2de lijst is ['karaoke', 'muziek'].
+De 2de lijst is ['karaoke', 'festival'].
 
 ----------------------------------------
 tab name: Activiteiten manager
