@@ -34,7 +34,6 @@ Een string met activiteiten gescheiden door een spatie.
     
     "voetbal galabal festival theater"
     zwemmen
-    themadag
     
 **Uitvoer**
    
@@ -43,4 +42,4 @@ Een string met activiteiten gescheiden door een spatie.
     galabal  
     zwemmen  
     De 1ste lijst is ['Festival, 'Galabal', 'Theater'].  
-    De 2de lijst is ['themadag', 'zwemmen'].  
+    De 2de lijst is ['zwemmen', 'voetbal'].  
