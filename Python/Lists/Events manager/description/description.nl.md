@@ -25,6 +25,7 @@ Een string met activiteiten gescheiden door een spatie.
 * De 1ste lijst is <1ste lijst>.
 * De 2de lijst is <2de lijst>.
 * De 3de lijst is <3de lijst>.
+* Eventueel volgende: "De activiteit is al aanwezig in de lijst."
 * Geselecteerde activiteiten: 1ste, 4de, 7de, ...
 * De 1ste lijst is <1ste lijst>.
 * De 2de lijst is <2de lijst>.
