@@ -12,7 +12,7 @@ Schrijf een programma dat:
 * de geselecteerde activiteiten onder elkaar op het scherm zet,
 * de laatste activiteit uit de 1ste lijst verwijderd en in de 2de lijst achteraan toevoegt,
 * de prioriteit verandert in de 1ste lijst door de eerste en de tweede activiteit om te draaien in de lijst,
-* de eerste letter van elke activiteit aanpast naar een hoofdletter,
+* de eerste letter van elke activiteit uit de 1ste lijst aanpast naar een hoofdletter,
 * de lijsten afbeeldt op het scherm. 
 
 ### Invoer
