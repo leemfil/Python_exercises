@@ -10,7 +10,7 @@ Schrijf een programma dat volgende bewerkingen op e-mailadressen uitvoert:
 
 Een e-mailadres in de vorm john.doe@domain.com.
 
-### Uitvoer**
+### Uitvoer
 
 De zin: "Het verborgen e-mailadres is john.doe@**********."
 
