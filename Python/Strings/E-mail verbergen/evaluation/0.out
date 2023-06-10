@@ -1,83 +1,25 @@
-Hallo wereld . Hoe gaat het ermee ?  
-Hallo wereld . Hoe gaat het ermee ?  
-Hallo wereld. Hoe gaat het ermee?  
-Hallo wereld.  
-Hoe gaat het ermee?  
-Hallo  
-wereld.
-Hoe  
-gaat  
-het  
-ermee?
+john.doe@example.com
+jane_smith123@gmail.com
+info@company.be
+contact_us@website.org
+support@techcompany.net
+salesdepartment@ecommerce.nl
+firstname.lastname@university.edu
+username123@yahoo.co.uk
+hello.world@startup.io
 
-Het is zonnig vanmiddag . De temperatuur stijgt tot 15 graden celsius .
-Het is zonnig vanmiddag . De temperatuur stijgt tot 15 graden celsius .
-Het is zonnig vanmiddag. De temperatuur stijgt tot 15 graden celsius.
-Het is zonnig vanmiddag.
-De temperatuur stijgt tot 15 graden celsius.
-Het
-is
-zonnig
-vanmiddag.
-De
-temperatuur
-stijgt
-tot
-15
-graden
-celsius.
-
-Anderlecht heeft gelijk gespeeld . Het was een spannende match .
-Anderlecht heeft gelijk gespeeld . Het was een spannende match .
-Anderlecht heeft gelijk gespeeld. Het was een spannende match.
-Anderlecht heeft gelijk gespeeld.
-Het was een spannende match.
-Anderlecht
-heeft
-gelijk gespeeld.
-Het
-was
-een
-spannende
-match.
-
-Ik ben deze morgen op tijd opgestaan . Ik was 10 minuten voor de bel op school .
-Ik ben deze morgen op tijd opgestaan . Ik was 10 minuten voor de bel op school .
-Ik ben deze morgen op tijd opgestaan. Ik was 10 minuten voor de bel op school.
-Ik ben deze morgen op tijd opgestaan.
-Ik was 10 minuten voor de bel op school.
-Ik
-ben
-deze
-morgen
-op
-tijd
-opgestaan.
-Ik
-was
-10
-minuten
-voor
-de
-bel
-op
-school.
-
-Hip, hip, hoera . Vandaag ben ik jarig .
-Hip, hip, hoera . Vandaag ben ik jarig .
-Hip, hip, hoera. Vandaag ben ik jarig.
-Hip, hip, hoera.
-Vandaag ben ik jarig.
-Hip,
-hip,
-hoera.
-Vandaag
-ben
-ik
-jarig.
+Het verborgen e-mailadres is john.doe@***********.
+Het verborgen e-mailadres is jane_smith123@*********.
+Het verborgen e-mailadres is info@**********.
+Het verborgen e-mailadres is contact_us@***********.
+Het verborgen e-mailadres is support@***************.
+Het verborgen e-mailadres is salesdepartment@************.
+Het verborgen e-mailadres is firstname.lastname@**************.
+Het verborgen e-mailadres is username123@***********.
+Het verborgen e-mailadres is hello.world@**********.
 --------------------------------------------------
-tab name: String manipuleren
+tab name: E-mail verbergen
 python input without prompt: true
 block count: multi
 input block size: 1
-output block size: ends with
+output block size: 1
