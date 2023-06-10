@@ -1,3 +1,14 @@
+voetbal galabal festival theater
+zwemmen
+wetenschapsbeurs muziek volleybal eetdag galabal proclamatie sportdag
+leerlingenraad
+basketbal frisbee toneel
+quizavond
+themadag lezing
+voorleesmiddag
+karaoke tennis eetdag oudercontact zwemmen uitstap proclamatie galabal festival
+muziek
+
 De 1ste lijst is ['galabal', 'festival', 'theater', 'zwemmen'].
 De 2de lijst is ['voetbal'].
 galabal
@@ -13,33 +24,26 @@ galabal
 De 1ste lijst is ['Volleybal', 'Muziek', 'Eetdag', 'Galabal', 'Proclamatie'].
 De 2de lijst is ['wetenschapsbeurs', 'sportdag'].
 
-De 1ste lijst is ['quizavond', 'frisbee', 'toneel'].
+De 1ste lijst is ['frisbee', 'toneel', 'quizavond'].
 De 2de lijst is ['basketbal'].
-De 3de lijst is [].
-quizavond
-oudercontact
-De 1ste lijst is ['frisbee', 'quizavond', 'toneel'].
-De 2de lijst is ['oudercontact'].
-De 3de lijst is ['basketbal'].
+frisbee
+De 1ste lijst is ['Quizavond', 'Frisbee'].
+De 2de lijst is ['oudercontact', 'toneel'].
 
-De 1ste lijst is ['voorleesmiddag', 'lezing'].
-De 2de lijst is ['themadag'].
-De 3de lijst is [].
-voorleesmiddag
 De 1ste lijst is ['lezing', 'voorleesmiddag'].
-De 2de lijst is ['badminton'].
-De 3de lijst is ['themadag'].
+De 2de lijst is ['themadag'].
+lezing
+De 1ste lijst is ['Lezing'].
+De 2de lijst is ['themadag', 'voorleesmiddag'].
 
-De 1ste lijst is ['muziek', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival'].
-De 2de lijst is ['karaoke'].
-De 3de lijst is [].
 De activiteit is al aanwezig in de 1ste lijst.
-muziek
-oudercontact
-proclamatie
-De 1ste lijst is ['tennis', 'muziek', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal'].
-De 2de lijst is ['festival'].
-De 3de lijst is ['karaoke'].
+De 1ste lijst is ['tennis', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival', 'muziek'].
+De 2de lijst is ['karaoke'].
+tennis
+zwemmen
+galabal
+De 1ste lijst is ['eetdag', 'tennis', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival'].
+De 2de lijst is ['karaoke', 'muziek'].
 
 ----------------------------------------
 tab name: Activiteiten manager
