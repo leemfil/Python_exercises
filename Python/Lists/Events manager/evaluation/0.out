@@ -10,10 +10,10 @@ De 3de lijst is ['voetbal'].
 De 1ste lijst is ['leerlingenraad', 'muziek', 'volleybal', 'eetdag', 'galabal', 'proclamatie', 'sportdag'].
 De 2de lijst is ['wetenschapsbeurs'].
 De 3de lijst is [].
+De activiteit is al aanwezig in de 1ste lijst.
 leerlingenraad
 eetdag
 sportdag
-De activiteit is al aanwezig in de 1ste lijst.
 De 1ste lijst is ['muziek', 'leerlingenraad', 'volleybal', 'eetdag', 'galabal', 'proclamatie']. 
 De 2de lijst is ['sportdag'].
 De 3de lijst is ['wetenschapsbeurs'].
@@ -37,10 +37,10 @@ De 3de lijst is ['themadag'].
 De 1ste lijst is ['muziek', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival'].
 De 2de lijst is ['karaoke'].
 De 3de lijst is [].
+De activiteit is al aanwezig in de 1ste lijst.
 muziek
 oudercontact
 proclamatie
-De activiteit is al aanwezig in de 1ste lijst.
 De 1ste lijst is ['tennis', 'muziek', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal'].
 De 2de lijst is ['theater'].
 De 3de lijst is ['karaoke'].
