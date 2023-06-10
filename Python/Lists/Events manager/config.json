@@ -5,7 +5,7 @@
     }
   },
   "evaluation": {
-    "pythia_judge": "doctest"
+    "pythia_judge": "output"
   },
   "labels": [
 
