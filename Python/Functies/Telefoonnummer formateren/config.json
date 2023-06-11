@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Functie optellen"
+      "nl": "Telefoonnummer formateren"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "-48M9_4wj35wEmjSKK7BmT6sWhkkWH9zqH6ZyAxnqcx-ZH6Wd_8CnxepKzzWf-jP",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
