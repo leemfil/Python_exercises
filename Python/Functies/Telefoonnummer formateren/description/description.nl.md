@@ -5,5 +5,5 @@ De functie vormt het nummer om naar het formaat xxx/xx.xx.xx en geeft dit terug 
 
 ### Voorbeeld
 
-    >>> gsmnummer_omvormen(0477892536)
+    >>> gsmnummer_omvormen('0477892536')
     0477/89.25.36
