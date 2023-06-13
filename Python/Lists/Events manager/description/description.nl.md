@@ -1,6 +1,6 @@
 ### Opdracht
 
-We willen alle activiteiten van de school gaan beheren. Hiervoor gebruiken we 3 lijsten. In de 1ste lijst zetten we alle activiteiten die gepland zijn in de toekomst. In de 2de lijst komen alle activiteiten die momenteel plaats hebben of uitgevoerd worden. We kunnen zelf activiteiten toevoegen en verplaatsen van lijst.  
+We willen alle activiteiten van de school gaan beheren. Hiervoor gebruiken we 2 lijsten. In de 1ste lijst zetten we alle activiteiten die gepland zijn in de toekomst. In de 2de lijst komen alle activiteiten die momenteel plaats hebben of uitgevoerd worden. We kunnen zelf activiteiten toevoegen en verplaatsen van lijst.  
 
 Schrijf een programma dat:
 * een string met activiteiten gescheiden door een spatie vraagt aan de gebruiker,
