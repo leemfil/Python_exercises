@@ -12,7 +12,7 @@ Een e-mailadres in de vorm john.doe@domain.com.
 
 ### Uitvoer
 
-De zin: "Het verborgen e-mailadres is john.doe@**********."
+De zin: "Het verborgen e-mailadres is john.doe@\**********."
 
 ### Voorbeeld
 
