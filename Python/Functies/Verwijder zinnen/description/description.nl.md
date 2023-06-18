@@ -1,21 +1,21 @@
-Maak een functie die een aantal opeenvolgende getallen bij elkaar optelt.  
-Het begingetal en het eindgetal worden met de functie meegegeven.
+### Opdracht
 
-### Opgave
+Bij tekstverwerking moeten we dikwijls een deel van een tekst selecteren en kopiëren. Om deze taak makkelijker te maken schrijven een functie.  
 
 Schrijf een functie die:
-- de naam optellen heeft,
-- twee parameters bezit met respectievelijk het begingetal en het eindgetal,
-- de som maakt van de getallen beginnend bij het begingetal en eindigend met het eindgetal,
-- de som teruggeeft.
+- als invoer een tekst en een getal n krijgt,
+- het eerste deel van de tekst selecteert door de laatste n zinnen te verwijderen,
+- het geselecteerde deel teruggeeft.
 
-### Voorbeelden
+### Voorbeelden 
+    tekst = "Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht.   
+    Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt.  
+    Auto's toeteren. De lucht is grijs."
+    
+    >>> verwijder_laatste_zinnen(tekst, 2)  
+    Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht.  
+    Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt.
 
-    >>> optellen(5, 10)
-    45
-    
-    >>> optellen(2, 4)
-    9
-    
-    >>> optellen(7, 7)
-    7
+    >>> verwijder_laatste_zinnen(tekst, 4)  
+    Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht.  
+    Brood kraakt onder mijn tanden. De trein komt eraan.
