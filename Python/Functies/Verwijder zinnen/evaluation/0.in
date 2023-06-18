@@ -7,5 +7,5 @@
 >>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 16)
 'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax.'
 
->>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 21)
+>>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 20)
 'Python, een krachtige en veelgebruikte programmeertaal.'
