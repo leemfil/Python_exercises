@@ -1,2 +1,30 @@
+1: Mijn documenten
+2: Netwerken
+De extensie van het bestand is pdf.
+
+1: Python
+2: Oefeningen
+3: Mappen en bestand
+De extensie van het bestand is json.
+
+1: klassen
+2: 5ITNb
+3: Toetsen
+4: semester 1
+De extensie van het bestand is doc.
+
+1: Leerlingen
+De extensie van het bestand is xlsx.
+
+1: Afbeeldingen
+2: Programmeren
+3: Javascript
+4: Web
+5: Images
+De extensie van het bestand is jpg.
 --------------------------------------------------
-tab name: Kwadraat functie
+tab name: Mappen en bestand
+python input without prompt: true
+block count: multi
+input block size: 1
+output block size: ends with
