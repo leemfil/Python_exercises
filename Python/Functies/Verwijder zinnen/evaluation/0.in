@@ -1,11 +1,15 @@
->>> kwadraat(5)
-25
+>>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 2)
+Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt.
 
->>> kwadraat(12)
-144
+>>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 3)
+Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich.
 
->>> kwadraat(20)
-400
+>>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 4)
+Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan.
 
->>> kwadraat(37)
-1369
+>>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 5)
+Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden.
+
+>>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 9)
+Het is maandagochtend.
+
