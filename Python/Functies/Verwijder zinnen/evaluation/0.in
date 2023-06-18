@@ -1,15 +1,15 @@
 >>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 2)
-Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. 
+'Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt.'
 
 >>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 3)
-Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. 
+'Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich.'
 
 >>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 4)
-Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. 
+'Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan.'
 
 >>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 5)
-Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. 
+'Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden.'
 
 >>> verwijder_laatste_zinnen("Het is maandagochtend. De wekker gaat. Ik rek me uit. Koffiegeur vult de lucht. Brood kraakt onder mijn tanden. De trein komt eraan. Mensen haasten zich. De stad ontwaakt. Auto's toeteren. De lucht is grijs.", 9)
-Het is maandagochtend. 
+'Het is maandagochtend.'
 
