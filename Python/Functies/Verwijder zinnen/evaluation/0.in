@@ -1,11 +1,11 @@
 >>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 4)
-Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd.
+'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd.'
 
 >>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 11)
-Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken.
+'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken.'
 
 >>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 16)
-Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken.
+'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken.'
 
 >>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 21)
-Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax.
+'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax.'
