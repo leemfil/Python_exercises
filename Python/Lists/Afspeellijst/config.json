@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Rijbewijs"
+      "nl": "Afspeellijst"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "XuJ3VZJIsHjCiQDIzQMjn5HfWIX3pZDVfwFI7ZkZB2PHygIYpnNNJ8BsKIn8jQmV",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
