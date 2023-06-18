@@ -1,21 +1,36 @@
-Maak een functie die een aantal opeenvolgende getallen bij elkaar optelt.  
-Het begingetal en het eindgetal worden met de functie meegegeven.
+### Opdracht
 
-### Opgave
+Het pad of de padnaam is de aanduiding van de exacte locatie van een bestand op de harde schijf van een computer. De padnaam bestaat uit de letter van het station op de harde schijf, de map, eventuele submappen en de bestandsnaam met bestandsextensie.   
+Bijvoorbeeld: 'C:\Mijn documenten\Netwerken\transportlaag.pdf'.
 
-Schrijf een functie die:
-- de naam optellen heeft,
-- twee parameters bezit met respectievelijk het begingetal en het eindgetal,
-- de som maakt van de getallen beginnend bij het begingetal en eindigend met het eindgetal,
-- de som teruggeeft.
+Schrijf een programma dat de map en submappen geeft van de locatie een bepaald bestand uit de gegeven padnaam.  
+Als laatste geeft hetv programma de extensie van het bestand:
+- Vraag aan de gebruiker de padnaam waaruit je alle informatie haalt.
+- Haal uit de padnaam de map en alle eventuele submappen.
+- Haal de extensie van het bestand uit de padnaam.
+- Beeldt alle mappen onder elkaar af op het scherm. Nummer de mappen.
+- Beeldt de extensie van het bestand af in een zin.
 
-### Voorbeelden
+### Invoer
 
-    >>> optellen(5, 10)
-    45
-    
-    >>> optellen(2, 4)
-    9
-    
-    >>> optellen(7, 7)
-    7
+Een padnaam.
+
+### Uitvoer
+
+Alle mappen onder elkaar:  
+1: map1  
+2: map2  
+...  
+De extensie van het bestand is ....
+
+### Voorbeeld
+
+**Invoer**
+
+    C:\Mijn documenten\Netwerken\transportlaag.pdf
+
+**Uitvoer**
+
+    1: Mijn documenten
+    2: Netwerken
+    De extensie van het bestand is pdf.
