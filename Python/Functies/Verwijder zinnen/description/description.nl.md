@@ -15,6 +15,6 @@ Schrijf een functie verwijder_laatste_woorden die:
     >>> verwijder_laatste_woorden(tekst, 11)  
     Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken.
 
-    >>> verwijder_laatste_zinnen(tekst, 4)  
+    >>> verwijder_laatste_woorden(tekst, 4)  
     Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken,  
     heeft de harten van ontwikkelaars wereldwijd veroverd.
