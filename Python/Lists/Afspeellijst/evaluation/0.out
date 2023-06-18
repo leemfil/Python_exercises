@@ -1,26 +1,24 @@
-Je bent minstens 18 jaar oud!
-Proficiat, je bezit een rijbewijs!
-De toekomst lacht je toe!
+['Uptown Funk', 'Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You', 'All Star']
+['Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You']
+['Uptown Funk', 'All Star']
+['Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'We Will Rock You', 'Shape of You']
+De eerste plaats van een titel met 10 tekens is 4.
+Someone Like You
+We Will Rock You
+Shape of You
+Het aantal titels dat het woord 'You' bevat is 3.
 
-Je bent minstens 18 jaar oud!
-Je bezit geen rijbewijs, gebruik het openbaar vervoer!
-Je bent minstens 18 jaar oud!
-Proficiat, je bezit een rijbewijs!
-De toekomst lacht je toe!
-
-Je bent minstens 18 jaar oud!
-Proficiat, je bezit een rijbewijs!
-Je bent minstens 18 jaar oud!
-Je bezit geen rijbewijs, gebruik het openbaar vervoer!
-Je bent minstens 18 jaar oud!
-Je bezit geen rijbewijs, gebruik het openbaar vervoer!
-De toekomst lacht je toe!
-
-De toekomst lacht je toe!
+['Someone Like You', 'Hallelujah', 'Uptown Funk', 'Let It Be', 'Yesterday', 'Shape of You', 'All Star', 'Sweet Child o' Mine']
+['Uptown Funk', 'Hallelujah', 'Let It Be', 'Yesterday', 'Shape of You', 'All Star']
+['Someone Like You', 'Sweet Child o' Mine']
+['Hallelujah', 'Uptown Funk', 'Let It Be', 'Yesterday', 'All Star', 'Shape of You']
+De eerste plaats van een titel met 10 tekens is 1.
+Shape of You
+Het aantal titels dat het woord 'You' bevat is 1.
 
 --------------------------------------------------
-tab name: Rijbewijs
+tab name: Afspeellijst
 python input without prompt: true
 block count: multi
-input block size: 2
-output block size: 2
+input block size: 1
+output block size: ends with
