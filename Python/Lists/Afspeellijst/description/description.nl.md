@@ -1,45 +1,44 @@
 ### Opdracht
 
-Tijdens een enquête wordt aan mensen gevraagd of ze een rijbewijs bezitten. Bij het verwerken van de gegevens willen we tijd uitsparen door alleen de formulieren te checken van personen die 18 zijn of ouder. Personen jonger dan 18 kunnen nog geen rijbewijs bezitten.
-* Indien de persoon 18 is of ouder dan zet je volgende boodschap op het scherm: "Je bent minstens 18 jaar oud!" Als hij jonger is dan "De toekomst lacht je toe!"
-* Indien de persoon minstens 18 is en een rijbewijs bezit zet je op het scherm: "Proficiat, je bezit een rijbewijs!". 
-Als de persoon minstens 18 is en geen rijbewijs heeft dan zet je de boodschap: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
+Een muziekspeler-app is een softwaretoepassing waarmee gebruikers audiobestanden kunnen afspelen en beheren op hun apparaten, zoals smartphones, tablets of computers. Deze apps bieden een gebruiksvriendelijke interface voor het organiseren van muziekbibliotheken, het maken van afspeellijsten en het afspelen van muziek in verschillende formaten, zoals MP3, FLAC, WAV of AAC.
+
+Schrijf een programma dat:
+- een string met liedjestitels gescheiden door een spatie vraagt aan de gebruiker,
+- de liedjestitels apart in een afspeellijst zet,
+- een favorietenlijst aanmaakt en de eerste en de laatste liedjestitels van de afspeellijst verhuist naar de favorietenlijst,
+- de laatste en voorlaatste liedjestitels van de afspeellijst van plaats verwisselt,
+- de plaats weergeeft van de eerste liedjestitel in de afspeellijst die 10 tekens of spaties bevatten,
+- alle liedjestitels uit de afspeellijst onder elkaar afbeeldt die het woord 'You' bevatten,  
+- ook het aantal liedjestitles die het woord 'You' bevatten weergeeft in een zin en
+- de gewijzigde lijsten telkens afbeeldt op het scherm.
 
 ### Invoer
 
-De leeftijd van de persoon. En indien de persoon in bezit is van een rijbewijs de afkorting "R" en anders de afkorting "-". 
+Een string met liedjestitels gescheiden door een spatie.
 
 ### Uitvoer
 
-* Als de persoon 18 is of ouder: "Je bent minstens 18 jaar oud!"
-Als hij jonger is: "De toekomst lacht je toe!"
-
-* Als de persoon minstens 18 is en   
-een rijbewijs bezit: "Proficiat, je bezit een rijbewijs!", of  
-geen rijbewijs bezit: "Je bezit geen rijbewijs, gebruik het openbaar vervoer!"
+- volledige afspeellijst.
+- afspeellijst en de favorietenlijst met eerste en laatste liedjestitels verhuist.
+- afspeellijst met de twee laatste liedjestitels verwisselt van plaats.
+- een getal die de juiste plaats weergeeft op het scherm in de volgende zin: De eerste plaats van een titel met 10 tekens is ....
+- alle liedjestitels die het woord 'You' bevatten onder elkaar.
+- het aantal liedjestitels met het woord 'You' weergeeft op het scherm in de volgende zin: Het aantal titels dat het woord 'You' bevat is ....
 
 ### Voorbeeld
 
 **Invoer**
     
-    24
-    R
+    "Uptown Funk;Someone Like You;Let It Be;Yesterday;Hallelujah;Shape of You;We Will Rock You;All Star"
 
 **Uitvoer**
     
-    Je bent minstens 18 jaar oud!
-    Proficiat, je bezit een rijbewijs!
-     
-### Voorbeeld
-
-**Invoer**
-    
-    7
-    -
-
-**Uitvoer**
-    
-    De toekomst lacht je toe!
-     
-  
-   
+    ['Uptown Funk', 'Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You', 'All Star']
+    ['Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You']
+    ['Uptown Funk', 'All Star']
+    ['Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'We Will Rock You', 'Shape of You']
+    De eerste plaats van een titel met 10 tekens is 4.
+    Someone Like You
+    We Will Rock You
+    Shape of You
+    Het aantal titels dat het woord 'You' bevat is 3.
