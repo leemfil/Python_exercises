@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Verwijder woorden"
+      "nl": "Lengte woorden"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "SabbnDIQSHWt57tFXgPHfg85uCwvFrBFeKY9x98YDCxYUCzMudJywqqx4MVz2mPq",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
