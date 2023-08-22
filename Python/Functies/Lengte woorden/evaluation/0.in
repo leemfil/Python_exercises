@@ -1,11 +1,11 @@
->>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 4)
-'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd.'
+>>> langste_woord("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft vanwege zijn brede toepassingsgebieden de harten van ontwikkelaars wereldwijd veroverd.")
+'Het langste woord is toepassingsgebieden.'
 
->>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 11)
-'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken.'
+>>> langste_woord("Python is een veelgebruikte programmeertaal die bekend staat om zijn eenvoudige en leesbare syntax.")
+'Het langste woord is programmeertaal.'
 
->>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 16)
-'Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax.'
+>>> langste_woord("Met Python kunnen ontwikkelaars snel en efficiënt softwaretoepassingen bouwen.")
+'Het langste woord is softwaretoepassingen.'
 
->>> verwijder_laatste_woorden("Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken, heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden.", 20)
-'Python, een krachtige en veelgebruikte programmeertaal.'
+>>> langste_woord("Een van de sterke punten van Python is zijn gemeenschap van ontwikkelaars die actief bijdragen aan open-sourceprojecten.")
+'Het langste woord is open-sourceprojecten.'
