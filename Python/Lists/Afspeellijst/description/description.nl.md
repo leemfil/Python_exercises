@@ -3,9 +3,9 @@
 Een muziekspeler-app is een softwaretoepassing waarmee gebruikers audiobestanden kunnen afspelen en beheren op hun apparaten, zoals smartphones, tablets of computers. Deze apps bieden een gebruiksvriendelijke interface voor het organiseren van muziekbibliotheken, het maken van afspeellijsten en het afspelen van muziek in verschillende formaten, zoals MP3, FLAC, WAV of AAC.
 
 Schrijf een programma dat:
-- een string met liedjestitels gescheiden door een spatie vraagt aan de gebruiker,
-- de liedjestitels apart in een afspeellijst zet,
-- een favorietenlijst aanmaakt en de eerste en de laatste liedjestitels van de afspeellijst verhuist naar de favorietenlijst,
+- een string met liedjestitels gescheiden door een ; vraagt aan de gebruiker,
+- de liedjestitels apart in een afspeellijst zet en toont,
+- een favorietenlijst aanmaakt en de eerste en de laatste liedjestitels van de afspeellijst verhuist naar deze favorietenlijst en de afspeellijst en favorietenlijst toont,
 - de eerste en laatste liedjestitels van de afspeellijst van plaats verwisselt,
 - alle liedjestitels uit de afspeellijst onder elkaar afbeeldt die het woord 'You' bevatten,  
 - ook het aantal liedjestitles die het woord 'You' bevatten weergeeft in een zin en
@@ -19,7 +19,7 @@ Een string met liedjestitels gescheiden door een spatie.
 ### Uitvoer
 
 - volledige afspeellijst.
-- afspeellijst en de favorietenlijst met eerste en laatste liedjestitels verhuist.
+- afspeellijst zonder eerste en laatste liedjestitels en de favorietenlijst.
 - afspeellijst met de eerste en laatste liedjestitels verwisselt van plaats.
 - alle liedjestitels die het woord 'You' bevatten onder elkaar.
 - het aantal liedjestitels met het woord 'You' weergeeft op het scherm in de volgende zin: Het aantal titels dat het woord 'You' bevat is ....
