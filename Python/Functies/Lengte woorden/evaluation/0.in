@@ -9,3 +9,6 @@
 
 >>> langste_woord("Een van de sterke punten van Python is zijn gemeenschap van ontwikkelaars die actief bijdragen aan open-sourceprojecten.")
 'Het langste woord is open-sourceprojecten.'
+
+>>> langste_woord("Python is een educatieve taal met een dynamische syntax.")
+'Het langste woord is dynamische.'
