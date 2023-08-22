@@ -1,20 +1,16 @@
 ### Opdracht
 
-Bij tekstverwerking moeten we dikwijls een deel van een tekst aanpassen.  
-Om deze taak makkelijker te maken schrijven een functie die de laatste woorden uit een tekst verwijdert.  
+Bij tekstverwerking moeten we dikwijls zoeken naar bepaalde woorden in een tekst.  
+Om deze taak makkelijker te maken schrijven een functie die het langste woord uit een tekst haalt.  
 
-Schrijf een functie verwijder_laatste_woorden die:
-- als invoer een tekst en een getal n krijgt,
-- het eerste deel van de tekst selecteert door de laatste n woorden te verwijderen,
-- het geselecteerde deel teruggeeft.
+Schrijf een functie langste_woord heet en die:
+- als invoer een tekst krijgt,
+- het langste woord in de tekst zoekt en opslaat,
+- het langste woord teruggeeft.
 
 ### Voorbeelden 
     tekst = "Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken,  
-    heeft de harten van ontwikkelaars wereldwijd veroverd vanwege zijn brede toepassingsgebieden."
+    heeft vanwege zijn brede toepassingsgebieden de harten van ontwikkelaars wereldwijd veroverd."
     
-    >>> verwijder_laatste_woorden(tekst, 11)  
-    Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken.
-
-    >>> verwijder_laatste_woorden(tekst, 4)  
-    Python, een krachtige en veelgebruikte programmeertaal met een eenvoudige syntax en een uitgebreide set bibliotheken,  
-    heeft de harten van ontwikkelaars wereldwijd veroverd.
+    >>> langste_woord(tekst)  
+    Het langste woord is toepassingsgebieden.
