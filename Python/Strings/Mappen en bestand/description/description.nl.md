@@ -9,7 +9,7 @@ Als laatste geeft hetv programma de extensie van het bestand:
 - Haal uit de padnaam de map en alle eventuele submappen.
 - Haal de extensie van het bestand uit de padnaam.
 - Beeldt alle mappen onder elkaar af op het scherm. Nummer de mappen.
-- Beeldt de extensie van het bestand af in een zin.
+- Beeldt de extensie van het bestand af in een zin. De extensie is de laatste 3 letters van de padnaam.
 
 ### Invoer
 
@@ -21,11 +21,11 @@ Alle mappen onder elkaar:
 1: map1  
 2: map2  
 ...  
-De extensie van het bestand is ....
+De extensie van het bestand is .... (laatste 3 letters).
 
 **Hint**:  
 Als je een \ in een string gebruikt moet je een extra \ toevoegen omdat het een speciaal teken is.  
-Bijvoorbeeld: var = "c:"\\"Mijn documenten"\\"Afbeeldingen"\\"imoji.png" 
+Bijvoorbeeld: ``"\\"`` ipv ``"\"``
 
 ### Voorbeeld
 
