@@ -25,7 +25,7 @@ De extensie van het bestand is ....
 
 **Hint**:  
 Als je een \ in een string gebruikt moet je een extra \ toevoegen omdat het een speciaal teken is.  
-Bijvoorbeeld: var = "c:\\Mijn documenten\\Afbeeldingen\\imoji.png" 
+Bijvoorbeeld: var = "c:\\\Mijn documenten\\\Afbeeldingen\\\imoji.png" 
 
 ### Voorbeeld
 
