@@ -1,0 +1,26 @@
+Aantal biljetten van 20 euro: 3
+Aantal muntstukken van 1 euro: 17
+Aantal biljetten van 20 euro: 7
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 20 euro: 1
+Aantal muntstukken van 1 euro: 3
+Aantal biljetten van 20 euro: 0
+Aantal muntstukken van 1 euro: 4
+Aantal biljetten van 20 euro: 1
+Aantal muntstukken van 1 euro: 15
+Aantal biljetten van 20 euro: 39
+Aantal muntstukken van 1 euro: 3
+Aantal biljetten van 20 euro: 2
+Aantal muntstukken van 1 euro: 4
+Aantal biljetten van 20 euro: 0
+Aantal muntstukken van 1 euro: 1
+Aantal biljetten van 20 euro: 5
+Aantal muntstukken van 1 euro: 1
+Aantal biljetten van 20 euro: 3
+Aantal muntstukken van 1 euro: 5
+--------------------------------------------------
+tab name: Aantal biljetten en muntstukken
+python input without prompt: true
+block count: multi
+input block size: 1
+output block size: 2

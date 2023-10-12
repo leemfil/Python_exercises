@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Aantal 20 eurobiljetten en munten"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "zAGkrZ7uH8awhVprDf3AKkq48vkEdN_4DJMdZY--QQQc-UekZhvPMQ9FZGN-Wa8b",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
