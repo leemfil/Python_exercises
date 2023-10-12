@@ -1,35 +1,31 @@
 ### Opdracht
 
-Bereken de hoogte ven een aquarium als het volume en de lengte gekend zijn. De hoogte van het aquarium is even groot als de breedte.  
+Je brengt je fiets binnen bij de fietsmaker om hem volledig te laten nakijken. Na 2 dagen ga je fiets terug halen en betaal een bepaald bedrag aan de fietsmaker. Nu zou je graag weten hoelang de fietsmaker aan je fiets gewerkt. Op de website van de fietsmaker kan je terugvinden dat hij éénmalig 8 euro vaste kosten aanrekend en 12 euro per gewerkt uur.
 
-Volume:  
+Bereken het aantal gewerkte uren van de fietsmaker als het bedrag gegeven wordt.    
 
-$$ volume = l.h.b $$  
-
-Hoogte is gelijk aan breedte dus:  
-
-$$ volume = l.h.h $$
+$$ bedrag = vaste kosten + uren x uurloon $$  
 
 Dus is  
 
-$$ h^2 = {volume \over l} $$
+$$ uren = {bedrag - vaste kosten \over uurloon} $$
 
 ### Invoer
 
-het volume van de aquarium wordt aan de gebruiker gevraagd en is een kommagetal.  
-Ook de lengte van het aquarium wordt gevraagd en is een kommagetal.  
+De gebruiker geeft het bedrag dat hij betaald in kommagetal.
+Her uurloon is 12 euro en de vaste kosten 8 euro.  
 
 ### Uitvoer
 
-De hoogte van de aquarium als een kommagetal.
+Het aantal gewerkte uren is ....
+Het aantal uren wordt omgezet naar een geheel getal.
 
 ### Voorbeeld
 
 **Invoer**
 
-    160000.0
-    100.0
+    47,50
 
 **Uitvoer**
 
-    De hoogte van het aquarium is 40.0 cm.
+    Het aantal gewerkte uren is 3.
