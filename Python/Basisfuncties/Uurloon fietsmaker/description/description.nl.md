@@ -4,7 +4,9 @@ Je brengt je fiets binnen bij de fietsmaker om hem volledig te laten nakijken. N
 
 Bereken het aantal gewerkte uren van de fietsmaker als het bedrag gegeven wordt.    
 
-$$ bedrag = vaste kosten + uren x uurloon $$  
+Bedrag
+
+$$ bedrag = vaste kosten + uren  x  uurloon $$  
 
 Dus is  
 
