@@ -26,7 +26,7 @@ Het aantal uren wordt omgezet naar een geheel getal.
 
 **Invoer**
 
-    47,50
+    47.50
 
 **Uitvoer**
 
