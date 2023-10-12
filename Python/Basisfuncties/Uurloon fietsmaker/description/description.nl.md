@@ -19,7 +19,7 @@ Het uurloon is 12 euro en de vaste kosten 8 euro.
 
 ### Uitvoer
 
-Het aantal gewerkte uren is ....  
+Het aantal volle gewerkte uren is ....  
 Het aantal uren wordt omgezet naar een geheel getal.
 
 ### Voorbeeld
