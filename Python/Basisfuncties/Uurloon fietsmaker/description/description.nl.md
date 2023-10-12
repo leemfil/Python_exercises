@@ -6,7 +6,7 @@ Bereken het aantal gewerkte uren van de fietsmaker als het bedrag gegeven wordt.
 
 Bedrag
 
-$$ bedrag = vaste kosten + uren  x  uurloon $$  
+$$ bedrag = vaste kosten + uren  *  uurloon $$  
 
 Dus is  
 
@@ -14,12 +14,12 @@ $$ uren = {bedrag - vaste kosten \over uurloon} $$
 
 ### Invoer
 
-De gebruiker geeft het bedrag dat hij betaald in kommagetal.
-Her uurloon is 12 euro en de vaste kosten 8 euro.  
+De gebruiker geeft het bedrag dat hij betaald in kommagetal.  
+Het uurloon is 12 euro en de vaste kosten 8 euro.  
 
 ### Uitvoer
 
-Het aantal gewerkte uren is ....
+Het aantal gewerkte uren is ....  
 Het aantal uren wordt omgezet naar een geheel getal.
 
 ### Voorbeeld
