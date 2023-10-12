@@ -1,0 +1,48 @@
+Aantal biljetten van 10 euro: 7
+Aantal biljetten van 5 euro: 1
+Aantal muntstukken van 1 euro: 2
+Aantal biljetten van 10 euro: 14
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 10 euro: 2
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 3
+Aantal biljetten van 10 euro: 0
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 4
+Aantal biljetten van 10 euro: 3
+Aantal biljetten van 5 euro: 1
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 10 euro: 78
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 3
+Aantal biljetten van 10 euro: 0
+Aantal biljetten van 5 euro: 1
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 10 euro: 0
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 1
+Aantal biljetten van 10 euro: 1
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 10 euro: 1
+Aantal biljetten van 5 euro: 1
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 10 euro: 2
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 10 euro: 3
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 0
+Aantal biljetten van 10 euro: 8
+Aantal biljetten van 5 euro: 0
+Aantal muntstukken van 1 euro: 2
+Aantal biljetten van 10 euro: 0
+Aantal biljetten van 5 euro: 1
+Aantal muntstukken van 1 euro: 3
+--------------------------------------------------
+tab name: Aantal biljetten en muntstukken
+python input without prompt: true
+block count: multi
+input block size: 1
+output block size: 3
