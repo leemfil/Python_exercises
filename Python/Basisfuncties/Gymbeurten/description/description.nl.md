@@ -7,11 +7,11 @@ Schrijf een programma dat het aantal beurten berekend voor dit bedrag.
 
 Bedrag
 
-$$ bedrag = vaste kosten + aantal  *  kost per beurt $$  
+$$ bedrag = \text{vaste kosten} + aantal  *  \text{kost per beurt} $$  
 
 Dus is  
 
-$$ aantal = {bedrag - vaste kosten \over kost per beurt} $$
+$$ aantal = bedrag - \text{vaste kosten} \over \text{kost per beurt} $$
 
 ### Invoer
 
