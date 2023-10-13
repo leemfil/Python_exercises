@@ -18,7 +18,7 @@ Het aantal biljetten van 5 euro en het aantal muntstukken van 1 euro.
 
 **Uitvoer**
 
-    Aantal biljetten van 5 euro: 25
+    Aantal biljetten van 5 euro: 15
     Aantal muntstukken van 1 euro: 2
 
 **Invoer**
