@@ -10,7 +10,7 @@ Shrijf een programma dat op basis van 2 bloedsoorten de juiste bloedgroep weerge
 
 ### Invoer
 
-2 bloedsoorten A, B of C op afzonderlijke regels.  
+2 bloedsoorten A, B of O op afzonderlijke regels.  
 
 ### Uitvoer
 
