@@ -11,7 +11,7 @@ $$ bedrag = \text{vaste kosten} + aantal  *  \text{kost per beurt} $$
 
 Dus is  
 
-$$ aantal = bedrag - \text{vaste kosten} \over \text{kost per beurt} $$
+$$ aantal = {bedrag - \text{vaste kosten} \over \text{kost per beurt}} $$
 
 ### Invoer
 
