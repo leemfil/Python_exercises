@@ -4,7 +4,7 @@ Een wedstrijd start steevast met aftellen naar de start. Soms wordt er afgeteld 
 
 Schrijf een programma dat:
 - aan de gebruiker vraagt om het begingetal van waar we beginnen af te tellen,
-- het volgende getallen berekend door af te tellen en telkens het getal op het scherm afbeeldt op een nieuwe regel,
+- de volgende getallen berekend door af te tellen en telkens het getal op het scherm afbeeldt op een nieuwe regel,
 - en als laatste nog "Start!" toevoegt op het scherm.
 
 ### Invoer
