@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Kassa"
+      "nl": "Rekening maken"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "jWnykD4au-49YesJDfIUMaXD5IyFNgNcIWU74h638YShAuBCmtTTEHbXJVNIjc6N",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
