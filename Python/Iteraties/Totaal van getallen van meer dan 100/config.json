@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Even getallen"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "vbFeMceMc-5btJSCF7mhUSHBQ2Z6cJEjjR35g_9GDgFWTk8vYhs-T25GWBG3_D68",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
