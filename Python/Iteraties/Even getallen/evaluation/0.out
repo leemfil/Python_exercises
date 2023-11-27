@@ -1,12 +1,59 @@
-[10, 8, 6, 4, 2, 'Start!']
-[11, 9, 7, 5, 3, 1, 'Start!']
-[24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 'Start!']
-[31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 1, 'Start!']
-[1, 'Start!']
-[2, 'Start!']
+Het getal 1 is niet deelbaar door 3.
+Het getal 2 is niet deelbaar door 3.
+Het getal 3 is deelbaar door 3.
+Het getal 4 is niet deelbaar door 3.
+Het getal 5 is niet deelbaar door 3.
+Het getal 6 is deelbaar door 3.
+Het getal 7 is niet deelbaar door 3.
+Het getal 8 is niet deelbaar door 3.
+Het getal 9 is deelbaar door 3.
+Het getal 10 is niet deelbaar door 3.
+
+Het getal 1 is niet deelbaar door 3.
+Het getal 2 is niet deelbaar door 3.
+Het getal 3 is deelbaar door 3.
+Het getal 4 is niet deelbaar door 3.
+Het getal 5 is niet deelbaar door 3.
+Het getal 6 is deelbaar door 3.
+Het getal 7 is niet deelbaar door 3.
+Het getal 8 is niet deelbaar door 3.
+Het getal 9 is deelbaar door 3.
+Het getal 10 is niet deelbaar door 3.
+Het getal 11 is niet deelbaar door 3.
+
+Het getal 1 is niet deelbaar door 3.
+Het getal 2 is niet deelbaar door 3.
+Het getal 3 is deelbaar door 3.
+Het getal 4 is niet deelbaar door 3.
+Het getal 5 is niet deelbaar door 3.
+Het getal 6 is deelbaar door 3.
+Het getal 7 is niet deelbaar door 3.
+Het getal 8 is niet deelbaar door 3.
+Het getal 9 is deelbaar door 3.
+Het getal 10 is niet deelbaar door 3.
+Het getal 11 is niet deelbaar door 3.
+Het getal 12 is deelbaar door 3.
+
+Het getal 1 is niet deelbaar door 3.
+Het getal 2 is niet deelbaar door 3.
+Het getal 3 is deelbaar door 3.
+Het getal 4 is niet deelbaar door 3.
+Het getal 5 is niet deelbaar door 3.
+Het getal 6 is deelbaar door 3.
+Het getal 7 is niet deelbaar door 3.
+
+Het getal 1 is niet deelbaar door 3.
+Het getal 2 is niet deelbaar door 3.
+Het getal 3 is deelbaar door 3.
+Het getal 4 is niet deelbaar door 3.
+Het getal 5 is niet deelbaar door 3.
+Het getal 6 is deelbaar door 3.
+
+Het getal 1 is niet deelbaar door 3.
+
 --------------------------------------------------
-tab name: Aftellen
+tab name: Even getallen
 python input without prompt: true
 block count: multi
 input block size: 1 
-output block size: 1
+output block size: ends with
