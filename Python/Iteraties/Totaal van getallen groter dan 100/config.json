@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Even getallen"
+      "nl": "Totaal van getallen meer dan 100"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "Fu9yd6v3un23iq3m6suQCKPze_dT3XcKr5Qq_mHrWyYJGnS43jUx4kRACwqY_HIz",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
