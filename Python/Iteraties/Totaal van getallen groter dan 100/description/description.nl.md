@@ -1,34 +1,50 @@
-Zet alle getallen vanaf een begingetal tot en met een eindgetal, die door de gebruiker gegeven worden, op het scherm.  
-Geef aan of een getal deelbaar is door 3.
+We maken het totaal van alle getallen die groter zijn dan 100. Het aantal getallen wordt eerst gegeven door de gebruiker.
 
 ### Opgave
 
 Schrijf een programma dat:
-- aan de gebruiker vraagt om een begingetal,
-- aan de gebruiker vraagt om het eindgetal, dit getal is het laatste dat op het scherm verschijnt,
-- elk getal op het scherm zet met de boodschap of het deelbaar is door 3.
+- het aantal getallen aan de gebruiker vraagt,
+- een lus maakt waarin je de gebruiker vraagt voor het volgend getal,
+- het totaal berekend wordt van alle getallen die groter zijn dan 100,
+- en het totaal afbeeldt op het scherm.
 
 ### Invoer
 
-Een begingetal en een eindgetal.
+aantal getallen.
+
 
 ### Uitvoer
 
-Een aantal keer de zin: "Het getal x is deelbaar/niet deelbaar door 3."
-Vervang x door het getal.
+Zin: "Het totaal is x."  
+Waarin x het berekende totaal is.
 
 ### Voorbeelden
 
 **Invoer**
     
-    2
-    6
+    5
+    101
+    25
+    150
+    75
+    36
 
 **Uitvoer**
     
-    Het getal 2 is niet deelbaar door 3.
-    Het getal 3 is deelbaar door 3.
-    Het getal 4 is niet deelbaar door 3.
-    Het getal 5 is niet deelbaar door 3.
-    Het getal 6 is deelbaar door 3.
+    Het tottaal is 251.
     
+**Invoer**
+    
+    7
+    25
+    120
+    200
+    45
+    85
+    170
+    66
+
+**Uitvoer**
+    
+    Het totaal is 490.
+   
