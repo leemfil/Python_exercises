@@ -5,7 +5,7 @@ We maken het totaal van alle getallen die groter zijn dan 100. Het aantal getall
 Schrijf een programma dat:
 - het aantal getallen aan de gebruiker vraagt,
 - een lus maakt waarin je de gebruiker vraagt voor het volgend getal,
-- het totaal berekend wordt van alle getallen die groter zijn dan 100,
+- het totaal berekend wordt van alle getallen die groter zijn dan 100
 - en het totaal afbeeldt op het scherm.
 
 ### Invoer
