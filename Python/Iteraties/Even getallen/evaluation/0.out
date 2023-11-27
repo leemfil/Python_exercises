@@ -1,4 +1,3 @@
-Het getal 1 is niet deelbaar door 3.
 Het getal 2 is niet deelbaar door 3.
 Het getal 3 is deelbaar door 3.
 Het getal 4 is niet deelbaar door 3.
@@ -9,8 +8,6 @@ Het getal 8 is niet deelbaar door 3.
 Het getal 9 is deelbaar door 3.
 Het getal 10 is niet deelbaar door 3.
 
-Het getal 1 is niet deelbaar door 3.
-Het getal 2 is niet deelbaar door 3.
 Het getal 3 is deelbaar door 3.
 Het getal 4 is niet deelbaar door 3.
 Het getal 5 is niet deelbaar door 3.
@@ -21,9 +18,6 @@ Het getal 9 is deelbaar door 3.
 Het getal 10 is niet deelbaar door 3.
 Het getal 11 is niet deelbaar door 3.
 
-Het getal 1 is niet deelbaar door 3.
-Het getal 2 is niet deelbaar door 3.
-Het getal 3 is deelbaar door 3.
 Het getal 4 is niet deelbaar door 3.
 Het getal 5 is niet deelbaar door 3.
 Het getal 6 is deelbaar door 3.
@@ -34,6 +28,7 @@ Het getal 10 is niet deelbaar door 3.
 Het getal 11 is niet deelbaar door 3.
 Het getal 12 is deelbaar door 3.
 
+Het getal 0 is deelbaar door 3.
 Het getal 1 is niet deelbaar door 3.
 Het getal 2 is niet deelbaar door 3.
 Het getal 3 is deelbaar door 3.
@@ -42,18 +37,16 @@ Het getal 5 is niet deelbaar door 3.
 Het getal 6 is deelbaar door 3.
 Het getal 7 is niet deelbaar door 3.
 
-Het getal 1 is niet deelbaar door 3.
-Het getal 2 is niet deelbaar door 3.
-Het getal 3 is deelbaar door 3.
 Het getal 4 is niet deelbaar door 3.
 Het getal 5 is niet deelbaar door 3.
 Het getal 6 is deelbaar door 3.
 
+Het getal 0 is deelbaar door 3.
 Het getal 1 is niet deelbaar door 3.
 
 --------------------------------------------------
 tab name: Even getallen
 python input without prompt: true
 block count: multi
-input block size: 1 
+input block size: 2
 output block size: ends with
