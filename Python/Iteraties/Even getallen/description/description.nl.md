@@ -1,37 +1,33 @@
-Een wedstrijd start steevast met aftellen naar de start. Soms wordt er afgeteld met nummers, maar op andere momenten gebeurt het via een verkeerslicht (bv. tijdens Formule 1). Vaker dan niet is het eigenlijk startsignaal een geweerschot. We maken een programma dat aftelt tot de start.
+Zet alle getallen tot en met een eindgetal dat door de gebruiker gegeven wordt op het scherm.  
+Geef aan of een getal deelbaar is door 3.
 
 ### Opgave
 
 Schrijf een programma dat:
-- aan de gebruiker vraagt om het begingetal van waar we beginnen af te tellen,
-- het volgende getallen berekend door telkens het vorige getal met 2 te verminderen tot we 2 of 1 bereiken,
-- alle getallen toevoegt aan een lijst,
-- en als laatste nog "Start!" toevoegt aan de lijst,
-- en de lijst afbeeldt op het scherm.
+- aan de gebruiker vraagt om het eindgetal, dit getal is het laatste dat op het scherm verschijnt,
+- elk getal op het scherm zet met de boodschap of het deelbaar is door 3.
 
 ### Invoer
 
-Een getal groter dan 0.
+Een natuurlijk getal N.
 
 ### Uitvoer
 
-Een reeks getallen in een lijst die aftellen per 2 naar Start!
+N keer de zin: "Het getal x is deelbaar/niet deelbaar door 3."
+Vervang x door het getal.
 
 ### Voorbeelden
 
 **Invoer**
     
-    10
+    6
 
 **Uitvoer**
     
-    [10, 8, 6, 4, 2, "Start!"]
+    Het getal 1 is niet deelbaar door 3.
+    Het getal 2 is niet deelbaar door 3.
+    Het getal 3 is deelbaar door 3.
+    Het getal 4 is niet deelbaar door 3.
+    Het getal 5 is niet deelbaar door 3.
+    Het getal 6 is deelbaar door 3.
     
-**Invoer**
-    
-    11
-
-**Uitvoer**
-    
-    [11, 9, 7, 5, 3, 1, "Start!"]  
-   
