@@ -1,0 +1,26 @@
+Het heeft in de periode 6 dagen gevroren en 6 dagen niet met als gemiddelde temperatuur -0.5 graden celsius. 
+De laagste temperatuur was -5.2.
+Het heeft in de periode 6 dagen gevroren en 5 dagen niet met als gemiddelde temperatuur 0.1 graden celsius. 
+De laagste temperatuur was -2.5.
+Het heeft in de periode 5 dagen gevroren en 0 dagen niet met als gemiddelde temperatuur -4.4 graden celsius. 
+De laagste temperatuur was -6.6.
+Het heeft in de periode 0 dagen gevroren en 7 dagen niet met als gemiddelde temperatuur 4.0 graden celsius. 
+De laagste temperatuur was 1.0.
+Het heeft in de periode 2 dagen gevroren en 8 dagen niet met als gemiddelde temperatuur 1.5 graden celsius. 
+De laagste temperatuur was -3.2.
+Het heeft in de periode 6 dagen gevroren en 1 dagen niet met als gemiddelde temperatuur -3.0 graden celsius. 
+De laagste temperatuur was -5.3.
+Het heeft in de periode 2 dagen gevroren en 3 dagen niet met als gemiddelde temperatuur 0.2 graden celsius. 
+De laagste temperatuur was -3.2.
+Het heeft in de periode 5 dagen gevroren en 3 dagen niet met als gemiddelde temperatuur -4.8 graden celsius. 
+De laagste temperatuur was -12.2.
+Het heeft in de periode 4 dagen gevroren en 0 dagen niet met als gemiddelde temperatuur -3.0 graden celsius. 
+De laagste temperatuur was -3.0.
+Het heeft in de periode 3 dagen gevroren en 2 dagen niet met als gemiddelde temperatuur -1.2 graden celsius. 
+De laagste temperatuur was -2.0.
+--------------------------------------------------
+tab name: Vorstdagen
+python input without prompt: true
+block count: multi
+input block size: ends with -100
+output block size: 2
