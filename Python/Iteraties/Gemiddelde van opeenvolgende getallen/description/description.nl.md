@@ -1,12 +1,13 @@
-Zet alle getallen vanaf een begingetal tot en met een eindgetal, die door de gebruiker gegeven worden, op het scherm.  
-Geef aan of een getal deelbaar is door 3.
+Bereken het gemiddelde van een reeks getallen startende bij een begingetal tot en met een eindgetal.
 
 ### Opgave
 
 Schrijf een programma dat:
 - aan de gebruiker vraagt om een begingetal,
-- aan de gebruiker vraagt om het eindgetal, dit getal is het laatste dat op het scherm verschijnt,
-- elk getal op het scherm zet met de boodschap of het deelbaar is door 3.
+- aan de gebruiker vraagt om het eindgetal,
+- bereken het gemiddelde van alle getallen vanaf het begingetal tot en met het eindgetal,
+- rond het resultaat af tot op één cijfer na de komma met de round() functie
+- en zet het resultaat op het scherm in een zin.
 
 ### Invoer
 
@@ -14,8 +15,8 @@ Een begingetal en een eindgetal.
 
 ### Uitvoer
 
-Een aantal keer de zin: "Het getal x is deelbaar/niet deelbaar door 3."
-Vervang x door het getal.
+De zin: "Het gemiddelde van de reeks getallen is x."
+Vervang x door het gemiddelde.
 
 ### Voorbeelden
 
@@ -26,9 +27,5 @@ Vervang x door het getal.
 
 **Uitvoer**
     
-    Het getal 2 is niet deelbaar door 3.
-    Het getal 3 is deelbaar door 3.
-    Het getal 4 is niet deelbaar door 3.
-    Het getal 5 is niet deelbaar door 3.
-    Het getal 6 is deelbaar door 3.
+    Het gemiddelde van de reeks getallen is 3.8.
     
