@@ -5,8 +5,7 @@ Bereken het gemiddelde van een reeks getallen startende bij een begingetal tot e
 Schrijf een programma dat:
 - aan de gebruiker vraagt om een begingetal,
 - aan de gebruiker vraagt om het eindgetal,
-- bereken het gemiddelde van alle getallen vanaf het begingetal tot en met het eindgetal,
-- rond het resultaat af tot op één cijfer na de komma met de round() functie
+- bereken het gemiddelde met behulp van een **lus** van alle getallen vanaf het begingetal tot en met het eindgetal,
 - en zet het resultaat op het scherm in een zin.
 
 ### Invoer
