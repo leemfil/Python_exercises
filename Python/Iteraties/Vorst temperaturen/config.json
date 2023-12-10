@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Vorst"
+      "nl": "Vorst temperaturen"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "dYptNuvhuPvji5sK4QatTaIEVngP-aVrPfSUhTKk5qWsGZ5NR6vrewHACxRkEK78",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
