@@ -14,6 +14,8 @@ Schrijf een programma dat:
 - de ergste vriesdag in de reeks weergeeft,
 - stopt wanneer een temperatuur van -100 wordt ingegeven.
 
+Maak geen gebruik van while True:.
+
 ### Invoer
 
 - De dagelijkse temperaturen van de afgelopen dagen als kommagetal,
