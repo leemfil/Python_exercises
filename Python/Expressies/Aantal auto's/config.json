@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Gewerkte uren fietsmaker"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "gFCnhsXabSQrDqQJyNNjCWBvBfWrseVE_EkCG9Mj3Xg9UHKMSmb537d8zuS_dz3z",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
