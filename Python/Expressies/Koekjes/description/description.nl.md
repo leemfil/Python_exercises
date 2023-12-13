@@ -12,7 +12,7 @@ Schrijf een programma dat:
 
 ### Invoer
 
-Aantal mensen.
+Aantal mensen.  
 Aantal koekjes.
 
 ### Uitvoer
