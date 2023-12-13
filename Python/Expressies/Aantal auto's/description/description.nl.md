@@ -1,33 +1,33 @@
 ### Opdracht
 
-Je brengt je fiets binnen bij de fietsmaker om hem volledig te laten nakijken. Na 2 dagen ga je fiets terug halen en betaal een bepaald bedrag aan de fietsmaker. Nu zou je graag weten hoelang de fietsmaker aan je fiets gewerkt. Op de website van de fietsmaker kan je terugvinden dat hij éénmalig 8 euro vaste kosten aanrekend en 12 euro per gewerkt uur.
+Als eigenaar van een autobedrijf wil ik weten hoeveel auto's ik kan voorzien van een nieuwe set banden. Daarvoor zal ik de voorraad moeten opvragen om te weten hoeveel banden er aanwezig zijn. Elke auto heeft 4 banden en hiermee kan ik uitrekenen bij hoeveel auto's de banden kunnen vernieuwt worden.
 
-Bereken het aantal gewerkte uren van de fietsmaker als het bedrag gegeven wordt.    
+Schrijf een programma dat:
 
-Bedrag
-
-$$ bedrag = vaste kosten + uren  *  uurloon $$  
-
-Dus is  
-
-$$ uren = {bedrag - vaste kosten \over uurloon} $$
+- aan de gebruiker vraagt hoeveel banden er in voorraad zijn,
+- berekent van hoeveel auto's de banden kunnen vervangen worden,
+- berekent hoeveel banden er nog over zullen zijn als bij het maximaal aantal auto's de banden vernieuwt zijn,
+- de informatie op het scherm zet in 2 zinnen.
 
 ### Invoer
 
-De gebruiker geeft het bedrag dat hij betaald in kommagetal.  
-Het uurloon is 12 euro en de vaste kosten 8 euro.  
+Het aantal banden in voorraad.  
 
 ### Uitvoer
 
-Het aantal volle gewerkte uren is ....  
-Het aantal uren wordt omgezet naar een geheel getal.
+Volgende zinnen:  
+"Het aantal auto's waarvan de banden vervangen kunnen worden is x."  
+"Er blijven dan nog y banden over."
+
+x moet je vervangen door het aantal auto's en y door het aantal banden dat overblijft.
 
 ### Voorbeeld
 
 **Invoer**
 
-    47.50
+    26
 
 **Uitvoer**
 
-    Het aantal gewerkte uren is 3.
+    Het aantal auto's waarvan de banden vervangen kunnen worden is 6.  
+    Er blijven dan nog 2 banden over.
