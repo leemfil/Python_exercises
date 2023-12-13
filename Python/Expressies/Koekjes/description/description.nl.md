@@ -32,5 +32,5 @@ x moet vervangen worden door het aantal koekjes per persoon en y door het aantal
 
 **Uitvoer**
 
-     4
-     4
+     Het aantal koekjes per persoon is 4.
+     Er blijven nog 4 koekjes over.
