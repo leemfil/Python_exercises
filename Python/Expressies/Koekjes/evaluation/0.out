@@ -11,7 +11,7 @@ Er blijven nog 0 koekjes over.
 Het aantal koekjes per persoon is 3.
 Er blijven nog 1 koekjes over.
 --------------------------------------------------
-tab name: Aantal koekjes
+tab name: Koekjes
 python input without prompt: true
 block count: multi
 input block size: 2
