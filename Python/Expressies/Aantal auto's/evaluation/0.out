@@ -1,13 +1,18 @@
-Het aantal gewerkte uren is 1.
-Het aantal gewerkte uren is 6.
-Het aantal gewerkte uren is 2.
-Het aantal gewerkte uren is 0.
-Het aantal gewerkte uren is 0.
-Het aantal gewerkte uren is 2.
-Het aantal gewerkte uren is 5.
+Het aantal auto's waarvan de banden vervangen kunnen worden is 6.  
+Er blijven dan nog 2 banden over.
+Het aantal auto's waarvan de banden vervangen kunnen worden is 3.  
+Er blijven dan nog 0 banden over.
+Het aantal auto's waarvan de banden vervangen kunnen worden is 26.  
+Er blijven dan nog 3 banden over.
+Het aantal auto's waarvan de banden vervangen kunnen worden is 0.  
+Er blijven dan nog 0 banden over.
+Het aantal auto's waarvan de banden vervangen kunnen worden is 20.  
+Er blijven dan nog 0 banden over.
+Het aantal auto's waarvan de banden vervangen kunnen worden is 12.  
+Er blijven dan nog 1 banden over.
 --------------------------------------------------
-tab name: Uren fietsmaker
+tab name: Aantal auto's
 python input without prompt: true
 block count: multi
 input block size: 1
-output block size: 1
+output block size: 2
