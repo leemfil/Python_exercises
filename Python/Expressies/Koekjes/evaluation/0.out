@@ -1,7 +1,18 @@
-48.0
+Het aantal koekjes per persoon is 4.
+Er blijven nog 4 koekjes over.
+Het aantal koekjes per persoon is 8.
+Er blijven nog 4 koekjes over.
+Het aantal koekjes per persoon is 3.
+Er blijven nog 0 koekjes over.
+Het aantal koekjes per persoon is 3.
+Er blijven nog 2 koekjes over.
+Het aantal koekjes per persoon is 0.
+Er blijven nog 0 koekjes over.
+Het aantal koekjes per persoon is 3.
+Er blijven nog 1 koekjes over.
 --------------------------------------------------
-tab name: Koekjes
+tab name: Aantal koekjes
 python input without prompt: true
-block count: 1
-input block size: 0
-output block size: 1
+block count: multi
+input block size: 2
+output block size: 2
