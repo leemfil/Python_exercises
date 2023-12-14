@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Gemiddelde van opeenvolgende getallen"
+      "nl": "Volume kubus"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "8DmNH6iAeSuP_I5KaAn_DFywPBZ-37amMhRJdJt5WBFGnzSzf-SfHPDetkiMs_xE",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
