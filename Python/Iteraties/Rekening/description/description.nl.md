@@ -1,18 +1,14 @@
-Met de energiecrisis is het belangrijk dat we de de temperaturen voor de volgende dagen te kunnen voorspellen. Daarom analyseren we de dagelijkse temperaturen van de afgelopen dagen.
-
-<br>  
-<div class="dodona-centered-group"><img src="media/Vorst-bevroren-sloot.jpeg" width="396" height="222"></div>
-<br>
+Met de feestdagen in aantocht ben ik heel blij dat ik voor iedereen in mijn familie een cadeau gevonden heb in één enkele winkel. Het voordeel is dat bij aankoop vanaf 5 artikelen de goedkoopste prijs wegvalt. Ik wil ook weten hoeveel dure cadeaus vanaf 50,00 euro ik ga aankopen. 
 
 ### Opdracht
 
 Schrijf een programma dat:
 
-- de dagelijkse temperaturen inleest die door de gebruiker worden gegeven,
-- de temperaturen analyseert en het aantal dagen dat het vriest (negatieve temperaturen) weergeeft,
-- het aantal dagen van 0°C tot 5°C weergeeft (5°C niet meer erbij),
-- de ergste vriesdag in de reeks weergeeft,
-- stopt wanneer een temperatuur van -100 wordt ingegeven.
+- de prijzen van de verschillende cadeaus vraagt aan de gebruiker,
+- dat stopt met prijzen vragen wanneer de gebruiker -20 ingeeft,
+- de totale kostprijs van alle cadeaus berekent met het voordeel dat vanaf de goedkoopste prijs wegvalt vanaf 5 artikelen,
+- het aantal dure cadeaus geeft vanaf 50,00 euro,
+- alle informatie op het scherm zet.
 
 Maak geen gebruik van while True:.
 
