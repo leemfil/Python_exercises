@@ -40,5 +40,5 @@ y door het aantal dure cadeaus vanaf 50,00 euro.
 
 **Uitvoer**
 
-     De totale kostprijs van al mijn cadeaus is 259.11.
+     De totale kostprijs van al mijn cadeaus is 243.31.
      Ik ga 2 dure cadeaus kopen. 
