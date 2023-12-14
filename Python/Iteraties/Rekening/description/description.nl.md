@@ -10,41 +10,35 @@ Schrijf een programma dat:
 - het aantal dure cadeaus geeft vanaf 50,00 euro,
 - alle informatie op het scherm zet.
 
-Maak geen gebruik van while True:.
 
 ### Invoer
 
-- De dagelijkse temperaturen van de afgelopen dagen als kommagetal,
-- de laatste invoer is -100.
+- de prijzen van de cadeaus als kommagetal,
+- de laatste invoer is -20.
 
 ### Uitvoer
 
 De zinnen: 
 
-Het heeft in de periode x dagen gevroren en y dagen was de temperatuur tussen 0 en 5 graden celsius.  
-De laagste temperatuur was z. 
+De totale kostprijs van al mijn cadeaus is x.
+Ik ga y dure cadeaus kopen. 
      
-x moet vervangen worden door het aantal vorstdagen, y door het aantal van 0 tot 5 graden, z door de laagste temperatuur.     
+x moet vervangen worden door de totale kostprijs van de cadeaeus,  
+y door het aantal dure cadeaus vanaf 50,00 euro.     
 
 ### Voorbeeld
 
 **Invoer**
 
-     5.1
-     2.3
-     0.0
-     -1.7
-     -3.5
-     -2.4
-     -5.2
-     -1.4
-     1.3
-     4.0
-     -2.6
-     1.5
-     -100
+     25.25
+     45.00
+     67.50
+     35.56
+     70.00
+     15.80
+     -20
 
 **Uitvoer**
 
-    Het heeft in de periode 6 dagen gevroren en 5 dagen was de temperatuur tussen 0 en 5 graden celsius. 
-    De laagste temperatuur was -5.2. 
+     De totale kostprijs van al mijn cadeaus is 259.11.
+     Ik ga 2 dure cadeaus kopen. 
