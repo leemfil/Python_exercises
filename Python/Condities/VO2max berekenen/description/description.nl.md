@@ -27,14 +27,12 @@ waarbij $$d$$<sub>12</sub> de afstand in meter die men aflegt in 12 minuten.
 Schrijf een programma dat:
 
 - de afstand $$d$$<sub>12</sub> in meter vraagt,
-- het geslacht vraagt,
 - de VO<sub>2</sub>max schatting op 1 cijfer na de komma berekent
-- en vervolgens de juiste boodschap op het scherm zet afhankelijk van het geslacht en de leeftijd.
+- en vervolgens de juiste boodschap op het scherm zet afhankelijk van de leeftijd.
 
 ### Invoer
 
 - De afstand afgelegd in 12 minuten in meter.
-- Het geslacht: man/vrouw.
 
 ### Uitvoer
 
@@ -50,7 +48,6 @@ en \<waardering\> door de juiste waardering uit de tabel: "slechte", "gemiddelde
 **Invoer**
 
      2450
-     man
 
 **Uitvoer**
 
@@ -59,9 +56,8 @@ en \<waardering\> door de juiste waardering uit de tabel: "slechte", "gemiddelde
 **Invoer**
 
      2000
-     vrouw
 
 **Uitvoer**
 
-     Je hebt een VO2max van 33.2 ml/kg/min en dus een gemiddelde conditie. 
+     Je hebt een VO2max van 33.2 ml/kg/min en dus een slechte conditie. 
 
