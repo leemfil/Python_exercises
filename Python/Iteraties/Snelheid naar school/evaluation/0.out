@@ -1,0 +1,12 @@
+Het gemiddelde van de reeks getallen is 4.0.
+Het gemiddelde van de reeks getallen is 2.5.
+Het gemiddelde van de reeks getallen is 11.0.
+Het gemiddelde van de reeks getallen is 30.5.
+Het gemiddelde van de reeks getallen is 156.0.
+Het gemiddelde van de reeks getallen is 2.0.
+--------------------------------------------------
+tab name: Gemiddelde van opeenvolgende getallen
+python input without prompt: true
+block count: multi
+input block size: 2
+output block size: 1
