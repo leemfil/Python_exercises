@@ -4,13 +4,12 @@ De VO<sub>2</sub>max of het of het maximale zuurstofopnamevermogen is het maxima
 <div class="dodona-centered-group"><img src="media/lopers.jpeg" width="360" height="202"></div>
 <br>
 
-Gemiddeld gesproken hebben mannen een VO<sub>2</sub>max tussen de 35 en 40 ml/kg/min. Voor vrouwen ligt dit tussen de 27 en 31 ml/kg/min. Topsporters kunnen waarden bereiken die tussen de 60 en 95 ml/kg/min liggen. De VO<sub>2</sub>max neemt af met de leeftijd.
+Gemiddeld gesproken hebben mannen een VO<sub>2</sub>max tussen de 35 en 40 ml/kg/min. Topsporters kunnen waarden bereiken die tussen de 60 en 95 ml/kg/min liggen. De VO<sub>2</sub>max neemt af met de leeftijd.
 
 <br>
 <table>
      <tr>
           <th><div class="dodona-centered-group"><img src="media/VO2max_mannen.png" width="411" height="125"></div></th>
-          <th><div class="dodona-centered-group"><img src="media/VO2max_vrouwen.png" width="411" height="125"></div></th>
      </tr>
 </table>
 <br>
