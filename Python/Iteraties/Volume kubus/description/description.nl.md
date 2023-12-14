@@ -1,21 +1,29 @@
-Bereken het gemiddelde van een reeks getallen startende bij een begingetal tot en met een eindgetal.
+Ik wil het volume berekenen van kubussen waarvan de zijde verschillende opeenvolgende lengten kan aannemen.  
+Het volume van een kubus kan berekent worden met volgende formule:
+
+$$ volume = z^3  $$
+
+waarin de z de lengte van de zijde van de kubus is.
 
 ### Opgave
 
 Schrijf een programma dat:
-- aan de gebruiker vraagt om een begingetal,
-- aan de gebruiker vraagt om het eindgetal,
-- bereken het gemiddelde met behulp van een **lus** van alle getallen vanaf het begingetal tot en met het eindgetal,
-- en zet het resultaat op het scherm in een zin.
+- aan de gebruiker vraagt om een beginwaarde van de zijde,
+- aan de gebruiker vraagt om het eindwaarde van de zijde,
+- achtereenvolgens de inhoud berekent van de kubussen met verschillende lengten,  
+  de lengten beginnen bij de beginwaarde en er wordt telkens één bij geteld,  
+  de laatste lengte is dan de eindwaarde,
+- en de inhoud van elke kubus op het scherm zet in een zin.
 
 ### Invoer
 
-Een begingetal en een eindgetal.
+De eerste waarde van de zijdes.  
+De laatste waarde van de zijdes.
 
 ### Uitvoer
 
-De zin: "Het gemiddelde van de reeks getallen is x."
-Vervang x door het gemiddelde.
+Een aantal keer de zin:  
+"Kubus met zijde x heeft een inhoud van y."
 
 ### Voorbeelden
 
@@ -26,5 +34,9 @@ Vervang x door het gemiddelde.
 
 **Uitvoer**
     
-    Het gemiddelde van de reeks getallen is 3.8.
+    Kubus met zijde 2 heeft een inhoud van 8.  
+    Kubus met zijde 3 heeft een inhoud van 27.  
+    Kubus met zijde 4 heeft een inhoud van 64.  
+    Kubus met zijde 5 heeft een inhoud van 125.
+    Kubus met zijde 6 heeft een inhoud van 216.
     
