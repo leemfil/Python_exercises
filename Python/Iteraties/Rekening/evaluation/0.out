@@ -1,26 +1,16 @@
-Het heeft in de periode 6 dagen gevroren en 5 dagen was de temperatuur tussen 0 en 5 graden celsius. 
-De laagste temperatuur was -5.2.
-Het heeft in de periode 6 dagen gevroren en 4 dagen was de temperatuur tussen 0 en 5 graden celsius.
-De laagste temperatuur was -2.5.
-Het heeft in de periode 5 dagen gevroren en 0 dagen was de temperatuur tussen 0 en 5 graden celsius.
-De laagste temperatuur was -6.6.
-Het heeft in de periode 0 dagen gevroren en 4 dagen was de temperatuur tussen 0 en 5 graden celsius. 
-De laagste temperatuur was 1.0.
-Het heeft in de periode 2 dagen gevroren en 8 dagen was de temperatuur tussen 0 en 5 graden celsius. 
-De laagste temperatuur was -3.2.
-Het heeft in de periode 6 dagen gevroren en 1 dagen was de temperatuur tussen 0 en 5 graden celsius.
-De laagste temperatuur was -5.3.
-Het heeft in de periode 2 dagen gevroren en 3 dagen was de temperatuur tussen 0 en 5 graden celsius.
-De laagste temperatuur was -3.2.
-Het heeft in de periode 5 dagen gevroren en 3 dagen was de temperatuur tussen 0 en 5 graden celsius.
-De laagste temperatuur was -12.2.
-Het heeft in de periode 4 dagen gevroren en 0 dagen was de temperatuur tussen 0 en 5 graden celsius.
-De laagste temperatuur was -3.0.
-Het heeft in de periode 3 dagen gevroren en 2 dagen was de temperatuur tussen 0 en 5 graden celsius.
-De laagste temperatuur was -2.0.
+De totale kostprijs van al mijn cadeaus is 259.11.
+Ik ga 2 dure cadeaus kopen.
+De totale kostprijs van al mijn cadeaus is 213.24.
+Ik ga 0 dure cadeaus kopen.
+De totale kostprijs van al mijn cadeaus is 0.
+Ik ga 0 dure cadeaus kopen.
+De totale kostprijs van al mijn cadeaus is 210.0.
+Ik ga 2 dure cadeaus kopen.
+De totale kostprijs van al mijn cadeaus is 579.1.
+Ik ga 8 dure cadeaus kopen.
 --------------------------------------------------
-tab name: Vorst temperaturen
-python input without prompt: true
+tab name: Rekening
+python input without prompt: true24
 block count: multi
-input block size: ends with -100
+input block size: ends with -20
 output block size: 2
