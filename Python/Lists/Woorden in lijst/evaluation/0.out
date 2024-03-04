@@ -27,7 +27,7 @@ lamp
 deur
 ['kapstok', 'schoenkast', 'toilet']
 ['deur', 'trap']
-['kapstok', 'schoenkast', 'toilet', 'deur', ''trap']
+['kapstok', 'schoenkast', 'toilet', 'deur', 'trap']
 ['bed']
 ['bed']
 bed
