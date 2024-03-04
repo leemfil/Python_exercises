@@ -7,7 +7,7 @@ Schrijf een python pragramma dat:
 + de woorden aan de gebruiker de vraagt,
 + de woorden aan een lijst toevoegt en de lijst afbeeldt,
 + de woorden in de lijst alfabetisch soteert en de lijst afbeeldt,
-+ het 3de woord uit de lijst op het scherm zet,
++ het 1ste woord uit de lijst op het scherm zet,
 + 2 lijsten maakt en de woorden die meer dan 5 letters bevatten toevoegt aan de 1ste lijst en de woorden met 5 of minder letters toevoegt aan de 2de lijst en de 2 lijsten onder elkaar afbeeldt,
 + de 2 vorige lijsten samenvoegt tot één lijst en deze lijst afbeeldt.
 
@@ -20,7 +20,7 @@ Woorden onder elkaar.
 
 * lijst met woorden
 * lijst met gesorteerde woorden
-* 3de woord
+* 1ste woord
 * lijst met woorden met meer dan 5 letters
 * lijst met woorden met 5 of minder letters
 * samengevoegde lijst van de 2 vorige lijsten
@@ -39,7 +39,7 @@ Woorden onder elkaar.
      
      ['stoel', 'afwasmachine', 'voorraadkast', 'oven']
      ['afwasmachine', 'oven', 'stoel', 'voorraadkast']
-     stoel
+     afwasmachine
      ['afwasmachine', 'voorraadkast']
      ['oven', 'stoel']
      ['afwasmachine', 'voorraadkast', 'oven', 'stoel']
