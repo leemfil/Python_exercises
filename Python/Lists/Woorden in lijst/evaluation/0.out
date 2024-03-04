@@ -13,9 +13,9 @@ bureau
 ['pen', 'potlood', 'stift', 'lat, 'schaar']
 ['lat', 'pen', 'potlood', 'schaar', 'stift']
 lat
-['potlood', 'schaar', 'stift']
-['lat', 'pen']
-['potlood', 'schaar', 'stift', 'lat', 'pen']
+['potlood', 'schaar']
+['lat', 'pen', 'stift']
+['potlood', 'schaar', 'lat', 'pen', 'stift']
 ['televisie', 'lamp']
 ['lamp', 'televisie']
 lamp
