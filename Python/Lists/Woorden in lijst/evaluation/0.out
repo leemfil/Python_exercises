@@ -28,6 +28,12 @@ deur
 ['kapstok', 'schoenkast', 'toilet']
 ['deur', 'trap']
 ['kapstok', 'schoenkast', 'toilet', 'deur', ''trap']
+['bed']
+['bed']
+bed
+[]
+['bed']
+['bed']
 --------------------------------------------------
 tab name: Woorden in lijst
 python input without prompt: true
