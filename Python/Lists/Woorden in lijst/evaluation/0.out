@@ -5,11 +5,11 @@ afwasmachine
 ['oven', 'stoel']
 ['afwasmachine', 'voorraadkast', 'oven', 'stoel']
 ['bureau', 'computer', 'scherm']
-['bureau, 'computer', 'scherm']
+['bureau', 'computer', 'scherm']
 bureau
-['bureau, 'computer', 'scherm']
+['bureau', 'computer', 'scherm']
 []
-['bureau, 'computer', 'scherm']
+['bureau', 'computer', 'scherm']
 ['pen', 'potlood', 'stift', 'lat, 'schaar']
 ['lat', 'pen', 'potlood', 'schaar', 'stift']
 lat
