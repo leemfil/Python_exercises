@@ -1,0 +1,42 @@
+['stoel', 'afwasmachine', 'voorraadkast', 'oven']
+['afwasmachine', 'oven', 'stoel', 'voorraadkast']
+afwasmachine
+['afwasmachine', 'voorraadkast']
+['oven', 'stoel']
+['afwasmachine', 'voorraadkast', 'oven', 'stoel']
+['bureau', 'computer', 'scherm']
+['bureau', 'computer', 'scherm']
+bureau
+['bureau', 'computer', 'scherm']
+[]
+['bureau', 'computer', 'scherm']
+['pen', 'potlood', 'stift', 'lat', 'schaar']
+['lat', 'pen', 'potlood', 'schaar', 'stift']
+lat
+['potlood', 'schaar']
+['lat', 'pen', 'stift']
+['potlood', 'schaar', 'lat', 'pen', 'stift']
+['televisie', 'lamp']
+['lamp', 'televisie']
+lamp
+['televisie']
+['lamp']
+['televisie', 'lamp']
+['schoenkast', 'trap', 'deur', 'toilet', 'kapstok']
+['deur', 'kapstok', 'schoenkast', 'toilet', 'trap']
+deur
+['kapstok', 'schoenkast', 'toilet']
+['deur', 'trap']
+['kapstok', 'schoenkast', 'toilet', 'deur', 'trap']
+['bed']
+['bed']
+bed
+[]
+['bed']
+['bed']
+--------------------------------------------------
+tab name: Woorden in lijst
+python input without prompt: true
+block count: multi
+input block size: ends with
+output block size: 6
