@@ -1,9 +1,9 @@
-['stoel', 'afwasmachine', 'voorraadkast', 'oven']
-['afwasmachine', 'oven', 'stoel', 'voorraadkast']
-afwasmachine
-['afwasmachine', 'voorraadkast']
-['oven', 'stoel']
-['afwasmachine', 'voorraadkast', 'oven', 'stoel']
+[22, 15, 30, 7]
+15
+[22, 30]
+[15, 7]
+[22, 30, 15, 7]
+74
 ['bureau', 'computer', 'scherm']
 ['bureau', 'computer', 'scherm']
 bureau
