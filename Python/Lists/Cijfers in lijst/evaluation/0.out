@@ -35,7 +35,7 @@ bed
 ['bed']
 ['bed']
 --------------------------------------------------
-tab name: Woorden in lijst
+tab name: Getallen in lijst
 python input without prompt: true
 block count: multi
 input block size: ends with
