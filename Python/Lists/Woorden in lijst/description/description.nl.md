@@ -4,7 +4,7 @@ We voegen een gekend aantal woorden toe aan een lijst en sorteren de elementen, 
 
 Schrijf een python pragramma dat:
 + aan de gebruiker vraagt hoeveel woorden er in de lijst moeten worden toegevoegd,
-+ de woorden aan de gebruiker de vraagt,
++ de woorden aan de gebruiker vraagt,
 + de woorden aan een lijst toevoegt en de lijst afbeeldt,
 + de woorden in de lijst alfabetisch soteert en de lijst afbeeldt,
 + het 1ste woord uit de lijst op het scherm zet,
