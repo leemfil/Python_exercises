@@ -1,41 +1,36 @@
-leemf.zavo.be
-Ik - woon - sinds - dit - jaar - op - het - adres - Brusselsesteenweg - 23 - 1930 - Zaventem.
-8
-32
-ren is oplossingsgerich
-Het aantal cijfers in de tekst is 6.
-Ik wOon SindS diT jaAr oP heT adRes BrusSelsEsteEnweG 23 1930 ZaVentEm.
-z12345.zavo.be
-Sinds - 2020 - is - de - gasprijs - 2 - keer - duurder - geworden.
-8
-14
-r nie
-Het aantal cijfers in de tekst is 5.
-SindS 2020 iS de gasPrijS 2 Keer duuRder gewOrdeN.
-burgerzaken.zavo.be
-Mijn - gsmnummer - is - 0497/56 - 85 - 12.
-1
-59
-lf zoeken naar een oplossing is een reflex die in veel si
-Het aantal cijfers in de tekst is 10.
-Mijn gsmNummEr iS 0497/56 85 12.
-autodealer.zavo.be
-Persioendienst - werkt - halftime - wegens - te - veel - ambtenaren - met - pensioen.
-4
-33
-el pogingen kom je dikwijls
-Het aantal cijfers in de tekst is 0.
-PersIoenDienSt wErkt halFtimE weGens te Veel ambTenaRen Met PensIoen.
-tom.zavo.be
-Na - een - twijfelachtige - prestatie - is - hij - gestrand - op - de - 27ste - plaats.
-11
-40
-goede voorbeelden als je he
-Het aantal cijfers in de tekst is 2.
-Na eEn tWijfElacHtigE prEstaTie Is hIj gEstrAnd Op dE 27Ste PlaaTs.
+Ik woon sinds dit jaar op het adres Brusselsesteenweg 23 1930 Zaventem. Programmeren is oplossingsgericht denken.
+Leemf
+Be
+Ik heeft een lengte van 2.
+Programmerenisoplossingsgerichtdenken.
+Het aantal klinkers in tekst 2 is 20.
+Sinds 2020 is de gasprijs 2 keer duurder geworden. Vaak is er niet een standaard oplossing beschikbaar.
+Z12345
+Be
+Sinds heeft een lengte van 5.
+Vaakisernieteenstandaardoplossingbeschikbaar.
+Het aantal kinkers in tekst 2 is 12.
+Mijn gsmnummer is 0497/56 85 12. Zelf zoeken naar een oplossing is een reflex die in veel situaties van pas komt.
+Burgerzaken
+Be
+Mijn heeft een lenget van 4.
+Zelfzoekennaareenoplossingiseenreflexdieinveelsituatiesvanpaskomt.
+Het aantal klinkers in tekst 2 is 3. 
+Persioendienst werkt halftime wegens te veel ambtenaren met pensioen. Na veel pogingen kom je dikwijls tot een oplossing.
+Autodealer
+Be
+Pensioendienst heeft een lengte van 14.
+Naveelpogingenkomjedikwijlstoteenoplossing.
+Het aantal klinkers in tekst 2 is 24. 
+Na een twijfelachtige prestatie is hij gestrand op de 27ste plaats. Soms vind je goede voorbeelden als je het internet afspeurt.
+Tom
+Be
+Na heeft een lengte van 2.
+Somsvindjegoedevoorbeeldenalsjehetinternetafspeurt.
+Het aantal klinkers in tekst 2 is 21. 
 --------------------------------------------------
 tab name: Strings aanpassen
 python input without prompt: true
 block count: multi
 input block size: 3
-output block size: 7
+output block size: 6
