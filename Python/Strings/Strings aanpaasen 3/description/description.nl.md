@@ -4,13 +4,11 @@ Schrijf een programma dat:
 - 3 aparte teksten vraagt aan de gebruiker,  
 - en de teksten op de volgende manieren wijzigt:
 
-1. Verander de punt "." in tekst 1 door "zavo.".
-2. Vervang in tekst 2 elke spatie door " - " met behulp van de split methode.
-3. Geef de positie van de eerste letter "e" en eerste letter "t" in tekst 3 onder elkaar. 
-4. Geef het deel van tekst 3 tussen de letter "e" en "t", dus na de eerste letter "e" en voor de eerste letter "t".
-5. Tel alle cijfers in tekst 2 en geef het resultaat in een zin.
-6. Begin tekst 2 met een hoofdletter en verander daarna elke vierde teken die na elkaar volgen ook door een hoofdletter.
-Leestekens mogen aan de woorden blijven vastzitten.
+1. Maak een nieuwe variabele waarin je tekst 2 en tekst 3 samenvoegt met spatie tussen, tekst 3 na tekst 2. Zet de inhoud van de nieuwe variabele op het scherm.
+2. Zoek in tekst 1 de positie van de punt en maak 2 substrings; substring 1 is de tekst voor de punt en substring 2 is de tekst na de punt. Verander de eerste letter van elke substring naar een hoofdletter. Zet de 2 substrings op het scherm onder elkaar.
+3. Selecteer het eerste woord uit tekst 2 en geef de lengte van dit woord in een zin op het scherm.
+4. Verwijder in tekst 3 alle spaties. Zet de tekst zonder spaties op het scherm.
+5. Tel alle klinkers a, e, i, o, u in tekst 2 en geef het resultaat in een zin.
 
 ### Invoer
 
@@ -18,12 +16,11 @@ Leestekens mogen aan de woorden blijven vastzitten.
 
 ### Uitvoer
 
-* Tekst 1 met "zavo." toegevoegd. 
-* Tekst 2 " " vervangen door " - " met de split methode.
-* Positie van eerste "e" en eerste "t" in tekst 3.        
-* Tekst 3 tussen letter "e" en letter "t
-* Het aantal cijfers in tekst 2 is ... .
-* Tekst 2 met 1ste en daarna elke 4de letter verandert in een hoofdletter.
+* Samengevoegde tekst van tekst 2 en tekst 3.
+* 2 substrings met hoofdletter onder elkaar.
+* <eerste woord> heeft een lengte van ... .        
+* Tekst 3 zonder spaties.
+* Het aantal klinkers in tekst 2 is ... .
 
 ### Voorbeeld
 
@@ -35,14 +32,12 @@ Leestekens mogen aan de woorden blijven vastzitten.
 
 **Uitvoer**
 
-    leemf.zavo.be
-    Ik - woon - sinds - dit - jaar - op - het - adres - Brusselsesteenweg - 23 - 1930 - Zaventem.
-    8
-    32
-    ren is oplossingsgerich
-    Het aantal cijfers in de tekst is 6.
-    Ik wOon SindS diT jaAr oP het adrEs BRussElseSteeNweg 23 1930 ZavEnteM.
-   
+    Ik woon sinds dit jaar op het adres Brusselsesteenweg 23 1930 Zaventem. Programmeren is oplossingsgericht denken.
+    Leemf
+    Be
+    Ik heeft een lengte van 2.
+    Programmerenisoplossingsgerichtdenken.
+    Het aantal klinkers in tekst 2 is 20.
    
 **Invoer**
     
@@ -52,11 +47,11 @@ Leestekens mogen aan de woorden blijven vastzitten.
 
 **Uitvoer**
 
-    z12345.zavo.be
-    Sinds - 2020 - is - de - gasprijs - 2 - keer - duurder - geworden.
-    8
-    14
-    r nie
-    Het aantal cijfers in de tekst is 5.
-    SindS 2020 iS de gasPrijS 2 Keer duuRder gewOrdeN.
+    Sinds 2020 is de gasprijs 2 keer duurder geworden. Vaak is er niet een standaard oplossing beschikbaar.
+    Z12345
+    Be
+    Sinds heeft een lengte van 5.
+    Vaakisernieteenstandaardoplossingbeschikbaar.
+    Het aantal kinkers in tekst 2 is 12.
+
     
