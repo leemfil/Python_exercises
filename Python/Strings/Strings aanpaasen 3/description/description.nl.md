@@ -7,7 +7,7 @@ Schrijf een programma dat:
 1. Maak een nieuwe variabele waarin je tekst 2 en tekst 3 samenvoegt met spatie tussen, tekst 3 na tekst 2. Zet de inhoud van de nieuwe variabele op het scherm.
 2. Zoek in tekst 1 de positie van de punt en maak 2 substrings; substring 1 is de tekst voor de punt en substring 2 is de tekst na de punt. Verander de eerste letter van elke substring naar een hoofdletter. Zet de 2 substrings op het scherm onder elkaar.
 3. Selecteer het eerste woord uit tekst 2 en geef de lengte van dit woord in een zin op het scherm.
-4. Verwijder in tekst 3 alle spaties. Zet de tekst zonder spaties op het scherm.
+4. Verwijder in tekst 3 alle spaties met behulp van de replace methode. Zet de tekst zonder spaties op het scherm.
 5. Tel alle klinkers a, e, i, o, u in tekst 2 en geef het resultaat in een zin.
 
 ### Invoer
