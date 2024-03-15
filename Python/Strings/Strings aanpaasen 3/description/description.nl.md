@@ -37,7 +37,7 @@ Schrijf een programma dat:
     Be
     Ik heeft een lengte van 2.
     Programmerenisoplossingsgerichtdenken.
-    Het aantal klinkers in tekst 2 is 20.
+    Het aantal klinkers in tekst 2 is 19.
    
 **Invoer**
     
@@ -52,6 +52,6 @@ Schrijf een programma dat:
     Be
     Sinds heeft een lengte van 5.
     Vaakisernieteenstandaardoplossingbeschikbaar.
-    Het aantal kinkers in tekst 2 is 12.
+    Het aantal kinkers in tekst 2 is 13.
 
     
