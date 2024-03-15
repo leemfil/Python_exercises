@@ -8,7 +8,7 @@ Schrijf een programma dat:
 2. Verwijder in tekst 1 het ".be" deel met behulp van de replace methode. Maak van de eerste letter van de overgebleven tekst een hoofdletter. Zet de overgebleven tekst op het scherm.
 3. Splits tekst 1 op de punt met behulp van de splits methode. Zet de 2 delen tekst onder elkaar op het scherm.
 4. Neem de lengte van tekst 3. Zet tekst 3 op het scherm met de zin " : lengte ..." eraan geplakt.
-5. Tel al de spatie en leestekens (./,:?) in tekst 2 en geef het resultaat in een zin.
+5. Tel al de spatie en leestekens (.;,:?) in tekst 2 en geef het resultaat in een zin.
 
 ### Invoer
 
