@@ -4,11 +4,11 @@ Schrijf een programma dat:
 - 3 aparte teksten vraagt aan de gebruiker,  
 - en de teksten op de volgende manieren wijzigt:
 
-1. Maak een nieuwe variabele waarin je tekst 2 en tekst 3 samenvoegt met spatie tussen, tekst 3 na tekst 2. Zet de inhoud van de nieuwe variabele op het scherm.
-2. Zoek in tekst 1 de positie van de punt en maak 2 substrings; substring 1 is de tekst voor de punt en substring 2 is de tekst na de punt. Verander de eerste letter van elke substring naar een hoofdletter. Zet de 2 substrings op het scherm onder elkaar.
-3. Selecteer het eerste woord uit tekst 2 en geef de lengte van dit woord in een zin op het scherm.
-4. Verwijder in tekst 3 alle spaties. Zet de tekst zonder spaties op het scherm.
-5. Tel alle klinkers a, e, i, o, u in tekst 2 en geef het resultaat in een zin.
+1. Zoek in de tekst 2 de positie van de eerste letter i en neem de substring van al de letters na deze i tot en het laatste teken. Zet de substring op het scherm.
+2. Verwijder in tekst 1 het ".be" deel met behulp van de replace methode. Maak van de eerste letter van de overgebleven tekst een hoofdletter. Zet de overgebleven tekst op het scherm.
+3. Splits tekst 1 op de punt met behulp van de splits methode. Zet de 2 delen tekst onder elkaar op het scherm.
+4. Neem de lengte van tekst 3. Zet tekst 3 op het scherm met de zin " : lengte ..." eraan geplakt.
+5. Tel al de spatie en leestekens (./,:?) in tekst 2 en geef het resultaat in een zin.
 
 ### Invoer
 
@@ -16,11 +16,11 @@ Schrijf een programma dat:
 
 ### Uitvoer
 
-* Samengevoegde tekst van tekst 2 en tekst 3.
-* 2 substrings met hoofdletter onder elkaar.
-* <eerste woord> heeft een lengte van ... .        
-* Tekst 3 zonder spaties.
-* Het aantal klinkers in tekst 2 is ... .
+* Substring van de teks na de eerste letter i.
+* Eerste tekst zonder ".be" en met hoofdletter.
+* 2 delen van tekst 1 onder elkaar.        
+* Tekst 3 met " : lengte ..." toegevoegd.
+* Het aantal spaties en tekens in tekst 2 is ... .
 
 ### Voorbeeld
 
@@ -32,12 +32,12 @@ Schrijf een programma dat:
 
 **Uitvoer**
 
-    Ik woon sinds dit jaar op het adres Brusselsesteenweg 23 1930 Zaventem. Programmeren is oplossingsgericht denken.
+    k woon sinds dit jaar op het adres Brusselsesteenweg 23 1930 Zaventem.
     Leemf
-    Be
-    Ik heeft een lengte van 2.
-    Programmerenisoplossingsgerichtdenken.
-    Het aantal klinkers in tekst 2 is 20.
+    leemf
+    be
+    Programmeren is oplossingsgericht denken.: lengte 41
+    Het aantal spaties en tekens in tekst 2 is 12.
    
 **Invoer**
     
@@ -47,11 +47,11 @@ Schrijf een programma dat:
 
 **Uitvoer**
 
-    Sinds 2020 is de gasprijs 2 keer duurder geworden. Vaak is er niet een standaard oplossing beschikbaar.
+    nds 2020 is de gasprijs 2 keer duurder geworden.
     Z12345
-    Be
-    Sinds heeft een lengte van 5.
-    Vaakisernieteenstandaardoplossingbeschikbaar.
-    Het aantal kinkers in tekst 2 is 12.
+    z12345
+    be
+    Vaak is er niet een standaard oplossing beschikbaar.: lengte 51
+    Het aantal spaties en tekens in tekst 2 is 9.
 
     
