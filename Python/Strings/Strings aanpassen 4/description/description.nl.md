@@ -4,7 +4,7 @@ Schrijf een programma dat:
 - 3 aparte teksten vraagt aan de gebruiker,  
 - en de teksten op de volgende manieren wijzigt:
 
-1. Zoek in de tekst 2 de positie van de eerste letter i en neem de substring van al de letters na deze i tot en het laatste teken. Zet de substring op het scherm.
+1. Zoek in de tekst 2 de positie van de eerste kleine letter i en neem de substring van al de letters na deze i tot en het laatste teken. Zet de substring op het scherm.
 2. Verwijder in tekst 1 het ".be" deel met behulp van de replace methode. Maak van de eerste letter van de overgebleven tekst een hoofdletter. Zet de overgebleven tekst op het scherm.
 3. Splits tekst 1 op de punt met behulp van de splits methode. Zet de 2 delen tekst onder elkaar op het scherm.
 4. Neem de lengte van tekst 3. Zet tekst 3 op het scherm met de zin " : lengte ..." eraan geplakt.
