@@ -53,7 +53,7 @@ Waarbij LC de landcode is en cc de laatste 2 cijfers.
     0754  
     7034  
     De landcode is BE.
-    De verborgen bankrekening is BE***************34
+    De verborgen bankrekening is BE***************34.
     
     
    
