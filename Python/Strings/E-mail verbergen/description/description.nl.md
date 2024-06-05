@@ -3,27 +3,32 @@ Om te vermijden dat webbots e-mailadressen gebruiken die op websites zijn gepubl
 
 Schrijf een programma dat volgende bewerkingen op e-mailadressen uitvoert:  
 * Vraag een e-mail aan de gebruiker.
+* Zet de verschillende delen van de naam onder elkaar op het scherm.
 * Neem de eerste 4 letters uit de naam en vervang de rest door een -. 
 * Verberg de domeinnaam met *-tekens, het aantal *-tekens komt overeen met het aantal letters in de domeinnaam.
 * Beeldt het verborgen e-mailadres af in de correcte zin. 
 
 ### Invoer
 
-Een e-mailadres in de vorm john.doe@domain.com.
+Een e-mailadres in de vorm john.doe@domain.com of kaat.de.walle@zavo.be.
 
 ### Uitvoer
 
+Verschillende delen van naam onder elkaar.  
 De zin: "Het verborgen e-mailadres is john-@\*\*\*\*\*\*\*\*\*\*."
 
 ### Voorbeeld
 
 **Invoer**
     
-    hanne.hermans@zavo.be
+    kaat.de.walle@zavo.be
     
 **Uitvoer**
 
-    Het verborgen e-mailadres is hann-@*******.
+    kaat  
+    de  
+    walle  
+    Het verborgen e-mailadres is kaat-@*******.
 
 **Invoer**
     
@@ -31,6 +36,8 @@ De zin: "Het verborgen e-mailadres is john-@\*\*\*\*\*\*\*\*\*\*."
     
 **Uitvoer**
 
+    ilyas  
+    sulimani  
     Het verborgen e-mailadres is ilya-@******.
 
    
