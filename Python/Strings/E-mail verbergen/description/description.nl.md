@@ -10,7 +10,7 @@ Schrijf een programma dat volgende bewerkingen op e-mailadressen uitvoert:
 
 ### Invoer
 
-Een e-mailadres in de vorm john.doe@domain.com of kaat.de.walle@zavo.be.
+Een e-mailadres in de vorm john.doe@domain.com of kaat.van.de.walle@zavo.be.
 
 ### Uitvoer
 
@@ -21,11 +21,12 @@ De zin: "Het verborgen e-mailadres is john-@\*\*\*\*\*\*\*\*\*\*."
 
 **Invoer**
     
-    kaat.de.walle@zavo.be
+    kaat.van.de.walle@zavo.be
     
 **Uitvoer**
 
-    kaat  
+    kaat
+    van  
     de  
     walle  
     Het verborgen e-mailadres is kaat-@*******.
