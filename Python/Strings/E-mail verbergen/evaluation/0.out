@@ -1,15 +1,44 @@
+john
+doe
 Het verborgen e-mailadres is john-@***********.
+
+jane
+smith123
 Het verborgen e-mailadres is jane-@*********.
+
+info
 Het verborgen e-mailadres is info-@**********.
+
+contact
+us
 Het verborgen e-mailadres is cont-@***********.
-Het verborgen e-mailadres is supp-@***************.
-Het verborgen e-mailadres is sale-@************.
+
+kaat
+van
+de
+walle
+Het verborgen e-mailadres is kaat-@***************.
+
+lina
+van
+dijk
+Het verborgen e-mailadres is lina-@************.
+
+firstname
+lastname
 Het verborgen e-mailadres is firs-@**************.
-Het verborgen e-mailadres is user-@***********.
+
+hussein
+zemmouri
+afia
+Het verborgen e-mailadres is huss-@***********.
+
+hello
+world
 Het verborgen e-mailadres is hell-@**********.
 --------------------------------------------------
 tab name: E-mail verbergen
 python input without prompt: true
 block count: multi
 input block size: 1
-output block size: 1
+output block size: ends with
