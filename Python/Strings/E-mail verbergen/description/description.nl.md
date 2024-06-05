@@ -24,4 +24,13 @@ De zin: "Het verborgen e-mailadres is john-@\*\*\*\*\*\*\*\*\*\*."
 **Uitvoer**
 
     Het verborgen e-mailadres is hann-@*******.
+
+**Invoer**
+    
+    ilyas.sulimani@vrt.be
+    
+**Uitvoer**
+
+    Het verborgen e-mailadres is ily-@******.
+
    
