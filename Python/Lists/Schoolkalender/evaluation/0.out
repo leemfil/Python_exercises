@@ -4,12 +4,12 @@ De plaats van festival is 2.
 ['voetbal', 'festival', 'voetbal2', 'theater']
 ['zwemmen']
 ['voetbal', 'festival', 'wandelen', 'zwemmen', 'voetbal2', 'theater']
-['wetenschapsbeurs', 'muziek', 'volleybal', 'eetdag', 'galabal', 'toneel', 'festival', 'sportdag']
-['volleybal', 'toneel']
+['wetenschapsbeurs', 'muziek', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'festival', 'sportdag']
+['volleybal', 'Toneel']
 De plaats van festival is 7.
 ['wetenschapsbeurs', 'volleybal', 'eetdag', 'galabal', 'festival', 'sportdag']
-['muziek', 'toneel']
-['wetenschapsbeurs', 'muziek', 'wandelen', 'volleybal', 'eetdag', 'galabal', 'toneel', 'festival', 'sportdag']
+['muziek', 'Toneel']
+['wetenschapsbeurs', 'muziek', 'wandelen', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'festival', 'sportdag']
 ['festival', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'frisbee', 'toneel', 'quizavond2']
 ['toneel']
 De plaats van festival is 1.
