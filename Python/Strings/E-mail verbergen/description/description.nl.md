@@ -8,7 +8,7 @@ Schrijf een programma dat volgende bewerkingen op e-mailadressen uitvoert:
 * Verberg de domeinnaam met *-tekens, het aantal *-tekens komt overeen met het aantal letters in de domeinnaam.
 * Beeldt het verborgen e-mailadres af in de correcte zin.
 
-<span style="color:blue">* Deze tekst moet wit worden.</span>
+<span style="color:white">* Deze tekst moet wit worden.</span>
 
 ### Invoer
 
