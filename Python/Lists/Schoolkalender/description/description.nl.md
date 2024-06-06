@@ -31,6 +31,7 @@ Schrijf een programmma dat:
     zwemmen
     voetbal
     theater
+    einde
     
 **Uitvoer**
    
