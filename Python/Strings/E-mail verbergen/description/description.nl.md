@@ -6,7 +6,9 @@ Schrijf een programma dat volgende bewerkingen op e-mailadressen uitvoert:
 * Zet de verschillende delen van de naam onder elkaar op het scherm.
 * Neem de eerste 4 letters uit de naam en vervang de rest door een -. 
 * Verberg de domeinnaam met *-tekens, het aantal *-tekens komt overeen met het aantal letters in de domeinnaam.
-* Beeldt het verborgen e-mailadres af in de correcte zin. 
+* Beeldt het verborgen e-mailadres af in de correcte zin.
+
+<span style="color:blue">* Deze tekst moet wit worden.</span>
 
 ### Invoer
 
