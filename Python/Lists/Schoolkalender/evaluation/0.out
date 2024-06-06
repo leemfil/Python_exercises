@@ -1,42 +1,43 @@
-De 1ste lijst is ['galabal', 'festival', 'theater', 'zwemmen'].
-De 2de lijst is ['voetbal'].
-galabal
-zwemmen
-De 1ste lijst is ['Festival', 'Galabal', 'Theater'].
-De 2de lijst is ['voetbal', 'zwemmen'].
-
-De activiteit eetdag is al aanwezig in de 1ste lijst.
-De 1ste lijst is ['muziek', 'volleybal', 'eetdag', 'galabal', 'proclamatie', 'sportdag'].
-De 2de lijst is ['wetenschapsbeurs'].
-muziek
-galabal
-De 1ste lijst is ['Volleybal', 'Muziek', 'Eetdag', 'Galabal', 'Proclamatie'].
-De 2de lijst is ['wetenschapsbeurs', 'sportdag'].
-
-De 1ste lijst is ['frisbee', 'toneel', 'quizavond'].
-De 2de lijst is ['basketbal'].
-frisbee
-De 1ste lijst is ['Toneel', 'Frisbee'].
-De 2de lijst is ['basketbal', 'quizavond'].
-
-De 1ste lijst is ['lezing', 'voorleesmiddag'].
-De 2de lijst is ['themadag'].
-lezing
-De 1ste lijst is ['Lezing'].
-De 2de lijst is ['themadag', 'voorleesmiddag'].
-
-De activiteit uitstap is al aanwezig in de 1ste lijst.
-De 1ste lijst is ['tennis', 'eetdag', 'oudercontact', 'zwemmen', 'uitstap', 'proclamatie', 'galabal', 'festival'].
-De 2de lijst is ['karaoke'].
-tennis
-zwemmen
-galabal
-De 1ste lijst is ['Eetdag', 'Tennis', 'Oudercontact', 'Zwemmen', 'Uitstap', 'Proclamatie', 'Galabal'].
-De 2de lijst is ['karaoke', 'festival'].
-
+[voetbal, festival, zwemmen, voetbal2, theater]
+[voetbal, voetbal2, theater]
+De plaats van festival is 2.
+[voetbal, festival, voetbal2, theater]
+[zwemmen]
+[voetbal, festival, wandelen, zwemmen, voetbal2, theater]
+[wetenschapsbeurs, muziek, volleybal, eetdag, galabal, toneel, festival, sportdag]
+[volleybal, toneel]
+De plaats van festival is 7.
+[wetenschapsbeurs, volleybal, eetdag, galabal, festival, sportdag]
+[muziek, toneel]
+[wetenschapsbeurs, muziek, wandelen, volleybal, eetdag, galabal, toneel, festival, sportdag]
+[festival, eetdag, proclamatie, basketbal, quizavond, frisbee, toneel, quizavond2]
+[toneel]
+[festival, eetdag, proclamatie, basketbal, quizavond, frisbee, quizavond2]
+De plaats van festival is 1.
+[festival, eetdag, proclamatie, basketbal, quizavond, quizavond2]
+[frisbee, toneel]
+[festival, eetdag, wandelen, proclamatie, basketbal, quizavond, frisbee, quizavond2]
+[themadag, themadag2, voorleesmiddag, festival]
+[themadag, themadag2, voorleesmiddag]
+De plaats van festival is 4.
+[themadag, themadag2, voorleesmiddag, festival]
+[]
+[themadag, themadag2, wandelen, voorleesmiddag]
+[karaoke, tennis, eetdag, , oudercontact, zwemmen, eetdag2, uitstap, proclamatie, galabal, festival, uitstap2]
+[tennis, zwemmen]
+De plaats van festival is 10.
+[karaoke, eetdag, oudercontact, eetdag2, uitstap, proclamatie, galabal, festival, uitstap2]
+[tennis, zwemmen]
+[karaoke, tennis, wandelen, eetdag, , oudercontact, zwemmen, eetdag2, uitstap, proclamatie, galabal, festival, uitstap2]
+[karaoke, festival]
+[]
+De plaats van festival is 2.
+[karaoke, festival]
+[]
+[karaoke, festival, wandelen]
 ----------------------------------------
-tab name: Activiteiten manager
+tab name: Schoolkalender
 python input without prompt: true
 block count: multi
-input block size: 2
-output block size: ends with
+input block size: ends with einde
+output block size: 6
