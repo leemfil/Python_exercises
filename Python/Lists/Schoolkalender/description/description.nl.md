@@ -4,7 +4,7 @@ We willen alle activiteiten van de school gaan beheren. Hiervoor gebruiken we ee
 
 Schrijf een programmma dat:
 * De verschillende activiteiten die door de gebruiker gegeven worden toevoegt aan een lijst. Wanneer de gebruiker het woord "einde" geeft stopt de invoer in de lijst. Als activiteit reeds in de lijst staat dan voegen de activiteit opnieuw toe maar met achteraan een 2 aan de activiteit geplakt. Beeldt de lijst af op het scherm.
-* Doorloop de lijst en verwijder alle activiteiten die met de letter "t" of "v" beginnen, klein of grote letter. Beeldt de lijst af op het scherm.
+* Doorloop de lijst en geef alle activiteiten die met de letter "t" of "v" beginnen, klein of grote letter. Beeldt de nieuwe lijst af op het scherm.
 * Beeld de plaats van de activiteit "festival" af op het scherm in een zin.
 * Deel de lijst op in 2 nieuwe lijsten, een lijst met activiteiten die de letter "a" bevatten en een lijst met de overige activiteiten. Beeldst deze 2 nieuwe lijsten onder ekaar af op het scherm.
 * Voeg de activiteit "wandelen" toe aan de originele lijst op de 3de plaats. Beeldt de lijst af op het scherm.
@@ -16,7 +16,7 @@ Schrijf een programmma dat:
 ### Uitvoer
 
 * lijst met activiteiten, dubbele activiteiten bevatten een extra 2 achteraan
-* lijst met activiteiten die niet met een "t" of "v" beginnen
+* lijst met activiteiten die met een "t" of "v" beginnen
 * zin: "De plaats van festival is x." met x de juiste postie
 * lijst met activiteiten met de letter "a"
 * lijst met activiteiten zonder de letter "a"
