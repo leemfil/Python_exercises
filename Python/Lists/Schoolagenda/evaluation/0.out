@@ -1,0 +1,42 @@
+['voetbal', 'festival', 'zwemmen', 'voetbal2', 'theater']
+['voetbal', 'voetbal2', 'theater']
+De plaats van festival is 2.
+['voetbal', 'festival', 'voetbal2', 'theater']
+['zwemmen']
+['voetbal', 'festival', 'wandelen', 'zwemmen', 'voetbal2', 'theater']
+['wetenschapsbeurs', 'muziek', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'festival', 'sportdag']
+['volleybal', 'Toneel']
+De plaats van festival is 7.
+['wetenschapsbeurs', 'volleybal', 'eetdag', 'galabal', 'festival', 'sportdag']
+['muziek', 'Toneel']
+['wetenschapsbeurs', 'muziek', 'wandelen', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'festival', 'sportdag']
+['festival', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'frisbee', 'toneel', 'quizavond2']
+['toneel']
+De plaats van festival is 1.
+['festival', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'quizavond2']
+['frisbee', 'toneel']
+['festival', 'eetdag', 'wandelen', 'proclamatie', 'basketbal', 'quizavond', 'frisbee', 'toneel', 'quizavond2']
+['themadag', 'themadag2', 'voorleesmiddag', 'festival']
+['themadag', 'themadag2', 'voorleesmiddag']
+De plaats van festival is 4.
+['themadag', 'themadag2', 'voorleesmiddag', 'festival']
+[]
+['themadag', 'themadag2', 'wandelen', 'voorleesmiddag', 'festival']
+['karaoke', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'eetdag2', 'uitstap', 'proclamatie', 'galabal', 'festival', 'uitstap2']
+['tennis']
+De plaats van festival is 10.
+['karaoke', 'eetdag', 'oudercontact', 'eetdag2', 'uitstap', 'proclamatie', 'galabal', 'festival', 'uitstap2']
+['tennis', 'zwemmen']
+['karaoke', 'tennis', 'wandelen', 'eetdag', 'oudercontact', 'zwemmen', 'eetdag2', 'uitstap', 'proclamatie', 'galabal', 'festival', 'uitstap2']
+['karaoke', 'festival']
+[]
+De plaats van festival is 2.
+['karaoke', 'festival']
+[]
+['karaoke', 'festival', 'wandelen']
+----------------------------------------
+tab name: Schoolkalender
+python input without prompt: true
+block count: multi
+input block size: ends with einde
+output block size: 6
