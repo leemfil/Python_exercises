@@ -9,7 +9,7 @@
 >>> gemiddelde_lengte(["auto", "fiets", "vliegtuig", "boot", "trein"])
 5.4
 >>> gemiddelde_lengte(["Python", "JavaScript", "Java", "C++", "Ruby"])
-5.2
+5.4
 >>> gemiddelde_lengte(["voetbal", "basketbal", "tennis", "zwemmen", "hardlopen"])
 7.6
 >>> gemiddelde_lengte(["roos", "tulp", "orchidee", "madeliefje", "zonnebloem"])
