@@ -1,48 +1,27 @@
 ### Opdracht
 
-We voegen een gekend aantal woorden toe aan een lijst en sorteren de elementen, splitsen de lijsten en voegen daarna weer samen.
+Maak een fiynctie die een lijst van woorden sorteert en de gemiddelde lengte van de woorden in de lijst berekend.
 
-Schrijf een python pragramma dat:
-+ aan de gebruiker vraagt hoeveel woorden er in de lijst moeten worden toegevoegd,
-+ de woorden aan de gebruiker vraagt,
-+ de woorden aan een lijst toevoegt en de lijst afbeeldt,
-+ de woorden in de lijst alfabetisch soteert en de lijst afbeeldt,
-+ het 1ste woord uit de lijst op het scherm zet,
-+ 2 lijsten maakt en de woorden die meer dan 5 letters bevatten toevoegt aan de 1ste lijst en de woorden met 5 of minder letters toevoegt aan de 2de lijst en de 2 lijsten onder elkaar afbeeldt,
-+ de 2 vorige lijsten samenvoegt tot één lijst en deze lijst afbeeldt.
+Schrijf een python functie die:
++ **gemiddelde_lengte** heet en als argument een lijst van woorden meekrijgt,
++ de lijst met woorden doorloopt en de gemiddelde lengte van alle woorden in de lijst berekend,
++ het resultaat teruggeeft afgerond op 1 cijfer na de komma.
 
-### Invoer
+Opmerking:  
+    Zorg ervoor dat je functie gemiddelde_lengte noemt anders zullen de testen niet slagen.
 
-Getal dat aangeeft hoeveel woorden en moeten ingelezen worden.
-Woorden onder elkaar.
 
-### Uitvoer
+### Voorbeelden
 
-* lijst met woorden
-* lijst met gesorteerde woorden
-* 1ste woord
-* lijst met woorden met meer dan 5 letters
-* lijst met woorden met 5 of minder letters
-* samengevoegde lijst van de 2 vorige lijsten
-
-### Voorbeeld
-
-**Invoer**
+De functie wordt met verschillende woordenlijsten getest.
     
-     4
-     stoel
-     afwasmachine
-     voorraadkast
-     oven
-    
-**Uitvoer**
-     
-     ['stoel', 'afwasmachine', 'voorraadkast', 'oven']
-     ['afwasmachine', 'oven', 'stoel', 'voorraadkast']
-     afwasmachine
-     ['afwasmachine', 'voorraadkast']
-     ['oven', 'stoel']
-     ['afwasmachine', 'voorraadkast', 'oven', 'stoel']
+    Voor de woordenlijst = ["Nederland", "België", "Duitsland", "Frankrijk", "Italië"] geeft de functie  
+    >>>   gemiddelde_lengte(woordenlijst)
+    7.8  
+
+    Voor de woordenlijst = ["Python", "JavaScript", "Java", "C++", "Ruby"] geeft de functie
+    >>>   gemiddelde_lengte(woordenlijst)
+    5.4
      
      
     
