@@ -6,7 +6,7 @@
 ['oranje', 'geel', 'groen', 'blauw', 'rood']
 >>> aanpassen(["Nederland", "België", "Duitsland", "Frankrijk", "Italië"])
 ['Italië', 'België']
->>> aanpasssen(["auto", "fiets", "vrachtwagen", "vliegtuig", "boot", "trein"])
+>>> aanpassen(["auto", "fiets", "vrachtwagen", "vliegtuig", "boot", "trein"])
 ['trein', 'boot', 'fiets', 'auto']
 >>> aanpassen(["Python", "JavaScript", "Java", "C++", "Ruby"])
 ['Ruby', 'C++', 'Java', 'Python']
