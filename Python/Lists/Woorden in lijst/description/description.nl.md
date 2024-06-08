@@ -1,6 +1,6 @@
 ### Opdracht
 
-Maak een fiynctie die een lijst van woorden sorteert en de gemiddelde lengte van de woorden in de lijst berekend.
+Maak een functie die de gemiddelde lengte van de woorden in de lijst berekend.
 
 Schrijf een python functie die:
 + **gemiddelde_lengte** heet en als argument een lijst van woorden meekrijgt,
