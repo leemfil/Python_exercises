@@ -1,9 +1,9 @@
-[voetbal, karaoke, uitstap, zwemmen, theater]
-[karaoke, zwemmen]
+['voetbal', 'karaoke', 'uitstap', 'zwemmen', 'theater']
+['karaoke', 'zwemmen]'
 De plaats van uitstap is 3.
-[voetbal]
-[karaoke, uitstap, zwemmen, theater]
-[voetbal, karaoke, zwemmen, theater]
+['voetbal']
+['karaoke', 'uitstap', 'zwemmen', 'theater]
+['voetbal', 'karaoke', 'zwemmen', 'theater]'
 ['wetenschapsbeurs', 'muziek', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'uitstap', 'sportdag']
 ['muziek', 'volleybal', 'galabal']
 De plaats van uitstap is 7.
