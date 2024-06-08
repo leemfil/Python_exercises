@@ -38,5 +38,5 @@ De plaats van uitstap is 2.
 tab name: Schoolkalender
 python input without prompt: true
 block count: multi
-input block size: ends with einde
+input block size: ends with 
 output block size: 6
