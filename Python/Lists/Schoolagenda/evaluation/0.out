@@ -13,9 +13,9 @@ De plaats van uitstap is 7.
 ['uitstap', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'frisbee', 'toneel']
 ['quizavond', 'frisbee']
 De plaats van uitstap is 1.
-['toneel']
-['uitstap', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'frisbee']
-['festival', 'eetdag', 'basketbal', 'quizavond', 'frisbee', 'toneel']
+['toneel', 'eetdag']
+['uitstap', 'proclamatie', 'basketbal', 'quizavond', 'frisbee']
+['uitstap', 'eetdag', 'basketbal', 'quizavond', 'frisbee', 'toneel']
 ['themadag', 'voorleesmiddag', 'uitstap']
 []
 De plaats van festival is 4.
