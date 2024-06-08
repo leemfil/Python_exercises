@@ -1,0 +1,18 @@
+>>> gemiddelde_lengte(["kat", "hond", "olifant", "giraffe", "leeuw"])
+5.2
+>>> gemiddelde_lengte(["appel", "banaan", "kers", "druif", "mango"])
+5.0
+>>> gemiddelde_lengte(["rood", "blauw", "groen", "geel", "oranje"])
+4.8
+>>> gemiddelde_lengte(["Nederland", "België", "Duitsland", "Frankrijk", "Italië"])
+7.8
+>>> gemiddelde_lengte(["auto", "fiets", "vliegtuig", "boot", "trein"])
+5.4
+>>> gemiddelde_lengte(["Python", "JavaScript", "Java", "C++", "Ruby"])
+5.4
+>>> gemiddelde_lengte(["voetbal", "basketbal", "tennis", "zwemmen", "hardlopen"])
+7.6
+>>> gemiddelde_lengte(["roos", "tulp", "orchidee", "madeliefje", "zonnebloem"])
+7.2
+>>> gemiddelde_lengte(["wiskunde", "nederlands", "geschiedenis", "biologie", "scheikunde"])
+9.6
