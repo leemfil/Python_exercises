@@ -1,18 +1,18 @@
->>> selecteer(["kat", "hond", "olifant", "giraffe", "leeuw"])
-['giraffe', 'olifant']
->>> selecteer(["appel", "banaan", "kers", "druif", "mango"])
-['banaan']
->>> selecteer(["rood", "blauw", "groen", "geel", "oranje"])
-['oranje']
->>> selecteer(["Nederland", "België", "Duitsland", "Frankrijk", "Italië"])
-['België', 'Duitsland', 'Frankrijk', 'Italië', 'Nederland']
->>> selecteer(["auto", "fiets", "vrachtwagen", "vliegtuig", "boot", "trein"])
-['vliegtuig', 'vrachtwagen']
->>> selecteer(["Python", "JavaScript", "Java", "C++", "Ruby"])
-['JavaScript', 'Python']
->>> selecteer(["voetbal", "basketbal", "tennis", "zwemmen", "hardlopen"])
-['basketbal', 'hardlopen', 'tennis', 'voetbal', 'zwemmen']
->>> selecteer(["roos", "tulp", "madeliefje", "orchidee", "zonnebloem"])
-['madeliefje', 'orchidee', 'zonnebloem']
->>> selecteer(["wiskunde", "nederlands", "geschiedenis", "biologie", "scheikunde"])
-['biologie', 'geschiedenis', 'nederlands', 'scheikunde', 'wiskunde']
+>>> aanpassen(["kat", "hond", "olifant", "giraffe", "leeuw"])
+['leeuw', 'hond', 'kat']
+>>> aanpassen(["appel", "banaan", "kers", "druif", "mango"])
+['mango', 'druif', 'kers', 'banaan', 'appel']
+>>> aanpassen(["rood", "blauw", "groen", "geel", "oranje"])
+['oranje', 'geel', 'groen', 'blauw', 'rood']
+>>> aanpassen(["Nederland", "België", "Duitsland", "Frankrijk", "Italië"])
+['Italië', 'België']
+>>> aanpasssen(["auto", "fiets", "vrachtwagen", "vliegtuig", "boot", "trein"])
+['trein', 'boot', 'fiets', 'auto']
+>>> aanpassen(["Python", "JavaScript", "Java", "C++", "Ruby"])
+['Ruby', 'C++', 'Java', 'Python']
+>>> aanpassen(["voetbal", "basketbal", "tennis", "zwemmen", "hardlopen"])
+['tennis']
+>>> aanpassen(["roos", "tulp", "madeliefje", "orchidee", "zonnebloem"])
+['tulp', 'roos']
+>>> aanpassen(["wiskunde", "nederlands", "geschiedenis", "biologie", "scheikunde"])
+[]
