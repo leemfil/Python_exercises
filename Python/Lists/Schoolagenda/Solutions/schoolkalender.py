@@ -1,32 +1,31 @@
-activiteit = input("Geef de eerste activiteit: ")
+aantal = int(input("Geef hat aantal woorden: "))
 
+activiteit = ""
 activiteiten = []
-while activiteit != "einde":
-    if activiteit in activiteiten:
-        activiteit += "2"
-    activiteiten.append(activiteit)
-
-    activiteit = input("Geef de volgende activiteit: ")
+for index in range(aantal):
+    activiteit = input("Geef het volgende woord: ")
+    if activiteit not in activiteiten:
+        activiteiten.append(activiteit)
 print(activiteiten)
 
-tv_lijst = []
+lijst_zonder_t = []
 for activiteit in activiteiten:
-    if activiteit[0].lower() == "t" or activiteit[0].lower() == "v":
-        tv_lijst.append(activiteit)
-print(tv_lijst)
+    if "t" not in activiteit.lower():
+        lijst_zonder_t.append(activiteit)
+print(lijst_zonder_t)
 
-pos_festival = activiteiten.index("festival")
-print(f"De plaats van festival is {pos_festival + 1}.")
+pos_uitstap = activiteiten.index("uitstap")
+print(f"De plaats van uitstap is {pos_uitstap + 1}.")
 
-lijst_met_a = []
-lijst_zonder_a = []
+lijst_met_oe = []
+lijst_zonder_oe = []
 for activiteit in activiteiten:
-    if "a" in activiteit:
-        lijst_met_a.append(activiteit)
+    if activiteit[1] == "e" or activiteit[1] == "o":
+        lijst_met_oe.append(activiteit)
     else:
-        lijst_zonder_a.append(activiteit)
-print(lijst_met_a)
-print(lijst_zonder_a)
+        lijst_zonder_oe.append(activiteit)
+print(lijst_met_oe)
+print(lijst_zonder_oe)
 
-activiteiten.insert(2, "wandelen")
+activiteiten.pop(2)
 print(activiteiten)
