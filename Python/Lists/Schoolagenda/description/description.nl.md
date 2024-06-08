@@ -4,7 +4,7 @@ We willen alle activiteiten van de school gaan beheren. Hiervoor gebruiken we ee
 
 Schrijf een programmma dat:
 * Aan de gebruiker vraagt hoeveel activiteiten hij gaat geven om in de agenda te zetten. Vervolgens alle activiteiten aan de gebruiker vraagt en toevoegt aan een lijst. Indien de activiteit reeds in de lijst staat dan wordt geen 2de keer toegevoegd. Dus alle activiteiten zijn uniek. Beeldt de lijst af op het scherm.
-* Doorloop de originele lijst en verwijder alle activiteiten die de letter "t" bevatten, klein of grote letter. Beeldt de nieuwe lijst af op het scherm.
+* Doorloop de lijst en verwijder alle activiteiten die de letter "t" bevatten, klein of grote letter. Beeldt de nieuwe lijst af op het scherm.
 * Beeld de plaats van de activiteit "uitstap" in de originele lijst af op het scherm in een zin.
 * Deel de originele lijst op in 2 nieuwe lijsten, een lijst met activiteiten waarvan de 2de letter gelijk is aan "e" of "o" en een lijst met de overige activiteiten. Beeldt deze 2 nieuwe lijsten onder ekaar af op het scherm.
 * Verwijder de 3de activiteit in de originele lijst. Beeldt de lijst af op het scherm.
