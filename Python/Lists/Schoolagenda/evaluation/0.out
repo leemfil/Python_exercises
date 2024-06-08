@@ -18,22 +18,22 @@ De plaats van uitstap is 1.
 ['uitstap', 'eetdag', 'basketbal', 'quizavond', 'frisbee', 'toneel']
 ['themadag', 'voorleesmiddag', 'uitstap']
 ['voorleesmiddag']
-De plaats van festival is 3.
+De plaats van uitstap is 3.
 ['voorleesmiddag']
 ['themadag', 'uitstap']
-['themadag', 'uitstap']
+['themadag', 'voorleesmiddag']
 ['karaoke', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'festival', 'proclamatie', 'galabal', 'uitstap']
-['karaoke', 'zwemmen', 'festival', 'galabal']
-De plaats van festival is 10.
-['eetdag', 'festival']
-['karaoke', 'tennis', 'oudercontact', 'zwemmen', 'proclamatie', 'galabal', 'uitstap']
+['karaoke', 'zwemmen', 'galabal']
+De plaats van uitstap is 9.
+['tennis', 'eetdag', 'festival']
+['karaoke', 'oudercontact', 'zwemmen', 'proclamatie', 'galabal', 'uitstap']
 ['karaoke', 'tennis', 'oudercontact', 'zwemmen', 'festival', 'proclamatie', 'galabal', 'uitstap']
-['karaoke', 'uitstap', 'eetdag']
+['eetdag', 'karaoke', 'uitstap']
 ['karaoke']
-De plaats van uitstap is 2.
+De plaats van uitstap is 3.
 ['eetdag']
 ['karaoke', 'uitstap']
-['karaoke', 'uitstap']
+['eetdag', 'karaoke']
 ----------------------------------------
 tab name: Schoolkalender
 python input without prompt: true
