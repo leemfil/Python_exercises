@@ -17,11 +17,11 @@ Opmerking:
 De functie wordt met verschillende woordenlijsten getest.
     
     Voor de woordenlijst = ["Nederland", "België", "Duitsland", "Frankrijk", "Italië"] geeft de functie  
-    >>>   gemiddelde_lengte(woordenlijst)
+    >>>   selecteer(woordenlijst)
     ["België", "Duitsland", "Frankrijk", "Italië", "Nederland"]
 
     Voor de woordenlijst = ["Python", "JavaScript", "Java", "C++", "Ruby"] geeft de functie
-    >>>   gemiddelde_lengte(woordenlijst)
+    >>>   selecteer(woordenlijst)
     ["JavaScript", "Python"]
      
      
