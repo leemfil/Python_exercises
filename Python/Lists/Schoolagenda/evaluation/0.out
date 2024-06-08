@@ -1,39 +1,39 @@
-['voetbal', 'festival', 'zwemmen', 'voetbal2', 'theater']
-['voetbal', 'voetbal2', 'theater']
-De plaats van festival is 2.
-['voetbal', 'festival', 'voetbal2', 'theater']
-['zwemmen']
-['voetbal', 'festival', 'wandelen', 'zwemmen', 'voetbal2', 'theater']
-['wetenschapsbeurs', 'muziek', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'festival', 'sportdag']
-['volleybal', 'Toneel']
-De plaats van festival is 7.
-['wetenschapsbeurs', 'volleybal', 'eetdag', 'galabal', 'festival', 'sportdag']
-['muziek', 'Toneel']
-['wetenschapsbeurs', 'muziek', 'wandelen', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'festival', 'sportdag']
-['festival', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'frisbee', 'toneel', 'quizavond2']
+[voetbal, karaoke, uitstap, zwemmen, theater]
+[karaoke, zwemmen]
+De plaats van uitstap is 3.
+[voetbal]
+[karaoke, uitstap, zwemmen, theater]
+[voetbal, karaoke, zwemmen, theater]
+['wetenschapsbeurs', 'muziek', 'volleybal', 'eetdag', 'galabal', 'Toneel', 'uitstap', 'sportdag']
+['muziek', 'volleybal', 'galabal']
+De plaats van uitstap is 7.
+['wetenschapsbeurs', 'volleybal', 'eetdag', 'Toneel']
+['muziek', 'galabal', 'uitstap', 'sportdag'
+['wetenschapsbeurs', 'muziek', 'eetdag', 'galabal', 'Toneel', 'uitstap', 'sportdag']
+['uitstap', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'frisbee', 'toneel']
+['quizavond', 'frisbee']
+De plaats van uitstap is 1.
 ['toneel']
-De plaats van festival is 1.
-['festival', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'quizavond2']
-['frisbee', 'toneel']
-['festival', 'eetdag', 'wandelen', 'proclamatie', 'basketbal', 'quizavond', 'frisbee', 'toneel', 'quizavond2']
-['themadag', 'themadag2', 'voorleesmiddag', 'festival']
-['themadag', 'themadag2', 'voorleesmiddag']
+['uitstap', 'eetdag', 'proclamatie', 'basketbal', 'quizavond', 'frisbee']
+['festival', 'eetdag', 'basketbal', 'quizavond', 'frisbee', 'toneel']
+['themadag', 'voorleesmiddag', 'uitstap']
+[]
 De plaats van festival is 4.
-['themadag', 'themadag2', 'voorleesmiddag', 'festival']
-[]
-['themadag', 'themadag2', 'wandelen', 'voorleesmiddag', 'festival']
-['karaoke', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'eetdag2', 'uitstap', 'proclamatie', 'galabal', 'festival', 'uitstap2']
-['tennis']
+['voorleesmiddag']
+['themadag', 'uitstap']
+['themadag', 'uitstap']
+['karaoke', 'tennis', 'eetdag', 'oudercontact', 'zwemmen', 'festival', 'proclamatie', 'galabal', 'uitstap']
+['karaoke', 'zwemmen', 'festival', 'galabal']
 De plaats van festival is 10.
-['karaoke', 'eetdag', 'oudercontact', 'eetdag2', 'uitstap', 'proclamatie', 'galabal', 'festival', 'uitstap2']
-['tennis', 'zwemmen']
-['karaoke', 'tennis', 'wandelen', 'eetdag', 'oudercontact', 'zwemmen', 'eetdag2', 'uitstap', 'proclamatie', 'galabal', 'festival', 'uitstap2']
-['karaoke', 'festival']
-[]
-De plaats van festival is 2.
-['karaoke', 'festival']
-[]
-['karaoke', 'festival', 'wandelen']
+['eetdag', 'festival']
+['karaoke', 'tennis', 'oudercontact', 'zwemmen', 'proclamatie', 'galabal', 'uitstap']
+['karaoke', 'tennis', 'oudercontact', 'zwemmen', 'festival', 'proclamatie', 'galabal', 'uitstap']
+['karaoke', 'uitstap', 'eetdag']
+['karaoke']
+De plaats van uitstap is 2.
+['eetdag']
+['karaoke', 'uitstap']
+['karaoke', 'uitstap']
 ----------------------------------------
 tab name: Schoolkalender
 python input without prompt: true
