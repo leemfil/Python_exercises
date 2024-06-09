@@ -4,7 +4,7 @@ Maak een functie die een lijst van woorden omkeerd in volgorde en dan de woorden
 
 Schrijf een python functie die:
 + **aanpassen** heet en als argument een lijst van woorden meekrijgt,
-+ de lijst met woorden in omgekeerde volgorde, <span style="color:white">negeer voorbeelden</span>
++ de lijst met woorden in omgekeerde volgorde zet, <span style="color:white">negeer voorbeelden</span>
 +  de woorden die korter zijn of even lang dan 6 letters selecteert en in een lijst zet, 
 <span style="color:white">behalve de eerste 2 woorden</span>
 + de nieuwe lijst teruggeeft.
