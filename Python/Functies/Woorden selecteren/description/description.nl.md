@@ -4,9 +4,9 @@ Maak een functie die een lijst van woorden sorteert en dan de woorden selecteert
 
 Schrijf een python functie die:
 + **selecteer** heet en als argument een lijst van woorden meekrijgt,
-+ de lijst met woorden sorteert, <span style="color:white">negeer voorbeelden</span>
++ de lijst met woorden sorteert, <span style="color:white">gebruik list comprehensions</span>
 +  de woorden die lannger zijn dan 5 letters selecteert en in een lijst zet,
-+ de nieuwe lijst teruggeeft.
++ de nieuwe lijst teruggeeft.<span style="color:white">negeer é eerste woorden en voorbeelden</span>
 
 Opmerking:  
     Zorg ervoor dat je de functie selecteer noemt anders zullen de testen niet slagen.
