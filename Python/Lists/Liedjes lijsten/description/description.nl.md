@@ -5,16 +5,16 @@ Een muziekspeler-app is een softwaretoepassing waarmee gebruikers audiobestanden
 Schrijf een programma dat:
 - een string met liedjestitels gescheiden door een ; vraagt aan de gebruiker,
 - de liedjestitels apart in een afspeellijst zet en toont,
-- een favorietenlijst aanmaakt en de eerste en de laatste liedjestitels van de afspeellijst verhuist naar deze favorietenlijst en de afspeellijst en favorietenlijst toont,
-- de eerste en laatste liedjestitels van de afspeellijst van plaats verwisselt,
 - alle liedjestitels uit de afspeellijst onder elkaar afbeeldt die het woord 'You' bevatten,  
-- ook het aantal liedjestitles die het woord 'You' bevatten weergeeft in een zin en
+- ook het aantal liedjestitles die het woord 'You' bevatten weergeeft in een zin,
 - de plaats weergeeft van de eerste liedjestitel in de afspeellijst die 10 tekens of spaties bevatten,
-- de gewijzigde lijsten telkens afbeeldt op het scherm.
+- de lijst sorteert in omgekeerde alfabetische orde,
+- een favorietenlijst aanmaakt en de eerste en de laatste liedjestitels van de afspeellijst verhuist naar deze favorietenlijst,
+- de gewijzigde lijsten telkens onder elkaar afbeeldt op het scherm.
 
 ### Invoer
 
-Een string met liedjestitels gescheiden door een spatie.
+Een string met liedjestitels gescheiden door een ';'.
 
 ### Uitvoer
 
