@@ -8,7 +8,7 @@ Schrijf een programma dat:
 - alle liedjestitels uit de afspeellijst onder elkaar afbeeldt die het woord 'You' bevatten,  
 - ook het aantal liedjestitles die het woord 'You' bevatten weergeeft in een zin,
 - de plaats weergeeft van de eerste liedjestitel in de afspeellijst die 10 tekens of spaties bevatten,
-- de lijst sorteert in omgekeerde alfabetische orde,
+- de afspeellijst sorteert in omgekeerde alfabetische orde,
 - een favorietenlijst aanmaakt en de eerste en de laatste liedjestitels van de afspeellijst verhuist naar deze favorietenlijst,
 - de gewijzigde lijsten telkens onder elkaar afbeeldt op het scherm.
 
@@ -19,11 +19,11 @@ Een string met liedjestitels gescheiden door een ';'.
 ### Uitvoer
 
 - volledige afspeellijst.
-- afspeellijst zonder eerste en laatste liedjestitels en de favorietenlijst.
-- afspeellijst met de eerste en laatste liedjestitels verwisselt van plaats.
 - alle liedjestitels die het woord 'You' bevatten onder elkaar.
 - het aantal liedjestitels met het woord 'You' weergeeft op het scherm in de volgende zin: Het aantal titels dat het woord 'You' bevat is ....
 - een getal die de juiste plaats weergeeft op het scherm in de volgende zin: De eerste plaats van een titel met 10 tekens is ....
+- de afspeellijst in omgekeerde volgorde gesorteerd,
+- favorietenlijst met eerste en laatste liedjestitels van de omgekeerde afspeellijst.
 
 ### Voorbeeld
 
@@ -34,11 +34,11 @@ Een string met liedjestitels gescheiden door een ';'.
 **Uitvoer**
     
     ['Uptown Funk', 'Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You', 'All Star']
-    ['Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You']
-    ['Uptown Funk', 'All Star']
-    ['We Will Rock You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'Someone Like You']
     Someone Like You
-    We Will Rock You
     Shape of You
+    We Will Rock You
     Het aantal titels dat het woord 'You' bevat is 3.
     De eerste plaats van een titel met 10 tekens is 4.
+    ['Yesterday', 'We Will Rock You', 'Uptown Funk', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star']
+    ['Yesterday', 'All Star']
+    
