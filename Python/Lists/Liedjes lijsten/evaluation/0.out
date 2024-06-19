@@ -30,20 +30,20 @@ De eerste plaats van een titel met 10 tekens is 7.
 ['Yesterday', 'Wonderwall', 'Sweet Child of Mine', 'Purple Rain', 'I Want to Hold Your Hand', 'Heroes', 'Everything About You', 'Comfortably Numb', 'Billie Jean']
 ['Yesterday', 'Billie Jean']
 
-['Thriller', 'November Rain', 'Back in Black', 'Let It Be', 'Somebody to Love You', 'Paint It Black', 'Losing My Religion', 'Born to Run', 'Only You']
+['Thriller', 'November Rain', 'Back in Black', 'Let It Be', 'Hallelujah', 'Somebody to Love You', 'Paint It Black', 'Losing My Religion', 'Born to Run', 'Only You']
 Somebody to Love You
 Only You
 Het aantal titels dat het woord 'You' bevat is 2.
 De eerste plaats van een titel met 10 tekens is 4.
-['Thriller', 'Somebody to Love You', 'Paint It Black', 'Only You', 'November Rain', 'Losing My Religion', 'Let It Be', 'Born to Run', 'Back in Black']
+['Thriller', 'Somebody to Love You', 'Paint It Black', 'Only You', 'November Rain', 'Losing My Religion', 'Let It Be', 'Hallelujah', 'Born to Run', 'Back in Black']
 ['Thriller', 'Back in Black']
 
-['Another Brick in the Wall', 'Satisfaction', 'Under the Bridge', 'Livin on a Prayer', 'Wish You Were Here', 'Superstition', 'With or Without You', 'Viva La Vida']
+['Another Brick in the Wall', 'Satisfaction', 'Under the Bridge', 'Livin on a Prayer', 'Wish You Were Here', 'Superstition', 'With or Without You', 'Viva La Vida', 'Hallelujah']
 Wish You Were Here
 With or Without You
 Het aantal titels dat het woord 'You' bevat is 2.
 De eerste plaats van een titel met 10 tekens is 7.
-['With or Without You', 'Wish You Were Here', 'Viva La Vida', 'Under the Bridge', 'Superstition', 'Satisfaction', 'Livin on a Prayer', 'Another Brick in the Wall']
+['With or Without You', 'Wish You Were Here', 'Viva La Vida', 'Under the Bridge', 'Superstition', 'Satisfaction', 'Livin on a Prayer', 'Hallelujah', 'Another Brick in the Wall']
 ['With or Without You', 'Another Brick in the Wall']
 
 ['Clocks', 'Beat It', 'With or Without You', 'Wonderwall', 'Blackbird', 'Everything I Do, I Do It for You', 'Space Oddity', 'Angie', 'You Are Not Alone']
