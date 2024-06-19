@@ -1,0 +1,82 @@
+BE68
+5390
+0754
+7034
+De landcode is BE.
+De verborgen bankrekening is BE***************34.
+
+NL54
+INGB
+0001
+2345
+67
+De landcode is NL.
+De verborgen bankrekening is NL******************67.
+
+DK95
+2000
+0123
+4567
+89
+De landcode is DK.
+De verborgen bankrekening is DK******************89.
+
+FR76
+3000
+6000
+0112
+3456
+7890
+189
+De landcode is FR.
+De verborgen bankrekening is FR*****************************89.
+
+IT60
+X054
+2811
+1010
+0000
+0123
+456
+De landcode is IT.
+De verborgen bankrekening is IT*****************************56.
+
+LU12
+0010
+0012
+3456
+7891
+De landcode is LU.
+De verborgen bankrekening is LU********************91.
+
+AT48
+3200
+0000
+1234
+5864
+De landcode is AT.
+De verborgen bankrekening is AT********************64.
+
+ES79
+2100
+0813
+6101
+2345
+6789
+De landcode is ES.
+De verborgen bankrekening is ES*************************89.
+
+GB98
+MIDL
+0700
+9312
+3456
+78
+De landcode is GB.
+De verborgen bankrekening is GB***********************78.
+--------------------------------------------------
+tab name: IBAN bankrekeningnummer
+python input without prompt: true
+block count: multi
+input block size: 1
+output block size: ends with
