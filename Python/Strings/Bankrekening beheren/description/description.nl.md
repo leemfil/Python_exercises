@@ -59,4 +59,4 @@ De laatste 4 tekens.
     BE68 5390 0754 7034  
     0 0754 7034
     De verborgen bankrekening is BE68***************.
-    7334
+    7034
