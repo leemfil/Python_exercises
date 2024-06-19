@@ -10,5 +10,5 @@ De verborgen bankrekening is NL54******************.
 tab name: Bankrekening beheren
 python input without prompt: true
 block count: multi
-input block size: ends with
+input block size: ends with  
 output block size: 4
