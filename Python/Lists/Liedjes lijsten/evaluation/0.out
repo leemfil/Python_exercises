@@ -1,20 +1,21 @@
 ['Uptown Funk', 'Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You', 'All Star']
-['Someone Like You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'We Will Rock You']
-['Uptown Funk', 'All Star']
-['We Will Rock You', 'Let It Be', 'Yesterday', 'Hallelujah', 'Shape of You', 'Someone Like You']
-We Will Rock You
-Shape of You
 Someone Like You
+Shape of You
+We Will Rock You
 Het aantal titels dat het woord 'You' bevat is 3.
 De eerste plaats van een titel met 10 tekens is 4.
+['Yesterday', 'We Will Rock You', 'Uptown Funk', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star']
+['Yesterday', 'All Star']
+['We Will Rock You', 'Uptown Funk', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah']
 
-['Someone Like You', 'Hallelujah', 'Uptown Funk', 'Let It Be', 'Yesterday', 'Shape of You', 'All Star', "Sweet Child o' Mine"]
-['Hallelujah', 'Uptown Funk', 'Let It Be', 'Yesterday', 'Shape of You', 'All Star']
-['Someone Like You', "Sweet Child o' Mine"]
-['All Star', 'Uptown Funk', 'Let It Be', 'Yesterday', 'Shape of You', 'Hallelujah']
+['Someone Like You', 'Hallelujah', 'Uptown Funk', 'Let It Be', 'Yesterday', 'Shape of You', 'All Star', 'Sweet Child o' Mine']
+Someone Like You
 Shape of You
-Het aantal titels dat het woord 'You' bevat is 1.
-De eerste plaats van een titel met 10 tekens is 6.
+Het aantal titels dat het woord 'You' bevat is 2.
+De eerste plaats van een titel met 10 tekens is 7.
+['Yesterday', 'Sweet Child o' Mine', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star', 'Uptown Funk']
+['Yesterday', 'Uptown Funk']
+['Sweet Child o' Mine', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star']
 
 ['Bohemian Rhapsody', 'Hotel California', 'I Will Always Love You', 'Stairway to Heaven', 'Imagine', 'Hey Jude', 'Smells Like Teen Spirit', 'Like a Rolling Stone']
 I Will Always Love You
