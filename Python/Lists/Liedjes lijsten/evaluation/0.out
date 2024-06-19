@@ -15,11 +15,11 @@ De eerste plaats van een titel met 10 tekens is 2.
 ['Yesterday', 'Uptown Funk', 'Sweet Child of Mine', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star']
 ['Yesterday', 'All Star']
 
-['Bohemian Rhapsody', 'Hotel California', 'I Will Always Love You', 'Stairway to Heaven', 'Imagine', 'Hey Jude', 'Smells Like Teen Spirit', 'Like a Rolling Stone']
+['Bohemian Rhapsody', 'Hotel California', 'I Will Always Love You', 'Stairway to Heaven', 'Imagine', 'Hallelujah', 'Hey Jude', 'Smells Like Teen Spirit', 'Like a Rolling Stone']
 I Will Always Love You
 Het aantal titels dat het woord 'You' bevat is 1.
 De eerste plaats van een titel met 10 tekens is 2.
-['Stairway to Heaven', 'Smells Like Teen Spirit', 'Like a Rolling Stone', 'Imagine', 'I Will Always Love You', 'Hotel California', 'Hey Jude', 'Bohemian Rhapsody']
+['Stairway to Heaven', 'Smells Like Teen Spirit', 'Like a Rolling Stone', 'Imagine', 'I Will Always Love You', 'Hotel California', 'Hey Jude', 'Hallelujah', 'Bohemian Rhapsody']
 ['Stairway to Heaven', 'Bohemian Rhapsody']
 
 ['Billie Jean', 'Purple Rain', 'Sweet Child of Mine', 'Yesterday', 'Comfortably Numb', 'I Want to Hold Your Hand', 'Wonderwall', 'Heroes', 'Everything About You']
