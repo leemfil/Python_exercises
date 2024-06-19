@@ -24,7 +24,6 @@ De eerste plaats van een titel met 10 tekens is 2.
 
 ['Billie Jean', 'Purple Rain', 'Sweet Child of Mine', 'Yesterday', 'Comfortably Numb', 'I Want to Hold Your Hand', 'Wonderwall', 'Heroes', 'Everything About You']
 I Want to Hold Your Hand
-Wonderwall
 Everything About You
 Het aantal titels dat het woord 'You' bevat is 2.
 De eerste plaats van een titel met 10 tekens is 7.
@@ -40,11 +39,12 @@ De eerste plaats van een titel met 10 tekens is 4.
 ['Thriller', 'Back in Black']
 
 ['Another Brick in the Wall', 'Satisfaction', 'Under the Bridge', 'Livin on a Prayer', 'Wish You Were Here', 'Superstition', 'With or Without You', 'Viva La Vida']
+Wish You Were Here
 With or Without You
 Het aantal titels dat het woord 'You' bevat is 2.
 De eerste plaats van een titel met 10 tekens is 7.
-['Wish You Were Here', 'With or Without You', 'Viva La Vida', 'Under the Bridge', 'Superstition', 'Satisfaction', 'Livin on a Prayer', 'Another Brick in the Wall']
-['Wish You Were Here', 'Another Brick in the Wall']
+['With or Without You', 'Wish You Were Here', 'Viva La Vida', 'Under the Bridge', 'Superstition', 'Satisfaction', 'Livin on a Prayer', 'Another Brick in the Wall']
+['With or Without You', 'Another Brick in the Wall']
 
 ['Clocks', 'Beat It', 'With or Without You', 'Wonderwall', 'Blackbird', 'Everything I Do, I Do It for You', 'Space Oddity', 'Angie', 'You Are Not Alone']
 With or Without You
