@@ -3,19 +3,17 @@ Someone Like You
 Shape of You
 We Will Rock You
 Het aantal titels dat het woord 'You' bevat is 3.
-De eerste plaats van een titel met 10 tekens is 4.
+De eerste plaats van een titel met 10 tekens is 5.
 ['Yesterday', 'We Will Rock You', 'Uptown Funk', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star']
 ['Yesterday', 'All Star']
-['We Will Rock You', 'Uptown Funk', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah']
 
-['Someone Like You', 'Hallelujah', 'Uptown Funk', 'Let It Be', 'Yesterday', 'Shape of You', 'All Star', 'Sweet Child o' Mine']
+['Someone Like You', 'Hallelujah', 'Uptown Funk', 'Let It Be', 'Yesterday', 'Shape of You', 'All Star', 'Sweet Child of Mine']
 Someone Like You
 Shape of You
 Het aantal titels dat het woord 'You' bevat is 2.
-De eerste plaats van een titel met 10 tekens is 7.
+De eerste plaats van een titel met 10 tekens is 2.
 ['Yesterday', 'Sweet Child of Mine', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star', 'Uptown Funk']
 ['Yesterday', 'Uptown Funk']
-['Sweet Child o' Mine', 'Someone Like You', 'Shape of You', 'Let It Be', 'Hallelujah', 'All Star']
 
 ['Bohemian Rhapsody', 'Hotel California', 'I Will Always Love You', 'Stairway to Heaven', 'Imagine', 'Hey Jude', 'Smells Like Teen Spirit', 'Like a Rolling Stone']
 I Will Always Love You
@@ -23,44 +21,40 @@ Het aantal titels dat het woord 'You' bevat is 1.
 De eerste plaats van een titel met 10 tekens is 2.
 ['Stairway to Heaven', 'Smells Like Teen Spirit', 'Like a Rolling Stone', 'Imagine', 'I Will Always Love You', 'Hotel California', 'Hey Jude', 'Bohemian Rhapsody']
 ['Stairway to Heaven', 'Bohemian Rhapsody']
-['Smells Like Teen Spirit', 'Like a Rolling Stone', 'Imagine', 'I Will Always Love You', 'Hotel California', 'Hey Jude']
 
-['Billie Jean', 'Purple Rain', 'Sweet Child o' Mine', 'Yesterday', 'Comfortably Numb', 'I Want to Hold Your Hand', 'Wonderwall', 'Heroes', 'Everything About You']
+
+['Billie Jean', 'Purple Rain', 'Sweet Child of Mine', 'Yesterday', 'Comfortably Numb', 'I Want to Hold Your Hand', 'Wonderwall', 'Heroes', 'Everything About You']
 I Want to Hold Your Hand
 Wonderwall
 Everything About You
-Het aantal titels dat het woord 'You' bevat is 3.
-De eerste plaats van een titel met 10 tekens is 6.
-['Yesterday', 'Wonderwall', 'Sweet Child o' Mine', 'Purple Rain', 'I Want to Hold Your Hand', 'Heroes', 'Everything About You', 'Comfortably Numb', 'Billie Jean']
+Het aantal titels dat het woord 'You' bevat is 2.
+De eerste plaats van een titel met 10 tekens is 7.
+['Yesterday', 'Wonderwall', 'Sweet Child of Mine', 'Purple Rain', 'I Want to Hold Your Hand', 'Heroes', 'Everything About You', 'Comfortably Numb', 'Billie Jean']
 ['Yesterday', 'Billie Jean']
-['Wonderwall', 'Sweet Child o' Mine', 'Purple Rain', 'I Want to Hold Your Hand', 'Heroes', 'Everything About You', 'Comfortably Numb']
 
 ['Thriller', 'November Rain', 'Back in Black', 'Let It Be', 'Somebody to Love You', 'Paint It Black', 'Losing My Religion', 'Born to Run', 'Only You']
 Somebody to Love You
 Only You
 Het aantal titels dat het woord 'You' bevat is 2.
 De eerste plaats van een titel met 10 tekens is 4.
-['Thriller', 'Somebody to Love You', 'Paint It Black', 'November Rain', 'Only You', 'Losing My Religion', 'Let It Be', 'Born to Run', 'Back in Black']
+['Thriller', 'Somebody to Love You', 'Paint It Black', 'Only You', 'November Rain', 'Losing My Religion', 'Let It Be', 'Born to Run', 'Back in Black']
 ['Thriller', 'Back in Black']
-['Somebody to Love You', 'Paint It Black', 'November Rain', 'Only You', 'Losing My Religion', 'Let It Be', 'Born to Run']
 
-['Another Brick in the Wall', 'Satisfaction', 'Under the Bridge', 'Livin' on a Prayer', 'Wish You Were Here', 'Superstition', 'With or Without You', 'Viva La Vida']
+['Another Brick in the Wall', 'Satisfaction', 'Under the Bridge', 'Livin on a Prayer', 'Wish You Were Here', 'Superstition', 'With or Without You', 'Viva La Vida']
 With or Without You
-Het aantal titels dat het woord 'You' bevat is 1.
+Het aantal titels dat het woord 'You' bevat is 2.
 De eerste plaats van een titel met 10 tekens is 7.
-['Wish You Were Here', 'With or Without You', 'Viva La Vida', 'Under the Bridge', 'Superstition', 'Satisfaction', 'Livin' on a Prayer', 'Another Brick in the Wall']
+['Wish You Were Here', 'With or Without You', 'Viva La Vida', 'Under the Bridge', 'Superstition', 'Satisfaction', 'Livin on a Prayer', 'Another Brick in the Wall']
 ['Wish You Were Here', 'Another Brick in the Wall']
-['With or Without You', 'Viva La Vida', 'Under the Bridge', 'Superstition', 'Satisfaction', 'Livin' on a Prayer']
 
 ['Clocks', 'Beat It', 'With or Without You', 'Wonderwall', 'Blackbird', 'Everything I Do, I Do It for You', 'Space Oddity', 'Angie', 'You Are Not Alone']
 With or Without You
 Everything I Do, I Do It for You
 You Are Not Alone
 Het aantal titels dat het woord 'You' bevat is 3.
-De eerste plaats van een titel met 10 tekens is 7.
-['Wonderwall', 'With or Without You', 'You Are Not Alone', 'Space Oddity', 'Everything I Do, I Do It for You', 'Clocks', 'Blackbird', 'Beat It', 'Angie']
-['Wonderwall', 'Angie']
-['With or Without You', 'You Are Not Alone', 'Space Oddity', 'Everything I Do, I Do It for You', 'Clocks', 'Blackbird', 'Beat It']
+De eerste plaats van een titel met 10 tekens is 4.
+['You Are Not Alone', 'Wonderwall', 'With or Without You', 'Space Oddity', 'Everything I Do, I Do It for You', 'Clocks', 'Blackbird', 'Beat It', 'Angie']
+['You Are Not Alone', 'Angie']
 
 --------------------------------------------------
 tab name: Afspeellijst
