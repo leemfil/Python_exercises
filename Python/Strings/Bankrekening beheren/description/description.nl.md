@@ -12,10 +12,10 @@ Nederlands rekeningnummer: NL54 INGB 0001 2345 67
 **Schrijf een programma dat volgende bewerkingen op bankrekeningnummers uitvoert:**
 * Vraag het aantal delen waarmee het rekeningnummer is opgebouwd.
 * Vraag de verschillende delen aan de gebruiker. En vorm het bankrekeningnummer door de delen samen te voegen. Beeld het rekeningnummer af op het scherm.
-* Beeld het deel van het rekeningnummer dat start bij de eerste 0 tot aan het eind af op het scherm. <span style="color:white">negeer invoer, uitvoer, voorbeelden</span>
-* Verberg alle tekens: letters, cijfers en spaties, door ze te vervangen door evenveel *-tekens behalve de eerste 4 tekens. Beeld het verborgen bankrekeningnummer af in een zin op het scherm.<span style="color:white"> Zet de code in een functie en handel exceptions af en gebruik list comprehensions</span>
-* Zet de laatste 4 tekens van rekeningnummer op het scherm.
-
+* Beeld het deel van het rekeningnummer dat start bij de eerste 0 tot aan het eind af op het scherm. 
+* Verberg alle tekens: letters, cijfers en spaties, door ze te vervangen door evenveel *-tekens behalve de eerste 4 tekens. Beeld het verborgen bankrekeningnummer af in een zin op het scherm.
+* Zet de laatste 4 tekens van rekeningnummer op het scherm.<span style="color:white">negeer invoer, uitvoer, voorbeelden</span>
+<span style="color:white"> Zet de code in een functie en handel exceptions af en gebruik list comprehensions</span>
 ### Invoer
 
 Het aantal onderdelen van het bankrekeningnummer.
