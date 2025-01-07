@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Hittegolf"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "nufUfhDQWUNTDYhqdX7a9SfiyhBwJdJaxaIPfbagzdyZBXFydbkff8G4fcQvxheI",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
