@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Hittegolf"
+      "nl": "Warme zomer"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   "labels": [
 
   ],
-  "access": "public",
-  "internals": {
-    "token": "Yd2-EdEmhJuJUUGW-w7yqzQv6pYaSffiHkKwgXGdh8MCdnvGYJeB-zb4XJUPC6Ph",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
