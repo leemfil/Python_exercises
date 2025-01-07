@@ -14,7 +14,7 @@ De volgende invoer is dus een reeks kommagetallen die elk op een afzonderlijke r
 
 ### Uitvoer
 
-De tekst "Dit is een warme periode met als gemiddelde temperatuur <gemiddelde temperatuur>° C." als binnen de gegeven periode vijf warme dagen van 25 °C of meer voorkomen.  
+De tekst "Dit is een warme periode met als gemiddelde temperatuur <gemiddelde temperatuur>° C." als binnen de gegeven periode vijf warme dagen van 25° C of meer voorkomen. De gemiddelde temperatuur wordt afgerond tot op één cijfer na de komma.  
 Of anders de tekst "Dit is geen warme periode.".
 
 ### Voorbeeld
@@ -33,7 +33,7 @@ Of anders de tekst "Dit is geen warme periode.".
 
 **Uitvoer**
 
-    Dit is een warme periode met als gemiddelde temperatuur ° C.  
+    Dit is een warme periode met als gemiddelde temperatuur 28.0° C.  
     
     
 ### Voorbeeld
