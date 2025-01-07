@@ -16,8 +16,8 @@ hittegolf
 hittegolf
 geen hittegolf
 --------------------------------------------------
-tab name: Hittegolf
+tab name: Warme periode
 python input without prompt: true
 block count: multi
-input block size: ends with stop
+input block size: ends with  
 output block size: 1
