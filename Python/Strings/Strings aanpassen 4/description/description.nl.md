@@ -32,7 +32,7 @@ Schrijf een programma dat:
 
 **Uitvoer**
 
-    k woon sinds dit jaar op het adres Brusselsesteenweg 23 1930 Zaventem.
+    nds dit jaar op het adres Brusselsesteenweg 23 1930 Zaventem.
     Leemf
     leemf
     be
