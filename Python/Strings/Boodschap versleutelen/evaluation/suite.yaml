@@ -36,7 +36,7 @@
         .
         De gemaskeerde boodschap is: ** ** **** ******** ***** ** **** ***.
     - stdin: |-
-        ''
+        
         test
       stdout: |-
         Het codewoord begint op positie -1.
