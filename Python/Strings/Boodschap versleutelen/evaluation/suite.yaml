@@ -34,7 +34,7 @@
       stdout: |-
         Het codewoord begint op positie -1.
         .
-        De gemaskeerde boodschap is: ** ** **** ******* **** ** **** ***.
+        De gemaskeerde boodschap is: ** ** **** ******** ***** ** **** ***.
     - stdin: |-
         
         test
