@@ -1,47 +1,44 @@
 - tab: "Testen"
   testcases:
   - stdin: |-
-    De documenten zitten in de kast onder de vloer.
-    kast
+    "De documenten zitten in de kast onder de vloer."
+    "kast"
     stdout: |-
-    Het codewoord begint op positie 29.
-    kast onder de vloer.
-    De gemaskeerde boodschap is: ** ********** ****** ** *** **** ***** ** *****.
+    "Het codewoord begint op positie 29."
+    "kast onder de vloer."
+    "De gemaskeerde boodschap is: ** ********** ****** ** *** **** ***** ** *****."
   - stdin: |-
-    Vergeet niet dat het woord ALPHA belangrijk is.
-    alpha
+    "Vergeet niet dat het woord ALPHA belangrijk is."
+    "alpha"
     stdout: |-
-    Het codewoord begint op positie 27.
-    alpha belangrijk is.
-    De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ***.
+    "Het codewoord begint op positie 27."
+    "alpha belangrijk is."
+    "De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ***."
   - stdin: |-
-    sleutelwoorden zijn belangrijk.
-    sleutel
+    "sleutelwoorden zijn belangrijk."
+    "sleutel"
     stdout: |-
-    Het codewoord begint op positie 0.
-    sleutelwoorden zijn belangrijk.
-    De gemaskeerde boodschap is: ************* **** **********.
-  strip: true
-
-- name: codewoord op het einde
-  stdin: |-
-    Dit is een belangrijke aanwijzing voor het team: STOP
-    stop
-    stdout: |-
-    Het codewoord begint op positie 46.
-    STOP
-    De gemaskeerde boodschap is: *** ** *** ********** ********* **** *** ****: ****
+    "Het codewoord begint op positie 0."
+    "sleutelwoorden zijn belangrijk."
+    "De gemaskeerde boodschap is: ************* **** **********."
   - stdin: |-
-    Er is geen speciaal woord in deze zin.
-    geheim
+    "Dit is een belangrijke aanwijzing voor het team: STOP"
+    "stop"
     stdout: |-
-    Het codewoord begint op positie -1.
-    .
-    De gemaskeerde boodschap is: ** ** **** ******* **** ** **** ***.
+    "Het codewoord begint op positie 46.""
+    "STOP"
+    "De gemaskeerde boodschap is: *** ** *** ********** ********* **** *** ****: ****"
   - stdin: |-
-    
-    test
+    "Er is geen speciaal woord in deze zin."
+    "geheim"
+    stdout: |-
+    "Het codewoord begint op positie -1."
+    "."
+    "De gemaskeerde boodschap is: ** ** **** ******* **** ** **** ***."
+  - stdin: |-
+    ""
+    "test"
   expected_stdout: |-
-    Het codewoord begint op positie -1.
-    
-    De gemaskeerde boodschap is: 
+    "Het codewoord begint op positie -1."
+    ""
+    "De gemaskeerde boodschap is:"
