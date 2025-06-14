@@ -15,7 +15,8 @@ In spionagefilms wordt vaak gecommuniceerd via geheime boodschappen die er op he
 * Vraag een **boodschap** en een **codewoord** aan de gebruiker.
 * Zet de boodschap volledig in **kleine letters**.
 * Zoek met behulp van `find()` op welke positie het codewoord voor het eerst voorkomt.
-* Als het codewoord **voorkomt**, beeld dan de boodschap af vanaf dat punt tot het einde.
+* Als het codewoord **voorkomt**, beeld dan de boodschap af vanaf dat punt tot het einde.  
+Indien het niet voorkomt beeld je volgende boodschap af: "Het codewoord komt niet voor."
 * Vervang elk **letterteken** in de boodschap door een sterretje `*`, behalve de spaties en leestekens. Gebruik een **for-lus**.
 * Toon de gemaskeerde boodschap in een zin op het scherm.
 
@@ -39,9 +40,9 @@ De gemaskeerde boodschap.
 
 **Uitvoer**
 
-    Het codewoord begint op positie 29.
+    Het codewoord begint op positie 27.
     kast onder de vloer.
-    De gemaskeerde boodschap is: ** ********** ****** ** *** **** ***** ** *****.
+    De gemaskeerde boodschap is: ** ********** ****** ** ** **** ***** ** *****.
 
 **Invoer**
 
@@ -52,4 +53,4 @@ De gemaskeerde boodschap.
 
     Het codewoord begint op positie 27.
     alpha belangrijk is.
-    De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ***.
+    De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ********** **.
