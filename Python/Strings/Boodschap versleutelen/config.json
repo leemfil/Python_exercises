@@ -1,16 +1,12 @@
 {
   "description": {
     "names": {
-      "nl": "Strings aanpassen 3"
+      "nl": "Boodschap versleutelen"
     }
   },
   "evaluation": {
     "pythia_judge": "output"
   },
   "labels": [],
-  "access": "public",
-  "internals": {
-    "token": "sDYxNmB9JrcFfrYYkRWDqPWwZPw97ydZ9J4PdsyUzAZ9TbeVq6umqdHzs6cvNc2d",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "access": "public"
 }
