@@ -4,7 +4,7 @@
         De documenten zitten in de kast onder de vloer.
         kast
       stdout: |-
-        Het codewoord begint op positie 29.
+        Het codewoord begint op positie 27.
         kast onder de vloer.
         De gemaskeerde boodschap is: ** ********** ****** ** ** **** ***** ** *****.
     - stdin: |-
