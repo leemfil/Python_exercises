@@ -20,14 +20,14 @@
       stdout: |-
         Het codewoord begint op positie 0.
         sleutelwoorden zijn belangrijk.
-        De gemaskeerde boodschap is: ************* **** **********.
+        De gemaskeerde boodschap is: ************** **** **********.
     - stdin: |-
         Dit is een belangrijke aanwijzing voor het team: STOP
         stop
       stdout: |-
-        Het codewoord begint op positie 46.
+        Het codewoord begint op positie 49.
         STOP
-        De gemaskeerde boodschap is: *** ** *** ********** ********* **** *** ****: ****
+        De gemaskeerde boodschap is: *** ** *** *********** ********** **** *** ****: ****
     - stdin: |-
         Er is geen speciaal woord in deze zin.
         geheim
@@ -41,4 +41,4 @@
       stdout: |-
         Het codewoord begint op positie -1.
         
-        De gemaskeerde boodschap is:
+        De gemaskeerde boodschap is: 
