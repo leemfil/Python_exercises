@@ -6,7 +6,7 @@
       stdout: |-
         Het codewoord begint op positie 29.
         kast onder de vloer.
-        De gemaskeerde boodschap is: ** ********** ****** ** *** **** ***** ** *****.
+        De gemaskeerde boodschap is: ** ********** ****** ** ** **** ***** ** *****.
     - stdin: |-
         Vergeet niet dat het woord ALPHA belangrijk is.
         alpha
