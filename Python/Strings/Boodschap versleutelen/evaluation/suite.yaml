@@ -13,7 +13,7 @@
       stdout: |-
         Het codewoord begint op positie 27.
         alpha belangrijk is.
-        De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ***.
+        De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ********** **.
     - stdin: |-
         sleutelwoorden zijn belangrijk.
         sleutel
