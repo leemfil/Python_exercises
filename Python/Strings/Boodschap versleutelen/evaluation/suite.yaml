@@ -42,3 +42,34 @@
         Het codewoord begint op positie -1.
         
         De gemaskeerde boodschap is: 
+    - stdin: |-
+        Dit is een normale boodschap.
+        
+      stdout: |-
+        Het codewoord begint op positie 0.
+        Dit is een normale boodschap.
+        De gemaskeerde boodschap is: *** ** *** ******* *********.
+
+    - stdin: |-
+        , . ! ?
+        geheim
+      stdout: |-
+        Het codewoord begint op positie -1.
+        .
+        De gemaskeerde boodschap is: , . ! ?
+
+    - stdin: |-
+        de code is geheim, en geheimen zijn gevaarlijk
+        geheim
+      stdout: |-
+        Het codewoord begint op positie 11.
+        geheim, en geheimen zijn gevaarlijk
+        De gemaskeerde boodschap is: ** **** ** ******, ** ******** **** **********
+
+    - stdin: |-
+        Voilà, de clé ligt onder de canapé!
+        clé
+      stdout: |-
+        Het codewoord begint op positie 10.
+        clé ligt onder de canapé!
+        De gemaskeerde boodschap is: *****, ** *** **** ***** ** ******!
