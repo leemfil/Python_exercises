@@ -1,11 +1,13 @@
 {
-  "name": "Geheime boodschap",
-  "type": "python",
-  "programming_language": "python",
-  "mode": "batch",
-  "judge": "tested",
-  "access": "private",
   "description": {
-    "nl": "description.md"
-  }
+    "names": {
+      ""nl": "Boodschap versleutelen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private"
 }
