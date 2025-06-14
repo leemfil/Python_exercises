@@ -33,7 +33,7 @@
         geheim
       stdout: |-
         Het codewoord begint op positie -1.
-        .
+        Codewoord komt niet in de zin voor.
         De gemaskeerde boodschap is: ** ** **** ******** ***** ** **** ***.
     - stdin: |-
         
