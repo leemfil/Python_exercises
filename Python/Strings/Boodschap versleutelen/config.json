@@ -3,7 +3,7 @@
   "type": "python",
   "programming_language": "python",
   "mode": "batch",
-  "judge": "pythia_judge",
+  "judge": "tested",
   "access": "private",
   "description": {
     "nl": "description.md"
