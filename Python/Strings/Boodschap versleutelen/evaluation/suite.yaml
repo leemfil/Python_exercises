@@ -36,18 +36,18 @@
         .
         De gemaskeerde boodschap is: ** ** **** ******** ***** ** **** ***.
     - stdin: |-
-        
+        ''
         test
       stdout: |-
         Het codewoord begint op positie -1.
-        
+        Codewoord komt niet in de zin voor.
         De gemaskeerde boodschap is: 
     - stdin: |-
         Dit is een normale boodschap.
         ''
       stdout: |-
         Het codewoord begint op positie -1.
-        Dit is een normale boodschap.
+        Codewoord komt niet in de zin voor.
         De gemaskeerde boodschap is: *** ** *** ******* *********.
     - stdin: |-
         de code is geheim, en geheimen zijn gevaarlijk
