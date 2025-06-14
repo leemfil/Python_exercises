@@ -44,9 +44,9 @@
         De gemaskeerde boodschap is: 
     - stdin: |-
         Dit is een normale boodschap.
-        
+        ''
       stdout: |-
-        Het codewoord begint op positie 0.
+        Het codewoord begint op positie -1.
         Dit is een normale boodschap.
         De gemaskeerde boodschap is: *** ** *** ******* *********.
     - stdin: |-
