@@ -1,1 +1,100 @@
+- name: standaardzin met codewoord middenin
+  stdin: |
+    De documenten zitten in de kast onder de vloer.
+    kast
+  expected_stdout: |
+    Het codewoord begint op positie 29.
+    kast onder de vloer.
+    De gemaskeerde boodschap is: ** ********** ****** ** *** **** ***** ** *****.
+  strip: true
 
+- name: hoofdletters in boodschap en codewoord
+  stdin: |
+    Vergeet niet dat het woord ALPHA belangrijk is.
+    alpha
+  expected_stdout: |
+    Het codewoord begint op positie 27.
+    alpha belangrijk is.
+    De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ***.
+  strip: true
+
+- name: codewoord komt vooraan
+  stdin: |
+    sleutelwoorden zijn belangrijk.
+    sleutel
+  expected_stdout: |
+    Het codewoord begint op positie 0.
+    sleutelwoorden zijn belangrijk.
+    De gemaskeerde boodschap is: ************* **** **********.
+  strip: true
+
+- name: codewoord op het einde
+  stdin: |
+    Dit is een belangrijke aanwijzing voor het team: STOP
+    stop
+  expected_stdout: |
+    Het codewoord begint op positie 46.
+    STOP
+    De gemaskeerde boodschap is: *** ** *** ********** ********* **** *** ****: ****
+  strip: true
+
+- name: codewoord ontbreekt
+  stdin: |
+    Er is geen speciaal woord in deze zin.
+    geheim
+  expected_stdout: |
+    Het codewoord begint op positie -1.
+    .
+    De gemaskeerde boodschap is: ** ** **** ******* **** ** **** ***.
+  strip: true
+
+- name: lege boodschap
+  stdin: |
+    
+    test
+  expected_stdout: |
+    Het codewoord begint op positie -1.
+    
+    De gemaskeerde boodschap is: 
+  strip: true
+
+- name: lege codewoordinvoer
+  stdin: |
+    Dit is een normale boodschap.
+    
+  expected_stdout: |
+    Het codewoord begint op positie -1.
+    
+    De gemaskeerde boodschap is: **** ** *** ******* ********.
+  strip: true
+
+- name: boodschap met alleen spaties en leestekens
+  stdin: |
+    , . ! ?
+    punt
+  expected_stdout: |
+    Het codewoord begint op positie -1.
+    ?  
+    De gemaskeerde boodschap is: , . ! ?
+  strip: true
+
+- name: boodschap met herhaalde codewoorden
+  stdin: |
+    de code is geheim, en geheimen zijn gevaarlijk
+    geheim
+  expected_stdout: |
+    Het codewoord begint op positie 11.
+    geheim, en geheimen zijn gevaarlijk
+    De gemaskeerde boodschap is: ** **** ** ******, ** ******** **** **********
+  strip: true
+
+- name: boodschap met accenten en speciale tekens
+  stdin: |
+    Voilà, de clé ligt onder de canapé!
+    clé
+  expected_stdout: |
+    Het codewoord begint op positie 11.
+    clé ligt onder de canapé!
+    De gemaskeerde boodschap is: Voilà, ** *** **** ***** ** ******!
+  strip: true
+  
