@@ -32,6 +32,7 @@ De laatste 4 tekens.
 
 **Invoer**
     
+    5
     NL54  
      INGB  
      0001  
@@ -48,6 +49,7 @@ De laatste 4 tekens.
 
 **Invoer**
 
+    4
     BE68   
      5390  
      0754  
