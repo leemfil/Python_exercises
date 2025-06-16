@@ -49,7 +49,7 @@
     - stdin: |-
         0
       stdout: |-
-        ~
+        
     - stdin: |-
         6
         one
