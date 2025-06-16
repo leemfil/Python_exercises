@@ -1,0 +1,120 @@
+- tab: "Testen"
+  testcases:
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        2
+        Jonas
+        ja
+        Karel
+        Lina
+        nee
+        Sarah
+      stdout: |-
+        Bram, Emma, Karel, Sarah
+        De deelnemer Sarah staat op index 3.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        5
+        Emma
+        ja
+        Tim
+        Lina
+        ja
+        Nora
+        Jonas
+        ja
+        Bas
+        Sarah
+        ja
+        Tina
+        Bram
+        ja
+        Ward
+        Ward
+      stdout: |-
+        Bas, Nora, Tim, Tina, Ward
+        De deelnemer Ward staat op index 4.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        0
+        Jonas
+      stdout: |-
+        Bram, Emma, Jonas, Lina, Sarah
+        De deelnemer Jonas staat op index 2.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        5
+        Emma
+        nee
+        Lina
+        nee
+        Jonas
+        nee
+        Sarah
+        nee
+        Bram
+        nee
+        Jonas
+      stdout: |-
+        Jonas zit niet meer in de lijst.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        1
+        Jonas
+        nee
+        Jonas
+      stdout: |-
+        Bram, Emma, Lina, Sarah
+        Jonas zit niet meer in de lijst.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        1
+        Bram
+        ja
+        Quinten
+        Quinten
+      stdout: |-
+        Emma, Jonas, Lina, Quinten, Sarah
+        De deelnemer Quinten staat op index 3.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        1
+        Emma
+        ja
+        Amber
+        Amber
+      stdout: |-
+        Amber, Bram, Jonas, Lina, Sarah
+        De deelnemer Amber staat op index 0.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        0
+        David
+      stdout: |-
+        Bram, Emma, Jonas, Lina, Sarah
+        David zit niet meer in de lijst.
+    - stdin: |-
+        Emma Lina Jonas Sarah Bram
+        2
+        Jonas
+        ja
+        Bart
+        Sarah
+        nee
+        Bart
+      stdout: |-
+        Bart, Bram, Emma, Lina
+        De deelnemer Bart staat op index 0.
+    - stdin: |-
+        Emma Jonas Jonas Sarah Bram
+        2
+        Jonas
+        nee
+        Jonas
+        ja
+        Leo
+        Leo
+      stdout: |-
+        Bram, Emma, Leo, Sarah
+        De deelnemer Leo staat op index 2.
+        
