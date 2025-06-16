@@ -23,7 +23,7 @@
     - stdin: |-
         Zebra's zijn zwart en snel.
       stdout: |-
-        Afcsb't ajjo *xbsu fo tofm.
+        +fcsb't *jko *xbsu fo tofm.
     - stdin: |-
         12345!?&
       stdout: |-
@@ -31,7 +31,7 @@
     - stdin: |-
         Bravo Zulu!
       stdout: |-
-        Csbpw +vmv!
+        Csbwp +vmv!
     - stdin: |-
         Top secret: Zeg niets.
       stdout: |-
