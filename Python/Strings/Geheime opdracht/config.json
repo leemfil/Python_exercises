@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Codewoord in boodschap"
+      "nl": "Geheime opdracht"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "internals": {
-    "token": "FItkahrHHCGjMuvFuGQmWn5-GfTSTdQdWDDNZ272DjIQRrtPjCG7TWSP-nKxuSHp",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  },
   "labels": []
 }
