@@ -2,7 +2,7 @@
 
 De Europese Geheime Dienst (EGD) heeft een dringend bevel uitgevaardigd:
 **"Operatie CODEBREKER"** is geactiveerd.  
-
+<br/>
 
 **1️⃣ FASE 1: Herken het codewoord**   
 
