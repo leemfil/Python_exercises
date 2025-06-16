@@ -1,12 +1,11 @@
-def beheer_rij(rij, actie, waarde):
+def beheer_rij(rij, actie, index, naam):
     if actie == "toevoegen":
-        naam, index = waarde
         if index == 0:
             rij.insert(0, naam)
         elif index == -1:
             rij.append(naam)
+        return rij
     elif actie == "verwijderen":
-        index = waarde
         if 0 <= index < len(rij):
             return rij.pop(index)
         else:
