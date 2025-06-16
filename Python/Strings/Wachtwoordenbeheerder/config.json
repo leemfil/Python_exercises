@@ -1,13 +1,17 @@
 {
-    "description": {
-      "names": {
-        "nl": "Wachtwoordenbeheerder"
-      }
-    },
-    "evaluation": {
-      "handler": "tested",
-      "test_suite": "suite.yaml"
-    },
-    "programming_language": "python",
-    "access": "private"
+  "description": {
+    "names": {
+      "nl": "Wachtwoordenbeheerder"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "internals": {
+    "token": "GZB-Pp83B7A9ek8eCkWReHGjSHDZ5v-9JFv3VSd_3AihJvX8KuPYKRGrMtXft5V6",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
+}
