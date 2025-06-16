@@ -1,28 +1,21 @@
-boodschap = input()
+gecodeerd = input()
+codewoord = input().lower()
 
-# Bouw string op met tekens op oneven indexen
+# 1. Bouw de string op met tekens op oneven posities
 decode = ""
-for i in range(1, len(boodschap), 2):
-    decode += boodschap[i]
+for i in range(1, len(gecodeerd), 2):
+    decode += gecodeerd[i]
 
-# Zet alles om naar kleine letters
-decode = decode.lower()
+# 2. Alles in kleine letters + vervang '#' door spatie
+decode = decode.lower().replace("#", " ")
 
-# Vervang '#' door spatie
-decode = decode.replace("#", " ")
+# 3. Toon de decodeerde boodschap met spaties tussen de letters
+print(" ".join(decode))
 
-# Toon de decodeerde boodschap
-print(decode)
+# 4. Tel hoe vaak het codewoord voorkomt
+aantal = decode.count(codewoord)
+print(f"Patroon '{codewoord}' komt {aantal} keer voor.")
 
-# Zoek het woord 'agent' in de decodeerde string
-aantal = decode.count("agent")
-
-# Toon aantal keren 'agent' voorkomt
-if aantal > 0:
-    print(f"Patroon 'agent' komt {aantal} keer voor.")
-else:
-    print("Patroon 'agent' niet gevonden.")
-
-# Tel aantal letters zonder spaties
-letters_zonder_spaties = len(decode.replace(" ", ""))
-print(f"De boodschap bevat {letters_zonder_spaties} letters zonder spaties.")
+# 5. Tel aantal letters zonder spaties
+zonder_spaties = decode.replace(" ", "")
+print(f"De boodschap bevat {len(zonder_spaties)} letters zonder spaties.")
