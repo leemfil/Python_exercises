@@ -25,8 +25,8 @@ Bovendien zijn spaties vervangen door het symbool #. We vermoeden dat de vijand 
 
 ### Invoer
 
- 1: de gecodeerde boodschap (string).  
- 2: het codewoord
+-  de gecodeerde boodschap (string).  
+- het codewoord
 
 ---
 
