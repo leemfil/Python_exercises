@@ -8,7 +8,8 @@ Daarnaast moeten de wachtwoorden:
 * gesorteerd worden van **langste naar kortste**
 * een specifiek wachtwoord mag **niet** al in de lijst staan bij toevoeging
 
-Je helpt mee door een programma te schrijven dat deze wachtwoorden correct beheert.
+Je helpt mee door een programma te schrijven dat deze wachtwoorden correct beheert.  
+<br/>
 
 ---
 
@@ -33,9 +34,10 @@ Schrijf een programma dat het volgende doet:
 
 ### 🖥️ Uitvoer
 
-* Een reeks van unieke wachtwoorden, gesorteerd van langste naar kortste, gescheiden door komma’s
+* Een reeks van unieke wachtwoorden, gesorteerd van langste naar kortste, gescheiden door komma’s  
 
 ---
+<br/> 
 
 ### 📌 Voorbeeld
 
