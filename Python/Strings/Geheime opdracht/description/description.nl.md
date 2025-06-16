@@ -1,5 +1,5 @@
-### Opdracht
-<br/>
+### Opdracht  
+
 2️⃣ FASE 2: Ontcijfer gecodeerde zendingen
 Een tweede type bericht is onderschept via satelliet.
 De boodschap lijkt compleet onsamenhangend, maar analyse wijst uit dat alleen de tekens op oneven indexen (1, 3, 5, …) iets betekenen.
