@@ -4,10 +4,12 @@ De Europese Geheime Dienst (EGD) heeft een dringend bevel uitgevaardigd:
 **"Operatie CODEBREKER"** is geactiveerd.
 
 **1️⃣ FASE 1: Herken het codewoord**   
+
 In het eerste stadium ontvang je een reeks ogenschijnlijk normale zinnen. Toch schuilt er meer achter.
 Zoals vaak gebeurt in spionagefilms, worden gewone zinnen gebruikt om verborgen instructies of sleutels over te brengen.
 
 Jouw taak is om na te gaan of een bepaald codewoord voorkomt in de boodschap, en zo ja: waar het begint, en wat het relevante deel van de boodschap is.
+
 <br/>
 
 **Voorbeelden van geheime boodschappen:**   
