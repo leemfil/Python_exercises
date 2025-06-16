@@ -34,7 +34,6 @@ Je schrijft **een functie** `beheer_rij(rij, actie, index, naam)` die het wachtr
 
 ### Voorbeelden
 
-```python
 >>> rij = ["Luna", "Arne"]
 >>> beheer_rij(rij, "toevoegen", 0, "Noor")
 >>> rij
