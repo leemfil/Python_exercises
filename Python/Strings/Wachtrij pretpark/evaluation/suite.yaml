@@ -1,0 +1,75 @@
+- tab: "Testen"
+  testcases:
+    - stdin: |-
+        toevoegen
+        0
+        Noor
+        ['Luna', 'Arne']
+      stdout: |-
+        ['Noor', 'Luna', 'Arne']
+    - stdin: |-
+        toevoegen
+        -1
+        Ella
+        ['Noor', 'Luna', 'Arne']
+      stdout: |-
+        ['Noor', 'Luna', 'Arne', 'Ella']
+    - stdin: |-
+        verwijderen
+        1
+        None
+        ['Noor', 'Luna', 'Arne', 'Ella']
+      stdout: |-
+        Luna
+        ['Noor', 'Arne', 'Ella']
+    - stdin: |-
+        verwijderen
+        10
+        None
+        ['Noor', 'Arne', 'Ella']
+      stdout: |-
+        Ongeldige index!
+    - stdin: |-
+        toevoegen
+        0
+        Milo
+        []
+      stdout: |-
+        ['Milo']
+    - stdin: |-
+        toevoegen
+        -1
+        Bo
+        ['Milo']
+      stdout: |-
+        ['Milo', 'Bo']
+    - stdin: |-
+        verwijderen
+        0
+        None
+        ['Milo', 'Bo']
+      stdout: |-
+        Milo
+        ['Bo']
+    - stdin: |-
+        verwijderen
+        0
+        None
+        ['Bo']
+      stdout: |-
+        Bo
+        []
+    - stdin: |-
+        verwijderen
+        0
+        None
+        []
+      stdout: |-
+        Ongeldige index!
+    - stdin: |-
+        toevoegen
+        0
+        Zara
+        ['Tom', 'Jerry']
+      stdout: |-
+        ['Zara', 'Tom', 'Jerry']
