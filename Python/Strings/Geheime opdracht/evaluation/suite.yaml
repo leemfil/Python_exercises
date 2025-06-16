@@ -1,66 +1,81 @@
 - tab: "Testen"
   testcases:
     - stdin: |-
-        De documenten zitten in de kast onder de vloer.
-        kast
+        Xa#gAe#nT#xA#G#E#N#t
+        agent
       stdout: |-
-        Het codewoord begint op positie 27.
-        kast onder de vloer.
-        De gemaskeerde boodschap is: ** ********** ****** ** ** **** ***** ** *****.
-    - stdin: |-
-        Vergeet niet dat het woord ALPHA belangrijk is.
-        alpha
-      stdout: |-
-        Het codewoord begint op positie 27.
-        ALPHA belangrijk is.
-        De gemaskeerde boodschap is: ******* **** *** *** ***** ***** ********** **.
-    - stdin: |-
-        sleutelwoorden zijn belangrijk.
-        sleutel
-      stdout: |-
-        Het codewoord begint op positie 0.
-        sleutelwoorden zijn belangrijk.
-        De gemaskeerde boodschap is: ************** **** **********.
-    - stdin: |-
-        Dit is een belangrijke aanwijzing voor het team: STOP
-        stop
-      stdout: |-
-        Het codewoord begint op positie 49.
-        STOP
-        De gemaskeerde boodschap is: *** ** *** *********** ********** **** *** ****: ****
-    - stdin: |-
-        Er is geen speciaal woord in deze zin.
-        geheim
-      stdout: |-
-        Het codewoord begint op positie -1.
-        Codewoord komt niet in de zin voor.
-        De gemaskeerde boodschap is: ** ** **** ******** ***** ** **** ***.
-    - stdin: |-
-        
-        test
-      stdout: |-
-        Het codewoord begint op positie -1.
-        Codewoord komt niet in de zin voor.
-        De gemaskeerde boodschap is: 
-    - stdin: |-
-        Dit is een normale boodschap.
-        ''
-      stdout: |-
-        Het codewoord begint op positie -1.
-        Codewoord komt niet in de zin voor.
-        De gemaskeerde boodschap is: *** ** *** ******* *********.
-    - stdin: |-
-        de code is geheim, en geheimen zijn gevaarlijk
-        geheim
-      stdout: |-
-        Het codewoord begint op positie 11.
-        geheim, en geheimen zijn gevaarlijk
-        De gemaskeerde boodschap is: ** **** ** ******, ** ******** **** **********
+        a g e n t a g e n t
+        Patroon 'agent' komt 2 keer voor.
+        De boodschap bevat 10 letters zonder spaties.
 
     - stdin: |-
-        Voilà, de clé ligt onder de canapé!
-        clé
+        xX#A#B#c#d#e#f#G#H#i
+        abcd
       stdout: |-
-        Het codewoord begint op positie 10.
-        clé ligt onder de canapé!
-        De gemaskeerde boodschap is: *****, ** *** **** ***** ** ******!
+        x a b c d e f g h i
+        Patroon 'abcd' komt 1 keer voor.
+        De boodschap bevat 10 letters zonder spaties.
+
+    - stdin: |-
+        $%#^&#*(!)#@#
+        top
+      stdout: |-
+
+        Patroon 'top' komt 0 keer voor.
+        De boodschap bevat 0 letters zonder spaties.
+
+    - stdin: |-
+        
+        top
+      stdout: |-
+
+        Patroon 'top' komt 0 keer voor.
+        De boodschap bevat 0 letters zonder spaties.
+
+    - stdin: |-
+        1a#2g#3e#4n#5t
+        agent
+      stdout: |-
+        a g e n t
+        Patroon 'agent' komt 1 keer voor.
+        De boodschap bevat 5 letters zonder spaties.
+
+    - stdin: |-
+        a#G#E#N#T#x#A#g#e#n#t
+        agent
+      stdout: |-
+        g e n t x g e n t
+        Patroon 'agent' komt 1 keer voor.
+        De boodschap bevat 9 letters zonder spaties.
+
+    - stdin: |-
+        A#G#E#N#T#a#g#E#n#t
+        AGENT
+      stdout: |-
+        g e n t a g e n t
+        Patroon 'agent' komt 1 keer voor.
+        De boodschap bevat 9 letters zonder spaties.
+
+    - stdin: |-
+        1#2#3#4#5#6#7#8#9#0
+        123
+      stdout: |-
+        2 4 6 8 0
+        Patroon '123' komt 0 keer voor.
+        De boodschap bevat 5 letters zonder spaties.
+
+    - stdin: |-
+        a#b#c#d#e#f#g#h
+        def
+      stdout: |-
+        b d f h
+        Patroon 'def' komt 0 keer voor.
+        De boodschap bevat 4 letters zonder spaties.
+
+    - stdin: |-
+        A#g#e#N#t#a#g#e#N#t
+        agent
+      stdout: |-
+        g e n t g e n t
+        Patroon 'agent' komt 1 keer voor.
+        De boodschap bevat 8 letters zonder spaties.
