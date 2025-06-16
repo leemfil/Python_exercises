@@ -56,7 +56,7 @@
       stdout: |-
         1 2 3 2
         Patroon '123' komt 0 keer voor.
-        De boodschap bevat 5 letters zonder spaties.
+        De boodschap bevat 4 letters zonder spaties.
     - stdin: |-
         xbqormsrkandbeopmzbtof
         bom
