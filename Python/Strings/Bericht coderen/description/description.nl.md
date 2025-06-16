@@ -1,6 +1,7 @@
 ### Opdracht
+<br/>
 
-3️⃣ FASE 3: Zend een gecodeerd tegenbericht
+**3️⃣ FASE 3: Zend een gecodeerd tegenbericht**  
 Nu je de vijandelijke communicatie hebt ontcijferd, is het tijd om zelf te antwoorden. Uiteraard versleutel je jouw boodschap, zodat niemand anders de inhoud kan lezen.
 
 Je gebruikt een eenvoudige versleuteling op basis van ASCII. Elke letter wordt vervangen door het volgende teken in de ASCII-tabel. Er gelden uitzonderingen voor de tekens "z" en "Z" — deze worden vervangen door een speciaal teken.
@@ -21,6 +22,7 @@ Alle andere karakters (zoals cijfers, leestekens, spaties, …) blijven behouden
 - Verwerk "z" als "*", "Z" als "+".
 - Laat alle andere tekens ongewijzigd.
 - Toon het versleutelde bericht.  
+<br/>
 
 ---
 
