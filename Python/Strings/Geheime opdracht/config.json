@@ -9,6 +9,5 @@
     "test_suite": "suite.yaml"
   },
   "programming_language": "python",
-  "access": "private",
-  "labels": []
+  "access": "private"
 }
