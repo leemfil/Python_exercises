@@ -1,34 +1,37 @@
 ### Opdracht
 
-Je krijgt een gecodeerde boodschap die schijnbaar zinloos lijkt, maar enkel de tekens op de **oneven indexen** (1, 3, 5, ...) vormen de echte boodschap.
+2️⃣ FASE 2: Ontcijfer gecodeerde zendingen
+Een tweede type bericht is onderschept via satelliet.
+De boodschap lijkt compleet onsamenhangend, maar analyse wijst uit dat alleen de tekens op oneven indexen (1, 3, 5, …) iets betekenen.
 
-De boodschap bevat ook het symbool `#` op plaatsen waar een spatie hoort. Verder willen we nagaan of het woord `"agent"` in de decodeerde boodschap voorkomt.
-
+Bovendien zijn spaties vervangen door het symbool #. We vermoeden dat de vijand hier een codewoord gebruikt om zijn identiteit te bevestigen.
 <br/>
 
 **Schrijf een programma dat het volgende doet:**
 
 1. Vraag een gecodeerde boodschap aan de gebruiker.
-2. Bouw een nieuwe string op met **de tekens op oneven indexen**.
-3. Zet de decodeerde boodschap volledig om naar **kleine letters**.
+2. Bouw een nieuwe string op met **de tekens op oneven posities**.
+3. Zet de gedecodeerde boodschap volledig om naar **kleine letters**.
 4. Vervang elke `#` door een spatie.
-5. Toon de decodeerde boodschap op het scherm.
-6. Controleer of het woord `"agent"` in de decodeerde boodschap voorkomt.
-7. Toon hoeveel keer het woord `"agent"` voorkomt.
-8. Toon ook het aantal tekens (exclusief spaties) in de decodeerde boodschap.
+5. Toon de gedecodeerde boodschap op het scherm met spaties tussen de letters.
+6. Vraag het codewoord aan de gebruiker.
+7. Controleer of het codewoord in de gedecodeerde boodschap voorkomt.
+8. Toon hoeveel keer het codewoord voorkomt.
+9. Toon ook het aantal tekens (exclusief spaties) in de decodeerde boodschap.
 
 ---
 
 ### Invoer
 
-Eén regel: de gecodeerde boodschap (string).
+ 1: de gecodeerde boodschap (string).
+ 2: het codewoord
 
 ---
 
 ### Uitvoer
 
-- De decodeerde boodschap in kleine letters, met spaties op de juiste plaats.
-- Een melding of `"agent"` gevonden werd, en hoe vaak.
+- De gedecodeerde boodschap in kleine letters, met spaties op de juiste plaats.
+- Een melding of het codewoord gevonden werd, en hoe vaak.
 - Het aantal letters zonder spaties.
 
 ---
