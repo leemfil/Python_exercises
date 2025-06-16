@@ -48,15 +48,17 @@ Daarnaast wil de jury op het einde nog snel controleren of een specifieke deelne
 ### Voorbeeld
 
 **Invoer**
-Emma Lina Jonas Sarah Bram
-2
-Jonas
-ja
-Karel
-Lina
-nee
-Sarah
+
+   Emma Lina Jonas Sarah Bram
+   2
+   Jonas
+   ja
+   Karel
+   Lina
+   nee
+   Sarah
 
 **Uitvoer**
-Bram, Emma, Karel, Sarah
-De deelnemer Sarah staat op index 3.
+
+   Bram, Emma, Karel, Sarah
+   De deelnemer Sarah staat op index 3.
