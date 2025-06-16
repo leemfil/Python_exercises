@@ -29,6 +29,7 @@ Je schrijft **een functie** `beheer_rij(rij, actie, index, naam)` die het wachtr
 
 - Bij `"verwijderen"` retourneert de functie de naam van de verwijderde persoon, of `None` bij fout
 - Bij `"toevoegen"` retourneert de functie `None`
+<br/>
 
 ---
 
