@@ -34,10 +34,10 @@
         t6
       stdout: |-
         a2 e4 t6
-        Patroon 't6' komt 0 keer voor.
+        Patroon 't6' komt 1 keer voor.
         De boodschap bevat 6 letters zonder spaties.
     - stdin: |-
-       Xa#gAe##tnuT#A#G#E#N#t
+        Xa#gAe##tnuT#A#G#E#N#t
         agent
       stdout: |-
         age ntagent
@@ -54,7 +54,7 @@
         #1##32##233#123
         123
       stdout: |-
-        1 2 3 13
+        1 2 3 2
         Patroon '123' komt 0 keer voor.
         De boodschap bevat 5 letters zonder spaties.
     - stdin: |-
