@@ -26,7 +26,7 @@
         banana
         apple
       stdout: |-
-        banana,cherry,apple
+        cherry,banana,apple
     - stdin: |-
         1
         uniek
@@ -59,7 +59,7 @@
         five
         six
       stdout: |-
-        three,four,five,one,two,six
+        three,five,four,six,two,one
     - stdin: |-
         5
         zzzz
@@ -77,4 +77,4 @@
         Up
         uP
       stdout: |-
-        UP,Up,uP,up
+        uP,Up,UP,up
