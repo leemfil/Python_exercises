@@ -15,67 +15,59 @@
         x a b c d e f g h i
         Patroon 'abcd' komt 1 keer voor.
         De boodschap bevat 10 letters zonder spaties.
-
     - stdin: |-
         $%#^&#*(!)#@#
         top
       stdout: |-
-
+        % ^   ( ) @
         Patroon 'top' komt 0 keer voor.
-        De boodschap bevat 0 letters zonder spaties.
-
+        De boodschap bevat 5 letters zonder spaties.
     - stdin: |-
         
         top
       stdout: |-
-
+        
         Patroon 'top' komt 0 keer voor.
         De boodschap bevat 0 letters zonder spaties.
-
     - stdin: |-
-        1a#2g#3e#4n#5t
-        agent
+        1a#2g#3e#4n#5t#6#
+        gen
       stdout: |-
-        a g e n t
-        Patroon 'agent' komt 1 keer voor.
-        De boodschap bevat 5 letters zonder spaties.
-
+        a 2   e 4   t 6
+        Patroon 'gen' komt 0 keer voor.
+        De boodschap bevat 6 letters zonder spaties.
     - stdin: |-
-        a#G#E#N#T#x#A#g#e#n#t
+        a#G#E#N#T#x#A#G#E#N#T
         agent
       stdout: |-
         g e n t x g e n t
         Patroon 'agent' komt 1 keer voor.
         De boodschap bevat 9 letters zonder spaties.
-
     - stdin: |-
-        A#G#E#N#T#a#g#E#n#t
-        AGENT
+        A#G#E#N#T#A#G#E#N#T
+        agent
       stdout: |-
         g e n t a g e n t
         Patroon 'agent' komt 1 keer voor.
         De boodschap bevat 9 letters zonder spaties.
-
     - stdin: |-
-        1#2#3#4#5#6#7#8#9#0
+        1#2#3#1#2#3#1#2#3
         123
       stdout: |-
-        2 4 6 8 0
+        2 2 2
         Patroon '123' komt 0 keer voor.
-        De boodschap bevat 5 letters zonder spaties.
-
+        De boodschap bevat 3 letters zonder spaties.
     - stdin: |-
         a#b#c#d#e#f#g#h
-        def
+        bdfh
       stdout: |-
         b d f h
-        Patroon 'def' komt 0 keer voor.
+        Patroon 'bdfh' komt 1 keer voor.
         De boodschap bevat 4 letters zonder spaties.
-
     - stdin: |-
-        A#g#e#N#t#a#g#e#N#t
+        A#G#E#N#T#X#A#G#E#N#T#X
         agent
       stdout: |-
-        g e n t g e n t
+        g e n t x g e n t x
         Patroon 'agent' komt 1 keer voor.
-        De boodschap bevat 8 letters zonder spaties.
+        De boodschap bevat 10 letters zonder spaties.
