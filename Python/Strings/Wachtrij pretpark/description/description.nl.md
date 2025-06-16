@@ -34,18 +34,18 @@ Je schrijft **een functie** `beheer_rij(rij, actie, index, naam)` die het wachtr
 
 ### Voorbeelden
 
-   >>> rij = ["Luna", "Arne"]
-   >>> beheer_rij(rij, "toevoegen", 0, "Noor")
-   >>> rij
-   ['Noor', 'Luna', 'Arne']
+    >>> rij = ["Luna", "Arne"]
+    >>> beheer_rij(rij, "toevoegen", 0, "Noor")
+    >>> rij
+    ['Noor', 'Luna', 'Arne']
 
-   >>> beheer_rij(rij, "toevoegen", -1, "Ella")
-   >>> rij
-   ['Noor', 'Luna', 'Arne', 'Ella']
+    >>> beheer_rij(rij, "toevoegen", -1, "Ella")
+    >>> rij
+    ['Noor', 'Luna', 'Arne', 'Ella']
 
-   >>> beheer_rij(rij, "verwijderen", 1, None)
-   'Luna'
-   >>> rij
+    >>> beheer_rij(rij, "verwijderen", 1, None)
+    'Luna'
+    >>> rij
     ['Noor', 'Arne', 'Ella']
 
     >>> beheer_rij(rij, "verwijderen", 10, None)
