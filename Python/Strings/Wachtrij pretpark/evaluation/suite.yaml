@@ -1,75 +1,31 @@
-- tab: "Testen"
+- tab: "beheer_rij"
   testcases:
-    - stdin: |-
-        toevoegen
-        0
-        Noor
-        ['Luna', 'Arne']
-      stdout: |-
-        ['Noor', 'Luna', 'Arne']
-    - stdin: |-
-        toevoegen
-        -1
-        Ella
-        ['Noor', 'Luna', 'Arne']
-      stdout: |-
-        ['Noor', 'Luna', 'Arne', 'Ella']
-    - stdin: |-
-        verwijderen
-        1
-        None
-        ['Noor', 'Luna', 'Arne', 'Ella']
-      stdout: |-
-        Luna
-        ['Noor', 'Arne', 'Ella']
-    - stdin: |-
-        verwijderen
-        10
-        None
-        ['Noor', 'Arne', 'Ella']
-      stdout: |-
-        Ongeldige index!
-    - stdin: |-
-        toevoegen
-        0
-        Milo
-        []
-      stdout: |-
-        ['Milo']
-    - stdin: |-
-        toevoegen
-        -1
-        Bo
-        ['Milo']
-      stdout: |-
-        ['Milo', 'Bo']
-    - stdin: |-
-        verwijderen
-        0
-        None
-        ['Milo', 'Bo']
-      stdout: |-
-        Milo
-        ['Bo']
-    - stdin: |-
-        verwijderen
-        0
-        None
-        ['Bo']
-      stdout: |-
-        Bo
-        []
-    - stdin: |-
-        verwijderen
-        0
-        None
-        []
-      stdout: |-
-        Ongeldige index!
-    - stdin: |-
-        toevoegen
-        0
-        Zara
-        ['Tom', 'Jerry']
-      stdout: |-
-        ['Zara', 'Tom', 'Jerry']
+    - expression: "beheer_rij(['Luna', 'Arne'], 'toevoegen', 0, 'Noor')"
+      return: ['Noor', 'Luna', 'Arne']
+
+    - expression: "beheer_rij(['Noor', 'Luna', 'Arne'], 'toevoegen', -1, 'Ella')"
+      return: ['Noor', 'Luna', 'Arne', 'Ella']
+
+    - expression: "beheer_rij(['Noor', 'Luna', 'Arne', 'Ella'], 'verwijderen', 1, None)"
+      return: 'Luna'
+
+    - expression: "beheer_rij(['Noor', 'Arne', 'Ella'], 'verwijderen', 10, None)"
+      return: 'Ongeldige index!'
+
+    - expression: "beheer_rij([], 'toevoegen', 0, 'Milo')"
+      return: ['Milo']
+
+    - expression: "beheer_rij(['Milo'], 'toevoegen', -1, 'Bo')"
+      return: ['Milo', 'Bo']
+
+    - expression: "beheer_rij(['Milo', 'Bo'], 'verwijderen', 0, None)"
+      return: 'Milo'
+
+    - expression: "beheer_rij(['Bo'], 'verwijderen', 0, None)"
+      return: 'Bo'
+
+    - expression: "beheer_rij([], 'verwijderen', 0, None)"
+      return: 'Ongeldige index!'
+
+    - expression: "beheer_rij(['Tom', 'Jerry'], 'toevoegen', 0, 'Zara')"
+      return: ['Zara', 'Tom', 'Jerry']
