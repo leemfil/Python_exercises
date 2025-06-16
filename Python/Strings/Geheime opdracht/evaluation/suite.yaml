@@ -4,7 +4,7 @@
         Xa#gAe#nuT#A#G#E#N#t
         agent
       stdout: |-
-        a g e n t a g e n t
+        agentagent
         Patroon 'agent' komt 2 keer voor.
         De boodschap bevat 10 letters zonder spaties.
 
@@ -12,14 +12,14 @@
         xX#A#B#c#d#e#f#G#H#i
         abcd
       stdout: |-
-        x a b c d e f g h i
+        xabcdefghi
         Patroon 'abcd' komt 1 keer voor.
         De boodschap bevat 10 letters zonder spaties.
     - stdin: |-
         $%#^&#*(!)#@#
         top
       stdout: |-
-        % ^   ( ) @
+        %^ ()@
         Patroon 'top' komt 0 keer voor.
         De boodschap bevat 5 letters zonder spaties.
     - stdin: |-
@@ -31,10 +31,10 @@
         De boodschap bevat 0 letters zonder spaties.
     - stdin: |-
         1a#2g#3e#4n#5t#6#
-        gen
+        t6
       stdout: |-
-        a 2   e 4   t 6
-        Patroon 'gen' komt 0 keer voor.
+        a2 e4 t6
+        Patroon 't6' komt 0 keer voor.
         De boodschap bevat 6 letters zonder spaties.
     - stdin: |-
        Xa#gAe##tnuT#A#G#E#N#t
@@ -44,26 +44,23 @@
         Patroon 'agent' komt 1 keer voor.
         De boodschap bevat 10 letters zonder spaties.
     - stdin: |-
-        
+        efvhrtuhfeolzpbgftnsthd#yetlmpbt
+        help
       stdout: |-
-        g e n t a g e n t
-        Patroon 'agent' komt 1 keer voor.
-        De boodschap bevat 9 letters zonder spaties.
+        fhthelpgtsh elpt
+        Patroon 'help' komt 1 keer voor.
+        De boodschap bevat 15 letters zonder spaties.
     - stdin: |-
-        
+        #1##32##233#123
+        123
       stdout: |-
-        2 2 2
+        1 2 3 13
         Patroon '123' komt 0 keer voor.
-        De boodschap bevat 3 letters zonder spaties.
+        De boodschap bevat 5 letters zonder spaties.
     - stdin: |-
-       
+        xbqormsrkandbeopmzbtof
+        bom
       stdout: |-
-        b d f h
-        Patroon 'bdfh' komt 1 keer voor.
-        De boodschap bevat 4 letters zonder spaties.
-    - stdin: |-
-       
-      stdout: |-
-        g e n t x g e n t x
-        Patroon 'agent' komt 1 keer voor.
-        De boodschap bevat 10 letters zonder spaties.
+        bomradepztf
+        Patroon 'bom' komt 1 keer voor.
+        De boodschap bevat 11 letters zonder spaties.
