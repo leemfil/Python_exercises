@@ -1,7 +1,13 @@
 ### Opdracht
 
-In spionagefilms wordt vaak gecommuniceerd via geheime boodschappen die er op het eerste gezicht normaal uitzien. Stel dat een geheime dienst boodschappen verstuurt waarin een **codewoord** verborgen zit, en we moeten nagaan of het aanwezig is en waar het begint.
+De Europese Geheime Dienst (EGD) heeft een dringend bevel uitgevaardigd:
+**"Operatie CODEBREKER"** is geactiveerd.
 
+**1️⃣ FASE 1: Herken het codewoord**   
+In het eerste stadium ontvang je een reeks ogenschijnlijk normale zinnen. Toch schuilt er meer achter.
+Zoals vaak gebeurt in spionagefilms, worden gewone zinnen gebruikt om verborgen instructies of sleutels over te brengen.
+
+Jouw taak is om na te gaan of een bepaald codewoord voorkomt in de boodschap, en zo ja: waar het begint, en wat het relevante deel van de boodschap is.
 <br/>
 
 **Voorbeelden van geheime boodschappen:**   
@@ -22,14 +28,14 @@ Indien het niet voorkomt beeld je volgende boodschap af: "Het codewoord komt nie
 
 ### Invoer
 
-De volledige boodschap (één string).  
-Het codewoord (één woord, hoofdlettergevoelig bij invoer).
+* De volledige boodschap (één string).  
+* Het codewoord (één woord, hoofdlettergevoelig bij invoer).
 
 ### Uitvoer
 
-De positie van het codewoord in de boodschap.  
-Het deel van de boodschap vanaf dat punt tot het einde.  
-De gemaskeerde boodschap.  
+* De positie van het codewoord in de boodschap.  
+* Het deel van de boodschap vanaf dat punt tot het einde.  
+* De gemaskeerde boodschap.  
 
 ### Voorbeeld
 
