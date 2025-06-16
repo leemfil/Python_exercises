@@ -23,10 +23,10 @@ Jouw taak is om na te gaan of een bepaald codewoord voorkomt in de boodschap, en
 
 * Vraag een **boodschap** en een **codewoord** aan de gebruiker.
 * Zet de boodschap volledig in **kleine letters**.
-* Zoek met behulp van `find()` op welke positie het codewoord voor het eerst voorkomt.
+* Zoek op welke positie het codewoord voor het eerst voorkomt.
 * Als het codewoord **voorkomt**, beeld dan de boodschap af vanaf dat punt tot het einde.  
 Indien het niet voorkomt beeld je volgende boodschap af: "Het codewoord komt niet voor."
-* Vervang elk **letterteken** in de boodschap door een sterretje `*`, behalve de spaties en leestekens. Gebruik een **for-lus**.
+* Vervang elk **letterteken** in de boodschap door een sterretje `*`, behalve de spaties en leestekens.
 * Toon de gemaskeerde boodschap in een zin op het scherm.
 
 ### Invoer
