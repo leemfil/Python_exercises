@@ -1,7 +1,7 @@
 - tab: "Testen"
   testcases:
     - stdin: |-
-        Xa#gAe#nT#xA#G#E#N#t
+        Xa#gAe#nuT#A#G#E#N#t
         agent
       stdout: |-
         a g e n t a g e n t
