@@ -1,0 +1,42 @@
+- tab: "Testen"
+  testcases:
+    - stdin: |-
+        Zorro zegt: “Welkom, agent Z!”
+      stdout: |-
+        +pssp *fhu: “Xfmlpn, bhfou +!”
+    - stdin: |-
+        abcXYZ
+      stdout: |-
+        bcdYZ+
+    - stdin: |-
+        Het wachtwoord is geheim!
+      stdout: |-
+        Ifu xbdiuxppse jt hfifjn!
+    - stdin: |-
+        zZzZz
+      stdout: |-
+        *+*+*
+    - stdin: |-
+        Niets te zien hier.
+      stdout: |-
+        Ojfut uf *jfo ijfs.
+    - stdin: |-
+        Zebra's zijn zwart en snel.
+      stdout: |-
+        Afcsb't ajjo *xbsu fo tofm.
+    - stdin: |-
+        12345!?&
+      stdout: |-
+        12345!?&
+    - stdin: |-
+        Bravo Zulu!
+      stdout: |-
+        Csbpw +vmv!
+    - stdin: |-
+        Top secret: Zeg niets.
+      stdout: |-
+        Upq tfdsfu: +fh ojfut.
+    - stdin: |-
+        z Z a A y Y
+      stdout: |-
+        * + b B z Z
