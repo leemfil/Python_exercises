@@ -15,7 +15,7 @@ Bovendien zijn spaties vervangen door het symbool #. We vermoeden dat de vijand 
 2. Bouw een nieuwe string op met **de tekens op oneven posities**.
 3. Zet de gedecodeerde boodschap volledig om naar **kleine letters**.
 4. Vervang elke `#` door een spatie.
-5. Toon de gedecodeerde boodschap op het scherm met spaties tussen de letters.
+5. Toon de gedecodeerde boodschap op het scherm.
 6. Vraag het codewoord aan de gebruiker.
 7. Controleer of het codewoord in de gedecodeerde boodschap voorkomt.
 8. Toon hoeveel keer het codewoord voorkomt.
@@ -46,6 +46,6 @@ Bovendien zijn spaties vervangen door het symbool #. We vermoeden dat de vijand 
 
 **Uitvoer**
 
-    a g e n t a g e n t
+    agentagent
     Patroon 'agent' komt 2 keer voor.
     De boodschap bevat 10 letters zonder spaties.
