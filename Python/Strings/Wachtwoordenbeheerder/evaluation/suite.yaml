@@ -1,0 +1,80 @@
+- tab: "Testen"
+  testcases:
+    - stdin: |-
+        6
+        admin123
+        qwerty
+        admin123
+        helloworld
+        pwd
+        qwerty
+      stdout: |-
+        helloworld,admin123,qwerty,pwd
+    - stdin: |-
+        4
+        short
+        longer
+        longest
+        short
+      stdout: |-
+        longest,longer,short
+    - stdin: |-
+        5
+        apple
+        banana
+        cherry
+        banana
+        apple
+      stdout: |-
+        banana,cherry,apple
+    - stdin: |-
+        1
+        uniek
+      stdout: |-
+        uniek
+    - stdin: |-
+        3
+        a
+        aa
+        aaa
+      stdout: |-
+        aaa,aa,a
+    - stdin: |-
+        3
+        same
+        same
+        same
+      stdout: |-
+        same
+    - stdin: |-
+        0
+      stdout: |-
+
+    - stdin: |-
+        6
+        one
+        two
+        three
+        four
+        five
+        six
+      stdout: |-
+        three,four,five,one,two,six
+    - stdin: |-
+        5
+        zzzz
+        zz
+        zzz
+        z
+        zzzz
+      stdout: |-
+        zzzz,zzz,zz,z
+    - stdin: |-
+        5
+        up
+        UP
+        up
+        Up
+        uP
+      stdout: |-
+        UP,Up,uP,up
