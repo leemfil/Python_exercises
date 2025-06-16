@@ -56,6 +56,7 @@
         nee
         Jonas
       stdout: |-
+        
         Jonas zit niet meer in de lijst.
     - stdin: |-
         Emma Lina Jonas Sarah Bram
