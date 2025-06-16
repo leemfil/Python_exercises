@@ -1,6 +1,6 @@
 ### Opdracht
 
-De Europese Geheime Dienst (EGD) heeft een dringend bevel uitgevaardigd:
+De Europese Geheime Dienst (EGD) heeft een dringend bevel uitgevaardigd:  
 **"Operatie CODEBREKER"** is geactiveerd.  
 <br/>
 
