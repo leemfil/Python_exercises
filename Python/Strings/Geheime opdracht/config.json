@@ -1,18 +1,18 @@
 {
-    "description": {
-      "names": {
-        "nl": "Codewoord in boodschap"
-      }
-    },
-    "evaluation": {
-      "handler": "tested",
-      "test_suite": "suite.yaml"
-    },
-    "programming_language": "python",
-    "access": "private",
-    "internals": {
-      "token": "sDYxNmB9JrcFfrYYkRWDqPWwZPw97ydZ9J4PdsyUzAZ9TbeVq6umqdHzs6cvNc2d",
-      "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-    },
-    "labels": []
-  }
+  "description": {
+    "names": {
+      "nl": "Codewoord in boodschap"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "internals": {
+    "token": "FItkahrHHCGjMuvFuGQmWn5-GfTSTdQdWDDNZ272DjIQRrtPjCG7TWSP-nKxuSHp",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": []
+}
