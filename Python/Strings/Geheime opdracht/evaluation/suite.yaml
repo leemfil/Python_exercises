@@ -37,36 +37,32 @@
         Patroon 'gen' komt 0 keer voor.
         De boodschap bevat 6 letters zonder spaties.
     - stdin: |-
-        a#G#E#N#T#x#A#G#E#N#T
+       Xa#gAe##tnuT#A#G#E#N#t
         agent
       stdout: |-
-        g e n t x g e n t
+        age ntagent
         Patroon 'agent' komt 1 keer voor.
-        De boodschap bevat 9 letters zonder spaties.
+        De boodschap bevat 10 letters zonder spaties.
     - stdin: |-
-        A#G#E#N#T#A#G#E#N#T
-        agent
+        
       stdout: |-
         g e n t a g e n t
         Patroon 'agent' komt 1 keer voor.
         De boodschap bevat 9 letters zonder spaties.
     - stdin: |-
-        1#2#3#1#2#3#1#2#3
-        123
+        
       stdout: |-
         2 2 2
         Patroon '123' komt 0 keer voor.
         De boodschap bevat 3 letters zonder spaties.
     - stdin: |-
-        a#b#c#d#e#f#g#h
-        bdfh
+       
       stdout: |-
         b d f h
         Patroon 'bdfh' komt 1 keer voor.
         De boodschap bevat 4 letters zonder spaties.
     - stdin: |-
-        A#G#E#N#T#X#A#G#E#N#T#X
-        agent
+       
       stdout: |-
         g e n t x g e n t x
         Patroon 'agent' komt 1 keer voor.
