@@ -9,8 +9,8 @@ for i in range(1, len(gecodeerd), 2):
 # 2. Alles in kleine letters + vervang '#' door spatie
 decode = decode.lower().replace("#", " ")
 
-# 3. Toon de decodeerde boodschap met spaties tussen de letters
-print(" ".join(decode))
+# 3. Toon de decodeerde boodschap
+print(decode)
 
 # 4. Tel hoe vaak het codewoord voorkomt
 aantal = decode.count(codewoord)
