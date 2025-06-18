@@ -42,7 +42,7 @@ Bovendien zijn spaties vervangen door het symbool #. We vermoeden dat de vijand 
 
 **Invoer**
 
-    Xa#gAe#nT#xA#G#E#N#t
+    Xa#gAe#nuT#A#G#E#N#t
     agent
 
 **Uitvoer**
