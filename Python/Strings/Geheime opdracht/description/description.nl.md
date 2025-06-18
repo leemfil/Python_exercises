@@ -43,6 +43,7 @@ Bovendien zijn spaties vervangen door het symbool #. We vermoeden dat de vijand 
 **Invoer**
 
     Xa#gAe#nT#xA#G#E#N#t
+    agent
 
 **Uitvoer**
 
