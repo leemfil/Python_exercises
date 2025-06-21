@@ -1,3 +1,6 @@
+### Nog aanpassen
+ ****************** Bij verwijderen ook aangepaste rij laten returnen *********************** 
+
 ### Opdracht
 
 In het pretpark Funlandia wordt de wachtrij voor een achtbaan digitaal beheerd. Bezoekers sluiten zich aan vooraan of achteraan, afhankelijk van hun tickettype. Ook kunnen personen op een bepaalde positie uit de rij worden verwijderd door de bewaking.
