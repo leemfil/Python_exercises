@@ -7,13 +7,13 @@ Gebruik hiervoor een **`while`-lus** met een **teller** die je **correct bijwerk
 Er is **geen invoer**.
 
 ## Uitvoer
-Je programma print exact onderstaande 6 regels:
-Ronde 1
-Ronde 2
-Ronde 3
-Ronde 4
-Ronde 5
-Klaar!
+Je programma print exact onderstaande 6 regels:  
+Ronde 1  
+Ronde 2  
+Ronde 3  
+Ronde 4  
+Ronde 5  
+Klaar!  
   
   
 ## Voorbeeld
