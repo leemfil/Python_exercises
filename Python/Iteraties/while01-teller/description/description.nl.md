@@ -1,4 +1,4 @@
-# While 01 — Teller-gestuurd herhalen
+# While 01 — Teller-gestuurd herhalen  
 
 Schrijf een programma dat **exact vijf keer** een regel afdrukt met het volgnummer van de ronde, en daarna **`Klaar!`**.  
 Gebruik hiervoor een **`while`-lus** met een **teller** die je **correct bijwerkt**.
@@ -17,26 +17,13 @@ Klaar!
 
 ## Voorbeeld
 
-**Voorbeeld 1**  
-*(geen invoer)*
+**Uitvoer**  
+Ronde 1  
+Ronde 2  
+Ronde 3  
+Ronde 4  
+Ronde 5  
+Klaar!  
 
-**Uitvoer**
-Ronde 1
-Ronde 2
-Ronde 3
-Ronde 4
-Ronde 5
-Klaar!
-
-**Voorbeeld 2**  
-*(geen invoer)*
-
-**Uitvoer**
-Ronde 1
-Ronde 2
-Ronde 3
-Ronde 4
-Ronde 5
-Klaar!
 
 > Tip: zorg dat je teller **toeneemt** binnen de `while`-lus. Anders blijft de lus oneindig lopen.
