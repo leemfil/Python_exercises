@@ -1,6 +1,5 @@
-# While 01 — Teller    
-  
-  
+# While 01 — Teller  
+<br>
 Schrijf een programma dat **exact vijf keer** een regel afdrukt met het volgnummer van de ronde, en daarna **`Klaar!`**.  
 Gebruik hiervoor een **`while`-lus** met een **teller** die je **correct bijwerkt**.
 
