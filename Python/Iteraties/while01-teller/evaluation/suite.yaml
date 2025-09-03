@@ -1,8 +1,7 @@
 - tab: "Testen"
   testcases:
     contexts:
-      - name: "Geen invoer, exact patroon"
-        stdin: ""
+      - stdin: ""
         stdout: |-
           Ronde 1
           Ronde 2
@@ -10,12 +9,9 @@
           Ronde 4
           Ronde 5
           Klaar!
-        description: "Controleer exact 5 rondes + 'Klaar!'"
 
-      - name: "Robuustheid"
     contexts:
-      - name: "Geen trailing spaties of extra regels"
-        stdin: ""
+      - stdin: ""
         stdout: |-
           Ronde 1
           Ronde 2
@@ -23,4 +19,3 @@
           Ronde 4
           Ronde 5
           Klaar!
-        description: "Geen extra lege lijnen, geen spaties op het einde"
