@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "nl": "While-lus 1: teller"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": []
+}
