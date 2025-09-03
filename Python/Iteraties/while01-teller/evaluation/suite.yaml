@@ -1,6 +1,5 @@
 - tab: "Testen"
   testcases:
-    contexts:
       - stdin: ""
         stdout: |-
           Ronde 1
@@ -9,8 +8,6 @@
           Ronde 4
           Ronde 5
           Klaar!
-
-    contexts:
       - stdin: ""
         stdout: |-
           Ronde 1
