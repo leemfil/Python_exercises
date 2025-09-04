@@ -48,6 +48,6 @@
       - stdin: |-
           4
           6
-          stop   
+          stop
         stdout: |-
           Totaal: 10.0
