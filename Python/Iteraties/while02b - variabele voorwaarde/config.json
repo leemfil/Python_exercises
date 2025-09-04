@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "While-lus 2: voorwaarde"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "CPw_6MA9Xv4hRVXJw_PrHenK9AHdTHVjewiPjxdB3DqMutDnCiXrkiYf3KPsucJh",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
