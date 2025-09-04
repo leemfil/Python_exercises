@@ -1,73 +1,46 @@
 - tab: "Testen"
   testcases:
-      # 1. Klein doel (20), exact halen
+      # 1) Meerdere gehele getallen, exact patroon
       - stdin: |-
-          k
-          5
-          8
-          7
+          1
+          2
+          3
+          -1
         stdout: |-
-          Doel bereikt: som = 20 (>= 20)
+          Totaal: 6.0
 
-      # 2. Klein doel (20), overschrijden
+      # 2) Onmiddellijk stoppen (geen optelling)
       - stdin: |-
-          k
+          -1
+        stdout: |-
+          Totaal: 0.0
+
+      # 3) Met negatieve tussenterm
+      - stdin: |-
           10
-          15
-        stdout: |-
-          Doel bereikt: som = 25 (>= 20)
-
-      # 3. Groot doel (100), exact halen
-      - stdin: |-
-          g
-          10
-          20
-          30
-          40
-        stdout: |-
-          Doel bereikt: som = 100 (>= 100)
-
-      # 4. Groot doel (100), overschrijden met meerdere stappen
-      - stdin: |-
-          g
-          25
-          25
-          30
-          15
-          10
-        stdout: |-
-          Doel bereikt: som = 105 (>= 100)
-
-      # 5. Groot doel (100), in één keer groter dan 100
-      - stdin: |-
-          g
-          150
-        stdout: |-
-          Doel bereikt: som = 150 (>= 100)
-
-      # 6. Onbekende keuze → behandel als groot doel (100)
-      - stdin: |-
-          x
-          60
-          50
-        stdout: |-
-          Doel bereikt: som = 110 (>= 100)
-
-      # 7. Hoofdletter 'K' (klein doel 20), met negatieve tussenterm
-      - stdin: |-
-          K
-          12
           -5
-          13
+          8
+          -1
         stdout: |-
-          Doel bereikt: som = 20 (>= 20)
+          Totaal: 13.0
 
-      # 8. Hoofdletter 'G' (groot doel 100), met nullen en negatieve waarden
+      # 4) Kommagetallen
       - stdin: |-
-          G
-          0
-          -10
-          50
-          60
+          2.5
+          3.25
+          -1
         stdout: |-
-          Doel bereikt: som = 100 (>= 100)
+          Totaal: 5.75
+
+      # 5) Langere reeks met gemengde waarden
+      - stdin: |-
+          0
+          0.5
+          0.5
+          20
+          -10
+          7.5
+          2
+          -1
+        stdout: |-
+          Totaal: 20.5
