@@ -1,73 +1,58 @@
 - tab: "Testen"
   testcases:
-      # 1. Klein doel (20), exact halen
+      # 1) Meteen juist
       - stdin: |-
-          k
-          5
-          8
           7
         stdout: |-
-          Doel bereikt: som = 20 (>= 20)
+          Juist!
 
-      # 2. Klein doel (20), overschrijden
+      # 2) Juist bij 2de poging
       - stdin: |-
-          k
+          5
+          7
+        stdout: |-
+          Hoger!
+          Juist!
+
+      # 3) Juist bij 3de poging
+      - stdin: |-
+          5
+          9
+          7
+        stdout: |-
+          Hoger!
+          Lager!
+          Juist!
+
+      # 4) Niet geraden binnen 3 pogingen
+      - stdin: |-
+          5
+          6
+          8
+        stdout: |-
+          Hoger!
+          Hoger!
+          Lager!
+          Helaas, het was 7.
+
+      # 5) Altijd te groot
+      - stdin: |-
           10
-          15
+          9
+          8
         stdout: |-
-          Doel bereikt: som = 25 (>= 20)
+          Lager!
+          Lager!
+          Lager!
+          Helaas, het was 7.
 
-      # 3. Groot doel (100), exact halen
+      # 6) Altijd te klein
       - stdin: |-
-          g
-          10
-          20
-          30
-          40
+          1
+          2
+          3
         stdout: |-
-          Doel bereikt: som = 100 (>= 100)
-
-      # 4. Groot doel (100), overschrijden met meerdere stappen
-      - stdin: |-
-          g
-          25
-          25
-          30
-          15
-          10
-        stdout: |-
-          Doel bereikt: som = 105 (>= 100)
-
-      # 5. Groot doel (100), in één keer groter dan 100
-      - stdin: |-
-          g
-          150
-        stdout: |-
-          Doel bereikt: som = 150 (>= 100)
-
-      # 6. Onbekende keuze → behandel als groot doel (100)
-      - stdin: |-
-          x
-          60
-          50
-        stdout: |-
-          Doel bereikt: som = 110 (>= 100)
-
-      # 7. Hoofdletter 'K' (klein doel 20), met negatieve tussenterm
-      - stdin: |-
-          K
-          12
-          -5
-          13
-        stdout: |-
-          Doel bereikt: som = 20 (>= 20)
-
-      # 8. Hoofdletter 'G' (groot doel 100), met nullen en negatieve waarden
-      - stdin: |-
-          G
-          0
-          -10
-          50
-          60
-        stdout: |-
-          Doel bereikt: som = 100 (>= 100)
+          Hoger!
+          Hoger!
+          Hoger!
+          Helaas, het was 7.
