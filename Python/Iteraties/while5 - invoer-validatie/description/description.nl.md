@@ -1,27 +1,25 @@
 ## Opdracht
+<br>
+Schrijf een programma dat **een score vraagt** en blijft vragen **tot de invoer geldig is**:
+- De score moet een **getal** zijn (kommagetal of geheel getal).
+- De score moet tussen **1 en 10** liggen (grenzen inbegrepen).
 
-Schrijf een programma dat **eerst vraagt** of de gebruiker een **klein** of **groot** doel wil, en daarna **getallen blijft vragen** tot de **som** het gekozen **doel** bereikt of overschrijdt.
+Wanneer een **geldige score** is ingevoerd, print het programma **één regel**:
+Geldige score: X
+waarbij `X` de ingevoerde score is (als getal).
 
-- Keuze:
-  - `k` → **klein doel**: `20`
-  - `g` → **groot doel**: `100`
-  - elke andere invoer → behandel als **groot doel** (`100`)
-- Vervolgens leest het programma **gehele getallen** in (één per regel) en telt die op **tot de som ≥ doel**.
-- Tenslotte print het programma:  
-Doel bereikt: som = X (>= D)
-waarbij `X` de som is en `D` het gekozen doel (`20` of `100`).
-
-> Opmerking: Lees de invoer in volgorde: eerst de keuze (`k/g/…`), daarna zoveel getallen als nodig.
+> Opmerking:
+> - Bij ongeldige invoer (tekst, buiten bereik, leeg, …) blijft je programma **verder vragen** tot een geldige score is gelezen.
+> - Bekijk de functie isinstance() om te checken of een waarde van het type int of float is.
 
 ---
 
 ## Invoer  
-1. Een **tekenreeks** met de keuze: `k` of `g` (hoofdletter of kleine letter), of iets anders.
-2. Daarna **een reeks gehele getallen**, één per regel, tot de som ≥ doel.
+Eén of meerdere regels tekst. Elke regel is een poging tot score. Het programma stopt zodra een **geldige score** (1 ≤ score ≤ 10) is ingevoerd.
 
 ## Uitvoer  
-Exact één regel:
-Doel bereikt: som = X (>= D)  
+Eén regel:
+Geldige score: X
 
 ---
 
@@ -30,27 +28,29 @@ Doel bereikt: som = X (>= D)
 **Voorbeeld 1**
 
 **Invoer**  
-k  
-5  
-8  
-7  
+7
 
 **Uitvoer**  
-Doel bereikt: som = 20 (>= 20)  
+Geldige score: 7.0
 
 ---
 
-**Voorbeeld 2**  
+**Voorbeeld 2**
 
 **Invoer**  
-g  
-25  
-25  
-30  
-15  
-10  
+abc
+0
+10
 
 **Uitvoer**  
-Doel bereikt: som = 105 (>= 100)
+Geldige score: 10.0
 
-> Tip: bepaal het `doel` **vóór** je de `while` start; bv. `doel = 20 of doel = 100.
+---
+
+**Voorbeeld 3**
+
+**Invoer**  
+3.5
+
+**Uitvoer**  
+Geldige score: 3.5
