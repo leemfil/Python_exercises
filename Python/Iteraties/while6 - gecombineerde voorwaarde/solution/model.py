@@ -1,17 +1,21 @@
-# While 02b — Doel kiezen vóór de lus (modeloplossing)
+# While 06 — Raadspel met beperkte pogingen (modeloplossing)
 
-# Lees de keuze
-keuze = input("Kies het doel 100 of 20: g (groot) of k (klein)")
+geheim = 7
+pogingen = 0
+max_pogingen = 3
+geraden = False
 
-# Bepaal het doel op basis van de keuze
-if keuze == 'k':
-    doel = 20
-else:
-    doel = 100  # 'g' of elke andere waarde
+while pogingen < max_pogingen and not geraden:
+    gok = int(input("Doe een gok: "))
+    pogingen += 1
 
-som = 0
-while som < doel:
-    getal = int(input("Geef het volgend getal: "))
-    som += getal
+    if gok == geheim:
+        print("Juist!")
+        geraden = True
+    elif gok < geheim:
+        print("Hoger!")
+    else:
+        print("Lager!")
 
-print(f"Doel bereikt: som = {som} (>= {doel})")
+if not geraden:
+    print(f"Helaas, het was {geheim}.")
