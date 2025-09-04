@@ -1,8 +1,10 @@
-# While 01 — Teller-gestuurd herhalen (modeloplossing)
+# While 02 — Voorwaarde-gestuurd optellen (modeloplossing)
 
-teller = 0
-while teller < 5:
-    print(f"Ronde {teller + 1}")
-    teller += 1
+doel = 100
+som = 0
 
-print("Klaar!")
+while som < doel:
+    getal = int(input("Geef een volgend getal: "))
+    som += getal
+
+print(f"Doel bereikt: som = {som} (>= {doel})")
