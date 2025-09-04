@@ -53,4 +53,4 @@ g
 **Uitvoer**  
 Doel bereikt: som = 105 (>= 100)
 
-> Tip: bepaal het `doel` **vóór** je de `while` start; bv. `doel = 20 if keuze == 'k' else 100` (na normalisatie).
+> Tip: bepaal het `doel` **vóór** je de `while` start; bv. `doel = 20 of doel = 100.
