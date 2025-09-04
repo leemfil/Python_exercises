@@ -1,17 +1,20 @@
-# While 02b — Doel kiezen vóór de lus (modeloplossing)
+# While 05 — Invoer-validatie (score 1–10)
 
-# Lees de keuze
-keuze = input("Kies het doel 100 of 20: g (groot) of k (klein)")
+score = None
 
-# Bepaal het doel op basis van de keuze
-if keuze == 'k':
-    doel = 20
-else:
-    doel = 100  # 'g' of elke andere waarde
+while True:
+    try:
+        lijn = input().strip()
+        # Lege regel overslaan
+        if lijn == "":
+            continue
+        waarde = float(lijn)
+        if 1 <= waarde <= 10:
+            score = waarde
+            break
+        # Buiten bereik -> opnieuw proberen
+    except ValueError:
+        # Geen getal -> opnieuw proberen
+        continue
 
-som = 0
-while som < doel:
-    getal = int(input("Geef het volgend getal: "))
-    som += getal
-
-print(f"Doel bereikt: som = {som} (>= {doel})")
+print(f"Geldige score: {score}")
