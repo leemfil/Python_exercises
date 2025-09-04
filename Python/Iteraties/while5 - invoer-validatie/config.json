@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "While-lus 3: voorwaarde met stopteken"
+      "nl": "While-lus 5: invoer-validatie "
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "ijVzNUt_TEvBWyt_xhji5MUejaNSazgZrs6VshfBwkSbRm28Sv2E9hVyrTtAR2NI",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
