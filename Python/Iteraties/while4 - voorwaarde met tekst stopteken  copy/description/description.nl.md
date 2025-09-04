@@ -1,27 +1,22 @@
 ## Opdracht
+<br>
 
-Schrijf een programma dat **eerst vraagt** of de gebruiker een **klein** of **groot** doel wil, en daarna **getallen blijft vragen** tot de **som** het gekozen **doel** bereikt of overschrijdt.
+Schrijf een programma dat **getallen blijft inlezen** (één per regel) en deze optelt tot de gebruiker het **woord `stop`** invoert.  
+De tekst **`stop`** is het **stopteken (sentinel)** en **wordt niet mee opgeteld**. De vergelijking met `stop` is **hoofdletterongevoelig** (dus `STOP`, `Stop`, … tellen ook).
 
-- Keuze:
-  - `k` → **klein doel**: `20`
-  - `g` → **groot doel**: `100`
-  - elke andere invoer → behandel als **groot doel** (`100`)
-- Vervolgens leest het programma **gehele getallen** in (één per regel) en telt die op **tot de som ≥ doel**.
-- Tenslotte print het programma:  
-Doel bereikt: som = X (>= D)
-waarbij `X` de som is en `D` het gekozen doel (`20` of `100`).
-
-> Opmerking: Lees de invoer in volgorde: eerst de keuze (`k/g/…`), daarna zoveel getallen als nodig.
+- Getallen mogen **geheel** of **kommagetallen** zijn.
+- Na het stoppen print het programma exact **één regel**:
+Totaal: X
+waarbij `X` de som is van alle ingegeven getallen (als **kommagetal**).
 
 ---
 
-## Invoer  
-1. Een **tekenreeks** met de keuze: `k` of `g` (hoofdletter of kleine letter), of iets anders.
-2. Daarna **een reeks gehele getallen**, één per regel, tot de som ≥ doel.
+## Invoer
+Een reeks regels met getallen, beëindigd door een regel met `stop` (hoofdletterongevoelig).
 
-## Uitvoer  
-Exact één regel:
-Doel bereikt: som = X (>= D)  
+## Uitvoer
+Eén regel:
+Totaal: X
 
 ---
 
@@ -30,27 +25,32 @@ Doel bereikt: som = X (>= D)
 **Voorbeeld 1**
 
 **Invoer**  
-k  
-5  
-8  
-7  
+1  
+2  
+3  
+stop
 
 **Uitvoer**  
-Doel bereikt: som = 20 (>= 20)  
+Totaal: 6.0
 
 ---
 
-**Voorbeeld 2**  
+**Voorbeeld 2**
 
 **Invoer**  
-g  
-25  
-25  
-30  
-15  
-10  
+2.5  
+3.25  
+STOP
 
 **Uitvoer**  
-Doel bereikt: som = 105 (>= 100)
+Totaal: 5.75
 
-> Tip: bepaal het `doel` **vóór** je de `while` start; bv. `doel = 20 of doel = 100.
+---
+
+**Voorbeeld 3**
+
+**Invoer**  
+stop
+
+**Uitvoer**  
+Totaal: 0.0
