@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "While-lus 3: voorwaarde met stopteken"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "mJ2XKnst7Dkw-n8v3DPJ7ahXuj6NaFdD3tITYbgNMShaitHbsRk9uZ-uc9ybckr8",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
