@@ -28,7 +28,7 @@ waarbij **X** de uiteindelijke som is.
 30  
 40  
 
-**Uitvoer**
+**Uitvoer**  
 Doel bereikt: som = 100 (>= 100)
 
 ---
@@ -42,7 +42,7 @@ Doel bereikt: som = 100 (>= 100)
 15  
 10  
 
-**Uitvoer**
+**Uitvoer**  
 Doel bereikt: som = 105 (>= 100)
 
 ---
