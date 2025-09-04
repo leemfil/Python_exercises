@@ -8,12 +8,16 @@ De waarde **`-1`** is het **stopteken (sentinel)** en **wordt niet mee opgeteld*
 Totaal: X
 waarbij `X` de som is van alle ingegeven getallen (als **kommagetal**).
 
+---  
+
 ## Invoer
 Een reeks getallen (één per regel), beëindigd door `-1`.
 
 ## Uitvoer
 Eén regel:  
 Totaal: X
+
+---  
 
 ## Voorbeelden  
 
