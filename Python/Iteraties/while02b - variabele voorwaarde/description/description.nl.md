@@ -15,11 +15,11 @@ waarbij `X` de som is en `D` het gekozen doel (`20` of `100`).
 
 ---
 
-## Invoer
+## Invoer  
 1. Een **tekenreeks** met de keuze: `k` of `g` (hoofdletter of kleine letter), of iets anders.
 2. Daarna **een reeks gehele getallen**, één per regel, tot de som ≥ doel.
 
-## Uitvoer
+## Uitvoer  
 Exact één regel:
 Doel bereikt: som = X (>= D)
 ---
@@ -28,27 +28,27 @@ Doel bereikt: som = X (>= D)
 
 **Voorbeeld 1**
 
-**Invoer**
-k
-5
-8
-7
+**Invoer**  
+k  
+5  
+8  
+7  
 
-**Uitvoer**
+**Uitvoer**  
 Doel bereikt: som = 20 (>= 20)
 ---
 
-**Voorbeeld 2**
+**Voorbeeld 2**  
 
-**Invoer**
-g
-25
-25
-30
-15
-10
+**Invoer**  
+g  
+25  
+25  
+30  
+15  
+10  
 
-**Uitvoer**
+**Uitvoer**  
 Doel bereikt: som = 105 (>= 100)
 
 > Tip: bepaal het `doel` **vóór** je de `while` start; bv. `doel = 20 if keuze == 'k' else 100` (na normalisatie).
