@@ -21,7 +21,8 @@ waarbij `X` de som is en `D` het gekozen doel (`20` of `100`).
 
 ## Uitvoer  
 Exact één regel:
-Doel bereikt: som = X (>= D)
+Doel bereikt: som = X (>= D)  
+
 ---
 
 ## Voorbeelden
@@ -35,7 +36,8 @@ k
 7  
 
 **Uitvoer**  
-Doel bereikt: som = 20 (>= 20)
+Doel bereikt: som = 20 (>= 20)  
+
 ---
 
 **Voorbeeld 2**  
