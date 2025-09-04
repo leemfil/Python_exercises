@@ -1,4 +1,4 @@
-# While 03 — Sentinelwaarde (-1) om te stoppen (modeloplossing)
+# While 03 — Sentinelwaarde (-1) om te stoppen
 
 totaal = 0.0
 waarde = float(input("Geef eerste getal: "))
