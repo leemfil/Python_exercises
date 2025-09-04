@@ -1,5 +1,5 @@
 ## Opdracht  
-
+<br>
 Schrijf een programma dat **getallen blijft inlezen** (één per regel) en deze optelt tot de gebruiker **`-1`** ingeeft.  
 De waarde **`-1`** is het **stopteken (sentinel)** en **wordt niet mee opgeteld**.
 
