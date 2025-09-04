@@ -1,18 +1,62 @@
 - tab: "Testen"
   testcases:
-      - stdin: ""
+      # 1. Exact 100 bereiken
+      - stdin: |-
+          10
+          20
+          30
+          40
         stdout: |-
-          Ronde 1
-          Ronde 2
-          Ronde 3
-          Ronde 4
-          Ronde 5
-          Klaar!
-      - stdin: ""
+          Doel bereikt: som = 100 (>= 100)
+
+      # 2. Boven 100 uitkomen (meerdere stappen)
+      - stdin: |-
+          25
+          25
+          30
+          15
+          10
         stdout: |-
-          Ronde 1
-          Ronde 2
-          Ronde 3
-          Ronde 4
-          Ronde 5
-          Klaar!
+          Doel bereikt: som = 105 (>= 100)
+
+      # 3. In één keer groter dan 100
+      - stdin: |-
+          150
+        stdout: |-
+          Doel bereikt: som = 150 (>= 100)
+
+      # 4. Negatieve getallen onderweg
+      - stdin: |-
+          50
+          -20
+          30
+          40
+        stdout: |-
+          Doel bereikt: som = 100 (>= 100)
+
+      # 5. Veel kleine getallen (langere lus)
+      - stdin: |-
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          1
+          80
+          20
+        stdout: |-
+          Doel bereikt: som = 100 (>= 100)
