@@ -1,0 +1,58 @@
+- tab: "Testen"
+  testcases:
+      # 1) Meteen juist
+      - stdin: |-
+          7
+        stdout: |-
+          Juist!
+
+      # 2) Juist bij 2de poging
+      - stdin: |-
+          5
+          7
+        stdout: |-
+          Hoger!
+          Juist!
+
+      # 3) Juist bij 3de poging
+      - stdin: |-
+          5
+          9
+          7
+        stdout: |-
+          Hoger!
+          Lager!
+          Juist!
+
+      # 4) Niet geraden binnen 3 pogingen
+      - stdin: |-
+          5
+          6
+          8
+        stdout: |-
+          Hoger!
+          Hoger!
+          Lager!
+          Helaas, het was 7.
+
+      # 5) Altijd te groot
+      - stdin: |-
+          10
+          9
+          8
+        stdout: |-
+          Lager!
+          Lager!
+          Lager!
+          Helaas, het was 7.
+
+      # 6) Altijd te klein
+      - stdin: |-
+          1
+          2
+          3
+        stdout: |-
+          Hoger!
+          Hoger!
+          Hoger!
+          Helaas, het was 7.

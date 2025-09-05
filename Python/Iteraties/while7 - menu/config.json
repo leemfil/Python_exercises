@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "While-lus 6: gecombineerde voorwaarde"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "sEfdMBcPRhkPV-TnI3ZyfPCqpaUUzr7UqJyINBKTU5qb5hik5shspdPv3jJzGpZ-",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
