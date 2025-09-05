@@ -1,25 +1,28 @@
 ## Opdracht
-<br>
-We maken een eenvoudig **raadspel**:
 
-- Het **geheime getal** is vastgelegd op `7`.
-- De gebruiker krijgt **maximaal 3 pogingen** om het getal te raden.
-- Na elke poging:
-  - Als de gok **juist** is → print `Juist!` en stop het spel.
-  - Als de gok **te klein** is → print `Hoger!`.
-  - Als de gok **te groot** is → print `Lager!`.
-- Als de gebruiker **na 3 pogingen** het getal niet gevonden heeft, print:
-Helaas, het was 7.
+Schrijf een programma dat een **eenvoudig menu** verwerkt tot de gebruiker **`0`** kiest (sentinel om te stoppen).
+
+De keuzes zijn:
+- `1` → print: `2 + 2 = 4`
+- `2` → print: `5 - 3 = 2`
+- `0` → print: `Tot ziens!` en **stop**
+- eender iets anders → print: `Ongeldige keuze.`
+
+> Opmerking:
+> - Spaties rond de invoer mogen genegeerd worden.
 
 ---
 
 ## Invoer
-- Tot 3 gehele getallen (één per regel).
+Een reeks regels met keuzes (`1`, `2`, `0`, …).  
+Het programma **stopt** wanneer `0` gelezen is.
 
 ## Uitvoer
-- Voor elke poging: een feedbackregel (`Juist!`, `Hoger!`, `Lager!`).
-- Indien binnen 3 pogingen niet geraden: een slotregel
-Helaas, het was 7.
+Per keuze **exact één regel**:
+- `2 + 2 = 4` *(bij keuze `1`)*
+- `5 - 3 = 2` *(bij keuze `2`)*
+- `Ongeldige keuze.` *(bij andere invoer)*
+- Afsluitend **exact één keer**: `Tot ziens!` *(bij `0`)*
 
 ---
 
@@ -28,36 +31,25 @@ Helaas, het was 7.
 **Voorbeeld 1**
 
 **Invoer**  
-7
+1  
+2  
+0  
 
 **Uitvoer**  
-Juist!
+2 + 2 = 4  
+5 - 3 = 2  
+Tot ziens!  
 
 ---
 
 **Voorbeeld 2**
 
 **Invoer**  
-5  
-9  
-7
+3  
+x  
+0  
 
 **Uitvoer**  
-Hoger!  
-Lager!  
-Juist!  
-
----
-
-**Voorbeeld 3**
-
-**Invoer**  
-5  
-6  
-8
-
-**Uitvoer**  
-Hoger!  
-Hoger!  
-Lager!  
-Helaas, het was 7.
+Ongeldige keuze.  
+Ongeldige keuze.  
+Tot ziens!  
