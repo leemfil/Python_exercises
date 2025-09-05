@@ -1,21 +1,13 @@
-# While 06 — Raadspel met beperkte pogingen (modeloplossing)
+# While 08 — Menu met sentinel (modeloplossing)
 
-geheim = 7
-pogingen = 0
-max_pogingen = 3
-geraden = False
-
-while pogingen < max_pogingen and not geraden:
-    gok = int(input("Doe een gok: "))
-    pogingen += 1
-
-    if gok == geheim:
-        print("Juist!")
-        geraden = True
-    elif gok < geheim:
-        print("Hoger!")
+while True:
+    keuze = input().strip()
+    if keuze == "1":
+        print("2 + 2 = 4")
+    elif keuze == "2":
+        print("5 - 3 = 2")
+    elif keuze == "0":
+        print("Tot ziens!")
+        break
     else:
-        print("Lager!")
-
-if not geraden:
-    print(f"Helaas, het was {geheim}.")
+        print("Ongeldige keuze.")
