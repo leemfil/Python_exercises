@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "While-lus 6: gecombineerde voorwaarde"
+      "nl": "While-lus 7: menu"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "iDvatDc5bqd5-sgpQaM9pgaxcUs-mdB9I3D5Nz9pTzGN6XINtuYMKAsafaYcfpaH",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
