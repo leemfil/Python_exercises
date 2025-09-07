@@ -1,51 +1,31 @@
 - tab: "Testen"
   testcases:
-      # 1) Normale flow: 1 -> 2 -> stop
+      # 1) Vakken
       - stdin: |-
-          1
-          2
-          0
+          Wiskunde
+          Fysica
+          Informatica
         stdout: |-
-          2 + 2 = 4
-          5 - 3 = 2
-          Tot ziens!
+          Wiskunde
+          Fysica
+          Informatica
 
-      # 2) Onmiddellijk stoppen
+      # 2) Fruit
       - stdin: |-
-          0
+          appel
+          peer
+          banaan
         stdout: |-
-          Tot ziens!
+          appel
+          peer
+          banaan
 
-      # 3) Ongeldige invoeren en dan stop
+      # 3) Korte woorden
       - stdin: |-
-          3
-          x
-          0
+          a
+          b
+          c
         stdout: |-
-          Ongeldige keuze.
-          Ongeldige keuze.
-          Tot ziens!
-
-      # 4) Herhaald geldige keuzes, dan stop
-      - stdin: |-
-          2
-          2
-          2
-          0
-        stdout: |-
-          5 - 3 = 2
-          5 - 3 = 2
-          5 - 3 = 2
-          Tot ziens!
-
-      # 5) Spaties en lege regels in de invoer
-      - stdin: |-
-          
-            1   
-            2
-            0
-        stdout: |-
-          Ongeldige keuze.
-          2 + 2 = 4
-          5 - 3 = 2
-          Tot ziens!
+          a
+          b
+          c
