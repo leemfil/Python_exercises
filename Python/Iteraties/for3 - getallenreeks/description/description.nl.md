@@ -5,7 +5,7 @@ Schrijf een programma dat drie gehele getallen inleest:
 2. de **stopwaarde** (exclusief, zoals bij `range`)  
 3. de **stapgrootte**
 
-Het programma gebruikt deze waarden in een `for`-lus en print elk getal vanaf de startwaarde tot aan de stopwaarde rekening houdend met de stapgrootte op een **aparte regel**.
+Het programma gebruikt deze waarden in een `for`-lus en print elk getal vanaf de startwaarde tot en met de stopwaarde rekening houdend met de stapgrootte op een **aparte regel**.
 
 ---
 
@@ -26,7 +26,7 @@ Elke waarde die door de `for`-lus gegenereerd wordt, afzonderlijk op een regel.
 
 **Invoer**  
 2  
-11  
+10  
 2  
 
 **Uitvoer**  
