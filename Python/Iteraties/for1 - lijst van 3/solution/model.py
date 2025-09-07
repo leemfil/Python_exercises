@@ -1,13 +1,9 @@
-# While 08 — Menu met sentinel (modeloplossing)
+# For 02 — Itereren over 3 elementen
 
-while True:
-    keuze = input().strip()
-    if keuze == "1":
-        print("2 + 2 = 4")
-    elif keuze == "2":
-        print("5 - 3 = 2")
-    elif keuze == "0":
-        print("Tot ziens!")
-        break
-    else:
-        print("Ongeldige keuze.")
+woorden = []
+for _ in range(3):
+    woord = input().strip()
+    woorden.append(woord)
+
+for woord in woorden:
+    print(woord)
