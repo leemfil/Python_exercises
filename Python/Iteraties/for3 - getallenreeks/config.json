@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "While-lus 7: menu"
+      "nl": "For 3: getallenreeks"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "Rn5T43qzF7bMdMsCAQcJXMeZAJsQpRweZgn_j5-eAcjN2nDISRterwJkSXyzaDzT",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
