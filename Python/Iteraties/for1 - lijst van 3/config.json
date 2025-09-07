@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "While-lus 7: menu"
+      "nl": "For 2: Lijst van 3"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "ampdIdadGEV_UA4dcPCgpj5QfbDZQ_dvQQSFVU5JVUUSQFM6gC-6w8hXNrkn-Uh6",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
