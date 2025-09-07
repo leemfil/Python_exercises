@@ -1,13 +1,8 @@
-# While 08 — Menu met sentinel (modeloplossing)
+# For 02b — Range met grenzen en stap
 
-while True:
-    keuze = input().strip()
-    if keuze == "1":
-        print("2 + 2 = 4")
-    elif keuze == "2":
-        print("5 - 3 = 2")
-    elif keuze == "0":
-        print("Tot ziens!")
-        break
-    else:
-        print("Ongeldige keuze.")
+start = int(input("Geef de startwaarde: ").strip())
+stop = int(input("Geef de stopwaarde: ").strip())
+stap = int(input("Geef de stapgrootte: ").strip())
+
+for i in range(start, stop, stap):
+    print(i)
