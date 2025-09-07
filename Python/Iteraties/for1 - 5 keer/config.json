@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "While-lus 7: menu"
+      "nl": "For 1 - 5 keer"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "erJsIUEi6WX4mJK2wAptVH3DKcYibgqeZCFi-FczIhKksTnM9bt-hyb99ebmstaf",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
