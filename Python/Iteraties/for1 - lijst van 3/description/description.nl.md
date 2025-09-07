@@ -1,28 +1,15 @@
 ## Opdracht
-<br>
-Schrijf een programma dat een **eenvoudig menu** verwerkt tot de gebruiker **`0`** kiest (sentinel om te stoppen).
 
-De keuzes zijn:
-- `1` → print: `2 + 2 = 4`
-- `2` → print: `5 - 3 = 2`
-- `0` → print: `Tot ziens!` en **stop**
-- eender iets anders → print: `Ongeldige keuze.`
-
-> Opmerking:
-> - Spaties rond de invoer mogen genegeerd worden.
+Schrijf een programma dat **3 woorden** inleest (elk op een nieuwe regel).  
+Daarna drukt het programma de woorden afzonderlijk af met een `for`-lus.
 
 ---
 
 ## Invoer
-Een reeks regels met keuzes (`1`, `2`, `0`, …).  
-Het programma **stopt** wanneer `0` gelezen is.
+Exact **3 regels**, telkens één woord.  
 
 ## Uitvoer
-Per keuze **exact één regel**:
-- `2 + 2 = 4` *(bij keuze `1`)*
-- `5 - 3 = 2` *(bij keuze `2`)*
-- `Ongeldige keuze.` *(bij andere invoer)*
-- Afsluitend **exact één keer**: `Tot ziens!` *(bij `0`)*
+Je programma print de 3 woorden, elk op een nieuwe regel, in dezelfde volgorde als de invoer.  
 
 ---
 
@@ -31,25 +18,26 @@ Per keuze **exact één regel**:
 **Voorbeeld 1**
 
 **Invoer**  
-1  
-2  
-0  
+Wiskunde  
+Fysica  
+Informatica  
 
 **Uitvoer**  
-2 + 2 = 4  
-5 - 3 = 2  
-Tot ziens!  
+Wiskunde  
+Fysica  
+Informatica
 
 ---
 
 **Voorbeeld 2**
 
 **Invoer**  
-3  
-x  
-0  
+appel  
+peer  
+banaan  
 
 **Uitvoer**  
-Ongeldige keuze.  
-Ongeldige keuze.  
-Tot ziens!  
+appel  
+peer  
+banaan  
+
