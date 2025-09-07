@@ -37,7 +37,8 @@
           1
           5
           10
-        stdout: ""
+        stdout: |-
+          1
 
       # 5) Negatieve start en stap vooruit
       - stdin: |-
