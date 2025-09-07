@@ -7,11 +7,11 @@ Gebruik hiervoor een **`for`-lus**.
 Er is **geen invoer**.
 
 ## Uitvoer
-Je programma print exact deze 5 regels:
-Hallo
-Hallo
-Hallo
-Hallo
+Je programma print exact deze 5 regels:  
+Hallo  
+Hallo  
+Hallo  
+Hallo  
 Hallo
 
 ## Voorbeelden
@@ -19,9 +19,9 @@ Hallo
 **Voorbeeld**  
 *(geen invoer)*
 
-**Uitvoer**
-Hallo
-Hallo
-Hallo
-Hallo
-Hallo
+**Uitvoer**  
+Hallo  
+Hallo  
+Hallo  
+Hallo  
+Hallo  
