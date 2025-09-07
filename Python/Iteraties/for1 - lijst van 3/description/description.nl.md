@@ -1,5 +1,5 @@
 ## Opdracht
-
+<br>
 Schrijf een programma dat **3 woorden** inleest (elk op een nieuwe regel).  
 Daarna drukt het programma de woorden afzonderlijk af met een `for`-lus.
 
