@@ -1,4 +1,4 @@
-# For — Vijf keer `Hallo`
+## Opdracht
 
 Schrijf een programma dat **exact vijf keer** het woord `Hallo` afdrukt, elk op een **nieuwe regel**.  
 Gebruik hiervoor een **`for`-lus**.
