@@ -3,7 +3,7 @@
       # 1) Voorwaarts tellen per 2
       - stdin: |-
           2
-          11
+          10
           2
         stdout: |-
           2
@@ -43,7 +43,7 @@
       # 5) Negatieve start en stap vooruit
       - stdin: |-
           -3
-          4
+          3
           2
         stdout: |-
           -3
