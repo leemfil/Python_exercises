@@ -41,7 +41,7 @@
       # 5) Spaties en lege regels in de invoer
       - stdin: |-
           
-            1   
+            1
             2
             0
         stdout: |-
