@@ -1,13 +1,19 @@
-# For 02b — Range met grenzen en stap
+# For 05 — Eerste even getal zoeken
 
-start = int(input("Geef de startwaarde: ").strip())
-stop = int(input("Geef de stopwaarde: ").strip())
-stap = int(input("Geef de stapgrootte: ").strip())
+n = int(input("Geef het aantal getallen: ").strip())
+getallen = []
 
-if stap < 0:
-    stop -= 1
-else:
-    stop += 1
-    
-for getal in range(start, stop, stap):
-    print(getal)
+# vul de lijst met append
+for _ in range(n):
+    waarde = int(input("Geef het volgend getal: ").strip())
+    getallen.append(waarde)
+
+gevonden = False
+for g in getallen:
+    if g % 2 == 0:
+        print(f"Eerste even getal: {g}")
+        gevonden = True
+        break
+
+if not gevonden:
+    print("Geen even getal gevonden")
