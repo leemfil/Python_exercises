@@ -1,5 +1,5 @@
-# For 05 — Eerste even getal zoeken
-
+## Opdracht
+<br>
 Schrijf een programma dat:
 1. eerst een geheel getal **`n`** inleest (het aantal waarden),  
 2. daarna **`n`** gehele getallen inleest en opslaat in een lijst met `.append()`,  
