@@ -1,22 +1,26 @@
 ## Opdracht
 <br>
-Schrijf een programma dat drie gehele getallen inleest:  
-1. de **startwaarde**  
-2. de **stopwaarde** (exclusief, zoals bij `range`)  
-3. de **stapgrootte**
+Schrijf een programma dat:
+1. eerst een geheel getal **`n`** inleest (het **aantal waarden**, met `n ≥ 1`),  
+2. daarna **`n`** getallen (geheel of kommagetal) inleest,  
+3. de **som** en het **gemiddelde** berekent,  
+4. en tenslotte **twee regels** afdrukt:
+Som: X
+Gemiddelde: Y
+waarbij `X` en `Y` als **kommagetal** worden weergegeven.
 
-Het programma gebruikt deze waarden in een `for`-lus en print elk getal vanaf de startwaarde tot en met de stopwaarde rekening houdend met de stapgrootte op een **aparte regel**.
+Gebruik een **`for`-lus** om de `n` waarden te verwerken.
 
 ---
 
 ## Invoer
-Drie gehele getallen, telkens op een **nieuwe regel**:  
-- startwaarde  
-- stopwaarde (exclusief)  
-- stapgrootte  
+Eén geheel getal `n` (met `n ≥ 1`).  
+Daarna `n` regels met elk één getal (geheel of kommagetal).  
 
 ## Uitvoer
-Elke waarde die door de `for`-lus gegenereerd wordt, afzonderlijk op een regel.  
+Twee regels:  
+Som: X
+Gemiddelde: Y
 
 ---
 
@@ -25,28 +29,24 @@ Elke waarde die door de `for`-lus gegenereerd wordt, afzonderlijk op een regel.
 **Voorbeeld 1**
 
 **Invoer**  
-2  
-10  
+3  
+3  
+7  
 2  
 
 **Uitvoer**  
-2  
-4  
-6  
-8  
-10  
+Som: 12.0  
+Gemiddelde: 4.0
 
 ---
 
 **Voorbeeld 2**
 
 **Invoer**  
-5  
-0  
--2  
+2  
+2.5  
+3.5  
 
 **Uitvoer**  
-5  
-3  
-1  
-
+Som: 6.0  
+Gemiddelde: 3.0
