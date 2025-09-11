@@ -4,7 +4,7 @@ n = int(input("Geef het aantal getallen: ").strip())
 totaal = 0.0
 
 for _ in range(n):
-    waarde = float(input("Geef het volgend getal: ).strip())
+    waarde = float(input("Geef het volgend getal: ").strip())
     totaal += waarde
 
 gemiddelde = totaal / n
