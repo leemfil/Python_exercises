@@ -6,13 +6,9 @@ Schrijf een programma dat:
 3. vervolgens in de lijst zoekt naar het **eerste even getal**,  
 4. en:
 - indien er een even getal gevonden wordt → print  
-```
 Eerste even getal: X
-```
 - indien er **geen even getal** in de lijst zit → print  
-```
 Geen even getal gevonden
-```
 
 Gebruik een **`for`-lus** om de lijst te doorlopen.  
 Gebruik een variabele die aangeeft of het even getal gevonden is (bv. `gevonden = False`).  
