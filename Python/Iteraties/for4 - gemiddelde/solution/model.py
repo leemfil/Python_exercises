@@ -1,13 +1,12 @@
-# For 02b — Range met grenzen en stap
+# For 03 — Som en gemiddelde (met invoer)
 
-start = int(input("Geef de startwaarde: ").strip())
-stop = int(input("Geef de stopwaarde: ").strip())
-stap = int(input("Geef de stapgrootte: ").strip())
+n = int(input("Geef het aantal getallen: ").strip())
+totaal = 0.0
 
-if stap < 0:
-    stop -= 1
-else:
-    stop += 1
-    
-for getal in range(start, stop, stap):
-    print(getal)
+for _ in range(n):
+    waarde = float(input("Geef het volgend getal: ).strip())
+    totaal += waarde
+
+gemiddelde = totaal / n
+print(f"Som: {totaal}")
+print(f"Gemiddelde: {gemiddelde}")
