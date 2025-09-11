@@ -1,22 +1,33 @@
-## Opdracht
-<br>
-Schrijf een programma dat drie gehele getallen inleest:  
-1. de **startwaarde**  
-2. de **stopwaarde** (exclusief, zoals bij `range`)  
-3. de **stapgrootte**
+# For 05 — Eerste even getal zoeken
 
-Het programma gebruikt deze waarden in een `for`-lus en print elk getal vanaf de startwaarde tot en met de stopwaarde rekening houdend met de stapgrootte op een **aparte regel**.
+Schrijf een programma dat:
+1. eerst een geheel getal **`n`** inleest (het aantal waarden),  
+2. daarna **`n`** gehele getallen inleest en opslaat in een lijst met `.append()`,  
+3. vervolgens in de lijst zoekt naar het **eerste even getal**,  
+4. en:
+   - indien er een even getal gevonden wordt → print  
+     ```
+     Eerste even getal: X
+     ```
+   - indien er **geen even getal** in de lijst zit → print  
+     ```
+     Geen even getal gevonden
+     ```
+
+Gebruik een **`for`-lus** om de lijst te doorlopen.  
+Gebruik een variabele die aangeeft of het even getal gevonden is (bv. `gevonden = False`).  
 
 ---
 
 ## Invoer
-Drie gehele getallen, telkens op een **nieuwe regel**:  
-- startwaarde  
-- stopwaarde (exclusief)  
-- stapgrootte  
+Eén geheel getal `n` (≥ 0).  
+Daarna `n` gehele getallen.  
 
 ## Uitvoer
-Elke waarde die door de `for`-lus gegenereerd wordt, afzonderlijk op een regel.  
+Eén regel, ofwel:  
+Eerste even getal: X
+ofwel:  
+Geen even getal gevonden
 
 ---
 
@@ -25,28 +36,26 @@ Elke waarde die door de `for`-lus gegenereerd wordt, afzonderlijk op een regel.
 **Voorbeeld 1**
 
 **Invoer**  
-2  
-10  
-2  
+5  
+3  
+5  
+7  
+9  
+12
 
 **Uitvoer**  
-2  
-4  
-6  
-8  
-10  
+Eerste even getal: 12
 
 ---
 
 **Voorbeeld 2**
 
 **Invoer**  
+4  
+3  
 5  
-0  
--2  
+7  
+9  
 
 **Uitvoer**  
-5  
-3  
-1  
-
+Geen even getal gevonden
