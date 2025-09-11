@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "For 3: getallenreeks"
+      "nl": "For 4: gemiddelde"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "M3wEi46CJeHWb7VGy8hI98dcrawhu3R3fk5QgtCtARmBCEBSCASrnHwAdYyy6Dpw",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
