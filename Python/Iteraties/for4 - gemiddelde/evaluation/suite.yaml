@@ -1,53 +1,50 @@
 - tab: "Testen"
   testcases:
-      # 1) Voorwaarts tellen per 2
+      # 1) Allemaal gehele getallen
       - stdin: |-
-          2
-          10
+          3
+          3
+          7
           2
         stdout: |-
-          2
-          4
-          6
-          8
-          10
+          Som: 12.0
+          Gemiddelde: 4.0
 
-      # 2) Achterwaarts tellen per -2
+      # 2) Kommagetallen
       - stdin: |-
-          5
-          0
+          2
+          2.5
+          3.5
+        stdout: |-
+          Som: 6.0
+          Gemiddelde: 3.0
+
+      # 3) Mix van int en float
+      - stdin: |-
+          4
+          1
+          2.0
+          3.5
+          3.5
+        stdout: |-
+          Som: 10.0
+          Gemiddelde: 2.5
+
+      # 4) Negatieven met som nul
+      - stdin: |-
+          4
           -2
-        stdout: |-
-          5
-          3
-          1
-
-      # 3) Standaard vooruit tellen per 1
-      - stdin: |-
-          1
-          4
-          1
-        stdout: |-
-          1
           2
-          3
-          4
+          -3.0
+          3.0
+        stdout: |-
+          Som: 0.0
+          Gemiddelde: 0.0
 
-      # 4) Stapgrootte groter dan bereik (leeg resultaat)
+      # 5) Eén waarde
       - stdin: |-
           1
-          5
-          10
+          7
         stdout: |-
-          1
-
-      # 5) Negatieve start en stap vooruit
-      - stdin: |-
-          -3
-          3
-          2
-        stdout: |-
-          -3
-          -1
-          1
-          3
+          Som: 7.0
+          Gemiddelde: 7.0
