@@ -13,17 +13,18 @@ Schrijf een **functie** `zoek_of_voeg_toe(lijst, waarde)` die werkt als volgt:
 
 ## Voorbeelden
 
-  >>> zoek_of_voeg_toe([3, 7, 9, 2, 7], 7)  
-  1  
-  
-  Als de waarde niet voorkomt, wordt ze toegevoegd en krijg je de aangepaste lijst terug:  
-  >>> zoek_of_voeg_toe([10, 20, 30], 5)  
-  [10, 20, 30, 5]  
-  
-  Lege lijst:  
-  >>> zoek_of_voeg_toe([], 42)  
-  [42]
-  
-  Dubbele waarden → eerste index:  
-  >>> zoek_of_voeg_toe([5, 5, 5, 2, 5, 9], 5)  
-  0
+    Waarde komt voor in de lijst:
+    >>> zoek_of_voeg_toe([3, 7, 9, 2, 7], 7)  
+    1  
+    
+    Als de waarde niet voorkomt, wordt ze toegevoegd en krijg je de aangepaste lijst terug:  
+    >>> zoek_of_voeg_toe([10, 20, 30], 5)  
+    [10, 20, 30, 5]  
+    
+    Lege lijst:  
+    >>> zoek_of_voeg_toe([], 42)  
+    [42]
+    
+    Dubbele waarden → eerste index:  
+    >>> zoek_of_voeg_toe([5, 5, 5, 2, 5, 9], 5)  
+    0
