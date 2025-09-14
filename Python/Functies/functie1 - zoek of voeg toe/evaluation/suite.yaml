@@ -1,49 +1,25 @@
-- tab: "Testen"
+- tab: "tests"
   testcases:
-      # 1) Eerste even op het einde
-      - stdin: |-
-          5
-          3
-          5
-          7
-          9
-          12
-        stdout: |-
-          Eerste even getal: 12
+    # Waarde zit erin (eerste voorkomen in het midden)
+    - expression: "zoek_of_voeg_toe([3, 7, 9, 2, 7], 7)"
+      return: 1
 
-      # 2) Eerste even in het midden
-      - stdin: |-
-          6
-          1
-          3
-          8
-          5
-          7
-          9
-        stdout: |-
-          Eerste even getal: 8
+    # Waarde niet aanwezig -> toevoegen achteraan, lijst teruggeven
+    - expression: "zoek_of_voeg_toe([10, 20, 30], 5)"
+      return: [10, 20, 30, 5]
 
-      # 3) Allemaal oneven
-      - stdin: |-
-          4
-          3
-          5
-          7
-          9
-        stdout: |-
-          Geen even getal gevonden
+    # Lege lijst -> toevoegen als eerste element
+    - expression: "zoek_of_voeg_toe([], 42)"
+      return: [42]
 
-      # 4) Eerste getal is even
-      - stdin: |-
-          3
-          4
-          5
-          7
-        stdout: |-
-          Eerste even getal: 4
+    # Dubbele waarden -> index van eerste voorkomen (0-based)
+    - expression: "zoek_of_voeg_toe([5, 5, 5, 2, 5, 9], 5)"
+      return: 0
 
-      # 5) Lege lijst (n = 0)
-      - stdin: |-
-          0
-        stdout: |-
-          Geen even getal gevonden
+    # Waarde aanwezig op het einde
+    - expression: "zoek_of_voeg_toe([1, 3, 5, 7], 7)"
+      return: 3
+
+    # Waarde afwezig met negatieven -> toevoegen
+    - expression: "zoek_of_voeg_toe([-2, -1, 0, 1], 2)"
+      return: [-2, -1, 0, 1, 2]
