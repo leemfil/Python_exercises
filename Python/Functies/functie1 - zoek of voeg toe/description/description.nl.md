@@ -1,57 +1,32 @@
 ## Opdracht
 <br>
-Schrijf een programma dat:
-1. eerst een geheel getal **`n`** inleest (het aantal waarden),  
-2. daarna **`n`** gehele getallen inleest en opslaat in een lijst met `.append()`,  
-3. vervolgens in de lijst zoekt naar het **eerste even getal**,  
-4. en:
-- indien er een even getal gevonden wordt → print  
-'Eerste even getal: X'
-- indien er **geen even getal** in de lijst zit → print  
-'Geen even getal gevonden'
+Schrijf een **functie** `zoek_of_voeg_toe(lijst, waarde)` die werkt als volgt:
 
-Gebruik een **`for`-lus** om de lijst te doorlopen.  
-Gebruik een variabele die aangeeft of het even getal gevonden is (bv. `gevonden = False`).  
+- Als `waarde` **voorkomt** in `lijst`: **geef de eerste index** (0-gebaseerd) **terug**.
+- Als `waarde` **niet voorkomt**: **voeg** `waarde` **achteraan** toe met `.append()` en **geef de nieuwe lijst terug**.
 
----
+> Let op:
+> - De functie **print niets**; ze **retourneert** een resultaat (een `int` of een `list`).
+> - Werk op de meegegeven lijst wanneer je toevoegt.
 
-## Invoer
-Eén geheel getal `n` (≥ 0).  
-Daarna `n` gehele getallen.  
-
-## Uitvoer
-Eén regel, ofwel:  
-Eerste even getal: X
-ofwel:  
-Geen even getal gevonden
-
----
+<br>
 
 ## Voorbeelden
 
-**Voorbeeld 1**
+Voor de lijst `waarden = [3, 7, 9, 2, 7]`:
 
-**Invoer**  
-5  
-3  
-5  
-7  
-9  
-12
+```python
+>>> zoek_of_voeg_toe([3, 7, 9, 2, 7], 7)
+1  
 
-**Uitvoer**  
-Eerste even getal: 12
+Als de waarde niet voorkomt, wordt ze toegevoegd en krijg je de aangepaste lijst terug:
+>>> zoek_of_voeg_toe([10, 20, 30], 5)
+[10, 20, 30, 5]  
 
----
+Lege lijst:
+>>> zoek_of_voeg_toe([], 42)
+[42]
 
-**Voorbeeld 2**
-
-**Invoer**  
-4  
-3  
-5  
-7  
-9  
-
-**Uitvoer**  
-Geen even getal gevonden
+Dubbele waarden → eerste index:  
+>>> zoek_of_voeg_toe([5, 5, 5, 2, 5, 9], 5)
+0
