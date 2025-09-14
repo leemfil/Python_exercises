@@ -5,8 +5,9 @@ def zoek_of_voeg_toe(lijst, waarde):
     Als waarde in lijst zit -> return eerste index (int).
     Anders -> voeg waarde toe aan het einde en return de (aangepaste) lijst.
     """
-    try:
+    if waarde in lijst:
         return lijst.index(waarde)
-    except ValueError:
+    else:
         lijst.append(waarde)
         return lijst
+
