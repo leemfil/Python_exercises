@@ -1,19 +1,12 @@
-# For 05 — Eerste even getal zoeken
+# Lijsten 01 — Zoek of voeg toe (index + append)
 
-n = int(input("Geef het aantal getallen: ").strip())
-getallen = []
-
-# vul de lijst met append
-for _ in range(n):
-    waarde = int(input("Geef het volgend getal: ").strip())
-    getallen.append(waarde)
-
-gevonden = False
-for g in getallen:
-    if g % 2 == 0:
-        print(f"Eerste even getal: {g}")
-        gevonden = True
-        break
-
-if not gevonden:
-    print("Geen even getal gevonden")
+def zoek_of_voeg_toe(lijst, waarde):
+    """
+    Als waarde in lijst zit -> return eerste index (int).
+    Anders -> voeg waarde toe aan het einde en return de (aangepaste) lijst.
+    """
+    try:
+        return lijst.index(waarde)
+    except ValueError:
+        lijst.append(waarde)
+        return lijst
