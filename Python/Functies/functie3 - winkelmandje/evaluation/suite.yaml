@@ -18,7 +18,7 @@
 
     # 5) Pop aan het begin, daarna remove elders
     - expression: 'bewerking_winkelmand(["melk","brood","melk","kaas"], 0, "melk")'
-      return: ["melk", ["brood","melk","kaas"]]
+      return: ["melk", ["brood","kaas"]]
 
     # 6) Geen remove nodig als artikel na pop verdwenen is (niet aanwezig)
     - expression: 'bewerking_winkelmand(["koffie","thee"], 1, "thee")'
