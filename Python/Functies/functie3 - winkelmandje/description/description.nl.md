@@ -1,22 +1,36 @@
 ## Opdracht
 <br>
-Schrijf een **functie** `plaats_element(lijst, waarde)` die:
+Schrijf een **functie** `bewerking_winkelmand(mand, index, artikel)` die twee stappen uitvoert op de lijst `mand`:
 
-<br>  
+1. **Verwijder** het element op positie `index` en onthoud het **verwijderde** element.  
+2. **Verwijder** het **eerste** voorkomen van `artikel` **indien** het (nog) in de mand zit.  
 
-1. de **waarde** eerst **achteraan** toevoegt,  
-2. daarna dezelfde **waarde ook vooraan** plaatst,  
-3. en de **aangepaste lijst teruggeeft**.
+De functie **retourneert** een lijst met twee elementen:  
+`[verwijderde_waarde, aangepaste_mand]`
 
-> Let op: de functie **retourneert** de lijst, ze **print niets**.
+<br>
 
----
+> Let op:
+> - Werk op de meegegeven lijst `mand`.  
+> - Je mag ervan uitgaan dat `index` geldig is (binnen het bereik van de lijst).  
+> - Als `artikel` niet in de mand zit na de verwijdering, laat je de mand verder **ongewijzigd**.
 
+<br>
 ## Voorbeelden
 
-    ```python
-    >>> plaats_element([10, 20, 30], 5)  
-    [5, 10, 20, 30, 5]
-    
-    >>> plaats_element([], 7)  
-    [7, 7]
+        >>> bewerking_winkelmand(["brood", "melk", "kaas"], 1, "kaas")
+        ["melk", ["brood"]]   
+        
+        # eerst ["brood","kaas"]; daarna "kaas" verwwijderen -> ["brood"]
+        # Opletten: eerst waarde teruggeven; de tweede component is de mand NA alle bewerkingen:
+ 
+        >>> bewerking_winkelmand(["appel", "peer", "banaan"], 0, "druif")
+        ["appel", ["peer", "banaan"]]   # "druif" komt niet voor, dus geen 2de verwijdering
+
+        >>> bewerking_winkelmand(["a", "b", "a", "c"], 3, "a")
+        ["c", ["b", "a"]]   
+        
+        # Volledige redenering:
+        # start: ["a","b","a","c"]
+        # verwijder artikel op index 3 -> mand = ["a","b","a"]
+        # verwijder het 1ste artikel -> mand = ["b","a"]
