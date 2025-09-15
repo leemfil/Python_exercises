@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Functie 3: Winkelmandje"
+      "nl": "Functie 4: Playlist"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "SmgPESj2RMA2iJtSbC-iIueYEtzVVncM6Q7xS9G45VnvY6MARyv7_yK-mWsA2f5g",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
