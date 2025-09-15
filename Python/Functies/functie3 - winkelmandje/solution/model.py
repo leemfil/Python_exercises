@@ -1,4 +1,4 @@
-# Lijsten 03 — Winkelmand-bewerkingen (pop + remove) — modeloplossing
+# Lijsten 03 — Winkelmand-bewerkingen (pop + remove)
 
 def bewerking_winkelmand(mand, index, artikel):
     """
