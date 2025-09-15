@@ -1,0 +1,29 @@
+- tab: "tests"
+  testcases:
+    # 1) Basisvoorbeeld met drie woorden
+    - expression: 'sorteer_playlist(["Zebra", "Apple", "Monkey"])'
+      return: ["Zebra", "Monkey", "Apple"]
+
+    # 2) Reeds alfabetisch
+    - expression: 'sorteer_playlist(["A", "B", "C"])'
+      return: ["C", "B", "A"]
+
+    # 3) Reeds omgekeerd alfabetisch
+    - expression: 'sorteer_playlist(["C", "B", "A"])'
+      return: ["C", "B", "A"]
+
+    # 4) Duplicaten
+    - expression: 'sorteer_playlist(["Song", "Song", "Track"])'
+      return: ["Track", "Song", "Song"]
+
+    # 5) Lege lijst
+    - expression: "sorteer_playlist([])"
+      return: []
+
+    # 6) Eén element
+    - expression: 'sorteer_playlist(["OnlyOne"])'
+      return: ["OnlyOne"]
+
+    # 7) Hoofdletters en kleine letters (ASCII-orde)
+    - expression: 'sorteer_playlist(["apple","Banana","cherry"])'
+      return: ["cherry", "apple", "Banana"]
