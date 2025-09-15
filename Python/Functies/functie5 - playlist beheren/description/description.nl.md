@@ -4,11 +4,11 @@
 Je beheert een **playlist** (lijst van strings) met nummers.  
 Schrijf een **functie** `beheer_playlist(playlist, nieuw, verboden, max_grootte)` die deze stappen uitvoert:
 
-1. Voeg het nummer `nieuw` **achteraan** toe met `.append()`.  
-2. **Sorteer** de lijst **case-insensitive** met `.sort(key=str.lower)`.  
-3. **Keer om** met `.reverse()` zodat de volgorde **omgekeerd-alfabetisch** is (Z → A).  
-4. **Verwijder** met `.remove(verboden)` het **eerste** voorkomen van `verboden` **als** het (nog) aanwezig is.  
-5. Als de lijst **langer** is dan `max_grootte`, **verwijder** dan het **laatste** element met `.pop()` **zolang** de lengte te groot is.  
+1. Voeg het nummer `nieuw` **achteraan** toe.  
+2. **Sorteer** de lijst **case-insensitive**.  
+3. **Keer om** zodat de volgorde **omgekeerd-alfabetisch** is (Z → A).  
+4. **Verwijder** het **eerste** voorkomen van `verboden` **als** het (nog) aanwezig is.  
+5. Als de lijst **langer** is dan `max_grootte`, **verwijder** dan het **laatste** element **zolang** de lengte te groot is.  
 6. **Retourneer** de aangepaste playlist.
 
 > Voorbeeld-redenering: na stap 2–3 staat het **beste** (alfabetisch hoogst) vooraan.  
