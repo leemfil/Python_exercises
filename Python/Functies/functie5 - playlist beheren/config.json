@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Functie 4: Playlist"
+      "nl": "Functie 5: Playlist beheren"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "tFx2y3W2YT49aMqxJhvT7-pCKBQZNEgDtt97Y8-9ctdCeyqS3xVaFmHIYyuWAZFr",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
