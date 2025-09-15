@@ -3,7 +3,7 @@
 Schrijf een **functie** `zoek_of_voeg_toe(lijst, waarde)` die werkt als volgt:
 
 - Als `waarde` **voorkomt** in `lijst`: **geef de eerste index** (0-gebaseerd) **terug**.
-- Als `waarde` **niet voorkomt**: **voeg** `waarde` **achteraan** toe met `.append()` en **geef de nieuwe lijst terug**.
+- Als `waarde` **niet voorkomt**: **voeg** `waarde` **achteraan** toe en **geef de nieuwe lijst terug**.
 
 > Let op:
 > - De functie **print niets**; ze **retourneert** een resultaat (een `int` of een `list`).
