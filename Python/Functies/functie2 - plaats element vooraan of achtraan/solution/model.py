@@ -1,13 +1,11 @@
-# Lijsten 01 — Zoek of voeg toe (index + append)
+# Lijsten 02 — Plaats element vooraan of achteraan
 
-def zoek_of_voeg_toe(lijst, waarde):
+def plaats_element(lijst, waarde):
     """
-    Als waarde in lijst zit -> return eerste index (int).
-    Anders -> voeg waarde toe aan het einde en return de (aangepaste) lijst.
+    Voegt waarde eerst achteraan toe met append,
+    daarna ook vooraan met insert(0, waarde).
+    Retourneert de aangepaste lijst.
     """
-    if waarde in lijst:
-        return lijst.index(waarde)
-    else:
-        lijst.append(waarde)
-        return lijst
-
+    lijst.append(waarde)
+    lijst.insert(0, waarde)
+    return lijst
