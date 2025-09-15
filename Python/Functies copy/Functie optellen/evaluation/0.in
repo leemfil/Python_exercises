@@ -1,0 +1,14 @@
+>>> optellen(5, 10)
+45
+
+>>> optellen(2, 4)
+9
+
+>>> optellen(7, 7)
+7
+
+>>> optellen(3, 99)
+4947
+
+>>> optellen(0, 1000)
+500500

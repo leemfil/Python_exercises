@@ -1,0 +1,21 @@
+- tab: "tests"
+  testcases:
+    # 1) Basisvoorbeeld
+    - expression: "plaats_element([10, 20, 30], 5)"
+      return: [5, 10, 20, 30, 5]
+
+    # 2) Lege lijst
+    - expression: "plaats_element([], 7)"
+      return: [7, 7]
+
+    # 3) Eén element in de lijst
+    - expression: "plaats_element([42], 99)"
+      return: [99, 42, 99]
+
+    # 4) Negatieve waarden
+    - expression: "plaats_element([-1, -2], -3)"
+      return: [-3, -1, -2, -3]
+
+    # 5) Herhaald gebruik van dezelfde waarde
+    - expression: "plaats_element([1, 2, 3], 2)"
+      return: [2, 1, 2, 3, 2]

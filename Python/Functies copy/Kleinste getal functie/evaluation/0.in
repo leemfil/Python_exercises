@@ -1,0 +1,26 @@
+>>> kleinste_getal(10, 27, 5)
+5
+
+>>> kleinste_getal(13, 12, 0)
+0
+
+>>> kleinste_getal(-23, -7, -15)
+-23
+
+>>> kleinste_getal(5, -7, 15)
+-7
+
+>>> kleinste_getal(5, 5, 5)
+5
+
+>>> kleinste_getal(7, 20, 7)
+7
+
+>>> kleinste_getal(2, 2, 1)
+1
+
+>>> kleinste_getal(2, 1, 2)
+1
+
+>>> kleinste_getal(2, 2, 6)
+2

@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Woorden aanpassen"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [
+
+  ],
+  "internals": {
+    "token": "xB9a2GASYu-36uf7Ww2sjBX9emcgRN6hyMsjAmbgBYF8mpk2gKhVEisYJPj4WI5I",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "access": "public"
+}

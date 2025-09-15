@@ -1,0 +1,18 @@
+>>> aanpassen(["kat", "hond", "olifant", "giraffe", "leeuw"])
+['leeuw', 'hond', 'kat']
+>>> aanpassen(["appel", "banaan", "kers", "druif", "mango"])
+['mango', 'druif', 'kers', 'banaan', 'appel']
+>>> aanpassen(["rood", "blauw", "groen", "geel", "oranje"])
+['oranje', 'geel', 'groen', 'blauw', 'rood']
+>>> aanpassen(["Nederland", "België", "Duitsland", "Frankrijk", "Italië"])
+['Italië', 'België']
+>>> aanpassen(["auto", "fiets", "vrachtwagen", "vliegtuig", "boot", "trein"])
+['trein', 'boot', 'fiets', 'auto']
+>>> aanpassen(["Python", "JavaScript", "Java", "C++", "Ruby"])
+['Ruby', 'C++', 'Java', 'Python']
+>>> aanpassen(["voetbal", "basketbal", "tennis", "zwemmen", "hardlopen"])
+['tennis']
+>>> aanpassen(["roos", "tulp", "madeliefje", "orchidee", "zonnebloem"])
+['tulp', 'roos']
+>>> aanpassen(["wiskunde", "nederlands", "geschiedenis", "biologie", "scheikunde"])
+[]
