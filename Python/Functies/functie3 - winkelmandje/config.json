@@ -10,5 +10,9 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": []
+  "labels": [],
+  "internals": {
+    "token": "Tmh8cEIk4i7cur39Hs-adUXX_rYVjKJkrkVGw3fm9xnenRRMKsUuYiY8JVAR6J3v",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
