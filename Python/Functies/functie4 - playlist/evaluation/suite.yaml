@@ -1,25 +1,29 @@
 - tab: "tests"
   testcases:
-    # 1) Basis: pop in het midden, daarna artikel aanwezig
-    - expression: 'bewerking_winkelmand(["brood","melk","kaas"], 1, "kaas")'
-      return: ["melk", ["brood"]]
+    # 1) Basisvoorbeeld met drie woorden
+    - expression: 'sorteer_playlist(["Zebra", "Apple", "Monkey"])'
+      return: ["Zebra", "Monkey", "Apple"]
 
-    # 2) Artikel niet aanwezig -> enkel pop
-    - expression: 'bewerking_winkelmand(["appel","peer","banaan"], 0, "druif")'
-      return: ["appel", ["peer","banaan"]]
+    # 2) Reeds alfabetisch
+    - expression: 'sorteer_playlist(["A", "B", "C"])'
+      return: ["C", "B", "A"]
 
-    # 3) Dubbele waarden: remove verwijdert alleen eerste voorkomen
-    - expression: 'bewerking_winkelmand(["a","b","a","c"], 3, "a")'
-      return: ["c", ["b","a"]]
+    # 3) Reeds omgekeerd alfabetisch
+    - expression: 'sorteer_playlist(["C", "B", "A"])'
+      return: ["C", "B", "A"]
 
-    # 4) Negatieve index: pop laatste element met -1
-    - expression: 'bewerking_winkelmand(["x","y","z"], -1, "x")'
-      return: ["z", ["y"]]
+    # 4) Duplicaten
+    - expression: 'sorteer_playlist(["Song", "Song", "Track"])'
+      return: ["Track", "Song", "Song"]
 
-    # 5) Pop aan het begin, daarna remove elders
-    - expression: 'bewerking_winkelmand(["melk","brood","melk","kaas"], 0, "melk")'
-      return: ["melk", ["brood","kaas"]]
+    # 5) Lege lijst
+    - expression: "sorteer_playlist([])"
+      return: []
 
-    # 6) Geen remove nodig als artikel na pop verdwenen is (niet aanwezig)
-    - expression: 'bewerking_winkelmand(["koffie","thee"], 1, "thee")'
-      return: ["thee", ["koffie"]]
+    # 6) Eén element
+    - expression: 'sorteer_playlist(["OnlyOne"])'
+      return: ["OnlyOne"]
+
+    # 7) Hoofdletters en kleine letters (ASCII-orde)
+    - expression: 'sorteer_playlist(["apple","Banana","cherry"])'
+      return: ["cherry", "apple", "Banana"]
