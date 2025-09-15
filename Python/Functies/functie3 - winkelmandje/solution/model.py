@@ -1,11 +1,12 @@
-# Lijsten 02 — Plaats element vooraan of achteraan
+# Lijsten 03 — Winkelmand-bewerkingen (pop + remove) — modeloplossing
 
-def plaats_element(lijst, waarde):
+def bewerking_winkelmand(mand, index, artikel):
     """
-    Voegt waarde eerst achteraan toe met append,
-    daarna ook vooraan met insert(0, waarde).
-    Retourneert de aangepaste lijst.
+    1) pop(index) -> onthoud gepopte waarde
+    2) als artikel in mand: remove(artikel)
+    retourneer [gepopte_waarde, mand]
     """
-    lijst.append(waarde)
-    lijst.insert(0, waarde)
-    return lijst
+    gepopt = mand.pop(index)
+    if artikel in mand:
+        mand.remove(artikel)
+    return [gepopt, mand]
