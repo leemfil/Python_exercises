@@ -1,12 +1,10 @@
-# Lijsten 03 — Winkelmand-bewerkingen (pop + remove) — modeloplossing
+# Lijsten 04 — Playlist sorteren en omkeren (modeloplossing)
 
-def bewerking_winkelmand(mand, index, artikel):
+def sorteer_playlist(playlist):
     """
-    1) pop(index) -> onthoud gepopte waarde
-    2) als artikel in mand: remove(artikel)
-    retourneer [gepopte_waarde, mand]
+    Sorteer alfabetisch, keer daarna om.
+    Retourneer de aangepaste lijst (omgekeerd-alfabetisch).
     """
-    gepopt = mand.pop(index)
-    if artikel in mand:
-        mand.remove(artikel)
-    return [gepopt, mand]
+    playlist.sort()
+    playlist.reverse()
+    return playlist
