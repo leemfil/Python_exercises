@@ -14,7 +14,6 @@ Schrijf een **functie** `plaats_element(lijst, waarde)` die:
 
 ## Voorbeelden
 
-    ```python
     >>> plaats_element([10, 20, 30], 5)  
     [5, 10, 20, 30, 5]
     
