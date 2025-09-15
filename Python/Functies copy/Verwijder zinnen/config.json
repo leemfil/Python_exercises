@@ -7,12 +7,10 @@
   "evaluation": {
     "pythia_judge": "doctest"
   },
-  "labels": [
-
-  ],
+  "labels": [],
   "access": "public",
   "internals": {
-    "token": "q28ar26TMwCAFXnep-2D55QIiWXC5pgJiyMg8V26JdH3I2ZXzZyvhKxsIe9tGkFh",
+    "token": "qwvxvv5cUp9jnZ-WNvAisS3uZVtDWKztQgH6pFbgI3jeqDFvsPDY_Sk7XhrnjK2Z",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
