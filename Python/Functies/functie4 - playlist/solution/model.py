@@ -1,4 +1,4 @@
-# Lijsten 04 — Playlist sorteren en omkeren (modeloplossing)
+# Lijsten 04 — Playlist sorteren en omkeren
 
 def sorteer_playlist(playlist):
     """
