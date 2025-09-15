@@ -1,25 +1,21 @@
 - tab: "tests"
   testcases:
-    # Waarde zit erin (eerste voorkomen in het midden)
-    - expression: "zoek_of_voeg_toe([3, 7, 9, 2, 7], 7)"
-      return: 1
+    # 1) Basisvoorbeeld
+    - expression: "plaats_element([10, 20, 30], 5)"
+      return: [5, 10, 20, 30, 5]
 
-    # Waarde niet aanwezig -> toevoegen achteraan, lijst teruggeven
-    - expression: "zoek_of_voeg_toe([10, 20, 30], 5)"
-      return: [10, 20, 30, 5]
+    # 2) Lege lijst
+    - expression: "plaats_element([], 7)"
+      return: [7, 7]
 
-    # Lege lijst -> toevoegen als eerste element
-    - expression: "zoek_of_voeg_toe([], 42)"
-      return: [42]
+    # 3) Eén element in de lijst
+    - expression: "plaats_element([42], 99)"
+      return: [99, 42, 99]
 
-    # Dubbele waarden -> index van eerste voorkomen (0-based)
-    - expression: "zoek_of_voeg_toe([5, 5, 5, 2, 5, 9], 5)"
-      return: 0
+    # 4) Negatieve waarden
+    - expression: "plaats_element([-1, -2], -3)"
+      return: [-3, -1, -2, -3]
 
-    # Waarde aanwezig op het einde
-    - expression: "zoek_of_voeg_toe([1, 3, 5, 7], 7)"
-      return: 3
-
-    # Waarde afwezig met negatieven -> toevoegen
-    - expression: "zoek_of_voeg_toe([-2, -1, 0, 1], 2)"
-      return: [-2, -1, 0, 1, 2]
+    # 5) Herhaald gebruik van dezelfde waarde
+    - expression: "plaats_element([1, 2, 3], 2)"
+      return: [2, 1, 2, 3, 2]
