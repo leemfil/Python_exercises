@@ -1,0 +1,51 @@
+- tab: "Testen"
+  testcases:
+      # 1) Normale flow: 1 -> 2 -> stop
+      - stdin: |-
+          1
+          2
+          0
+        stdout: |-
+          2 + 2 = 4
+          5 - 3 = 2
+          Tot ziens!
+
+      # 2) Onmiddellijk stoppen
+      - stdin: |-
+          0
+        stdout: |-
+          Tot ziens!
+
+      # 3) Ongeldige invoeren en dan stop
+      - stdin: |-
+          3
+          x
+          0
+        stdout: |-
+          Ongeldige keuze.
+          Ongeldige keuze.
+          Tot ziens!
+
+      # 4) Herhaald geldige keuzes, dan stop
+      - stdin: |-
+          2
+          2
+          2
+          0
+        stdout: |-
+          5 - 3 = 2
+          5 - 3 = 2
+          5 - 3 = 2
+          Tot ziens!
+
+      # 5) Spaties en lege regels in de invoer
+      - stdin: |-
+          
+            1
+            2
+            0
+        stdout: |-
+          Ongeldige keuze.
+          2 + 2 = 4
+          5 - 3 = 2
+          Tot ziens!
