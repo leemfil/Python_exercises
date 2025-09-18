@@ -1,25 +1,22 @@
-# Lijsten 06 — Playlist manager (alles combineren)
+# Boodschappenlijst
 
-def beheer_playlist(playlist, nieuw, verboden, max_grootte):
-    """
-    1) append(nieuw)
-    2) sort(key=str.lower)  # case-insensitive oplopend
-    3) reverse()            # omgekeerd-alfabetisch (Z->A)
-    4) indien verboden aanwezig: remove(verboden)
-    5) while len(playlist) > max_grootte: pop()  # verwijder laatste (zwakste)
-    6) return playlist
-    """
-    # 1
-    playlist.append(nieuw)
-    # 2
-    playlist.sort(key=str.lower)
-    # 3
-    playlist.reverse()
-    # 4
-    if verboden in playlist:
-        playlist.remove(verboden)
-    # 5
-    while len(playlist) > max_grootte:
-        playlist.pop()
-    # 6
-    return playlist
+def beheer_boodschappen(basis, extra, index):
+    resultaat = []
+
+    # 1. basis kopiëren
+    for product in basis:
+        resultaat.append(product)
+
+    # 2. extra toevoegen indien nog niet aanwezig
+    for product in extra:
+        if product not in resultaat:
+            resultaat.append(product)
+
+    # 3. element op index verwijderen als index geldig is
+    if 0 <= index < len(resultaat):
+        resultaat.pop(index)
+
+    # 4. sorteren in omgekeerde alfabetische volgorde
+    resultaat.sort(reverse=True)
+
+    return resultaat
