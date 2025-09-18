@@ -1,41 +1,75 @@
-# Ticketkassa
+- tab: "tests"
+  testcases:
+    # 1) Voorbeeld met lege kortingsregel, student en pas
+    # 2  -> prijs 0.0, geen korting
+    # 19 -> prijs 12.0, student => 2.4 korting
+    # 70 -> prijs 8.0, pas => 1.0 korting
+    # som prijs = 20.0 ; korting = 3.4 ; te betalen = 16.6
+    - stdin: |-
+        2
 
-tickets = 0
-bruto = 0.0
-korting = 0.0
+        19
+        student
+        70
+        pas
+        -1
+      stdout: |-
+        Aantal tickets: 3
+        Brutobedrag: 20.0 euro
+        Korting: 3.4 euro
+        Te betalen: 16.6 euro
 
-leeftijd = int(input("Geef je leeftijd: "))
+    # 2) Student vs pas (beste korting afzonderlijk toegepast per regel)
+    # 12 pas -> 12.0 met 1.0 korting
+    # 64 student -> 12.0 met 2.4 korting
+    # 5 (lege code) -> 6.0 met 0.0 korting
+    # som prijs = 30.0 ; korting = 3.4 ; te betalen = 26.6
+    - stdin: |-
+        12
+        pas
+        64
+        student
+        5
 
-while leeftijd != -1:
-    # basisprijs
-    if leeftijd < 3:
-        prijs = 0.0
-    elif leeftijd <= 11:
-        prijs = 6.0
-    elif leeftijd <= 64:
-        prijs = 12.0
-    else:
-        prijs = 8.0
+        -1
+      stdout: |-
+        Aantal tickets: 3
+        Brutobedrag: 30.0 euro
+        Korting: 3.4 euro
+        Te betalen: 26.6 euro
 
-    # kortingscode inlezen
-    code = input("Geef de kortingscode: ").lower()
+    # 3) Baby gratis
+    - stdin: |-
+        1
 
-    # korting berekenen
-    korting_bedrag = 0.0
-    if code == "student" and prijs == 12.0:
-        korting_bedrag = 0.20 * prijs
-    elif code == "pas" and prijs > 0:
-        korting_bedrag = 1.0
+        -1
+      stdout: |-
+        Aantal tickets: 1
+        Brutobedrag: 0.0 euro
+        Korting: 0.0 euro
+        Te betalen: 0.0 euro
 
-    bruto += prijs
-    korting += korting_bedrag
-    tickets += 1
+    # 4) Geen tickets gekocht
+    - stdin: |-
+        -1
+      stdout: |-
+        Aantal tickets: 0
+        Brutobedrag: 0.0 euro
+        Korting: 0.0 euro
+        Te betalen: 0.0 euro
 
-    # volgende leeftijd vragen
-    leeftijd = int(input("Geef de volgende leeftijd: "))
-
-# samenvatting printen
-print(f"Aantal tickets: {tickets}")
-print(f"Brutobedrag: {bruto:.1f} euro")
-print(f"Korting: {korting:.1f} euro")
-print(f"Te betalen: {bruto - korting:.1f} euro")
+    # 5) Senioren met pas
+    # 70 pas -> 8.0 met 1.0 korting
+    # 80 pas -> 8.0 met 1.0 korting
+    # som prijs = 16.0 ; korting = 2.0 ; te betalen = 14.0
+    - stdin: |-
+        70
+        pas
+        80
+        pas
+        -1
+      stdout: |-
+        Aantal tickets: 2
+        Brutobedrag: 16.0 euro
+        Korting: 2.0 euro
+        Te betalen: 14.0 euro
