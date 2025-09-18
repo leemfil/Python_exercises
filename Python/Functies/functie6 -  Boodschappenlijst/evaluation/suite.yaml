@@ -18,11 +18,11 @@
 
     # 5) Geldige index verwijdert laatste element
     - expression: 'beheer_boodschappen(["pasta","rijst"], ["saus"], 2)'
-      return: ["saus","pasta"]
+      return: ["rijst","pasta"]
 
     # 6) Dubbele toevoeging verhinderen
     - expression: 'beheer_boodschappen(["kaas","melk"], ["melk","eieren"], 1)'
-      return: ["melk","eieren"]
+      return: ["kaas","eieren"]
 
     # 7) Alles verwijderd door geldige index 0
     - expression: 'beheer_boodschappen(["thee"], ["koffie"], 0)'
