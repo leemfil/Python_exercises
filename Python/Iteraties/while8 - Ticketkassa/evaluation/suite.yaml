@@ -55,7 +55,7 @@
         70
         pas
         80
-        pas
+        PASS
         -1
       stdout: |-
         Aantal tickets: 2
