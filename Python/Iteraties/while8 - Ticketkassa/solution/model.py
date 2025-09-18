@@ -4,7 +4,7 @@ tickets = 0
 bruto = 0.0
 korting = 0.0
 
-leeftijd = int(input(Geef je leeftijd: ))
+leeftijd = int(input("Geef je leeftijd: "))
 
 while leeftijd != -1:
     # basisprijs
@@ -18,7 +18,7 @@ while leeftijd != -1:
         prijs = 8.0
 
     # kortingscode inlezen
-    code = input("Geef de kortingscode).lower()
+    code = input("Geef de kortingscode: ").lower()
 
     # korting berekenen
     korting_bedrag = 0.0
@@ -32,7 +32,7 @@ while leeftijd != -1:
     tickets += 1
 
     # volgende leeftijd vragen
-    leeftijd = int(input("Geef de volgende leeftijd: ))
+    leeftijd = int(input("Geef de volgende leeftijd: "))
 
 # samenvatting printen
 print(f"Aantal tickets: {tickets}")
