@@ -1,7 +1,7 @@
 ## Opdracht
 <br>
 
-Je bouwt een kassa voor een klein filmhuis. De kassa leest **herhaaldelijk leeftijden** in en rekent per bezoeker een tarief aan volgens onderstaande regels. Je gebruikt hiervoor een **while-lus** met een **sentinel** om te stoppen en **if/else** om het tarief te bepalen.
+Je bouwt een kassa voor een klein filmhuis. De kassa leest **herhaaldelijk leeftijden** in en rekent per bezoeker een tarief aan volgens onderstaande regels.
 
 ### Tarieven  
 - **< 3 jaar** → €0 (gratis)  
