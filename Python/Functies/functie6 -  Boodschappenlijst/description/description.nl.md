@@ -1,29 +1,35 @@
 ## Opdracht
 <br>
 
-Je beheert een **playlist** (lijst van strings) met nummers.  
-Schrijf een **functie** `beheer_playlist(playlist, nieuw, verboden, max_grootte)` die deze stappen uitvoert:
+Je beheert een **boodschappenlijst**. We willen een functie schrijven die een basislijst aanvult, dubbele voorkomt en eventueel een product verwijdert.
 
-1. Voeg het nummer `nieuw` **achteraan** toe.  
-2. **Sorteer** de lijst **case-insensitive**.  
-3. **Keer om** zodat de volgorde **omgekeerd-alfabetisch** is (Z → A).  
-4. **Verwijder** het **eerste** voorkomen van `verboden` **als** het (nog) aanwezig is.  
-5. Als de lijst **langer** is dan `max_grootte`, **verwijder** dan het **laatste** element **zolang** de lengte te groot is.  
-6. **Retourneer** de aangepaste playlist.
+Schrijf een **functie** `beheer_boodschappen(basis, extra, index)` met drie parameters:
 
-> Voorbeeld-redenering: na stap 2–3 staat het **beste** (alfabetisch hoogst) vooraan.  
-> Bij stap 5 verwijderen we telkens het **laatste** element: dat is dan het **zwakste** item.
+- `basis`: een lijst van str, de bestaande boodschappen.  
+- `extra`: een lijst van str, nieuwe producten die toegevoegd moeten worden.  
+- `index`: een geheel getal, de **positie** van een product dat verwijderd moet worden (0-gebaseerd). Als het getal ongeldig is (te groot of negatief), wordt er niets verwijderd.  
+
+De functie werkt als volgt:
+
+1. Maak een nieuwe lege lijst `resultaat`.  
+2. Voeg alle elementen van `basis` toe.  
+3. Voeg de elementen van `extra` toe, maar **alleen als ze nog niet in de lijst zitten**.  
+4. Als `index` geldig is, verwijder je dat element met die `ìndex`.  
+5. Sorteer de lijst **omgekeerd alfabetisch**.  
+6. Geef de aangepaste lijst **terug**.  
+
+---
 
 ## Voorbeelden
 
-    >>> beheer_playlist(["Zebra", "apple", "Monkey"], "Track", "Monkey", 4)
-    ["Zebra", "Track", "apple"]
+    >>> beheer_boodschappen(["melk", "brood"], ["kaas", "brood"], 1)
+    ["melk", "kaas"]
 
-    >>> beheer_playlist(["a", "b", "c"], "d", "x", 3)
-    ["d", "c", "b"]
+    >>> beheer_boodschappen([], ["appels", "bananen"], 0)
+    ["bananen"]
 
-    >>> beheer_playlist(["Rock", "Pop"], "pop", "Pop", 3)
-    ["pop", "Rock"]
+    >>> beheer_boodschappen(["tomaten", "komkommer"], ["sla"], -1)
+    ["tomaten", "sla", "komkommer"]
 
-    >>> beheer_playlist(["x", "Y", "z"], "A", "z", 2)
-    ["Y", "x"]
+    >>> beheer_boodschappen(["water"], ["sap"], 5)
+    ["water", "sap"]
