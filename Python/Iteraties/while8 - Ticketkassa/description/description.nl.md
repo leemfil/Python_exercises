@@ -1,55 +1,47 @@
 ## Opdracht
 <br>
-Schrijf een programma dat een **eenvoudig menu** verwerkt tot de gebruiker **`0`** kiest (sentinel om te stoppen).
 
-De keuzes zijn:
-- `1` → print: `2 + 2 = 4`
-- `2` → print: `5 - 3 = 2`
-- `0` → print: `Tot ziens!` en **stop**
-- eender iets anders → print: `Ongeldige keuze.`
+Je bouwt een kassa voor een klein filmhuis. De kassa leest **herhaaldelijk leeftijden** in en rekent per bezoeker een tarief aan volgens onderstaande regels. Je gebruikt hiervoor een **while-lus** met een **sentinel** om te stoppen en **if/else** om het tarief te bepalen.
 
-> Opmerking:
-> - Spaties rond de invoer mogen genegeerd worden.
+### Tarieven  
+- **< 3 jaar** → €0 (gratis)  
+- **3–11 jaar** → €6  
+- **12–64 jaar** → €12  
+- **65+ jaar** → €8  
 
----
+### Kortingscodes  
+Na de leeftijd lees je **één regel** met een kortingscode:  
+- `"student"` → 20% korting, alleen als basisprijs €12 is.  
+- `"pas"` → €1 vaste korting, enkel als basisprijs > 0.  
+- andere of lege invoer → geen korting.  
 
-## Invoer
-Een reeks regels met keuzes (`1`, `2`, `0`, …).  
-Het programma **stopt** wanneer `0` gelezen is.
+**Niet cumulatief**: als meerdere regels lijken te gelden, neem de **beste korting** (grootste vermindering in euro).
 
-## Uitvoer
-Per keuze **exact één regel**:
-- `2 + 2 = 4` *(bij keuze `1`)*
-- `5 - 3 = 2` *(bij keuze `2`)*
-- `Ongeldige keuze.` *(bij andere invoer)*
-- Afsluitend **exact één keer**: `Tot ziens!` *(bij `0`)*
+### Invoer
+- Leeftijd als geheel getal.
+- Kortingcodes.
+- Bij leeftijd `0` stopt het programma (de kortingscode wordt dan niet meer gelezen).
 
----
+### Uitvoer
+Aan het einde print je exact dit overzicht:
+Aantal tickets: X
+Brutobedrag: Y euro
+Korting: Z euro
+Te betalen: T euro
 
-## Voorbeelden
+### Voorbeeld
 
-**Voorbeeld 1**
+**Invoer**
+2
 
-**Invoer**  
-1  
-2  
-0  
+19
+student
+70
+pas
+-1
 
-**Uitvoer**  
-2 + 2 = 4  
-5 - 3 = 2  
-Tot ziens!  
-
----
-
-**Voorbeeld 2**
-
-**Invoer**  
-3  
-x  
-0  
-
-**Uitvoer**  
-Ongeldige keuze.  
-Ongeldige keuze.  
-Tot ziens!  
+**Uitvoer**
+Aantal tickets: 3
+Brutobedrag: 20.6 euro
+Korting: 4.4 euro
+Te betalen: 16.2 euro
