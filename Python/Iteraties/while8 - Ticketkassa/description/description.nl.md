@@ -10,7 +10,7 @@ Je bouwt een kassa voor een klein filmhuis. De kassa leest **herhaaldelijk leeft
 - **65+ jaar** → €8  
 
 ### Kortingscodes  
-Na de leeftijd lees je **één regel** met een kortingscode:  
+Na de leeftijd lees je **één regel** met een kortingscode (hoofdletter-ongevoelig):  
 - `"student"` → 20% korting, alleen als basisprijs €12 is.  
 - `"pas"` → €1 vaste korting, enkel als basisprijs > 0.  
 - andere of lege invoer → geen korting.  
@@ -23,25 +23,25 @@ Na de leeftijd lees je **één regel** met een kortingscode:
 - Bij leeftijd `0` stopt het programma (de kortingscode wordt dan niet meer gelezen).
 
 ### Uitvoer
-Aan het einde print je exact dit overzicht:
-Aantal tickets: X
-Brutobedrag: Y euro
-Korting: Z euro
-Te betalen: T euro
+Aan het einde print je exact dit overzicht:  
+Aantal tickets: X  
+Brutobedrag: Y euro  
+Korting: Z euro  
+Te betalen: T euro  
 
-### Voorbeeld
+### Voorbeeld  
 
-**Invoer**
-2
+**Invoer**  
+2  
+  
+19  
+student  
+70  
+pas  
+-1  
 
-19
-student
-70
-pas
--1
-
-**Uitvoer**
-Aantal tickets: 3
-Brutobedrag: 20.6 euro
-Korting: 4.4 euro
+**Uitvoer**  
+Aantal tickets: 3  
+Brutobedrag: 20.6 euro  
+Korting: 4.4 euro  
 Te betalen: 16.2 euro
