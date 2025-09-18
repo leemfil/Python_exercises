@@ -1,51 +1,64 @@
-- tab: "Testen"
+- tab: "tests"
   testcases:
-      # 1) Normale flow: 1 -> 2 -> stop
-      - stdin: |-
-          1
-          2
-          0
-        stdout: |-
-          2 + 2 = 4
-          5 - 3 = 2
-          Tot ziens!
+    # 1) Voorbeeld uit de beschrijving
+    - stdin: |-
+        2
 
-      # 2) Onmiddellijk stoppen
-      - stdin: |-
-          0
-        stdout: |-
-          Tot ziens!
+        19
+        student
+        70
+        pas
+        -1
+      stdout: |-
+        Aantal tickets: 3
+        Brutobedrag: 20.6 euro
+        Korting: 4.4 euro
+        Te betalen: 16.2 euro
 
-      # 3) Ongeldige invoeren en dan stop
-      - stdin: |-
-          3
-          x
-          0
-        stdout: |-
-          Ongeldige keuze.
-          Ongeldige keuze.
-          Tot ziens!
+    # 2) Student vs pas (beste korting gekozen)
+    - stdin: |-
+        12
+        pas
+        64
+        student
+        5
 
-      # 4) Herhaald geldige keuzes, dan stop
-      - stdin: |-
-          2
-          2
-          2
-          0
-        stdout: |-
-          5 - 3 = 2
-          5 - 3 = 2
-          5 - 3 = 2
-          Tot ziens!
+        -1
+      stdout: |-
+        Aantal tickets: 3
+        Brutobedrag: 30.6 euro
+        Korting: 3.4 euro
+        Te betalen: 27.2 euro
 
-      # 5) Spaties en lege regels in de invoer
-      - stdin: |-
-          
-            1
-            2
-            0
-        stdout: |-
-          Ongeldige keuze.
-          2 + 2 = 4
-          5 - 3 = 2
-          Tot ziens!
+    # 3) Baby gratis
+    - stdin: |-
+        1
+
+        -1
+      stdout: |-
+        Aantal tickets: 1
+        Brutobedrag: 0.0 euro
+        Korting: 0.0 euro
+        Te betalen: 0.0 euro
+
+    # 4) Geen tickets gekocht
+    - stdin: |-
+        -1
+      stdout: |-
+        Aantal tickets: 0
+        Brutobedrag: 0.0 euro
+        Korting: 0.0 euro
+        Te betalen: 0.0 euro
+
+    # 5) Senioren met pas
+    - stdin: |-
+        70
+        pas
+        80
+        pas
+        -1
+      stdout: |-
+        Aantal tickets: 2
+        Brutobedrag: 16.0 euro
+        Korting: 2.0 euro
+        Te betalen: 14.0 euro
