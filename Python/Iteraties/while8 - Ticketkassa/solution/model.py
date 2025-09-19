@@ -6,7 +6,7 @@ korting = 0.0
 
 leeftijd = int(input().strip())
 
-while leeftijd != -1:
+while leeftijd != 0:
     # basisprijs
     if leeftijd < 3:
         prijs = 0.0
