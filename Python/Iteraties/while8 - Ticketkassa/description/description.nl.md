@@ -38,7 +38,7 @@ Te betalen: T euro
 student  
 70  
 pas  
--1  
+0   
 
 **Uitvoer**  
 Aantal tickets: 3  
