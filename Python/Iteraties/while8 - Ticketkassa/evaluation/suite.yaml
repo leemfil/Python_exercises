@@ -12,7 +12,7 @@
         student
         70
         pas
-        -1
+        0
       stdout: |-
         Aantal tickets: 3
         Brutobedrag: 20.0 euro
@@ -31,7 +31,7 @@
         student
         5
 
-        -1
+        0
       stdout: |-
         Aantal tickets: 3
         Brutobedrag: 30.0 euro
@@ -42,7 +42,7 @@
     - stdin: |-
         1
 
-        -1
+        0
       stdout: |-
         Aantal tickets: 1
         Brutobedrag: 0.0 euro
@@ -51,7 +51,7 @@
 
     # 4) Geen tickets gekocht
     - stdin: |-
-        -1
+        0
       stdout: |-
         Aantal tickets: 0
         Brutobedrag: 0.0 euro
@@ -67,7 +67,7 @@
         pas
         80
         pas
-        -1
+        0
       stdout: |-
         Aantal tickets: 2
         Brutobedrag: 16.0 euro
