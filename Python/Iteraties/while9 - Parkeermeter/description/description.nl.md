@@ -1,47 +1,54 @@
 ## Opdracht
 <br>
 
-Je bouwt een kassa voor een klein filmhuis. De kassa leest **herhaaldelijk leeftijden** in en rekent per bezoeker een tarief aan volgens onderstaande regels.
+Je bouwt de logica van een **parkeermeter**. Het programma leest **herhaaldelijk het aantal uren** dat een bestuurder wil parkeren (geheel getal), gevolgd door een **zonecode** op de volgende regel. Stoppen doe je met **`-10`** als aantal uren.
 
-### Tarieven  
-- **< 3 jaar** → €0 (gratis)  
-- **3–11 jaar** → €6  
-- **12–64 jaar** → €12  
-- **65+ jaar** → €8  
+### Basistarief per sessie
+- `uren <= 0` → **€0**  
+- `1–2 uur` → **€3 per uur**  
+- `3–5 uur` → **€2 per uur**  
+- `6+ uur` → **€12** (dagplafond)
 
-### Kortingscodes  
-Na de leeftijd lees je **één regel** met een kortingscode (hoofdletter-ongevoelig):  
-- `"student"` → 20% korting, alleen als basisprijs €12 is.  
-- `"pas"` → €1 vaste korting, enkel als basisprijs > 0.  
-- andere of lege invoer → geen korting.  
+### Zone-toeslag (één code per sessie, hoofdletter-ongevoelig)
+- `centrum` → **15% toeslag** op de sessieprijs  
+- `overdekt` → **€1 vaste toeslag** (alleen als de prijs > 0)  
+- andere of lege invoer → **geen toeslag**
 
-**Niet cumulatief**: als meerdere regels lijken te gelden, neem de **beste korting** (grootste vermindering in euro).
+> Opmerking:
+> - Als de zonecode niet herkend wordt of leeg is, wordt er **geen toeslag** toegepast.
 
 ### Invoer
-- Leeftijd als geheel getal.
-- Kortingcodes.
-- Bij leeftijd `0` stopt het programma (de kortingscode wordt dan niet meer gelezen).
+- Lees telkens **eerst** het aantal uren (int).
+- Lees de zoncode op de volgende regel. Lege invoer is ook mogelijk (deze moet ook gelezen worden). 
+- Als het aantal uren `-10` is, **stop** (de zonecode wordt dan niet meer gelezen).
 
 ### Uitvoer
-Aan het einde print je exact dit overzicht:  
-Aantal tickets: X  
-Brutobedrag: Y euro  
-Korting: Z euro  
-Te betalen: T euro  
+Aan het einde druk je **exact** dit overzicht af:
+Aantal sessies: X
+Brutobedrag: Y euro
+Toeslag: Z euro
+Te betalen: T euro
 
-### Voorbeeld  
+met **één decimaal** voor alle bedragen.
+
+### Voorbeeld
 
 **Invoer**  
-2  
+1  
+overdekt  
+4  
+centrum  
+7  
   
-19  
-student  
-70  
-pas  
-0   
+-10
 
-**Uitvoer**  
-Aantal tickets: 3  
-Brutobedrag: 20.6 euro  
-Korting: 4.4 euro  
-Te betalen: 16.2 euro
+**Uitleg**  
+- 1 uur → €3, `overdekt` → €1 toeslag → **€4**  
+- 4 uur → 4×€2 = €8, `centrum` → 15% van 8 = €1,2 toeslag → **€9,2**  
+- 7 uur → €12, (lege code) → **€12**  
+
+**Uitvoer**
+Aantal sessies: 3
+Brutobedrag: 23.0 euro
+Toeslag: 2.2 euro
+Te betalen: 25.2 euro
