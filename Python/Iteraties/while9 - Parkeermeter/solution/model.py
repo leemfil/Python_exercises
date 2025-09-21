@@ -1,41 +1,43 @@
-# Ticketkassa
+# Parkeermeter — while + if/else met toeslagen
 
-tickets = 0
+sessies = 0
 bruto = 0.0
-korting = 0.0
+toeslag = 0.0
 
-leeftijd = int(input().strip())
+uren = int(input().strip())  # eerste aantal uren
 
-while leeftijd != 0:
-    # basisprijs
-    if leeftijd < 3:
+while uren != -10:
+    # basistarief
+    if uren <= 0:
         prijs = 0.0
-    elif leeftijd <= 11:
-        prijs = 6.0
-    elif leeftijd <= 64:
-        prijs = 12.0
+    elif uren <= 2:
+        prijs = 3.0 * uren
+    elif uren <= 5:
+        prijs = 2.0 * uren
     else:
-        prijs = 8.0
+        prijs = 12.0
 
-    # kortingscode inlezen
+    # zonecode (kan leeg zijn)
     code = input().strip().lower()
 
-    # korting berekenen
-    korting_bedrag = 0.0
-    if code == "student" and prijs == 12.0:
-        korting_bedrag = 0.20 * prijs
-    elif code == "pas" and prijs > 0:
-        korting_bedrag = 1.0
+    # toeslag bepalen
+    t = 0.0
+    if code == "centrum":
+        t = 0.15 * prijs
+    elif code == "overdekt" and prijs > 0.0:
+        t = 1.0
+    # anders: geen toeslag
 
+    # totalen bijwerken
     bruto += prijs
-    korting += korting_bedrag
-    tickets += 1
+    toeslag += t
+    sessies += 1
 
-    # volgende leeftijd vragen
-    leeftijd = int(input().strip())
+    # volgende sessie
+    uren = int(input().strip())
 
-# samenvatting printen
-print(f"Aantal tickets: {tickets}")
+# samenvatting
+print(f"Aantal sessies: {sessies}")
 print(f"Brutobedrag: {bruto:.1f} euro")
-print(f"Korting: {korting:.1f} euro")
-print(f"Te betalen: {bruto - korting:.1f} euro")
+print(f"Toeslag: {toeslag:.1f} euro")
+print(f"Te betalen: {bruto + toeslag:.1f} euro")
