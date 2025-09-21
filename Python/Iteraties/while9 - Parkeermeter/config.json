@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Ticketkassa - leeftijdstarief met kortingen"
+      "nl": "Parkeermeter met toeslagen"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "c8Imq6J5knn9D8KreA9X_zYZ_dWPvZ3G3u5x9QVIWWHyB3iFuZGcAqFbfw2gGDPk",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
