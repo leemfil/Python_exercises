@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Boodschappenlijst"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "xbT-mdj9h49sab7I_PwzjZ983DJmZ8Tg9dxIKQx87JxYaCFmHiDUUnunRkXRHrrV",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
