@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Boodschappenlijst"
+      "nl": "Bibliotheekbeheer"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "fvKNcTreFTZr-ukVnXRvui6-WNi-MX-iiyqVid8p3_kbJ5AxPf9ZTMkwuf7UHbzW",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
