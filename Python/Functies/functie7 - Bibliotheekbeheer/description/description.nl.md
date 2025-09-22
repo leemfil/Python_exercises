@@ -1,35 +1,34 @@
 ## Opdracht
 <br>
 
-Je beheert een **boodschappenlijst**. We willen een functie schrijven die een basislijst aanvult, dubbele voorkomt en eventueel een product verwijdert.
+Je beheert de **catalogus** van een bibliotheek als een lijst van **boekentitels** (strings). Dubbels (meerdere exemplaren van dezelfde titel) zijn toegestaan.
 
-Schrijf een **functie** `beheer_boodschappen(basis, extra, index)` met drie parameters:
+Schrijf een **functie** `beheer_bibliotheek(basis, te_verwijderen, nieuw, index)` met vier parameters:
 
-- `basis`: een lijst van str, de bestaande boodschappen.  
-- `extra`: een lijst van str, nieuwe producten die toegevoegd moeten worden.  
-- `index`: een geheel getal, de **positie** van een product dat verwijderd moet worden (0-gebaseerd). Als het getal ongeldig is (te groot of negatief), wordt er niets verwijderd.  
+- `basis`: `list[str]` — de oorspronkelijke lijst boekentitels (dubbels toegestaan).  
+- `te_verwijderen`: `str` — de titel waarvan je **één** exemplaar wil verwijderen (als die voorkomt).  
+- `nieuw`: `str` — de nieuwe titel die je wil toevoegen.  
+- `index`: `int` — de **positie** waar je `nieuw` wil invoegen. Als de index ongeldig is (negatief of groter dan de lengte), voeg je `nieuw` **achteraan** toe.  
 
 De functie werkt als volgt:
 
 1. Maak een nieuwe lege lijst `resultaat`.  
-2. Voeg alle elementen van `basis` toe.  
-3. Voeg de elementen van `extra` toe, maar **alleen als ze nog niet in de lijst zitten**.  
-4. Als `index` geldig is, verwijder je dat element met die `ìndex`.  
-5. Sorteer de lijst **omgekeerd alfabetisch**.  
-6. Geef de aangepaste lijst **terug**.  
-
----
+2. Kopieer met een lus alle elementen van `basis` naar `resultaat`.  
+3. **Als** `te_verwijderen` in `resultaat` zit, verwijder dan **één** voorkomen; **anders doe je niets**.  
+4. Sorteer `resultaat` **omgekeerd alfabetisch**.  
+5. Voeg `nieuw` in als de index geldig is, **anders** voeg je `nieuw` achteraan toe.  
+6. **Retourneer** `resultaat`.
 
 ## Voorbeelden
 
-    >>> beheer_boodschappen(["melk", "brood"], ["kaas", "brood"], 1)
-    ["melk", "kaas"]
+    >>> beheer_bibliotheek(["Dune", "It", "It"], "It", "Foundation", 1)
+    ["It", "Foundation", "Dune"]
 
-    >>> beheer_boodschappen([], ["appels", "bananen"], 0)
-    ["bananen"]
+    >>> beheer_bibliotheek(["Solaris", "Neuromancer"], "Hyperion", "Ubik", 5)
+    ["Ubik", "Solaris", "Neuromancer"]
 
-    >>> beheer_boodschappen(["tomaten", "komkommer"], ["sla"], -1)
-    ["tomaten", "sla", "komkommer"]
+    >>> beheer_bibliotheek(["1984"], "1984", "Brave New World", 0)
+    ["Brave New World"]
 
-    >>> beheer_boodschappen(["water"], ["sap"], 5)
-    ["water", "sap"]
+    >>> beheer_bibliotheek(["A", "B", "C"], "X", "Z", -3)
+    ["Z", "C", "B", "A"]
