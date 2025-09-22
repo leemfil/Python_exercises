@@ -47,8 +47,8 @@ centrum
 - 4 uur → 4×€2 = €8, `centrum` → 15% van 8 = €1,2 toeslag → **€9,2**  
 - 7 uur → €12, (lege code) → **€12**  
 
-**Uitvoer**
-Aantal sessies: 3
-Brutobedrag: 23.0 euro
-Toeslag: 2.2 euro
+**Uitvoer**  
+Aantal sessies: 3  
+Brutobedrag: 23.0 euro  
+Toeslag: 2.2 euro  
 Te betalen: 25.2 euro
