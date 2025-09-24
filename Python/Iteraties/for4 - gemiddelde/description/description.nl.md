@@ -19,7 +19,7 @@ Daarna `n` regels met elk één getal (geheel of kommagetal).
 
 ## Uitvoer
 Twee regels:  
-Som: X
+Som: X  
 Gemiddelde: Y
 
 ---
