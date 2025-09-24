@@ -24,9 +24,9 @@ Je bouwt de logica van een **parkeermeter**. Het programma leest **herhaaldelijk
 
 ### Uitvoer
 Aan het einde druk je **exact** dit overzicht af:
-Aantal sessies: X
-Brutobedrag: Y euro
-Toeslag: Z euro
+Aantal sessies: X  
+Brutobedrag: Y euro  
+Toeslag: Z euro  
 Te betalen: T euro
 
 met **één decimaal** voor alle bedragen.
