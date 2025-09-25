@@ -1,12 +1,12 @@
-# Parkeermeter — while + if/else met toeslagen
+# Parkeermeter — while + gemiddelde parkeertijd
 
 sessies = 0
 bruto = 0.0
-toeslag = 0.0
+totaal_uren = 0
 
 uren = int(input().strip())  # eerste aantal uren
 
-while uren != -10:
+while uren != -1:
     # basistarief
     if uren <= 0:
         prijs = 0.0
@@ -17,27 +17,14 @@ while uren != -10:
     else:
         prijs = 12.0
 
-    # zonecode (kan leeg zijn)
-    code = input().strip().lower()
-
-    # toeslag bepalen
-    t = 0.0
-    if code == "centrum":
-        t = 0.15 * prijs
-    elif code == "overdekt" and prijs > 0.0:
-        t = 1.0
-    # anders: geen toeslag
-
-    # totalen bijwerken
     bruto += prijs
-    toeslag += t
+    totaal_uren += uren
     sessies += 1
 
-    # volgende sessie
     uren = int(input().strip())
 
-# samenvatting
+gemiddelde = (totaal_uren / sessies) if sessies > 0 else 0.0
+
 print(f"Aantal sessies: {sessies}")
 print(f"Brutobedrag: {bruto:.1f} euro")
-print(f"Toeslag: {toeslag:.1f} euro")
-print(f"Te betalen: {bruto + toeslag:.1f} euro")
+print(f"Gemiddelde tijd: {gemiddelde:.1f} uur")
