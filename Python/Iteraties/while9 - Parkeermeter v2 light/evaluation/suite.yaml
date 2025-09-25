@@ -1,0 +1,93 @@
+- tab: "tests"
+  testcases:
+    # 1) Voorbeeld uit de beschrijving
+    # 1 overdekt -> prijs 3.0, toeslag 1.0 -> 4.0
+    # 4 centrum -> prijs 8.0, toeslag 1.2 -> 9.2
+    # 7 (lege code) -> prijs 12.0, toeslag 0.0 -> 12.0
+    # totaal: sessies=3, bruto=23.0, toeslag=2.2, te betalen=25.2
+    - stdin: |-
+        1
+        overdekt
+        4
+        centrum
+        7
+
+        -10
+      stdout: |-
+        Aantal sessies: 3
+        Brutobedrag: 23.0 euro
+        Toeslag: 2.2 euro
+        Te betalen: 25.2 euro
+
+    # 2) Onmiddellijk stoppen
+    - stdin: |-
+        -10
+      stdout: |-
+        Aantal sessies: 0
+        Brutobedrag: 0.0 euro
+        Toeslag: 0.0 euro
+        Te betalen: 0.0 euro
+
+    # 3) Nul uur (gratis) met willekeurige code -> geen toeslag
+    - stdin: |-
+        0
+        overdekt
+        -10
+      stdout: |-
+        Aantal sessies: 1
+        Brutobedrag: 0.0 euro
+        Toeslag: 0.0 euro
+        Te betalen: 0.0 euro
+
+    # 4) Randgevallen grenzen + centrum
+    # 2u centrum: 2*3=6.0 -> 15% = 0.9
+    - stdin: |-
+        2
+        centrum
+        -10
+      stdout: |-
+        Aantal sessies: 1
+        Brutobedrag: 6.0 euro
+        Toeslag: 0.9 euro
+        Te betalen: 6.9 euro
+
+    # 5) 5u overdekt: 5*2=10.0, toeslag=1.0
+    - stdin: |-
+        5
+        overdekt
+        -10
+      stdout: |-
+        Aantal sessies: 1
+        Brutobedrag: 10.0 euro
+        Toeslag: 1.0 euro
+        Te betalen: 11.0 euro
+
+    # 6) 6u centrum (dagplafond), 15% toeslag
+    - stdin: |-
+        6
+        centrum
+        -10
+      stdout: |-
+        Aantal sessies: 1
+        Brutobedrag: 12.0 euro
+        Toeslag: 1.8 euro
+        Te betalen: 13.8 euro
+
+    # 7) Gemengde sessies met lege/andere codes
+    # 3u (geen code) -> 3*2=6.0
+    # 1u overdekt -> 3.0 + 1.0
+    # 6u (geen code) -> 12.0
+    # totaal: bruto=21.0, toeslag=1.0, te betalen=22.0
+    - stdin: |-
+        3
+
+        1
+        overdekt
+        6
+
+        -10
+      stdout: |-
+        Aantal sessies: 3
+        Brutobedrag: 21.0 euro
+        Toeslag: 1.0 euro
+        Te betalen: 22.0 euro
