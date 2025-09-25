@@ -3,32 +3,33 @@
 
 Je beheert de **catalogus** van een bibliotheek als een lijst van **boekentitels** (strings). Dubbels (meerdere exemplaren van dezelfde titel) zijn toegestaan.
 
-Schrijf een **functie** `beheer_bibliotheek(basis, te_verwijderen, nieuw, index)` met vier parameters:
+Schrijf een **functie** `beheer_bibliotheek(basis, index_verwijderen, titel_verwijderen)` met drie parameters:
 
-- `basis`: `list[str]` — de oorspronkelijke lijst boekentitels (dubbels toegestaan).  
-- `te_verwijderen`: `str` — de titel waarvan je **één** exemplaar wil verwijderen (als die voorkomt).  
-- `nieuw`: `str` — de nieuwe titel die je wil toevoegen.  
-- `index`: `int` — de **positie** waar je `nieuw` wil invoegen. Als de index ongeldig is (negatief of groter dan de lengte), voeg je `nieuw` **achteraan** toe.  
+- `basis`: `lijst[str]` — de oorspronkelijke lijst boekentitels.  
+- `index_verwijderen`: `int` — de **positie** van een element dat verwijderd moet worden. Als de index ongeldig is (negatief of te groot), verwijder je niets.  
+- `titel_verwijderen`: `str` — de titel waarvan je **één** exemplaar wil verwijderen. Als de titel niet voorkomt, doe je niets.  
 
 De functie werkt als volgt:
 
 1. Maak een nieuwe lege lijst `resultaat`.  
-2. Kopieer met een lus alle elementen van `basis` naar `resultaat`.  
-3. **Als** `te_verwijderen` in `resultaat` zit, verwijder dan **één** voorkomen; **anders doe je niets**.  
-4. Sorteer `resultaat` **omgekeerd alfabetisch**.  
-5. Voeg `nieuw` in als de index geldig is, **anders** voeg je `nieuw` achteraan toe.  
-6. **Retourneer** `resultaat`.
+2. Kopieer met een **for-lus** alle elementen van `basis` naar `resultaat` (gebruik `.append()`).  
+3. Als `index_verwijderen` geldig is, verwijder dat element met de index `index_verwijderen`.  
+4. Als `titel_verwijderen` voorkomt in de lijst, verwijder dat exemplaar.  
+5. Sorteer `resultaat` **omgekeerd alfabetisch**.  
+6. Retourneer `resultaat`.  
+
+---
 
 ## Voorbeelden
 
-    >>> beheer_bibliotheek(["Dune", "It", "It"], "It", "Foundation", 1)
-    ["It", "Foundation", "Dune"]
+    >>> beheer_bibliotheek(["Dune", "It", "Foundation"], 1, "Dune")
+    ["It", "Foundation"]
 
-    >>> beheer_bibliotheek(["Solaris", "Neuromancer"], "Hyperion", "Ubik", 5)
-    ["Ubik", "Solaris", "Neuromancer"]
+    >>> beheer_bibliotheek(["Solaris", "Ubik"], 5, "Ubik")
+    ["Solaris"]
 
-    >>> beheer_bibliotheek(["1984"], "1984", "Brave New World", 0)
-    ["Brave New World"]
+    >>> beheer_bibliotheek(["1984"], 0, "Brave New World")
+    []
 
-    >>> beheer_bibliotheek(["A", "B", "C"], "X", "Z", -3)
-    ["Z", "C", "B", "A"]
+    >>> beheer_bibliotheek(["A", "B", "C"], -3, "X")
+    ["C", "B", "A"]
