@@ -1,24 +1,21 @@
-# Bibliotheekbeheer — verwijderen, omgekeerd sorteren en invoegen
+# Bibliotheekbeheer 
 
-def beheer_bibliotheek(basis, te_verwijderen, nieuw, index):
+def beheer_bibliotheek(basis, index_verwijderen, titel_verwijderen):
     resultaat = []
 
-    # 1) basis kopiëren met for + append
+    # 1) basis kopiëren
     for titel in basis:
         resultaat.append(titel)
 
-    # 2) één exemplaar verwijderen indien aanwezig
-    if te_verwijderen in resultaat:
-        resultaat.remove(te_verwijderen)
+    # 2) verwijderen met pop indien index geldig
+    if 0 <= index_verwijderen < len(resultaat):
+        resultaat.pop(index_verwijderen)
 
-    # 3) omgekeerd alfabetisch sorteren
+    # 3) verwijderen met remove indien titel aanwezig
+    if titel_verwijderen in resultaat:
+        resultaat.remove(titel_verwijderen)
+
+    # 4) sorteren in omgekeerde alfabetische volgorde
     resultaat.sort(reverse=True)
 
-    # 4) invoegen op index (of achteraan bij ongeldige index)
-    if 0 <= index <= len(resultaat):
-        resultaat.insert(index, nieuw)
-    else:
-        resultaat.append(nieuw)
-
-    # 5) aangepaste lijst teruggeven
     return resultaat
