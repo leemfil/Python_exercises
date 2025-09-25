@@ -11,10 +11,10 @@ Gebruik onderstaande **basistarieven** per sessie (géén toeslagen of kortingen
 - `3–5 uur` → **€2 per uur**  
 - `6+ uur` → **€12** (dagplafond)
 
-Aan het einde druk je **exact** dit overzicht af:
-Aantal sessies: X
-Brutobedrag: Y euro
-Gemiddelde tijd: G uur
+Aan het einde druk je **exact** dit overzicht af:  
+Aantal sessies: X  
+Brutobedrag: Y euro  
+Gemiddelde tijd: G uur  
 
 waarbij `Y` en `G` met **één decimaal** worden weergegeven.
 
