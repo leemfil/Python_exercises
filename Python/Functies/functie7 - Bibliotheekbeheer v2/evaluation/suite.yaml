@@ -1,43 +1,46 @@
 - tab: "tests"
   testcases:
-    # 1) Dubbel aanwezig: verwijder één "It", reverse sort, insert op index 1
-    # basis -> ["Dune","It","It"] ; na remove -> ["Dune","It"]
-    # sort(reverse=True) -> ["It","Dune"]; insert(1,"Foundation") -> ["It","Foundation","Dune"]
-    - expression: 'beheer_bibliotheek(["Dune","It","It"], "It", "Foundation", 1)'
-      return: ["It","Foundation","Dune"]
+    # 1) Verwijder index 1 ("It"), daarna "Dune"
+    # basis ["Dune","It","Foundation"] -> pop(1) -> ["Dune","Foundation"]
+    # remove("Dune") -> ["Foundation"]
+    # sort(reverse) -> ["Foundation"]
+    - expression: 'beheer_bibliotheek(["Dune","It","Foundation"], 1, "Dune")'
+      return: ["Foundation"]
 
-    # 2) te_verwijderen ontbreekt -> niets verwijderen; index te groot -> append nieuw, dan reverse sort effect al gebeurd
-    # basis -> ["Solaris","Neuromancer"]; no remove; sort(reverse) -> ["Solaris","Neuromancer"]
-    # index 5 > len -> append("Ubik") -> ["Solaris","Neuromancer","Ubik"]; (let op: append gebeurt na sort)
-    # maar opdracht zegt: sorteer eerst, dan voeg in (append), dus finale: ["Ubik","Solaris","Neuromancer"]?
-    # Nee: append plaatst achteraan -> ["Solaris","Neuromancer","Ubik"]; maar we sorteren niet opnieuw daarna.
-    # Verwachte return volgt uit dat proces: ["Solaris","Neuromancer","Ubik"]
-    - expression: 'beheer_bibliotheek(["Solaris","Neuromancer"], "Hyperion", "Ubik", 5)'
-      return: ["Solaris","Neuromancer","Ubik"]
+    # 2) Ongeldige index, verwijder "Ubik"
+    # ["Solaris","Ubik"] -> geen pop -> ["Solaris","Ubik"]
+    # remove("Ubik") -> ["Solaris"]
+    # sort(reverse) -> ["Solaris"]
+    - expression: 'beheer_bibliotheek(["Solaris","Ubik"], 5, "Ubik")'
+      return: ["Solaris"]
 
-    # 3) Alles verdwijnt, insert op index 0
-    # ["1984"] -> remove("1984") -> [] -> sort(reverse) -> [] -> insert(0,"Brave New World") -> ["Brave New World"]
-    - expression: 'beheer_bibliotheek(["1984"], "1984", "Brave New World", 0)'
-      return: ["Brave New World"]
+    # 3) Verwijder index 0 ("1984"), lijst leeg
+    # daarna remove("Brave New World") -> niets
+    - expression: 'beheer_bibliotheek(["1984"], 0, "Brave New World")'
+      return: []
 
-    # 4) Ongeldige negatieve index -> append
-    # ["A","B","C"] -> no remove -> sort(reverse) -> ["C","B","A"] -> append("Z") -> ["C","B","A","Z"]
-    - expression: 'beheer_bibliotheek(["A","B","C"], "X", "Z", -3)'
-      return: ["C","B","A","Z"]
+    # 4) Ongeldige negatieve index, titel niet aanwezig
+    # ["A","B","C"] -> geen pop -> ["A","B","C"]
+    # remove("X") doet niets -> ["A","B","C"]
+    # sort(reverse) -> ["C","B","A"]
+    - expression: 'beheer_bibliotheek(["A","B","C"], -3, "X")'
+      return: ["C","B","A"]
 
-    # 5) Verwijderen uit het midden, insert op einde (index == len)
-    # ["Alpha","Beta","Gamma"] -> remove("Beta") -> ["Alpha","Gamma"]
-    # sort(reverse) -> ["Gamma","Alpha"]; insert(2,"Delta") -> ["Gamma","Alpha","Delta"]
-    - expression: 'beheer_bibliotheek(["Alpha","Beta","Gamma"], "Beta", "Delta", 2)'
-      return: ["Gamma","Alpha","Delta"]
+    # 5) Pop uit midden, daarna remove bestaand element
+    # ["Alpha","Beta","Gamma"] -> pop(1) -> ["Alpha","Gamma"]
+    # remove("Alpha") -> ["Gamma"] -> sort(reverse) -> ["Gamma"]
+    - expression: 'beheer_bibliotheek(["Alpha","Beta","Gamma"], 1, "Alpha")'
+      return: ["Gamma"]
 
-    # 6) Dubbels blijven toegestaan: na remove blijft één kopie
-    # ["Book","Book","Atlas"] -> remove("Book") -> ["Book","Atlas"]
-    # reverse sort -> ["Book","Atlas"]; insert(0,"Comet") -> ["Comet","Book","Atlas"]
-    - expression: 'beheer_bibliotheek(["Book","Book","Atlas"], "Book", "Comet", 0)'
-      return: ["Comet","Book","Atlas"]
+    # 6) Dubbel aanwezig, remove verwijdert slechts één
+    # ["Book","Book","Atlas"] -> pop(0) -> ["Book","Atlas"]
+    # remove("Book") -> ["Atlas"] -> sort(reverse) -> ["Atlas"]
+    - expression: 'beheer_bibliotheek(["Book","Book","Atlas"], 0, "Book")'
+      return: ["Atlas"]
 
-    # 7) Insert middenin, niets te verwijderen
-    # ["M","K","Z"] -> no remove -> sort(reverse) -> ["Z","M","K"]; insert(1,"Q") -> ["Z","Q","M","K"]
-    - expression: 'beheer_bibliotheek(["M","K","Z"], "X", "Q", 1)'
-      return: ["Z","Q","M","K"]
+    # 7) Geen geldige verwijderingen, alleen sort reverse
+    # ["M","K","Z"] -> geen pop -> ["M","K","Z"]
+    # remove("X") niets -> ["M","K","Z"]
+    # sort(reverse) -> ["Z","M","K"]
+    - expression: 'beheer_bibliotheek(["M","K","Z"], 2, "X")'
+      return: ["Z","M","K"]
