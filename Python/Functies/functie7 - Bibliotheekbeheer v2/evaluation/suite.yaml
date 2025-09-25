@@ -42,5 +42,5 @@
     # ["M","K","Z"] -> geen pop -> ["M","K","Z"]
     # remove("X") niets -> ["M","K","Z"]
     # sort(reverse) -> ["Z","M","K"]
-    - expression: 'beheer_bibliotheek(["M","K","Z"], 2, "X")'
+    - expression: 'beheer_bibliotheek(["M","K","Z"], 3, "X")'
       return: ["Z","M","K"]
