@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Parkeermeter met toeslagen"
+      "nl": "Parkeermeter v2"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "FfkcCr5cVqHjB2RuAUfFa3f4k53zjc7AibHbkM9MiynbI22mzCY8zRY-B6rNHtea",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
