@@ -12,7 +12,7 @@ Schrijf een **functie** `beheer_bibliotheek(basis, index_verwijderen, titel_verw
 De functie werkt als volgt:
 
 1. Maak een nieuwe lege lijst `resultaat`.  
-2. Kopieer met een **for-lus** alle elementen van `basis` naar `resultaat` (gebruik `.append()`).  
+2. Kopieer alle elementen van `basis` naar `resultaat`.  
 3. Als `index_verwijderen` geldig is, verwijder dat element met de index `index_verwijderen`.  
 4. Als `titel_verwijderen` voorkomt in de lijst, verwijder dat exemplaar.  
 5. Sorteer `resultaat` **omgekeerd alfabetisch**.  
