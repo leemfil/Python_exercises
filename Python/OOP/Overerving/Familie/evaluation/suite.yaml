@@ -1,5 +1,5 @@
 - tab: "Testen"
   testcases:
-      stdin: ""
-      stdout: |-
-        Test
+      - stdin: ""
+        stdout: |-
+          Test
