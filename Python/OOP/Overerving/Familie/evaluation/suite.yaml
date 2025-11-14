@@ -1,1 +1,7 @@
-
+- tab: "Testen"
+  testcases:
+    contexts:
+      - name: "Geen invoer"
+        stdin: ""
+        stdout: |-
+          Test
