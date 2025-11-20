@@ -1,53 +1,33 @@
-### Toets OOP 2 — “Familie-manager”
+### Classes en objecten (Hobby)
+**Situatie**  
+Je gaat een klein programma schrijven rond een hobby naar keuze (bv. basketbal, gamen, naaien, muziek maken, lezen, …).
+ Je gebruikt één eigen class en maakt daar minstens twee objecten van aan.
 
-**Context**  
-Schrijf een Python-programma waarmee je informatie over een familie kan bewaren en bewerken. Je werkt objectgeoriënteerd en toont dat je attributen, methoden, class-variabelen, compositie, overerving en operator overloading beheerst.
+**Opdracht**  
+Schrijf een Python-programma waarin je:  
+1. Een class definieert voor jouw hobby
+    - Kies zelf een passende naam voor de class (bv. Sport, Game, Boek, Instrument, …).
+    - De class moet minstens 2 attributen hebben.
+       - Voorbeelden van mogelijke attributen (afhankelijk van je hobby):
+          - sport: naam, aantal_spelers, speellocatie
+          - game: titel, genre, speeltijd_uren
+          - boek: titel, auteur, aantal_paginas
+          - instrument: naam, soort, moeilijkheidsgraad
+    - De class moet een dunder-methode hebben die een duidelijke tekst teruggeeft met alle belangrijke informatie over het object (dus niet gewoon print in de class, maar echt return "...").
 
-**Functionele eisen (wat het programma moet kunnen)**  
-1. Familie aanmaken met:
-   - Eén familie-object die volgende objecten bevat:
-   - Minstens twee ouder-objecten (bv. moeder, vader of twee andere voogden).
-   - Kind-objecten (2 of meer).
-   - Huisdier-objecten (2 of meer).
+2. Objecten aanmaakt
+      - Maak minstens 2 objecten van je class aan met verschillende waarden voor de attributen.
+         - bv. twee verschillende boeken, twee verschillende games, twee verschillende teams, …
 
-2. Weergave  
-Gebruik de python methoden om de objecten weer te geven op het scherm.  
-    - Een nette tekstweergave van de familie (ouders, kinderen, huisdieren).
-    - Een korte weergave per individu (voornaam, achternaam, leeftijd of geboortedatum).
+3. Alle info op het scherm toont
+      - Toon de informatie van beide objecten op een nette manier op het scherm.
+      - Zorg dat alle attributen van de objecten ergens zichtbaar zijn in de uitvoer.
 
-3. Class-variabele  
-Voorzie één class-variabele voor een familie klasse: teller van aangemaakte personen. Toon dat je die gebruikt in je programma.
-
-4. Voorzie een methode die kinder-objecten toevoegt aan een ouder-object.
-
-5. Operator ‘+’ op ouders
-     - Het optellen van twee ouder-objecten met + geeft:
-       - het aantal kinderen als de twee ouders effectief één koppel vormen binnen dezelfde familie;
-       - anders 0.
-
-6. Zoek/filters (min. 1)
-     - Bijvoorbeeld: alle kinderen jonger dan 12, of alle huisdieren van soort “kat”.
-
-
-**Technische eisen (hoe je het bouwt)**
-1. Overerving
-    - Maak een basisklasse (bv. Persoon) en laat andere klassen hiervan erven .
-    - Huisdier is geen Persoon, maar een aparte klasse.
-
-2. Compositie
-    - Een klasse Familie bevat collecties van ouders, kinderen  en huisdier objecten.
-
-3. Elk naam attribuut van een klasse is private.
-
-4. Attributen & methoden
-    - Elke klasse heeft minstens 2 attributen.
-    - Voorzie alle nodige methoden.
-    - Van getters/setters schrijf je voor elke private variabele.
-
-5. Operator overloading
-    - Implementeer in de ouder-klasse de juiste dunder-methode om de eis over het koppel en het aantal kinderen te realiseren (zie Functionele eisen #5).
-
-6. Test
-    - Test het programma met een kort demo-script dat objecten aanmaakt, acties uitvoert en resultaten print.
-
-
+4. Overload de + operator
+      - Voeg een __add__-methode toe aan je class.
+      - Bedenk zelf wat het betekent om twee objecten van jouw class op te tellen.
+         - Enkele ideeën:  
+              Bij games: som van de speeltijd van twee games.  
+              Bij boeken: totaal aantal pagina’s van twee boeken.  
+              Bij teams: totaal aantal spelers.
+      - Toon in je programma ook één voorbeeld waarbij je twee objecten optelt en het resultaat print op een duidelijke manier (bv. "Samen hebben deze twee boeken 560 pagina's.").
