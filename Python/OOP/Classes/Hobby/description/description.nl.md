@@ -14,15 +14,15 @@ Schrijf een Python-programma waarin je:
           - boek: titel, auteur, aantal_paginas
           - instrument: naam, soort, moeilijkheidsgraad
     - De class moet een dunder-methode hebben die een duidelijke tekst teruggeeft met alle belangrijke informatie over het object (dus niet gewoon print in de class, maar echt return "...").  
-  
+<br>  
 2. Objecten aanmaakt
       - Maak minstens 2 objecten van je class aan met verschillende waarden voor de attributen.
          - bv. twee verschillende boeken, twee verschillende games, twee verschillende teams, …  
-  
+<br>
 3. Alle info op het scherm toont
       - Toon de informatie van beide objecten op een nette manier op het scherm.
       - Zorg dat alle attributen van de objecten ergens zichtbaar zijn in de uitvoer.  
-  
+<br>
 4. Overload de + operator
       - Voeg een __add__-methode toe aan je class.
       - Bedenk zelf wat het betekent om twee objecten van jouw class op te tellen.
