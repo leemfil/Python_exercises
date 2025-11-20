@@ -13,15 +13,15 @@ Schrijf een Python-programma waarin je:
           - game: titel, genre, speeltijd_uren
           - boek: titel, auteur, aantal_paginas
           - instrument: naam, soort, moeilijkheidsgraad
-    - De class moet een dunder-methode hebben die een duidelijke tekst teruggeeft met alle belangrijke informatie over het object (dus niet gewoon print in de class, maar echt return "...").
+    - De class moet een dunder-methode hebben die een duidelijke tekst teruggeeft met alle belangrijke informatie over het object (dus niet gewoon print in de class, maar echt return "...").  
 
 2. Objecten aanmaakt
       - Maak minstens 2 objecten van je class aan met verschillende waarden voor de attributen.
-         - bv. twee verschillende boeken, twee verschillende games, twee verschillende teams, …
+         - bv. twee verschillende boeken, twee verschillende games, twee verschillende teams, …  
 
 3. Alle info op het scherm toont
       - Toon de informatie van beide objecten op een nette manier op het scherm.
-      - Zorg dat alle attributen van de objecten ergens zichtbaar zijn in de uitvoer.
+      - Zorg dat alle attributen van de objecten ergens zichtbaar zijn in de uitvoer.  
 
 4. Overload de + operator
       - Voeg een __add__-methode toe aan je class.
