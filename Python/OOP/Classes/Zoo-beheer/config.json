@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Bestelling"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "I2MWzJ_y8H2k26mUmJAcwnY3-i_bRyKDEy9WTu9Z6z2km-8YVJDCbuknCejg3SVR",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
