@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Bestelling"
+      "nl": "Zoo-beheer"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "FBkeEHWVf4KMQIk_kC_3VaqaTPHwD4VWU_TIB6PzVuRG-4e38_V_sQ7W4rZRiEvx",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
