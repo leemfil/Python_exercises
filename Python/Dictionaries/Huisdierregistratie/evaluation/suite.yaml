@@ -1,6 +1,54 @@
-- tab: "Testen"
+- tab: "tests"
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+    # 1) Basisvoorbeeld: 2 vaccins, geen extra vaccin
+    - stdin: |-
+        Rocky
+        5
+        2
+        Rabiës
+        Parvo
+
+      stdout: |-
+        Rocky
+        5
+        Rabiës
+        Parvo
+        Er is geen ras geregistreerd voor dit huisdier.
+
+    # 2) Met extra vaccin (Bordetella)
+    - stdin: |-
+        Milo
+        3
+        1
+        Corona
+        Bordetella
+      stdout: |-
+        Milo
+        3
+        Corona
+        Bordetella
+        Er is geen ras geregistreerd voor dit huisdier.
+
+    # 3) Geen vaccins (aantal = 0), geen extra
+    - stdin: |-
+        Loki
+        2
+        0
+
+      stdout: |-
+        Loki
+        2
+        Er is geen ras geregistreerd voor dit huisdier.
+
+    # 4) Eén vaccin, lege extra (dus geen extra toevoegen)
+    - stdin: |-
+        Snoopy
+        7
+        1
+        Griep
+
+      stdout: |-
+        Snoopy
+        7
+        Griep
+        Er is geen ras geregistreerd voor dit huisdier.
