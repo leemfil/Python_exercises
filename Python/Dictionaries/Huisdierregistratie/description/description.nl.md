@@ -42,7 +42,7 @@ Lees de invoer in deze volgorde:
    - dan de leeftijd  
    - dan elk vaccin **onder elkaar**  
 6. Toon het ras van het huisdier
-   - Check of het ras aanwezig is in de dictionary. Als er nog geen ras aanwezig is dan geef je de boodschap:
+   - Check of het ras aanwezig is in de dictionary. Als er nog geen ras aanwezig is dan geef je de boodschap:  
      "Er is geen ras geregistreerd voor dit huisdier."
   
 ### Voorbeeld
