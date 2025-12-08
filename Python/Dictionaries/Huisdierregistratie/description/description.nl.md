@@ -1,70 +1,64 @@
+## Huisdierregistratie
+
 ### Opdracht
+<br>
 
-Alle gegevens van een persoon worden opgeslagen in een dictionary. We beheren de gegevens zodat ze up-to-date blijven.
+Je bouwt een klein registratiesysteem voor een dierenartspraktijk.  
+Het doel is om gegevens over één huisdier in te voeren en op te slaan in een **dictionary**.
 
-Schrijf een programma dat:
-* aan de gebruiker volgende gegevens vraagt:  
-voornaam, achternaam, echtgenoot, kinderen en huisdieren  
-(kinderen is een list en huisdieren zijn 1 list met keys en 1 list met corresponderende values),  
-* elke tuple uit de string toevoegt aan de dictionary,  
-* de "voornaam" en "achternaam" uit de dictionary haalt en afbeeldt,
-* de leeftijd toevoegt aan de dictionary met als key "leeftijd" en als value 50,
-* de naam van de "echtgenoot" aanpast naar "Sofia",
-* het 2de kind uit de lijst kinderen haalt en afbeeldt,
-* de naam van de "hond" uit "huisdieren" haalt en afbeeldt,
-* de keys uit de dictionary haalt en afbeeldt,
-* de values uit de dictionary haalt en afbeeldt,
-* de items uit de dictionary haalt en ze onder elkaar afbeeldt,
-* de "geboorteplaats" uit de dictionary haalt met de get() methode en afbeeldt,
-* de naam van de echtgenoot verwijdert uit de dictionary en deze naam afbeeldt,
-* de hele dictionary afbeeldt. 
+Je programma moet:
 
-### Invoer
+- zelf een dictionary opbouwen,
+- gegevens opvragen via `input()`,
+- een lijst met vaccins samenstellen,
+- een extra vaccin kunnen toevoegen,
+- `get()` gebruiken met een standaardboodschap voor ontbrekende gegevens,
+- op het einde een overzicht tonen.
 
-* voornaam
-* achternaam
-* naam van echtgenoot
-* lijst met kinderen
-* lijst met keys voor huisdieren
-* lijst met corresponderende namen voor huisdieren
+### Gegevens die je moet inlezen
 
-### Uitvoer
+Lees de invoer in deze volgorde:
 
-* voornaam achternaam
-* naam van 2de kind
-* naam van de hond
-* keys
-* values
-* items onder elkaar
-* geboorteplaats
-* naam echtgenoot
-* hele dictionary
+1. de **naam** van het huisdier (string)  
+2. de **leeftijd** (geheel getal)  
+3. het **aantal vaccins** (geheel getal)  
+4. per vaccin: de **naam** van het vaccin (string, één per regel)  
+5. vervolgens **nog één regel** voor een **extra vaccin**:  
+   - als die regel leeg is → geen extra vaccin  
+   - anders → voeg de naam toe aan de vaccinslijst  
 
+### Werkwijze
+
+1. Maak een **lege dictionary** `huisdier`.
+2. Vul de keys:
+   - `"naam"` → met de ingelezen naam  
+   - `"leeftijd"` → met de ingelezen leeftijd (int)  
+   - `"vaccins"` → met een **lijst** van vaccinnamen  
+3. Bouw de lijst `vaccins` met een `for`-lus op basis van het aantal vaccins.
+4. Lees een extra vaccin in:
+   - als de invoer **niet leeg** is, voeg je dit vaccin toe aan de lijst.
+5. Toon op het einde een overzicht:
+   - print eerst de naam  
+   - dan de leeftijd  
+   - dan elk vaccin **onder elkaar**  
+6. Toon het ras van het huisdier
+   - Check of het ras aanwezig is in de dictionary. Als er nog geen ras aanwezig is dan geef je de boodschap: "Het ras is niet bekend."
+  
 ### Voorbeeld
 
-**Invoer**
+Invoer  
 
-    Ilyas
-    Arbib
-    Ava
-    Ralph Betty Joey
-    hond kat
-    Fido Sox
+    Rocky  
+    5  
+    2  
+    Rabiës  
+    Parvo
 
-**Uitvoer**
-    
-    Ilyas Arbib  
-    Betty
-    Fido
-    dict_keys(["voornaam", "achternaam", "echtgenoot", "kinderen", huisdieren", "leeftijd"])  
-    dict_values(["Ilyas", "Arbib", "Ava", ["Ralph", "Betty", "Joey"], {"hond": "Fido", "kat": "Sox"}, 50])
-    ("voornaam", "Ilyas")  
-    ("achternaam", "Arbib")  
-    ("echtgenoot", "Ava")  
-    ("kinderen", ["Ralph", "Betty", "Joey"])  
-    ("huisdieren", {"hond": "Fido", "kat": "Sox"})
-    ("leeftijd", 50)
-    None
-    Sofia
-    {"voornaam":"Ilyas", "achternaam": "Arbib", "kinderen": ["Ralph", "Betty", "Joey"],  
-    "huisdieren": {"hond": "Fido", "kat": "Sox", "leeftijd": 50}}
+
+Uitvoer
+
+    Rocky
+    5
+    Rabiës
+    Parvo
+    Er is geen ras geregistreerd voor dit huisdier.
