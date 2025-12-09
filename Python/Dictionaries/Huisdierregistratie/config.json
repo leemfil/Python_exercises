@@ -4,8 +4,9 @@
       "nl": "Huisdierregistratie"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
+ "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
   },
   "labels": [],
   "access": "public",
