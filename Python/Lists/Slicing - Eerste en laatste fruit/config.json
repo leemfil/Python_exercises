@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "For 1 - 5 keer"
+      "nl": "Slicing - Eerste en laatste fruit"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "3iKH95EiZp3JFs8rTMfxryAeXJcHHpsPqjgJNMrSREwBJ43gtfU-GECfR7pPiW7x",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
