@@ -25,6 +25,6 @@ De uitvoer bestaat uit exact twee regels:
 
 ### Voorbeeld van uitvoer  
     
-  ['appel', 'banaan', 'kiwi']  
-  ['mango', 'druif']
+    ['appel', 'banaan', 'kiwi']  
+    ['mango', 'druif']
 
