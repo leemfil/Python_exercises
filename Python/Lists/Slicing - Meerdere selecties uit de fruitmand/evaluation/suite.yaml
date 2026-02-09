@@ -1,0 +1,9 @@
+- tab: "Testen"
+  testcases:
+      - stdin: ""
+        stdout: |-
+          Hallo
+          Hallo
+          Hallo
+          Hallo
+          Hallo
