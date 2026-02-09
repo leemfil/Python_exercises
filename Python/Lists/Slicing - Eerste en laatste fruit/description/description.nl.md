@@ -1,27 +1,30 @@
 ## Opdracht
 <br>
-Schrijf een programma dat **exact vijf keer** het woord `Hallo` afdrukt, elk op een **nieuwe regel**.  
-Gebruik hiervoor een **`for`-lus**.
 
-## Invoer
-Er is **geen invoer**.
+Je krijgt een **fruitmand** als lijst van strings.  
+Gebruik **slicing** om delen van deze lijst te selecteren.
 
-## Uitvoer
-Je programma print exact deze 5 regels:  
-Hallo  
-Hallo  
-Hallo  
-Hallo  
-Hallo
 
-## Voorbeelden
+### Gegeven
 
-**Voorbeeld**  
-*(geen invoer)*
+De fruitmand wordt **vast** in het programma gezet als:
 
-**Uitvoer**  
-Hallo  
-Hallo  
-Hallo  
-Hallo  
-Hallo  
+fruitmand = ["appel", "banaan", "kiwi", "peer", "mango", "druif"]  
+
+### Wat moet je doen?  
+
++ Maak een nieuwe lijst eerste_drie met de eerste drie soorten fruit.
++ Maak een nieuwe lijst laatste_twee met de laatste twee soorten fruit.
++ Druk beide lijsten af, elk op een aparte regel.  
+
+### Verwachte uitvoer
+
+De uitvoer bestaat uit exact twee regels:
++ op de eerste regel: de lijst eerste_drie
++ op de tweede regel: de lijst laatste_twee
+
+### Voorbeeld van uitvoer  
+    
+  ['appel', 'banaan', 'kiwi']  
+  ['mango', 'druif']
+
