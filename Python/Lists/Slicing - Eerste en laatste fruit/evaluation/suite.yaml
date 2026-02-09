@@ -1,9 +1,7 @@
-- tab: "Testen"
+- tab: "tests"
   testcases:
-      - stdin: ""
-        stdout: |-
-          Hallo
-          Hallo
-          Hallo
-          Hallo
-          Hallo
+    # Enige test: vaste fruitmand, vaste slicing
+    - stdin: ""
+      stdout: |-
+        ['appel', 'banaan', 'kiwi']
+        ['mango', 'druif']
