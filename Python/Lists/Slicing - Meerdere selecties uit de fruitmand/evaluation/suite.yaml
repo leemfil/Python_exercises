@@ -1,9 +1,7 @@
-- tab: "Testen"
+- tab: "tests"
   testcases:
-      - stdin: ""
-        stdout: |-
-          Hallo
-          Hallo
-          Hallo
-          Hallo
-          Hallo
+    - stdin: ""
+      stdout: |-
+        ['kiwi', 'peer', 'mango']
+        ['banaan', 'kiwi', 'peer', 'mango']
+        ['peer', 'mango', 'druif']
