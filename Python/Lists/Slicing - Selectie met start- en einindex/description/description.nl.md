@@ -1,27 +1,28 @@
 ## Opdracht
 <br>
-Schrijf een programma dat **exact vijf keer** het woord `Hallo` afdrukt, elk op een **nieuwe regel**.  
-Gebruik hiervoor een **`for`-lus**.
 
-## Invoer
-Er is **geen invoer**.
+Je krijgt een **fruitmand** als lijst van strings.  
+De gebruiker geeft een **startindex** en een **eindindex**.  
+Gebruik slicing om een selectie uit de lijst te maken.
 
-## Uitvoer
-Je programma print exact deze 5 regels:  
-Hallo  
-Hallo  
-Hallo  
-Hallo  
-Hallo
+### Gegeven
 
-## Voorbeelden
+De fruitmand wordt **vast** in het programma gezet als:
 
-**Voorbeeld**  
-*(geen invoer)*
+fruitmand = ["appel", "banaan", "kiwi", "peer", "mango", "druif", "kers"]  
 
-**Uitvoer**  
-Hallo  
-Hallo  
-Hallo  
-Hallo  
-Hallo  
+### Wat moet je doen?  
+
++ Lees een startindex (int) in.
++ Lees een eindindex (int) in.
++ Maak een nieuwe lijst resultaat met slicing: fruitmand[start:einde]
++ Druk resultaat af.
+
+### Verwachte uitvoer
+
+De uitvoer bestaat uit **exact één regel**:
++ de lijst resultaat
+
+### Voorbeeld van uitvoer  
+    
+    ['banaan', 'kiwi', 'peer']
