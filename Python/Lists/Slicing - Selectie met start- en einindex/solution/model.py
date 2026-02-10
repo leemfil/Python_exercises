@@ -1,4 +1,10 @@
-# For 01 — Vijf keer "Hallo"
+# Slicing 06 — Selectie met start- en eindindex
 
-for _ in range(5):
-    print("Hallo")
+fruitmand = ["appel", "banaan", "kiwi", "peer", "mango", "druif", "kers"]
+
+start = int(input("Geef de startindex: ").strip())
+einde = int(input("Geef de eindindex: ").strip())
+
+resultaat = fruitmand[start:einde]
+
+print(resultaat)
