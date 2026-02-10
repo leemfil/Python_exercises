@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "For 1 - 5 keer"
+      "nl": "Slicing - Selectie met start- en eindindex"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "EGW5cRUa9qJMsM5k32uaEmJhxe4B3n7KmSq8tBU-MmtdtYECFSNDScsNjhcxehEE",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
