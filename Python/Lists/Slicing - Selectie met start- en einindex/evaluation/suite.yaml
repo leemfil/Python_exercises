@@ -1,9 +1,36 @@
-- tab: "Testen"
+- tab: "tests"
   testcases:
-      - stdin: ""
-        stdout: |-
-          Hallo
-          Hallo
-          Hallo
-          Hallo
-          Hallo
+    # 1) Middenstuk
+    - stdin: |-
+        1
+        4
+      stdout: |-
+        ['banaan', 'kiwi', 'peer']
+
+    # 2) Vanaf begin
+    - stdin: |-
+        0
+        3
+      stdout: |-
+        ['appel', 'banaan', 'kiwi']
+
+    # 3) Tot het einde
+    - stdin: |-
+        4
+        7
+      stdout: |-
+        ['mango', 'druif', 'kers']
+
+    # 4) Lege slice (start == einde)
+    - stdin: |-
+        2
+        2
+      stdout: |-
+        []
+
+    # 5) Eén element
+    - stdin: |-
+        5
+        6
+      stdout: |-
+        ['druif']
