@@ -1,4 +1,4 @@
-<span style="font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 34px; color: #E0E0E0;"> Automatiseer het opsommen van lijstitems </span>  
+<span style="font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 33px; color: #E0E0E0;"> Automatiseer het opsommen van lijstitems </span>  
 Vooraleer je naar school vertrok, stopte je moeder je een boodschappenlijst in je handen. Deze omvatte:  
 
 - eieren  
