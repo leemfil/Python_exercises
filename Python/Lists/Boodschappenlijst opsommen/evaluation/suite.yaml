@@ -1,1 +1,8 @@
-
+- tab: "tests"
+  testcases:
+    - stdin: ""
+      stdout: |-
+        Een boodschap in de lijst is : eieren.
+        Een boodschap in de lijst is : kaas.
+        Een boodschap in de lijst is : hesp.
+        Een boodschap in de lijst is : boter.
