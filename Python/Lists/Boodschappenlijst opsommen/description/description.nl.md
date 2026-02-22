@@ -1,4 +1,4 @@
-<span style="font-size: 3em; font-weight: normal;"> Automatiseer het opsommen van lijstitems </span>  
+<span style="font-size: 2em; font-weight: normal;"> Automatiseer het opsommen van lijstitems </span>  
 Vooraleer je naar school vertrok, stopte je moeder je een boodschappenlijst in je handen. Deze omvatte:
 
 eieren
