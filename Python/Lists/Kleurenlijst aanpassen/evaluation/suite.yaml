@@ -3,4 +3,4 @@
     - stdin: ""
       stdout: |-
         2
-        ['rood', 'blauw', 'paars', 'groen', 'geel']
+        ['rood', 'blauw', 'groen', 'paars', 'geel']
