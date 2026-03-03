@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "Slicing - Eerste en laatste fruit"
+      "nl": "Kleurenlijst aanpassen"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "6eCgwiMu7Detz_KgJT26s8jnd7GN8XKUwhxC9ngRtFKw663VAF6Eu8WHrn2Dy52x",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
