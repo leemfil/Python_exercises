@@ -1,0 +1,7 @@
+- tab: "tests"
+  testcases:
+    # Enige test: vaste fruitmand, vaste slicing
+    - stdin: ""
+      stdout: |-
+        ['appel', 'banaan', 'kiwi']
+        ['mango', 'druif']
