@@ -1,9 +1,9 @@
-# Slicing 01 — Eerste en laatste fruit
+# Lijstmethoden 01 — index() en insert()
 
-fruitmand = ["appel", "banaan", "kiwi", "peer", "mango", "druif"]
+kleuren = ["rood", "blauw", "groen", "geel"]
 
-eerste_drie = fruitmand[:3]
-laatste_twee = fruitmand[-2:]
+positie = kleuren.index("groen")
+kleuren.insert(positie, "paars")
 
-print(eerste_drie)
-print(laatste_twee)
+print(positie)
+print(kleuren)
