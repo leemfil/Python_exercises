@@ -3,7 +3,7 @@
 kleuren = ["rood", "blauw", "groen", "geel"]
 
 positie = kleuren.index("groen")
-kleuren.insert(positie, "paars")
+kleuren.insert(positie + 1, "paars")
 
 print(positie)
 print(kleuren)
