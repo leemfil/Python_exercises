@@ -5,7 +5,7 @@ Je werkt met een lijst van kleuren en je gaat deze lijst aanpassen. Vertrek met 
 ### Wat moet je doen?  
 
 + Zoek de positie van "groen" met een geschikte methode.
-+ Voeg het woord "paars" toe **voor** "groen" met een geschikte methode.
++ Voeg het woord "paars" toe **na** "groen" met een geschikte methode.
 + Druk eerst de gevonden index af.
 + Druk daarna de volledige aangepaste lijst af.
 
