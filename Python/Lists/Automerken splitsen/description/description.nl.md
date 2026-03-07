@@ -1,16 +1,12 @@
-## Strafpunten bepalen in een spel
+## Automerken splitsen
 
-Voor het einde van de les speelde de klas een klein spel.
-Vijf leerlingen namen deel en hun namen werden in volgorde van het resultaat genoteerd, van beste naar slechste: Hajar, Lucas, Noor, Adam, Mila.
+Tijdens een les over auto’s schrijft de leerkracht een aantal automerk-namen op het bord: Audi, Volvo, Toyota, Kia, Renault, Subaru.
 
-Bij dit spel krijgt elke speler strafpunten op basis van zijn plaats in de lijst.  
-Het aantal strafpunten wordt berekend als: **plaats in de lijst × 2**.  
-Dit betekent bijvoorbeeld: de eerste speler krijgt 2 strafpunten, de tweede speler krijgt 4 strafpunten, enzovoort ...
-
-Koppel bovenstaande namen aan een lijst en schrijf vervolgens een programma dat:  
-- de lijst met namen doorloopt;
-- voor elke speler het aantal strafpunten berekent;
-- voor elke speler de volgende boodschap afdrukt:
-"[naam] heeft [aantal strafpunten] strafpunten verzameld."
-
-Elke boodschap moet op een nieuwe regel verschijnen.
+Koppel bovenstaande merken aan een lijst en schrijf vervolgens een programma dat:  
+- twee nieuwe lege lijsten maakt;
+- de merken uit de oorspronkelijke lijst één voor één bekijkt;
+- merken met 5 letters of minder toevoegt aan de eerste lijst;
+- merken met meer dan 5 letters toevoegt aan de tweede lijst.
+- Beide lijsten afdrukt met deze boodschappen:
+  "De merken met 5 letters of minder zijn ['Audi', 'Volvo', 'Kia']."
+  "De merken met meer dan 5 letters zijn ['Toyota', 'Renault', 'Subaru']."
