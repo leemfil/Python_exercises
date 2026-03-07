@@ -1,7 +1,9 @@
 - tab: "tests"
   testcases:
-    # Enige test: vaste fruitmand, vaste slicing
     - stdin: ""
       stdout: |-
-        ['appel', 'banaan', 'kiwi']
-        ['mango', 'druif']
+        Emma heeft 2 strafpunten verzameld.
+        Lucas heeft 4 strafpunten verzameld.
+        Noor heeft 6 strafpunten verzameld.
+        Liam heeft 8 strafpunten verzameld.
+        Mila heeft 10 strafpunten verzameld.
