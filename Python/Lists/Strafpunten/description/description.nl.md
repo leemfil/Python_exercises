@@ -1,7 +1,7 @@
 ## Strafpunten bepalen in een spel
 
 Voor het einde van de les speelde de klas een klein spel.
-Vijf leerlingen namen deel en hun namen werden in volgorde van het resultaat genoteerd, van beste naar slechste: Emma, Lucas, Noor, Liam, Mila.
+Vijf leerlingen namen deel en hun namen werden in volgorde van het resultaat genoteerd, van beste naar slechste: Hajar, Lucas, Noor, Adam, Mila.
 
 Bij dit spel krijgt elke speler strafpunten op basis van zijn plaats in de lijst.  
 Het aantal strafpunten wordt berekend als: **plaats in de lijst × 2**.  
