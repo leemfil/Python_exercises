@@ -2,8 +2,5 @@
   testcases:
     - stdin: ""
       stdout: |-
-        Emma heeft 2 strafpunten verzameld.
-        Lucas heeft 4 strafpunten verzameld.
-        Noor heeft 6 strafpunten verzameld.
-        Liam heeft 8 strafpunten verzameld.
-        Mila heeft 10 strafpunten verzameld.
+        De merken met 5 letters of minder zijn ['Audi', 'Volvo', 'Kia'].
+        De merken met meer dan 5 letters zijn ['Toyota', 'Renault', 'Subaru'].
