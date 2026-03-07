@@ -1,9 +1,8 @@
-# Slicing 01 — Eerste en laatste fruit
+# Spel — Strafpunten berekenen
 
-fruitmand = ["appel", "banaan", "kiwi", "peer", "mango", "druif"]
+spelers = ["Emma", "Lucas", "Noor", "Liam", "Mila"]
 
-eerste_drie = fruitmand[:3]
-laatste_twee = fruitmand[-2:]
-
-print(eerste_drie)
-print(laatste_twee)
+for i in range(len(spelers)):
+    naam = spelers[i]
+    strafpunten = (i + 1) * 2
+    print(f"{naam} heeft {strafpunten} strafpunten verzameld.")
