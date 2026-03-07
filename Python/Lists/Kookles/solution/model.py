@@ -1,8 +1,11 @@
-# Spel — Strafpunten berekenen
+# Ingrediëntenlijst aanpassen
 
-spelers = ["Emma", "Lucas", "Noor", "Liam", "Mila"]
+ingrediënten = ["tomaat", "komkommer", "paprika", "ui", "sla", "wortel"]
 
-for i in range(len(spelers)):
-    naam = spelers[i]
-    strafpunten = (i + 1) * 2
-    print(f"{naam} heeft {strafpunten} strafpunten verzameld.")
+del ingrediënten[len(ingrediënten) - 1]
+
+deel = ingrediënten[:4]
+
+deel.sort()
+
+print(deel)
