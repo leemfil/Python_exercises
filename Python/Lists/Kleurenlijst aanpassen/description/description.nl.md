@@ -12,4 +12,4 @@ Je werkt met een lijst van kleuren en je gaat deze lijst aanpassen. Vertrek met 
 ### Voorbeeld van uitvoer  
     
     2  
-    ['rood', 'blauw', 'paars', 'groen', 'geel']
+    ['rood', 'blauw', 'groen', 'paars', 'geel']
