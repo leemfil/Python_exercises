@@ -1,30 +1,16 @@
-## Opdracht
-<br>
+## Strafpunten bepalen in een spel
 
-Je krijgt een **fruitmand** als lijst van strings.  
-Gebruik **slicing** om delen van deze lijst te selecteren.
+Voor het einde van de les speelde de klas een klein spel.
+Vijf leerlingen namen deel en hun namen werden in volgorde van het resultaat genoteerd, van beste naar slechste: Emma, Lucas, Noor, Liam, Mila.
 
+Bij dit spel krijgt elke speler strafpunten op basis van zijn plaats in de lijst.  
+Het aantal strafpunten wordt berekend als: **plaats in de lijst × 2**.  
+Dit betekent bijvoorbeeld: de eerste speler krijgt 2 strafpunten, de tweede speler krijgt 4 strafpunten, enzovoort ...
 
-### Gegeven
+Koppel bovenstaande namen aan een lijst en schrijf vervolgens een programma dat:  
+- de lijst met namen doorloopt;
+- voor elke speler het aantal strafpunten berekent;
+- voor elke speler de volgende boodschap afdrukt:
+"[naam] heeft [aantal strafpunten] strafpunten verzameld."
 
-De fruitmand wordt **vast** in het programma gezet als:
-
-fruitmand = ["appel", "banaan", "kiwi", "peer", "mango", "druif"]  
-
-### Wat moet je doen?  
-
-+ Maak een nieuwe lijst eerste_drie met de eerste drie soorten fruit.
-+ Maak een nieuwe lijst laatste_twee met de laatste twee soorten fruit.
-+ Druk beide lijsten af, elk op een aparte regel.  
-
-### Verwachte uitvoer
-
-De uitvoer bestaat uit exact twee regels:
-+ op de eerste regel: de lijst eerste_drie
-+ op de tweede regel: de lijst laatste_twee
-
-### Voorbeeld van uitvoer  
-    
-    ['appel', 'banaan', 'kiwi']  
-    ['mango', 'druif']
-
+Elke boodschap moet op een nieuwe regel verschijnen.
