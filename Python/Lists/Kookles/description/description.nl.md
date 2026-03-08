@@ -1,7 +1,7 @@
 ## Kookles: ingrediënten aanpassen
 
 Tijdens een kookles maken jullie samen een eenvoudig gerecht.
-De leerkracht schrijft een lijst met ingrediënten op het bord: tomaat, komkommer, paprika, ui, sla, wortel.
+De leerkracht schrijft een lijst met ingrediënten op het bord: tomaat, komkommer, paprika, ui, sla, wortel. De ingrediëntenlijst moet echter nog aangepast worden.
 
 Koppel bovenstaande ingrediënten aan een lijst en schrijf vervolgens een programma dat:  
 - het laatste element uit de lijst verwijdert;  
