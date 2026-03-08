@@ -1,6 +1,6 @@
 ## Automerken splitsen
 
-Tijdens een les over auto’s schrijft de leerkracht een aantal automerk-namen op het bord: Audi, Volvo, Toyota, Kia, Renault, Subaru.
+Tijdens een les over auto’s schrijft de leerkracht een aantal automerknamen op het bord: Audi, Volvo, Toyota, Kia, Renault, Subaru.
 
 Koppel bovenstaande merken aan een lijst en schrijf vervolgens een programma dat:  
 - twee nieuwe lege lijsten maakt;
