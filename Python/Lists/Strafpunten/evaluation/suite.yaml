@@ -2,8 +2,8 @@
   testcases:
     - stdin: ""
       stdout: |-
-        Emma heeft 2 strafpunten verzameld.
+        Hajar heeft 2 strafpunten verzameld.
         Lucas heeft 4 strafpunten verzameld.
         Noor heeft 6 strafpunten verzameld.
-        Liam heeft 8 strafpunten verzameld.
+        Adam heeft 8 strafpunten verzameld.
         Mila heeft 10 strafpunten verzameld.
