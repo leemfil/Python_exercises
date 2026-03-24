@@ -4,6 +4,6 @@ tekst = input().strip()
 
 lijst_woorden = tekst.split()
 
-lijst.reverse()
+lijst_woorden.reverse()
 
-print(lijst)
+print(lijst_woorden)
