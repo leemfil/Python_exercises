@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "While-lus 1: teller"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "zyp5MGtkMwXPcn-5UYbkhCCZZ2mTqf3fFUGSMWQV__M3GJSVmp3WPN8PVYdRiSpd",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
