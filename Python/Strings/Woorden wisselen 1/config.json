@@ -1,7 +1,7 @@
 {
   "description": {
     "names": {
-      "nl": "While-lus 1: teller"
+      "nl": "Woorden wisselen 1"
     }
   },
   "evaluation": {
@@ -10,9 +10,5 @@
   },
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "NzT_2mtrKNdpQ7xVHY4CKhzfJjtdKp3XFNAsBeY25MGBR_6Z5bMRZ68H9ZRx8J-m",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "labels": []
 }
