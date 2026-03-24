@@ -1,16 +1,49 @@
 - tab: "tests"
   testcases:
+    # 1) Twee woorden
     - stdin: |-
         hallo wereld
       stdout: |-
-        wereld hallo
+        Hallo Wereld
 
+    # 2) Korte zin
     - stdin: |-
-        goed bezig
+        python is leuk
       stdout: |-
-        bezig goed
+        Python Is Leuk
 
+    # 3) Vier woorden
     - stdin: |-
-        python oefenen
+        dit is een test
       stdout: |-
-        oefenen python
+        Dit Is Een Test
+
+    # 4) Langere zin
+    - stdin: |-
+        vandaag oefenen we met strings en lussen in python
+      stdout: |-
+        Vandaag Oefenen We Met Strings En Lussen In Python
+
+    # 5) Nog een langere zin
+    - stdin: |-
+        de leerlingen maken een programma dat elk woord aanpast
+      stdout: |-
+        De Leerlingen Maken Een Programma Dat Elk Woord Aanpast
+
+    # 6) Zin met al enkele hoofdletters
+    - stdin: |-
+        dit Is een Mooie oefening
+      stdout: |-
+        Dit Is Een Mooie Oefening
+
+    # 7) Eén woord
+    - stdin: |-
+        computer
+      stdout: |-
+        Computer
+
+    # 8) Lange zin met veel woorden
+    - stdin: |-
+        tijdens de les leren we hoe je met split en join een tekst kunt bewerken
+      stdout: |-
+        Tijdens De Les Leren We Hoe Je Met Split En Join Een Tekst Kunt Bewerken
