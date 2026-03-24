@@ -1,8 +1,12 @@
-# While 01 — Teller-gestuurd herhalen (modeloplossing)
+# Woorden omwisselen met find()
 
-teller = 0
-while teller < 5:
-    print(f"Ronde {teller + 1}")
-    teller += 1
+tekst = input().strip()
 
-print("Klaar!")
+positie = tekst.find(" ")
+
+woord1 = tekst[:positie]
+woord2 = tekst[positie + 1:]
+
+nieuw = woord2 + " " + woord1
+
+print(nieuw)
