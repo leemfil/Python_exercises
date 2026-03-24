@@ -1,30 +1,21 @@
-## Opdracht  
+## Opdracht
+<br>
 
-Schrijf een programma dat **exact vijf keer** een regel afdrukt met het volgnummer van de ronde, en daarna **`Klaar!`**.  
-Gebruik hiervoor een **`while`-lus** met een **teller** die je **correct bijwerkt**.
+Vraag een tekst aan de gebruiker die bestaat uit **exact twee woorden** gescheiden door één spatie.  
+Wissel de volgorde van de woorden om en beeldt de nieuwe tekst af.
 
-## Invoer
-Er is **geen invoer**.
+### Wat moet je doen?
 
-## Uitvoer
-Je programma print exact onderstaande 6 regels:  
-Ronde 1  
-Ronde 2  
-Ronde 3  
-Ronde 4  
-Ronde 5  
-Klaar!  
-  
-  
-## Voorbeeld
++ Lees de tekst in.
++ Zoek de positie van de spatie met de methode `find()`.
++ Splits de tekst in twee woorden.
++ Wissel de volgorde van de woorden.
++ Druk de nieuwe tekst af.
 
-**Uitvoer**  
-Ronde 1  
-Ronde 2  
-Ronde 3  
-Ronde 4  
-Ronde 5  
-Klaar!  
+### Voorbeeld invoer
 
+    Hallo wereld
 
-> Tip: zorg dat je teller **toeneemt** binnen de `while`-lus. Anders blijft de lus oneindig lopen.
+### Verwachte uitvoer  
+    
+    wereld hallo
