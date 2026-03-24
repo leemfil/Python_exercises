@@ -1,0 +1,18 @@
+- tab: "Testen"
+  testcases:
+      - stdin: ""
+        stdout: |-
+          Ronde 1
+          Ronde 2
+          Ronde 3
+          Ronde 4
+          Ronde 5
+          Klaar!
+      - stdin: ""
+        stdout: |-
+          Ronde 1
+          Ronde 2
+          Ronde 3
+          Ronde 4
+          Ronde 5
+          Klaar!
