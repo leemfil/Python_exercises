@@ -1,21 +1,22 @@
 ## Opdracht
 <br>
 
-Vraag een tekst aan de gebruiker die bestaat uit **exact twee woorden** gescheiden door één spatie.  
-Wissel de volgorde van de woorden om en beeldt de nieuwe tekst af.
+De gebruiker geeft een tekst in die bestaat uit meerdere woorden, gescheiden door spaties.  
+Verander de eerste letter van elk woord in de tekst in een hoofdletter.  
+Beeldt de tekst opnieuw af.
 
 ### Wat moet je doen?
 
-+ Lees de tekst in.
-+ Zoek de positie van de spatie met de methode `find()`.
-+ Splits de tekst in twee woorden.
-+ Wissel de volgorde van de woorden.
++ Lees de tekst in via input().
++ Deel de tekst in woorden.
++ Maak van de **eerste letter van elk woord** een **hoofdletter**.
++ Plak de woorden terug aan elkaar.
 + Druk de nieuwe tekst af.
 
 ### Voorbeeld invoer
 
-    Hallo wereld
+    Vandaag is het mooi weer.
 
 ### Verwachte uitvoer  
     
-    wereld hallo
+    Vandaag Is Het Mooi Weer.
