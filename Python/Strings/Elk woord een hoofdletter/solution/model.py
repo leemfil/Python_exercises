@@ -1,12 +1,12 @@
-# Woorden omwisselen met find()
+# Eerste letter van elk woord hoofdletter maken
 
 tekst = input().strip()
 
-positie = tekst.find(" ")
+woorden = tekst.split()
+resultaat = []
 
-woord1 = tekst[:positie]
-woord2 = tekst[positie + 1:]
+for woord in woorden:
+    nieuw_woord = woord[0].upper() + woord[1:]
+    resultaat.append(nieuw_woord)
 
-nieuw = woord2 + " " + woord1
-
-print(nieuw)
+print(" ".join(resultaat))
