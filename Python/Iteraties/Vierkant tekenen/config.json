@@ -1,11 +1,15 @@
 {
-  "type": "exercise",
+  "type": "programming",
   "programming_language": "python",
   "access": "private",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
   "description": {
     "names": {
-      "nl": "Sprites tekenen,
-      "en": "Drawing Sprites"
+      "nl": "Een vierkant tekenen",
+      "en": "Draw a square"
     }
   },
   "labels": [
