@@ -10,7 +10,7 @@ Je gebruikt de `turtle`-module.
 ### Wat moet je doen?
 
 + maak een turtle aan
-+ teken een vierkant
++ teken een vierkant met een zijde van 200
 + zorg ervoor dat elke zijde even lang is
 + zorg ervoor dat de turtle na elke zijde correct draait
 
