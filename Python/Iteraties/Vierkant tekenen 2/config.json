@@ -8,7 +8,7 @@
   },
   "description": {
     "names": {
-      "nl": "Een vierkant tekenen",
+      "nl": "Een vierkant tekenen 2",
       "en": "Draw a square"
     }
   },
@@ -17,9 +17,5 @@
     "turtle",
     "lussen",
     "grafisch"
-  ],
-  "internals": {
-    "token": "3RNtdYqsYB6aujycrKy2xdE9SJTqQaNvrdGP2aPgXG5zQdF7hz3bNwbvMpykvmg-",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
