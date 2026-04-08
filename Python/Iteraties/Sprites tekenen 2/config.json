@@ -4,7 +4,7 @@
   "access": "private",
   "description": {
     "names": {
-      "nl": "Sprites tekenen",
+      "nl": "Sprites tekenen 2",
       "en": "Drawing Sprites"
     }
   },
@@ -17,9 +17,5 @@
     "turtle",
     "lussen",
     "grafisch"
-  ],
-  "internals": {
-    "token": "YgZMkqY9rJ4AH6qPF4Sh4DtZCw4BbRVVPSU3ApJVui5QPXKmzdVUsQFDnhcUnEWg",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
