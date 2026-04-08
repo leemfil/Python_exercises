@@ -1,16 +1,6 @@
-- tab: "tests"
+- tab: "Testen"
   testcases:
-    - stdin: |-
-        hallo wereld
-      stdout: |-
-        wereld hallo
-
-    - stdin: |-
-        goed bezig
-      stdout: |-
-        bezig goed
-
-    - stdin: |-
-        python oefenen
-      stdout: |-
-        oefenen python
+      - stdin: 
+          ""
+        stdout: |-
+          Test
