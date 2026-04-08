@@ -1,21 +1,23 @@
 ## Opdracht
 <br>
 
-Vraag een tekst aan de gebruiker die bestaat uit **exact twee woorden** gescheiden door één spatie.  
-Wissel de volgorde van de woorden om met behulp van de find()-methode en beeldt de nieuwe tekst af.
+In een tekenprogramma wil je een eenvoudig figuur maken. Je gebruikt een turtle om een vierkant te tekenen op het scherm.
+
+### Gegeven
+
+Je gebruikt de `turtle`-module.
 
 ### Wat moet je doen?
 
-+ Lees de tekst in.
-+ Zoek de positie van de spatie met de methode `find()`.
-+ Deel de tekst in twee woorden.
-+ Wissel de volgorde van de woorden.
-+ Druk de nieuwe tekst af.
++ maak een turtle aan
++ teken een vierkant
++ zorg ervoor dat elke zijde even lang is
++ zorg ervoor dat de turtle na elke zijde correct draait
 
-### Voorbeeld invoer
+### Verwachte uitvoer
 
-    Hallo wereld
+Op het scherm verschijnt een vierkant.
 
-### Verwachte uitvoer  
+### Voorbeeld van uitvoer  
     
-    wereld hallo
+    Er verschijnt een vierkant op het scherm.
