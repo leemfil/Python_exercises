@@ -1,8 +1,8 @@
 ## Opdracht
 <br>
 
-
-In een digitaal tekenprogramma maak je nu dezelfe opdracht met drie kleine sprites. Gebruik nu één **for-lus** om de verschillende beentjes van de sprites te tekenen.
+Maak dezelfde opdracht maar gebruik nu telkens één **for-lus** om de verschillende beentjes van een sprite te tekenen.  
+In een digitaal tekenprogramma maak je drie kleine sprites.
 Een sprite is een figuur met meerdere beentjes die vanuit één middelpunt vertrekken. Je tekent vandaag drie varianten: met 3, 5 en 8 beentjes.
 
 ### Gegeven
