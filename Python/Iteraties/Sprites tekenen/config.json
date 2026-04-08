@@ -1,18 +1,18 @@
 {
-  "description": {
-    "names": {
-      "nl": "Woorden wisselen 1"
-    }
-  },
-  "evaluation": {
-    "handler": "tested",
-    "test_suite": "suite.yaml"
-  },
+  "type": "exercise",
   "programming_language": "python",
   "access": "private",
-  "labels": [],
-  "internals": {
-    "token": "VerpkfzXjkU9hC5txX6SR8frKnMufm5FmeFuCMWyqbBMwShUUeM52Peb4aGAVqnT",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "description": {
+    "names": {
+      "nl": "Sprites tekenen,
+      "en": "Drawing Sprites"
+    }
+  },
+  "labels": [
+    "python",
+    "turtle",
+    "lussen",
+    "grafisch"
+  ],
+  "contact": "Jouw naam <jouw.email@school.be>"
 }
