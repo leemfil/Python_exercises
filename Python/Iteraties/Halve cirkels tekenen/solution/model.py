@@ -1,9 +1,14 @@
 import turtle
 
 pen = turtle.Turtle()
+pen.speed(3)
 
-for _ in range(4):
-    pen.forward(200)
-    pen.left(90)
+pen.circle(50, 180)
+pen.penup()
+pen.left(180)
+pen.forward(100)
+pen.left(180)
+pen.pendown()
+pen.circle(50, 180)
 
 turtle.exitonclick()
