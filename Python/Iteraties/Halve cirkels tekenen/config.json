@@ -17,5 +17,9 @@
     "turtle",
     "lussen",
     "grafisch"
-  ]
+  ],
+  "internals": {
+    "token": "-RVf55UVumEd_TYp2hSsnKYhm6jQwbK5mu6aJj4qJw5vBxzxJf-wHjfqBgmYu92y",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
