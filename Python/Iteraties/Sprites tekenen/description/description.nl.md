@@ -30,3 +30,8 @@ Op het scherm verschijnen drie sprites naast elkaar. De eerste sprite heeft 3 be
     Links staat een sprite met 3 beentjes.
     In het midden staat een sprite met 5 beentjes.
     Rechts staat een sprite met 8 beentjes.
+
+    <br>  
+        <div class="dodona-centered-group"><img src="media/sprite_5.png" width="302" height="336"></div>
+    <br>
+
