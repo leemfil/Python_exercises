@@ -2,6 +2,7 @@
 <br>
 
 In een digitaal tekenprogramma maak je drie kleine sprites. Een sprite is een figuur met meerdere beentjes die vanuit één middelpunt vertrekken. Je tekent vandaag drie varianten: met 3, 5 en 8 beentjes.
+De turtle-module is niet beschikbaar in Dodona. Daarom zal je je code in Visual Studio Code moeten schrijven. Als je code af is, kan je ze kopiëren naar Dodona.
 
 ### Gegeven
 
