@@ -1,0 +1,17 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "private",
+  "description": {
+    "names": {
+      "nl": "Sprites tekenen,
+      "en": "Drawing Sprites"
+    }
+  },
+  "labels": [
+    "python",
+    "turtle",
+    "lussen",
+    "grafisch"
+  ]
+}
