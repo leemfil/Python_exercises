@@ -8,6 +8,10 @@
       "en": "Drawing Sprites"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
   "labels": [
     "python",
     "turtle",
