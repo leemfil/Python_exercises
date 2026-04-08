@@ -1,7 +1,8 @@
 ## Opdracht
 <br>
 
-In een tekenprogramma wil je een figuur maken met twee halve cirkels. De halve cirkels moeten horizontaal naast elkaar staan en in tegengestelde richting gebogen zijn.
+In een tekenprogramma wil je een figuur maken met twee halve cirkels. De halve cirkels moeten horizontaal naast elkaar staan en in tegengestelde richting gebogen zijn.  
+De turtle-module is niet beschikbaar in Dodona. Daarom zal je je code in Visual Studio Code moeten schrijven. Als je code af is, kan je ze kopiëren naar Dodona.
 
 ### Gegeven
 
