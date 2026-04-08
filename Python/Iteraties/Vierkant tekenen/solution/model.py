@@ -1,12 +1,9 @@
-# Woorden omwisselen met find()
+import turtle
 
-tekst = input().strip()
+pen = turtle.Turtle()
 
-positie = tekst.find(" ")
+for _ in range(4):
+    pen.forward(200)
+    pen.left(90)
 
-woord1 = tekst[:positie]
-woord2 = tekst[positie + 1:]
-
-nieuw = woord2 + " " + woord1
-
-print(nieuw)
+turtle.exitonclick()
