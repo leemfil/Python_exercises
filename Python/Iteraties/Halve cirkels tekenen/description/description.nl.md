@@ -22,3 +22,7 @@ Op het scherm verschijnt een figuur met twee halve cirkels die horizontaal tegen
 ### Voorbeeld van uitvoer  
     
     Er verschijnt een liggende golvende vorm met twee halve cirkels.
+
+<br>  
+    <div class="dodona-centered-group"><img src="media/half_circles.png" width="152" height="143"></div>
+<br>
