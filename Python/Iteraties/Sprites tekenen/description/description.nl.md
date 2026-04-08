@@ -15,10 +15,11 @@ Je maakt een tekening met:
 ### Wat moet je doen?
 
 + maak een turtle aan
++ verplaats de turtle zonder te tekenen 200 naar links
 + teken een sprite met 3 beentjes
-+ verplaats de turtle zonder te tekenen
++ verplaats de turtle zonder te tekenen 200 naar rechts
 + teken een sprite met 5 beentjes
-+ verplaats de turtle opnieuw zonder te tekenen
++ verplaats de turtle opnieuw zonder te tekenen 200 naar rechts
 + teken ten slotte een sprite met 8 beentjes
 
 ### Verwachte uitvoer
