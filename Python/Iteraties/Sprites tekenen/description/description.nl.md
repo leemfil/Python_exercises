@@ -1,21 +1,32 @@
 ## Opdracht
 <br>
 
-Vraag een tekst aan de gebruiker die bestaat uit **exact twee woorden** gescheiden door één spatie.  
-Wissel de volgorde van de woorden om met behulp van de find()-methode en beeldt de nieuwe tekst af.
+In een digitaal tekenprogramma maak je drie kleine sprites. Een sprite is een figuur met meerdere beentjes die vanuit één middelpunt vertrekken. Je tekent vandaag drie varianten: met 3, 5 en 8 beentjes.
+
+### Gegeven
+
+Je gebruikt de `turtle`-module.
+
+Je maakt een tekening met:
+- een sprite met 3 beentjes
+- een sprite met 5 beentjes
+- een sprite met 8 beentjes
 
 ### Wat moet je doen?
 
-+ Lees de tekst in.
-+ Zoek de positie van de spatie met de methode `find()`.
-+ Deel de tekst in twee woorden.
-+ Wissel de volgorde van de woorden.
-+ Druk de nieuwe tekst af.
++ maak een turtle aan
++ teken een sprite met 3 beentjes
++ verplaats de turtle zonder te tekenen
++ teken een sprite met 5 beentjes
++ verplaats de turtle opnieuw zonder te tekenen
++ teken ten slotte een sprite met 8 beentjes
 
-### Voorbeeld invoer
+### Verwachte uitvoer
 
-    Hallo wereld
+Op het scherm verschijnen drie sprites naast elkaar. De eerste sprite heeft 3 beentjes, de tweede 5 beentjes en de derde 8 beentjes.
 
-### Verwachte uitvoer  
+### Voorbeeld van uitvoer  
     
-    wereld hallo
+    Links staat een sprite met 3 beentjes.
+    In het midden staat een sprite met 5 beentjes.
+    Rechts staat een sprite met 8 beentjes.
