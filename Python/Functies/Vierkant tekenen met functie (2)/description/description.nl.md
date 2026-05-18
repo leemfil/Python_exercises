@@ -1,24 +1,20 @@
 ## Opdracht
 <br>
 
-In een tekenprogramma wil je een eenvoudig figuur maken. Je gebruikt een turtle om een vierkant op het scherm te tekenen.
-De turtle-module is niet beschikbaar in Dodona. Daarom zal je je code in Visual Studio Code moeten schrijven. Als je code af is, kan je ze kopiëren naar Dodona.
+In de vorige oefening maakte je een functie die een vierkant tekende met een vaste lengte van 100. Nu breid je die functie uit, zodat je zelf kunt kiezen hoe groot het vierkant wordt.
 
 ### Gegeven
 
-Je gebruikt de `turtle`-module.
+Schrijf een functie met de naam `teken_vierkant`.
+
+De functie krijgt één waarde mee: de lengte van een zijde.
 
 ### Wat moet je doen?
 
-+ maak een turtle aan
-+ teken een vierkant met een zijde van 200
-+ zorg ervoor dat elke zijde even lang is
-+ zorg ervoor dat de turtle na elke zijde correct draait
-
-### Verwachte uitvoer
-
-Op het scherm verschijnt een vierkant.
++ maak een functie met de naam `teken_vierkant`
++ geef de functie één parameter voor de lengte
++ laat de functie een vierkant tekenen met die lengte
 
 ### Voorbeeld van uitvoer  
     
-    Er verschijnt een vierkant op het scherm.
+    Er verschijnt een vierkant met een zelfgekozen zijde.
