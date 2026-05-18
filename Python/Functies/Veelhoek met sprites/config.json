@@ -8,8 +8,8 @@
   },
   "description": {
     "names": {
-      "nl": "Een sprite tekenen met functie",
-      "en": "Draw a sprite with function"
+      "nl": "Veelhoek met sprites",
+      "en": "Polygon with sprites"
     }
   },
   "labels": [
