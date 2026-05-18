@@ -1,7 +1,7 @@
 ## Opdracht
 <br>
 
-In de vorige oefening maakte je een functie die een vierkant tekende met een vaste lengte van 100. Nu breid je die functie uit, zodat je zelf kunt kiezen hoe groot het vierkant wordt.
+In de vorige oefening maakte je een functie die een vierkant tekende met een vaste lengte van 100. Nu breid je die functie uit, zodat de gebruiker kan kiezen hoe groot het vierkant wordt.
 
 ### Gegeven
 
@@ -13,8 +13,9 @@ De functie krijgt één waarde mee: de lengte van een zijde.
 
 + maak een functie met de naam `teken_vierkant`
 + geef de functie één parameter voor de lengte
++ vraag een lengte aan de gebruiker
 + laat de functie een vierkant tekenen met die lengte
 
 ### Voorbeeld van uitvoer  
     
-    Er verschijnt een vierkant met een zelfgekozen zijde.
+    Er verschijnt een vierkant met een zijde die gekozen is door de gebruiker.
