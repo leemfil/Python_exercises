@@ -1,6 +1,0 @@
-- tab: "Testen"
-  testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
