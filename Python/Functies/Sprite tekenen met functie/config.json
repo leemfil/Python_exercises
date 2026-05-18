@@ -8,8 +8,8 @@
   },
   "description": {
     "names": {
-      "nl": "Een vierkant tekenen",
-      "en": "Draw a square"
+      "nl": "Een sprite tekenen met functie",
+      "en": "Draw a sprite with function"
     }
   },
   "labels": [
@@ -17,9 +17,5 @@
     "turtle",
     "lussen",
     "grafisch"
-  ],
-  "internals": {
-    "token": "qczBDF9bqevHbRgKV4ErAC6kdJukwUrSERrvVJupnFaQ3Yph4iR7uBU2gjtniivz",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
