@@ -1,5 +1,5 @@
 {
-  "type": "exercise",
+  "type": "programming",
   "programming_language": "python",
   "access": "private",
   "evaluation": {
@@ -8,18 +8,14 @@
   },
   "description": {
     "names": {
-      "nl": "Een vierkant tekenen",
-      "en": "Draw a square"
+      "nl": "Veelhoek met sprites",
+      "en": "Polygon with sprites"
     }
   },
   "labels": [
     "python",
     "turtle",
-    "lussen",
-    "grafisch"
-  ],
-  "internals": {
-    "token": "hr8Tv8A6M6EEWr2a8dK55gAjZtpEaDUsDtpCitQXFet_wkaVZ_5b8WzjdQwca3uQ",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "functies",
+    "herhaling"
+  ]
 }
