@@ -2,8 +2,13 @@ import turtle
 
 pen = turtle.Turtle()
 
-for _ in range(4):
-    pen.forward(200)
-    pen.left(90)
+
+def teken_vierkant(lengte):
+    for _ in range(4):
+        pen.forward(lengte)
+        pen.left(90)
+
+
+teken_vierkant(120)
 
 turtle.exitonclick()
