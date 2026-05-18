@@ -1,24 +1,26 @@
 ## Opdracht
 <br>
 
-In een tekenprogramma wil je een eenvoudig figuur maken. Je gebruikt een turtle om een vierkant op het scherm te tekenen.
-De turtle-module is niet beschikbaar in Dodona. Daarom zal je je code in Visual Studio Code moeten schrijven. Als je code af is, kan je ze kopiëren naar Dodona.
+In een bordspel wil je een dobbelsteen tekenen met de turtle-module. Je maakt eerst de buitenkant van de dobbelsteen en daarna de stippen.  
+Maak 3 functies aan: één om de turtle te verplaatsen zonder te tekenen, één om een vierkant te tekenen en één om een rondje te tekenen.
 
 ### Gegeven
 
 Je gebruikt de `turtle`-module.
 
+Je tekent een dobbelsteen met waarde 5.
+
 ### Wat moet je doen?
 
-+ maak een turtle aan
-+ teken een vierkant met een zijde van 200
-+ zorg ervoor dat elke zijde even lang is
-+ zorg ervoor dat de turtle na elke zijde correct draait
++ maak een functie die de turtle naar een positie verplaatst zonder te tekenen, gebruik parameters om de positie mee te geven
++ maak een functie die één stip tekent op de opgegeven plaats
++ maak een functie die het vierkant van de dobbelsteen tekent
++ gebruik deze 3 functies om een dobbelsteen met 5 stippen te tekenen
 
 ### Verwachte uitvoer
 
-Op het scherm verschijnt een vierkant.
+Op het scherm verschijnt een dobbelsteen met waarde 5: een vierkant met vijf stippen op de juiste plaats.
 
 ### Voorbeeld van uitvoer  
     
-    Er verschijnt een vierkant op het scherm.
+    Er verschijnt een dobbelsteen met vijf stippen.
