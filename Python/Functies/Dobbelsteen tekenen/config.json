@@ -1,0 +1,25 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "private",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Een vierkant tekenen",
+      "en": "Draw a square"
+    }
+  },
+  "labels": [
+    "python",
+    "turtle",
+    "lussen",
+    "grafisch"
+  ],
+  "internals": {
+    "token": "qczBDF9bqevHbRgKV4ErAC6kdJukwUrSERrvVJupnFaQ3Yph4iR7uBU2gjtniivz",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
