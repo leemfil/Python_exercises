@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Functie 2: Plaats element vooraan of achteraan"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "bsDGY4tEraKhatdQPHirRbkgkI5iUuCYamYGQduVgqbUw_2SCyX84qzCKgSXbksG",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

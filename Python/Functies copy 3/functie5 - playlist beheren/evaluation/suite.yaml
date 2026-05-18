@@ -1,0 +1,44 @@
+- tab: "tests"
+  testcases:
+    # 1) Basis: nieuw erbij, sort case-insensitive, reverse, verboden weg, lengte ok
+    - expression: 'beheer_playlist(["Zebra","apple","Monkey"], "Track", "Monkey", 4)'
+      return: ["Zebra", "Track", "apple"]
+
+    # 2) Grenzen afdwingen: max_grootte = 3, laatste (zwakste) eruit
+    # Start: ["a","b","c"], + "d" => sort (a,b,c,d) -> reverse (d,c,b,a) -> geen verboden -> te lang (4>3) -> pop() -> (d,c,b)
+    - expression: 'beheer_playlist(["a","b","c"], "d", "x", 3)'
+      return: ["d", "c", "b"]
+
+    # 3) Case-insensitive sort, remove van "Pop" (exacte match), nieuw is "pop"
+    # Start: ["Rock","Pop"], + "pop" => sort key: ["Pop","pop","Rock"] -> reverse: ["Rock","pop","Pop"]
+    # remove("Pop") => ["Rock","pop"] (lengte 2<=3)
+    - expression: 'beheer_playlist(["Rock","Pop"], "pop", "Pop", 3)'
+      return: ["Rock", "pop"]
+
+    # 4) Meerdere pops nodig
+    # Start: ["x","Y","z"], + "A" => sort key: ["A","x","Y","z"] -> reverse: ["z","Y","x","A"]
+    # remove("z") => ["Y","x","A"]; max=2 -> pop() -> ["Y","x"]
+    - expression: 'beheer_playlist(["x","Y","z"], "A", "z", 2)'
+      return: ["Y", "x"]
+
+    # 5) Verboden niet aanwezig -> alleen lengte knippen
+    # ["beta","Alpha"], + "gamma" => sort: ["Alpha","beta","gamma"] -> reverse: ["gamma","beta","Alpha"]
+    # geen verwijdering; max=2 -> pop() -> ["gamma","beta"]
+    - expression: 'beheer_playlist(["beta","Alpha"], "gamma", "delta", 2)'
+      return: ["gamma", "beta"]
+
+    # 6) Nieuw is zelf verboden -> wordt na sort/reverse weer verwijderd
+    # ["m"], + "Ban" (verboden="Ban")
+    # sort: ["Ban","m"] -> reverse: ["m","Ban"] -> remove("Ban") -> ["m"]; max=5 (ok)
+    - expression: 'beheer_playlist(["m"], "Ban", "Ban", 5)'
+      return: ["m"]
+
+    # 7) Duplicaten met verschillende cases; controle op key=str.lower en correcte knip
+    # ["song","Song","SONG"], + "alpha" => sort key: ["alpha","song","Song","SONG"]
+    # reverse: ["SONG","Song","song","alpha"]; geen verboden; max=3 -> pop() -> ["SONG","Song","song"]
+    - expression: 'beheer_playlist(["song","Song","SONG"], "alpha", "zzz", 3)'
+      return: ["SONG", "Song", "song"]
+
+    # 8) Lege startlijst, alles past, verboden niet aanwezig
+    - expression: 'beheer_playlist([], "Tune", "Block", 3)'
+      return: ["Tune"]

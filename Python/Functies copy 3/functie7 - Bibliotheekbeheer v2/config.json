@@ -1,0 +1,18 @@
+{
+  "description": {
+    "names": {
+      "nl": "Bibliotheekbeheer v2"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private",
+  "labels": [],
+  "internals": {
+    "token": "-_AqUKCRrdxW6DFtNqA6d2QniHGXNvk6cybnFIJd2NysZGBIJtigUamuVZxSb-ZC",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

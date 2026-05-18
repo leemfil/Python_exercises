@@ -1,0 +1,25 @@
+- tab: "tests"
+  testcases:
+    # 1) Basis: pop in het midden, daarna artikel aanwezig
+    - expression: 'bewerking_winkelmand(["brood","melk","kaas"], 1, "kaas")'
+      return: ["melk", ["brood"]]
+
+    # 2) Artikel niet aanwezig -> enkel pop
+    - expression: 'bewerking_winkelmand(["appel","peer","banaan"], 0, "druif")'
+      return: ["appel", ["peer","banaan"]]
+
+    # 3) Dubbele waarden: remove verwijdert alleen eerste voorkomen
+    - expression: 'bewerking_winkelmand(["a","b","a","c"], 3, "a")'
+      return: ["c", ["b","a"]]
+
+    # 4) Negatieve index: pop laatste element met -1
+    - expression: 'bewerking_winkelmand(["x","y","z"], -1, "x")'
+      return: ["z", ["y"]]
+
+    # 5) Pop aan het begin, daarna remove elders
+    - expression: 'bewerking_winkelmand(["melk","brood","melk","kaas"], 0, "melk")'
+      return: ["melk", ["brood","kaas"]]
+
+    # 6) Geen remove nodig als artikel na pop verdwenen is (niet aanwezig)
+    - expression: 'bewerking_winkelmand(["koffie","thee"], 1, "thee")'
+      return: ["thee", ["koffie"]]

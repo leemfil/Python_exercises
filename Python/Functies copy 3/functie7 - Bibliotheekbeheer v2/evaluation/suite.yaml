@@ -1,0 +1,46 @@
+- tab: "tests"
+  testcases:
+    # 1) Verwijder index 1 ("It"), daarna "Dune"
+    # basis ["Dune","It","Foundation"] -> pop(1) -> ["Dune","Foundation"]
+    # remove("Dune") -> ["Foundation"]
+    # sort(reverse) -> ["Foundation"]
+    - expression: 'beheer_bibliotheek(["Dune","It","Foundation"], 1, "Dune")'
+      return: ["Foundation"]
+
+    # 2) Ongeldige index, verwijder "Ubik"
+    # ["Solaris","Ubik"] -> geen pop -> ["Solaris","Ubik"]
+    # remove("Ubik") -> ["Solaris"]
+    # sort(reverse) -> ["Solaris"]
+    - expression: 'beheer_bibliotheek(["Solaris","Ubik"], 5, "Ubik")'
+      return: ["Solaris"]
+
+    # 3) Verwijder index 0 ("1984"), lijst leeg
+    # daarna remove("Brave New World") -> niets
+    - expression: 'beheer_bibliotheek(["1984"], 0, "Brave New World")'
+      return: []
+
+    # 4) Ongeldige negatieve index, titel niet aanwezig
+    # ["A","B","C"] -> geen pop -> ["A","B","C"]
+    # remove("X") doet niets -> ["A","B","C"]
+    # sort(reverse) -> ["C","B","A"]
+    - expression: 'beheer_bibliotheek(["A","B","C"], -3, "X")'
+      return: ["C","B","A"]
+
+    # 5) Pop uit midden, daarna remove bestaand element
+    # ["Alpha","Beta","Gamma"] -> pop(1) -> ["Alpha","Gamma"]
+    # remove("Alpha") -> ["Gamma"] -> sort(reverse) -> ["Gamma"]
+    - expression: 'beheer_bibliotheek(["Alpha","Beta","Gamma"], 1, "Alpha")'
+      return: ["Gamma"]
+
+    # 6) Dubbel aanwezig, remove verwijdert slechts één
+    # ["Book","Book","Atlas"] -> pop(0) -> ["Book","Atlas"]
+    # remove("Book") -> ["Atlas"] -> sort(reverse) -> ["Atlas"]
+    - expression: 'beheer_bibliotheek(["Book","Book","Atlas"], 0, "Book")'
+      return: ["Atlas"]
+
+    # 7) Geen geldige verwijderingen, alleen sort reverse
+    # ["M","K","Z"] -> geen pop -> ["M","K","Z"]
+    # remove("X") niets -> ["M","K","Z"]
+    # sort(reverse) -> ["Z","M","K"]
+    - expression: 'beheer_bibliotheek(["M","K","Z"], 3, "X")'
+      return: ["Z","M","K"]
