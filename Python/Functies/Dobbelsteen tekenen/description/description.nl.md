@@ -17,6 +17,8 @@ Je tekent een dobbelsteen met waarde 5.
 + maak een functie die het vierkant van de dobbelsteen tekent
 + gebruik deze 3 functies om een dobbelsteen met 5 stippen te tekenen
 
+hint: Gebruik de methode goto() om naar een positie (x, y) te gaan in het venster bv. turtle.goto(50, -50).
+
 ### Verwachte uitvoer
 
 Op het scherm verschijnt een dobbelsteen met waarde 5: een vierkant met vijf stippen op de juiste plaats.
