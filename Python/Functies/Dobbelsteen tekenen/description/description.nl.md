@@ -21,6 +21,6 @@ Je tekent een dobbelsteen met waarde 5.
 
 Op het scherm verschijnt een dobbelsteen met waarde 5: een vierkant met vijf stippen op de juiste plaats.
 
-### Voorbeeld van uitvoer  
-    
-    Er verschijnt een dobbelsteen met vijf stippen.
+<br>  
+    <div class="dodona-centered-group"><img src="media/die.png" width="545" height="138"></div>
+<br>
