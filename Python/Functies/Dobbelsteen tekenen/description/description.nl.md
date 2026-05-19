@@ -22,5 +22,5 @@ Je tekent een dobbelsteen met waarde 5.
 Op het scherm verschijnt een dobbelsteen met waarde 5: een vierkant met vijf stippen op de juiste plaats.
 
 <br>  
-    <div class="dodona-centered-group"><img src="media/die.png" width="545" height="138"></div>
+    <div class="dodona-centered-group"><img src="media/die.png" width="220" height="228"></div>
 <br>
