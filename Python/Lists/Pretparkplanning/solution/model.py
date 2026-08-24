@@ -1,29 +1,31 @@
-import turtle
-
-pen = turtle.Turtle()
-pen.speed(0)
+attracties = ["Achtbaan", "Spookhuis", "Reuzenrad", "Wildwaterbaan", "Botsauto's"]
 
 
-def teken_sprite(aantal_beentjes):
-    draaihoek = 360 / aantal_beentjes
+# Stap 1: Attractie toevoegen
+toevoegen = input()
 
-    for _ in range(aantal_beentjes):
-        pen.forward(50)
-        pen.backward(50)
-        pen.left(draaihoek)
+if toevoegen.lower() == "ja":
+    plaats = int(input())
+    naam = input()
 
-    return "Sprite klaar."
+    attracties.insert(plaats - 1, naam)
+    print(f"De aangepaste planning is {attracties}.")
+else:
+    print(f"De planning is {attracties}.")
 
 
-eerste_sprite = int(input("Geef het aantal beentjes voor de eerste sprite: "))
-tweede_sprite = int(input("Geef het aantal beentjes voor de tweede sprite: "))
+# Stap 2: Plaats van een attractie zoeken
+gezochte_attractie = input()
 
-print(teken_sprite(eerste_sprite))
+if gezochte_attractie in attracties:
+    plaats = attracties.index(gezochte_attractie) + 1
+    print(f"De attractie {gezochte_attractie} staat op plaats {plaats}.")
+else:
+    print("Deze attractie staat niet in de lijst!")
 
-pen.penup()
-pen.forward(150)
-pen.pendown()
 
-print(teken_sprite(tweede_sprite))
+# Stap 3: Voormiddagplanning maken
+helft = (len(attracties) + 1) // 2
+voormiddagplanning = attracties[:helft]
 
-turtle.exitonclick()
+print(f"De voormiddagplanning is: {voormiddagplanning}")
