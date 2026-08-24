@@ -8,8 +8,8 @@
   },
   "description": {
     "names": {
-      "nl": "Een sprite tekenen met functie",
-      "en": "Draw a sprite with function"
+      "nl": "Pretparkplanning",
+      "en": "Amusement Park Planning"
     }
   },
   "labels": [
@@ -17,9 +17,5 @@
     "turtle",
     "lussen",
     "grafisch"
-  ],
-  "internals": {
-    "token": "SiGSq_7bfCxu2kR84vgmm63E74qhSFtQ3DmKKuUhhsqDz_gi8RW-FBa9S-9Q9SHg",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
