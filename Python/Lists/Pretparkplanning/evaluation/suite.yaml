@@ -1,6 +1,47 @@
 - tab: "Testen"
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+    - stdin: |-
+        nee
+        Spookhuis
+      stdout: |-
+        De planning is ['Achtbaan', 'Spookhuis', 'Reuzenrad', 'Wildwaterbaan', "Botsauto's"].
+        De attractie Spookhuis staat op plaats 2.
+        De voormiddagplanning is: ['Achtbaan', 'Spookhuis', 'Reuzenrad']
+
+    - stdin: |-
+        nee
+        Draaimolen
+      stdout: |-
+        De planning is ['Achtbaan', 'Spookhuis', 'Reuzenrad', 'Wildwaterbaan', "Botsauto's"].
+        Deze attractie staat niet in de lijst!
+        De voormiddagplanning is: ['Achtbaan', 'Spookhuis', 'Reuzenrad']
+
+    - stdin: |-
+        ja
+        1
+        Draaimolen
+        Achtbaan
+      stdout: |-
+        De aangepaste planning is ['Draaimolen', 'Achtbaan', 'Spookhuis', 'Reuzenrad', 'Wildwaterbaan', "Botsauto's"].
+        De attractie Achtbaan staat op plaats 2.
+        De voormiddagplanning is: ['Draaimolen', 'Achtbaan', 'Spookhuis']
+
+    - stdin: |-
+        ja
+        3
+        Boomstammetjes
+        Reuzenrad
+      stdout: |-
+        De aangepaste planning is ['Achtbaan', 'Spookhuis', 'Boomstammetjes', 'Reuzenrad', 'Wildwaterbaan', "Botsauto's"].
+        De attractie Reuzenrad staat op plaats 4.
+        De voormiddagplanning is: ['Achtbaan', 'Spookhuis', 'Boomstammetjes']
+
+    - stdin: |-
+        ja
+        6
+        Draaimolen
+        Draaimolen
+      stdout: |-
+        De aangepaste planning is ['Achtbaan', 'Spookhuis', 'Reuzenrad', 'Wildwaterbaan', "Botsauto's", 'Draaimolen'].
+        De attractie Draaimolen staat op plaats 6.
+        De voormiddagplanning is: ['Achtbaan', 'Spookhuis', 'Reuzenrad']
