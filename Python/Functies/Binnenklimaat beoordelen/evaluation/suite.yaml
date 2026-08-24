@@ -1,6 +1,91 @@
 - tab: "Testen"
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+    - stdin: |-
+        20
+        45
+      stdout: |-
+        Het binnenklimaat is aangenaam.
+
+    - stdin: |-
+        17
+        45
+      stdout: |-
+        Het is te koud.
+
+    - stdin: |-
+        20
+        25
+      stdout: |-
+        De lucht is te droog.
+
+    - stdin: |-
+        20
+        65
+      stdout: |-
+        De lucht is vochtig.
+
+    - stdin: |-
+        24
+        70
+      stdout: |-
+        Het is warm en vochtig.
+
+    - stdin: |-
+        27
+        80
+      stdout: |-
+        Het is warm en vochtig.
+
+    - stdin: |-
+        24
+        69
+      stdout: |-
+        Het is warm.
+
+    - stdin: |-
+        28
+        40
+      stdout: |-
+        Het is warm.
+
+    - stdin: |-
+        18
+        30
+      stdout: |-
+        Het binnenklimaat is aangenaam.
+
+    - stdin: |-
+        20
+        60
+      stdout: |-
+        Het binnenklimaat is aangenaam.
+
+    - stdin: |-
+        warm
+        twintig
+        110
+        -5
+        21.5
+        abc
+        50.5
+        55
+      stdout: |-
+        Dat is geen geldige temperatuur.
+        Dat is geen geldige temperatuur.
+        Dat is geen geldige temperatuur.
+        Dat is geen geldige temperatuur.
+        Dat is geen geldige luchtvochtigheid.
+        Dat is geen geldige luchtvochtigheid.
+        Het binnenklimaat is aangenaam.
+
+    - stdin: |-
+        22
+        honderd
+        -1
+        101
+        30
+      stdout: |-
+        Dat is geen geldige luchtvochtigheid.
+        De luchtvochtigheid moet tussen 0 en 100 liggen.
+        De luchtvochtigheid moet tussen 0 en 100 liggen.
+        De lucht is te droog.
