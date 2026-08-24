@@ -72,11 +72,11 @@
       stdout: |-
         Dat is geen geldige temperatuur.
         Dat is geen geldige temperatuur.
-        Dat is geen geldige temperatuur.
-        Dat is geen geldige temperatuur.
+        De luchtvochtigheid moet tussen 0 en 100 liggen.
         Dat is geen geldige luchtvochtigheid.
         Dat is geen geldige luchtvochtigheid.
-        Het binnenklimaat is aangenaam.
+        Dat is geen geldige luchtvochtigheid.
+        Het is warm.
 
     - stdin: |-
         22
@@ -88,4 +88,4 @@
         Dat is geen geldige luchtvochtigheid.
         De luchtvochtigheid moet tussen 0 en 100 liggen.
         De luchtvochtigheid moet tussen 0 en 100 liggen.
-        De lucht is te droog.
+        Het binnenklimaat is aangenaam.
