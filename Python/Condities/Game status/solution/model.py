@@ -1,13 +1,8 @@
-import turtle
+levens = int(input())
 
-
-def teken_vierkant():
-    pen = turtle.Turtle()
-
-    for _ in range(4):
-        pen.forward(100)
-        pen.left(90)
-
-
-teken_vierkant()
-turtle.exitonclick()
+if levens == 0:
+    print("game over")
+elif levens == 1:
+    print("laatste kans")
+else:
+    print("verder spelen")
