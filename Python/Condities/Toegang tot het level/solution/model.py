@@ -1,13 +1,7 @@
-import turtle
+level = int(input())
+levens = int(input())
 
-
-def teken_vierkant():
-    pen = turtle.Turtle()
-
-    for _ in range(4):
-        pen.forward(100)
-        pen.left(90)
-
-
-teken_vierkant()
-turtle.exitonclick()
+if level >= 5 and levens >= 1:
+    print("toegang")
+else:
+    print("geen toegang")
