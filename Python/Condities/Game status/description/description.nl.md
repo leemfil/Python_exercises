@@ -1,21 +1,22 @@
 ## Opdracht
 <br>
 
-Enkele weken geleden leerde je met de turtle-module eenvoudige figuren tekenen. Nu herhaal je dat, maar deze keer gebruik je een functie. Zo leer je hoe je een stuk code netjes kunt bundelen en later opnieuw kunt gebruiken.
+In een game hangt de boodschap af van het aantal levens dat de speler nog heeft.
 
 ### Gegeven
 
-Schrijf een functie met de naam `teken_vierkant()`.
-
-De functie moet met de `turtle`-module een vierkant tekenen waarvan elke zijde een lengte van 100 heeft.
+Je programma leest één geheel getal in: het aantal `levens`.
 
 ### Wat moet je doen?
 
-+ maak een functie met de naam `teken_vierkant`
-+ laat de functie een vierkant tekenen
-+ gebruik zijden met lengte 100
-+ roep de functie aan zodat de tekening zichtbaar wordt
++ Bij `0` levens druk je `game over` af.
++ Bij precies `1` leven druk je `laatste kans` af.
++ Bij meer dan `1` leven druk je `verder spelen` af.
 
-### Voorbeeld van uitvoer  
-    
-    Er verschijnt een vierkant.
+### Verwachte uitvoer
+
+Druk **exact één** van deze teksten af:
+
++ `game over`
++ `laatste kans`
++ `verder spelen`
