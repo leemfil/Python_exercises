@@ -1,13 +1,8 @@
-import turtle
+temperatuur = int(input())
 
-
-def teken_vierkant():
-    pen = turtle.Turtle()
-
-    for _ in range(4):
-        pen.forward(100)
-        pen.left(90)
-
-
-teken_vierkant()
-turtle.exitonclick()
+if temperatuur < 10:
+    print("koud")
+elif temperatuur < 25:
+    print("aangenaam")
+else:
+    print("warm")
