@@ -1,21 +1,66 @@
 ## Opdracht
 <br>
 
-Enkele weken geleden leerde je met de turtle-module eenvoudige figuren tekenen. Nu herhaal je dat, maar deze keer gebruik je een functie. Zo leer je hoe je een stuk code netjes kunt bundelen en later opnieuw kunt gebruiken.
+Een speler krijgt alleen toegang tot een moeilijker level als aan **twee voorwaarden tegelijk** voldaan is.
 
 ### Gegeven
 
-Schrijf een functie met de naam `teken_vierkant()`.
+Je programma leest twee gehele getallen in:
 
-De functie moet met de `turtle`-module een vierkant tekenen waarvan elke zijde een lengte van 100 heeft.
++ eerst het `level`;
++ daarna het aantal `levens`.
 
 ### Wat moet je doen?
 
-+ maak een functie met de naam `teken_vierkant`
-+ laat de functie een vierkant tekenen
-+ gebruik zijden met lengte 100
-+ roep de functie aan zodat de tekening zichtbaar wordt
+De speler krijgt toegang als:
 
-### Voorbeeld van uitvoer  
-    
-    Er verschijnt een vierkant.
++ het level minstens `5` is;
++ **en** de speler minstens `1` leven heeft.
+
+Gebruik de logische operator `and` om beide voorwaarden te combineren.
+
+### Verwachte uitvoer
+
++ Druk `toegang` af als aan beide voorwaarden voldaan is.
++ Druk anders `geen toegang` af.
+
+### Voorbeeld van uitvoer
+
+Bij invoer
+
+```text
+5
+1
+```
+
+verschijnt:
+
+```text
+toegang
+```
+
+Bij invoer
+
+```text
+4
+3
+```
+
+verschijnt:
+
+```text
+geen toegang
+```
+
+Bij invoer
+
+```text
+8
+0
+```
+
+verschijnt:
+
+```text
+geen toegang
+```
