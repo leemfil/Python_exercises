@@ -1,1 +1,4 @@
+level = int(input("Geef het level: "))
+levens = int(input("Geef het aantal levens: "))
 
+# Schrijf hieronder je conditie.
