@@ -1,7 +1,7 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "private",
+  "access": "public",
   "description": {
     "names": {
       "nl": "M1.2 - Temperatuuradvies"
