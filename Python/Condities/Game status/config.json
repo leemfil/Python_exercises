@@ -1,25 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
+  "access": "private",
+  "description": {
+    "names": {
+      "nl": "M1.3 - Game status"
+    }
+  },
   "evaluation": {
     "handler": "tested",
     "test_suite": "suite.yaml"
   },
-  "description": {
-    "names": {
-      "nl": "Een vierkant tekenen met functie",
-      "en": "Draw a square with function"
-    }
-  },
   "labels": [
     "python",
-    "turtle",
-    "lussen",
-    "grafisch"
-  ],
-  "internals": {
-    "token": "2n7hfxHjCjyhrhqYNanEYcW-g94SMktQNtdcQgkfWuMnkJwAjcR3Yj3-dfuMyY7p",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "herhaling",
+    "condities",
+    "module 1"
+  ]
 }
