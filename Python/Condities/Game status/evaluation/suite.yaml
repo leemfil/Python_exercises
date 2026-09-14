@@ -1,6 +1,12 @@
-- tab: "Testen"
+- tab: Game status
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+  - stdin: '0'
+    stdout: game over
+  - stdin: '1'
+    stdout: laatste kans
+  - stdin: '2'
+    stdout: verder spelen
+  - stdin: '3'
+    stdout: verder spelen
+  - stdin: '10'
+    stdout: verder spelen
