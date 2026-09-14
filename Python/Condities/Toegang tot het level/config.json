@@ -16,5 +16,9 @@
     "herhaling",
     "condities",
     "module 1"
-  ]
+  ],
+  "internals": {
+    "token": "wPPXuVs4MhEt4qpVjqfe8djMxXaa5VB5nEtf9xcdMPvkbv3NKzqWPvT4BN8XEfeN",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
