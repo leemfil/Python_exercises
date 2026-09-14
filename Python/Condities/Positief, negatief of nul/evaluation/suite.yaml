@@ -1,6 +1,16 @@
-- tab: "Testen"
+- tab: Positief, negatief of nul
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+  - stdin: '-10'
+    stdout: negatief
+  - stdin: '-1'
+    stdout: negatief
+  - stdin: '0'
+    stdout: nul
+  - stdin: '1'
+    stdout: positief
+  - stdin: '25'
+    stdout: positief
+  - stdin: '-1000000'
+    stdout: negatief
+  - stdin: '1000000'
+    stdout: positief
