@@ -1,6 +1,14 @@
-- tab: "Testen"
+- tab: Temperatuuradvies
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+  - stdin: '-5'
+    stdout: koud
+  - stdin: '9'
+    stdout: koud
+  - stdin: '10'
+    stdout: aangenaam
+  - stdin: '24'
+    stdout: aangenaam
+  - stdin: '25'
+    stdout: warm
+  - stdin: '40'
+    stdout: warm
