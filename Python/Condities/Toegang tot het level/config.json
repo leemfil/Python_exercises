@@ -2,24 +2,19 @@
   "type": "exercise",
   "programming_language": "python",
   "access": "public",
+  "description": {
+    "names": {
+      "nl": "M1.4 - Toegang tot het level"
+    }
+  },
   "evaluation": {
     "handler": "tested",
     "test_suite": "suite.yaml"
   },
-  "description": {
-    "names": {
-      "nl": "Een vierkant tekenen met functie",
-      "en": "Draw a square with function"
-    }
-  },
   "labels": [
     "python",
-    "turtle",
-    "lussen",
-    "grafisch"
-  ],
-  "internals": {
-    "token": "wPPXuVs4MhEt4qpVjqfe8djMxXaa5VB5nEtf9xcdMPvkbv3NKzqWPvT4BN8XEfeN",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "herhaling",
+    "condities",
+    "module 1"
+  ]
 }
