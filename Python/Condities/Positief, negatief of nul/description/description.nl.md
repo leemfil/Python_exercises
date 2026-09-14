@@ -1,21 +1,23 @@
 ## Opdracht
 <br>
 
-Enkele weken geleden leerde je met de turtle-module eenvoudige figuren tekenen. Nu herhaal je dat, maar deze keer gebruik je een functie. Zo leer je hoe je een stuk code netjes kunt bundelen en later opnieuw kunt gebruiken.
+Een getal kan **positief**, **negatief** of **nul** zijn.
 
 ### Gegeven
 
-Schrijf een functie met de naam `teken_vierkant()`.
-
-De functie moet met de `turtle`-module een vierkant tekenen waarvan elke zijde een lengte van 100 heeft.
+Je programma leest één geheel getal in.
 
 ### Wat moet je doen?
 
-+ maak een functie met de naam `teken_vierkant`
-+ laat de functie een vierkant tekenen
-+ gebruik zijden met lengte 100
-+ roep de functie aan zodat de tekening zichtbaar wordt
++ Is het getal groter dan `0`? Druk dan `positief` af.
++ Is het getal kleiner dan `0`? Druk dan `negatief` af.
++ Is het getal gelijk aan `0`? Druk dan `nul` af.
 
-### Voorbeeld van uitvoer  
-    
-    Er verschijnt een vierkant.
+### Verwachte uitvoer
+
+Druk **exact één** van deze woorden af:
+
++ `positief`
++ `negatief`
++ `nul`
+
