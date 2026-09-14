@@ -1,6 +1,26 @@
-- tab: "Testen"
+- tab: Toegang tot het level
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+  - stdin: '1
+
+      1'
+    stdout: geen toegang
+  - stdin: '4
+
+      5'
+    stdout: geen toegang
+  - stdin: '5
+
+      0'
+    stdout: geen toegang
+  - stdin: '5
+
+      1'
+    stdout: toegang
+  - stdin: '10
+
+      2'
+    stdout: toegang
+  - stdin: '100
+
+      1'
+    stdout: toegang
