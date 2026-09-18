@@ -1,7 +1,3 @@
-
-### `evaluation/suite.yaml`
-
-```yaml
 - tab: "Voor- en achternaam"
   testcases:
   - stdin: |
