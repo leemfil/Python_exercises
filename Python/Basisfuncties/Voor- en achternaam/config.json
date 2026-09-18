@@ -17,5 +17,9 @@
     "input",
     "variabelen",
     "print"
-  ]
+  ],
+  "internals": {
+    "token": "HnZBzwbunxqkc8MfCyK-neUEUCGiBNy3E32n8-RHhYxDuHTYRzrWy3D9ufuCUQg2",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
