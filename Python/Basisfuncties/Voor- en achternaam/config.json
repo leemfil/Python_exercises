@@ -8,18 +8,14 @@
   },
   "description": {
     "names": {
-      "nl": "Een vierkant tekenen",
-      "en": "Draw a square"
+      "nl": "Voor- en achternaam",
+      "en": "First and last name"
     }
   },
   "labels": [
     "python",
-    "turtle",
-    "lussen",
-    "grafisch"
-  ],
-  "internals": {
-    "token": "HnZBzwbunxqkc8MfCyK-neUEUCGiBNy3E32n8-RHhYxDuHTYRzrWy3D9ufuCUQg2",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "input",
+    "variabelen",
+    "print"
+  ]
 }
