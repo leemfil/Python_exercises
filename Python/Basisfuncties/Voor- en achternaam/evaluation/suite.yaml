@@ -1,6 +1,25 @@
-- tab: "Testen"
+
+### `evaluation/suite.yaml`
+
+```yaml
+- tab: "Voor- en achternaam"
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+  - stdin: |
+      Emma
+      Peeters
+    stdout: "Emma Peeters"
+
+  - stdin: |
+      Adam
+      El Amrani
+    stdout: "Adam El Amrani"
+
+  - stdin: |
+      Noor
+      De Smet
+    stdout: "Noor De Smet"
+
+  - stdin: |
+      Jean-Pierre
+      O'Neill
+    stdout: "Jean-Pierre O'Neill"
