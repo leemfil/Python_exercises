@@ -1,24 +1,25 @@
-## Opdracht
-<br>
+# Voor- en achternaam
 
-In een tekenprogramma wil je een eenvoudig figuur maken. Je gebruikt een turtle om een vierkant op het scherm te tekenen.
-De turtle-module is niet beschikbaar in Dodona. Daarom zal je je code in Visual Studio Code moeten schrijven. Als je code af is, kan je ze kopiëren naar Dodona.
+Schrijf een programma dat eerst de **voornaam** van de gebruiker inleest en daarna de **achternaam**.
 
-### Gegeven
+Bewaar beide waarden in een variabele.
 
-Je gebruikt de `turtle`-module.
+Print daarna de volledige naam op één regel, met een spatie tussen de voornaam en de achternaam.
 
-### Wat moet je doen?
+## Invoer
 
-+ maak een turtle aan
-+ teken een vierkant met een zijde van 200
-+ zorg ervoor dat elke zijde even lang is
-+ zorg ervoor dat de turtle na elke zijde correct draait
+De invoer bestaat uit twee regels:
 
-### Verwachte uitvoer
+1. de voornaam;
+2. de achternaam.
 
-Op het scherm verschijnt een vierkant.
+## Uitvoer
 
-### Voorbeeld van uitvoer  
-    
-    Er verschijnt een vierkant op het scherm.
+Print de volledige naam op één regel.
+
+## Voorbeeld
+
+```console
+Emma
+Peeters
+Emma Peeters
