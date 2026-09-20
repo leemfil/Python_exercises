@@ -1,5 +1,6 @@
-zijde = float(input("Geef de lengte van een zijde: "))
+minuten = int(input("Geef het aantal minuten: "))
 
-volume = zijde ** 3
+uren = minuten // 60
+resterende_minuten = minuten % 60
 
-print("Volume:", volume)
+print(uren, "uur en", resterende_minuten, "minuten")
