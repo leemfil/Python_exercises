@@ -6,7 +6,7 @@ Bewaar beide waarden in een variabele.
 
 Print daarna de volledige naam op één regel, met een spatie tussen de voornaam en de achternaam.
 
-## Voorbeeld
+# Voorbeeld
 
   Geef je voornaam: Emma  
   Geef je achternaam: Peeters  
