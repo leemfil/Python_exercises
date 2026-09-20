@@ -1,20 +1,20 @@
-# Volume van een kubus
+# Tijd omzetten
 
-Schrijf een programma dat aan de gebruiker de lengte van een zijde van een kubus vraagt. De lengte kan een kommagetal zijn.  
-Bereken daarna het volume van de kubus met de formule:
+Schrijf een programma dat aan de gebruiker een aantal minuten vraagt.  
+Bereken daarna hoeveel **volledige uren** dit zijn en hoeveel **minuten overblijven**.
 
-**V = zijde³**
-
-In Python gebruik je `**` om een macht te berekenen.
+{: .callout.callout-info}
+> #### Tip
+> Gebruik hiervoor de gehele deling `//` en de modulo `%` om het aantal volledige uren en resterende minuten te berekenen.
 
 Gebruik exact deze vraag:
 
 ```text
-Geef de lengte van een zijde:
-```
+Geef het aantal minuten:
+``` 
 En gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
 
-## Voorbeeld
-    Geef de lengte van een zijde: 2.5
+## Voorbeeld  
+    Geef het aantal minuten: 137
 
-    Volume: 15.625
+    2 uur en 17 minuten
