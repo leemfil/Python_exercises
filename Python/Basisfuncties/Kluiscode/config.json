@@ -8,20 +8,18 @@
   },
   "description": {
     "names": {
-      "nl": "Volume van een kubus",
-      "en": "Volume of a cube"
+      "nl": "Kluiscode",
+      "en": "Safe code"
     }
   },
   "labels": [
     "python",
     "input",
-    "float",
-    "casting",
+    "int",
     "variabelen",
+    "expressies",
+    "gehele deling",
+    "modulo",
     "machten"
-  ],
-  "internals": {
-    "token": "aK7MxsueDmA8MAgW8Vyv5hKa2aWXsNwBxNAp5ak2VufSxWqfAj9uCqFK_Wwbja3R",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
