@@ -1,7 +1,6 @@
 
 ### `evaluation/suite.yaml`
 
-```yaml
 - tab: "Leeftijd volgend jaar"
   testcases:
     - stdin: |
