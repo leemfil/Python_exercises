@@ -8,18 +8,16 @@
   },
   "description": {
     "names": {
-      "nl": "Een vierkant tekenen",
-      "en": "Draw a square"
+      "nl": "Leeftijd volgend jaar",
+      "en": "Age next year"
     }
   },
   "labels": [
     "python",
-    "turtle",
-    "lussen",
-    "grafisch"
-  ],
-  "internals": {
-    "token": "SanEHvVK9wm_iyDzdQxyYmnUbfurrQu59NuQQ_49F52dVbGZXeu_j_tNe5xZ5HBz",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "input",
+    "int",
+    "casting",
+    "variabelen",
+    "print"
+  ]
 }
