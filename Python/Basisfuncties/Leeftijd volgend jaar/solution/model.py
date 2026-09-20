@@ -1,9 +1,6 @@
-import turtle
+naam = input("Geef je naam: ")
+leeftijd = int(input("Geef je leeftijd: "))
 
-pen = turtle.Turtle()
+volgend_jaar = leeftijd + 1
 
-for _ in range(4):
-    pen.forward(200)
-    pen.left(90)
-
-turtle.exitonclick()
+print(naam, "is volgend jaar", volgend_jaar, "jaar.")
