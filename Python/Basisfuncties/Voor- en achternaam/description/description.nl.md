@@ -8,7 +8,7 @@ Print daarna de volledige naam op één regel, met een spatie tussen de voornaam
 
 **Voorbeeld**
 
-  Geef je voornaam: Emma  
-  Geef je achternaam: Peeters  
-  
-  Emma Peeters
+    Geef je voornaam: Emma  
+    Geef je achternaam: Peeters  
+    
+    Emma Peeters
