@@ -1,5 +1,9 @@
-zijde = float(input("Geef de lengte van een zijde: "))
+code = int(input("Geef een code van twee cijfers: "))
 
-volume = zijde ** 3
+tiental = code // 10
+eenheid = code % 10
 
-print("Volume:", volume)
+controlescore = tiental ** 2 + eenheid ** 2
+
+print("Cijfers:", tiental, eenheid)
+print("Controlescore:", controlescore)
