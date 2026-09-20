@@ -19,5 +19,9 @@
     "casting",
     "variabelen",
     "print"
-  ]
+  ],
+  "internals": {
+    "token": "SanEHvVK9wm_iyDzdQxyYmnUbfurrQu59NuQQ_49F52dVbGZXeu_j_tNe5xZ5HBz",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
