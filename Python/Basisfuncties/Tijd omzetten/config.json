@@ -20,5 +20,9 @@
     "variabelen",
     "gehele deling",
     "modulo"
-  ]
+  ],
+  "internals": {
+    "token": "Wc4V3v6gWk6Ai3Dvpd52Zppv9yrkYvyte8YsAr5WjNAMeXDHwDFS_xT_9X5GD22p",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
