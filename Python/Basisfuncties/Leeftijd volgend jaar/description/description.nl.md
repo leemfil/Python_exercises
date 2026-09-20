@@ -1,24 +1,17 @@
-## Opdracht
-<br>
+# Leeftijd volgend jaar
 
-In een tekenprogramma wil je een eenvoudig figuur maken. Je gebruikt een turtle om een vierkant op het scherm te tekenen.
-De turtle-module is niet beschikbaar in Dodona. Daarom zal je je code in Visual Studio Code moeten schrijven. Als je code af is, kan je ze kopiëren naar Dodona.
+Schrijf een programma dat aan de gebruiker eerst diens **naam** vraagt en daarna diens **leeftijd**. Daarna geeft het de leeftijd van de persoon volgend schooljaar.
 
-### Gegeven
+Gebruik exact deze vragen:
 
-Je gebruikt de `turtle`-module.
+```text
+Geef je naam: 
+Geef je leeftijd:
+```
+En gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
 
-### Wat moet je doen?
+## Voorbeeld
+    Geef je naam: Mohamed
+    Geef je leeftijd: 17
 
-+ maak een turtle aan
-+ teken een vierkant met een zijde van 200
-+ zorg ervoor dat elke zijde even lang is
-+ zorg ervoor dat de turtle na elke zijde correct draait
-
-### Verwachte uitvoer
-
-Op het scherm verschijnt een vierkant.
-
-### Voorbeeld van uitvoer  
-    
-    Er verschijnt een vierkant op het scherm.
+    Mohamed is volgend jaar 18 jaar.
