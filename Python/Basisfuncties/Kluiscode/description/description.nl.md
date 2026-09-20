@@ -1,20 +1,27 @@
-# Volume van een kubus
+# Kluiscode
 
-Schrijf een programma dat aan de gebruiker de lengte van een zijde van een kubus vraagt. De lengte kan een kommagetal zijn.  
-Bereken daarna het volume van de kubus met de formule:
+Schrijf een programma dat aan de gebruiker een code van **twee cijfers** vraagt.
 
-**V = zijde³**
+Haal beide cijfers afzonderlijk uit de code.
 
-In Python gebruik je `**` om een macht te berekenen.
+Bereken daarna de controlescore door het kwadraat van beide cijfers op te tellen.
+
+Toon eerst de twee afzonderlijke cijfers en daarna de controlescore.
+
+{: .callout.callout-info}
+
+> Tip:  
+> Gebruik het getal 10 in je berekeningen om het eerste en tweede cijfer te berekenen.
 
 Gebruik exact deze vraag:
 
 ```text
-Geef de lengte van een zijde:
+Geef een code van twee cijfers:
 ```
-En gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
+Gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
 
-## Voorbeeld
-    Geef de lengte van een zijde: 2.5
-
-    Volume: 15.625
+## Voorbeeld  
+    Geef een code van twee cijfers: 58
+    
+    Cijfers: 5 8  
+    Controlescore: 89
