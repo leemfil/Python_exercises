@@ -8,20 +8,17 @@
   },
   "description": {
     "names": {
-      "nl": "Volume van een kubus",
-      "en": "Volume of a cube"
+      "nl": "Tijd omzetten",
+      "en": "Convert time"
     }
   },
   "labels": [
     "python",
     "input",
-    "float",
+    "int",
     "casting",
     "variabelen",
-    "machten"
-  ],
-  "internals": {
-    "token": "Wc4V3v6gWk6Ai3Dvpd52Zppv9yrkYvyte8YsAr5WjNAMeXDHwDFS_xT_9X5GD22p",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "gehele deling",
+    "modulo"
+  ]
 }
