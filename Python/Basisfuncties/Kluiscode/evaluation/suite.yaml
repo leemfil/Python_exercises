@@ -1,17 +1,25 @@
-- tab: "Volume van een kubus"
+- tab: "Kluiscode"
   testcases:
     - stdin: |
-        2.5
-      stdout: "Volume: 15.625"
+        58
+      stdout: |-
+        Cijfers: 5 8
+        Controlescore: 89
 
     - stdin: |
-        3
-      stdout: "Volume: 27.0"
+        42
+      stdout: |-
+        Cijfers: 4 2
+        Controlescore: 20
 
     - stdin: |
-        1.5
-      stdout: "Volume: 3.375"
+        73
+      stdout: |-
+        Cijfers: 7 3
+        Controlescore: 58
 
     - stdin: |
-        0.5
-      stdout: "Volume: 0.125"
+        99
+      stdout: |-
+        Cijfers: 9 9
+        Controlescore: 162
