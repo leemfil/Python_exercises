@@ -1,17 +1,17 @@
-- tab: "Volume van een kubus"
+- tab: "Tijd omzetten"
   testcases:
     - stdin: |
-        2.5
-      stdout: "Volume: 15.625"
+        137
+      stdout: "2 uur en 17 minuten"
 
     - stdin: |
-        3
-      stdout: "Volume: 27.0"
+        60
+      stdout: "1 uur en 0 minuten"
 
     - stdin: |
-        1.5
-      stdout: "Volume: 3.375"
+        45
+      stdout: "0 uur en 45 minuten"
 
     - stdin: |
-        0.5
-      stdout: "Volume: 0.125"
+        185
+      stdout: "3 uur en 5 minuten"
