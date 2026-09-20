@@ -1,9 +1,6 @@
 # Volume van een kubus
 
-Schrijf een programma dat aan de gebruiker de lengte van een zijde van een kubus vraagt. De lengte kan een kommagetal zijn.
-
-Zet de ingevoerde waarde om naar een `float`.
-
+Schrijf een programma dat aan de gebruiker de lengte van een zijde van een kubus vraagt. De lengte kan een kommagetal zijn.  
 Bereken daarna het volume van de kubus met de formule:
 
 **V = zijde³**
