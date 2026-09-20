@@ -6,19 +6,19 @@
     - stdin: |
         Noor
         16
-      stdout: "Geef je naam: Geef je leeftijd: Noor is volgend jaar 17 jaar."
+      stdout: "Noor is volgend jaar 17 jaar."
 
     - stdin: |
         Adam
         15
-      stdout: "Geef je naam: Geef je leeftijd: Adam is volgend jaar 16 jaar."
+      stdout: "Adam is volgend jaar 16 jaar."
 
     - stdin: |
         Lina
         17
-      stdout: "Geef je naam: Geef je leeftijd: Lina is volgend jaar 18 jaar."
+      stdout: "Lina is volgend jaar 18 jaar."
 
     - stdin: |
         Jean-Pierre
         18
-      stdout: "Geef je naam: Geef je leeftijd: Jean-Pierre is volgend jaar 19 jaar."
+      stdout: "Jean-Pierre is volgend jaar 19 jaar."
