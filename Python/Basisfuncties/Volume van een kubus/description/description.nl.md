@@ -1,24 +1,23 @@
-## Opdracht
-<br>
+# Volume van een kubus
 
-In een tekenprogramma wil je een eenvoudig figuur maken. Je gebruikt een turtle om een vierkant op het scherm te tekenen.
-De turtle-module is niet beschikbaar in Dodona. Daarom zal je je code in Visual Studio Code moeten schrijven. Als je code af is, kan je ze kopiëren naar Dodona.
+Schrijf een programma dat aan de gebruiker de lengte van een zijde van een kubus vraagt. De lengte kan een kommagetal zijn.
 
-### Gegeven
+Zet de ingevoerde waarde om naar een `float`.
 
-Je gebruikt de `turtle`-module.
+Bereken daarna het volume van de kubus met de formule:
 
-### Wat moet je doen?
+**V = zijde³**
 
-+ maak een turtle aan
-+ teken een vierkant met een zijde van 200
-+ zorg ervoor dat elke zijde even lang is
-+ zorg ervoor dat de turtle na elke zijde correct draait
+In Python gebruik je `**` om een macht te berekenen.
 
-### Verwachte uitvoer
+Gebruik exact deze vraag:
 
-Op het scherm verschijnt een vierkant.
+```text
+Geef de lengte van een zijde:
+```
+En gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
 
-### Voorbeeld van uitvoer  
-    
-    Er verschijnt een vierkant op het scherm.
+## Voorbeeld
+    Geef de lengte van een zijde: 2.5
+
+    Volume: 15.625
