@@ -1,9 +1,5 @@
-import turtle
+zijde = float(input("Geef de lengte van een zijde: "))
 
-pen = turtle.Turtle()
+volume = zijde ** 3
 
-for _ in range(4):
-    pen.forward(200)
-    pen.left(90)
-
-turtle.exitonclick()
+print("Volume:", volume)
