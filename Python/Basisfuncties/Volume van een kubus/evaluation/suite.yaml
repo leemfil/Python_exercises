@@ -1,6 +1,17 @@
-- tab: "Testen"
+- tab: "Volume van een kubus"
   testcases:
-      - stdin: 
-          ""
-        stdout: |-
-          Test
+    - stdin: |
+        2.5
+      stdout: "Volume: 15.625"
+
+    - stdin: |
+        3
+      stdout: "Volume: 27.0"
+
+    - stdin: |
+        1.5
+      stdout: "Volume: 3.375"
+
+    - stdin: |
+        0.5
+      stdout: "Volume: 0.125"
