@@ -1,21 +1,16 @@
 language: python
+
 tabs:
   - tab: "1. Class en objecten"
     testcases:
       - expression: "submission.wagen1.naam"
         return: "Falcon"
 
-      - expression: "submission.wagen1.snelheid"
-        return: 280
-
       - expression: "submission.wagen1.rondetijd"
         return: 74
 
       - expression: "submission.wagen2.naam"
         return: "Comet"
-
-      - expression: "submission.wagen3.snelheid"
-        return: 310
 
       - expression: "submission.Racewagen('Nova', 300, 69).rondetijd"
         return: 69
@@ -38,9 +33,6 @@ tabs:
     testcases:
       - expression: "str(submission.Racewagen('Falcon', 280, 74))"
         return: "Falcon | snelheid: 280 km/u | rondetijd: 74 s"
-
-      - expression: "str(submission.Racewagen('Viper', 310, 71))"
-        return: "Viper | snelheid: 310 km/u | rondetijd: 71 s"
 
       - expression: "str(submission.Racewagen('Nova', 299, 68))"
         return: "Nova | snelheid: 299 km/u | rondetijd: 68 s"
@@ -67,5 +59,13 @@ tabs:
       - expression: "submission.Racewagen('Falcon', 280, 71) * submission.Racewagen('Viper', 310, 71)"
         return: "Gelijkspel!"
 
-      - expression: "submission.Racewagen('Apex', 330, 64) * submission.Racewagen('Blaze', 325, 67)"
-        return: "Apex wint!"
+  - tab: "6. Hoofdprogramma"
+    testcases:
+      - stdout: |
+          Falcon | snelheid: 280 km/u | rondetijd: 74 s
+          Comet | snelheid: 280 km/u | rondetijd: 70 s
+          Viper | snelheid: 310 km/u | rondetijd: 71 s
+          335
+          True
+          False
+          Viper wint!
