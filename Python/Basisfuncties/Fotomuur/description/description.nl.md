@@ -1,20 +1,35 @@
-# Volume van een kubus
+# Fotomuur
 
-Schrijf een programma dat aan de gebruiker de lengte van een zijde van een kubus vraagt. De lengte kan een kommagetal zijn.  
-Bereken daarna het volume van de kubus met de formule:
+Je wilt een **vierkante fotomuur** maken. Er staan evenveel foto's op elke rij als er rijen zijn.
 
-**V = zijde³**
+Schrijf een programma dat aan de gebruiker vraagt:
 
-In Python gebruik je `**` om een macht te berekenen.
+- de naam;
+- hoeveel foto's er op één rij komen;
+- hoeveel foto's er in één pakket zitten;
+- hoeveel één foto kost.
 
-Gebruik exact deze vraag:
+Bereken daarna:
 
-```text
-Geef de lengte van een zijde:
-```
-En gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
+1. het totale aantal foto's;
+2. de totale prijs van alle foto's;
+3. het aantal volledige pakketten;
+4. het aantal losse foto's dat overblijft.
+
+## Opmerkingen:  
+- De prijs van één foto kan een kommagetal zijn.
+- Maak de **eerste uitvoerregel door strings samen te voegen met `+`**.
+- Gebruik voor de andere uitvoerregels meerdere argumenten in `print()`, gescheiden door komma's.
+
+Gebruik de tekst zoals weergegeven in het voorbeeld.
 
 ## Voorbeeld
-    Geef de lengte van een zijde: 2.5
-
-    Volume: 15.625
+    Geef je naam: Noor  
+    Hoeveel foto's komen er op één rij? 6  
+    Hoeveel foto's zitten er in één pakket? 8  
+    Wat kost één foto? 0.25  
+    
+    Noor maakt een fotomuur met 36 foto's.  
+    Totale prijs: 9.0 euro  
+    Volledige pakketten: 4  
+    Losse foto's: 4
