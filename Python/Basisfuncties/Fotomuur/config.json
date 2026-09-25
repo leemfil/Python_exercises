@@ -8,20 +8,19 @@
   },
   "description": {
     "names": {
-      "nl": "Volume van een kubus",
-      "en": "Volume of a cube"
+      "nl": "Fotomuur",
+      "en": "Photo wall"
     }
   },
   "labels": [
     "python",
     "input",
-    "float",
     "casting",
     "variabelen",
+    "expressies",
+    "print",
+    "gehele deling",
+    "modulo",
     "machten"
-  ],
-  "internals": {
-    "token": "JKNazi348tFHMT6keUBz_8PdyAMmWKvZXE-FpCST7N2vq42QwNQxxB3i7rAJBAXT",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  ]
 }
