@@ -1,6 +1,3 @@
-
-## `solution.py`
-
 class Racewagen:
     def __init__(self, naam, snelheid, rondetijd):
         self.naam = naam
@@ -28,3 +25,15 @@ class Racewagen:
 wagen1 = Racewagen("Falcon", 280, 74)
 wagen2 = Racewagen("Comet", 280, 70)
 wagen3 = Racewagen("Viper", 310, 71)
+
+print(wagen1)
+print(wagen2)
+print(wagen3)
+
+wagen3.versnel(25)
+print(wagen3.snelheid)
+
+print(wagen1 == wagen2)
+print(wagen1 == wagen3)
+
+print(wagen1 * wagen3)
