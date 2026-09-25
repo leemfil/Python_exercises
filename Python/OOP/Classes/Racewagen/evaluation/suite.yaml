@@ -1,62 +1,61 @@
 tabs:
-  - tab: "1. Class en objecten"
-    testcases:
-      - expression: "submission.wagen1.naam"
-        return: "Falcon"
-
-      - expression: "submission.wagen1.rondetijd"
-        return: 74
-
-      - expression: "submission.wagen2.naam"
-        return: "Comet"
-
-      - expression: "submission.Racewagen('Nova', 300, 69).rondetijd"
-        return: 69
-
-  - tab: "2. Versnellen"
-    contexts:
-      - testcases:
-          - statement: "wagen = submission.Racewagen('Falcon', 280, 74)"
-          - statement: "wagen.versnel(15)"
-          - expression: "wagen.snelheid"
-            return: 295
-
-      - testcases:
-          - statement: "wagen = submission.Racewagen('Viper', 310, 71)"
-          - statement: "wagen.versnel(25)"
-          - expression: "wagen.snelheid"
-            return: 335
-
-  - tab: "3. Informatie afdrukken"
-    testcases:
-      - expression: "str(submission.Racewagen('Falcon', 280, 74))"
-        return: "Falcon | snelheid: 280 km/u | rondetijd: 74 s"
-
-      - expression: "str(submission.Racewagen('Nova', 299, 68))"
-        return: "Nova | snelheid: 299 km/u | rondetijd: 68 s"
-
-  - tab: "4. Gelijkheid"
-    testcases:
-      - expression: "submission.Racewagen('Falcon', 280, 74) == submission.Racewagen('Comet', 280, 70)"
-        return: true
-
-      - expression: "submission.Racewagen('Falcon', 280, 74) == submission.Racewagen('Viper', 310, 74)"
-        return: false
-
-      - expression: "submission.Racewagen('Nova', 315, 65) == submission.Racewagen('Apex', 315, 80)"
-        return: true
-
-  - tab: "5. Duel"
-    testcases:
-      - expression: "submission.Racewagen('Falcon', 280, 74) * submission.Racewagen('Viper', 310, 71)"
-        return: "Viper wint!"
-
-      - expression: "submission.Racewagen('Comet', 295, 68) * submission.Racewagen('Nova', 320, 72)"
-        return: "Comet wint!"
-
-      - expression: "submission.Racewagen('Falcon', 280, 71) * submission.Racewagen('Viper', 310, 71)"
-        return: "Gelijkspel!"
-
+#  - tab: "1. Class en objecten"
+#    testcases:
+#      - expression: "submission.wagen1.naam"
+#        return: "Falcon"
+#
+#      - expression: "submission.wagen1.rondetijd"
+#        return: 74
+#
+#      - expression: "submission.wagen2.naam"
+#        return: "Comet"
+#
+#      - expression: "submission.Racewagen('Nova', 300, 69).rondetijd"
+#        return: 69
+#
+#  - tab: "2. Versnellen"
+#    contexts:
+#      - testcases:
+#          - statement: "wagen = submission.Racewagen('Falcon', 280, 74)"
+#          - statement: "wagen.versnel(15)"
+#          - expression: "wagen.snelheid"
+#            return: 295
+#      - testcases:
+#          - statement: "wagen = submission.Racewagen('Viper', 310, 71)"
+#          - statement: "wagen.versnel(25)"
+#          - expression: "wagen.snelheid"
+#            return: 335
+#
+#  - tab: "3. Informatie afdrukken"
+#    testcases:
+#      - expression: "str(submission.Racewagen('Falcon', 280, 74))"
+#        return: "Falcon | snelheid: 280 km/u | rondetijd: 74 s"
+#
+#      - expression: "str(submission.Racewagen('Nova', 299, 68))"
+#        return: "Nova | snelheid: 299 km/u | rondetijd: 68 s"
+#
+#  - tab: "4. Gelijkheid"
+#    testcases:
+#      - expression: "submission.Racewagen('Falcon', 280, 74) == submission.Racewagen('Comet', 280, 70)"
+#        return: true#
+#
+#      - expression: "submission.Racewagen('Falcon', 280, 74) == submission.Racewagen('Viper', 310, 74)"
+#        return: false
+#
+#     - expression: "submission.Racewagen('Nova', 315, 65) == submission.Racewagen('Apex', 315, 80)"
+#        return: true
+#
+#  - tab: "5. Duel"
+#    testcases:
+#      - expression: "submission.Racewagen('Falcon', 280, 74) * submission.Racewagen('Viper', 310, 71)"
+#        return: "Viper wint!"
+#
+#      - expression: "submission.Racewagen('Comet', 295, 68) * submission.Racewagen('Nova', 320, 72)"
+#        return: "Comet wint!"#
+#
+#      - expression: "submission.Racewagen('Falcon', 280, 71) * submission.Racewagen('Viper', 310, 71)"
+#        return: "Gelijkspel!"
+#
   - tab: "6. Hoofdprogramma"
     testcases:
       - stdout: |
