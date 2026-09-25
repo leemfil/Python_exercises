@@ -1,5 +1,3 @@
-language: python
-
 tabs:
   - tab: "1. Class en objecten"
     testcases:
