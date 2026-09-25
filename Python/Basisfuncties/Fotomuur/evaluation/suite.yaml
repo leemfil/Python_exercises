@@ -1,17 +1,45 @@
-- tab: "Volume van een kubus"
+- tab: "Fotomuur"
   testcases:
     - stdin: |
-        2.5
-      stdout: "Volume: 15.625"
+        Noor
+        6
+        8
+        0.25
+      stdout: |-
+        Noor maakt een fotomuur met 36 foto's.
+        Totale prijs: 9.0 euro
+        Volledige pakketten: 4
+        Losse foto's: 4
 
     - stdin: |
-        3
-      stdout: "Volume: 27.0"
+        Adam
+        5
+        6
+        0.3
+      stdout: |-
+        Adam maakt een fotomuur met 25 foto's.
+        Totale prijs: 7.5 euro
+        Volledige pakketten: 4
+        Losse foto's: 1
 
     - stdin: |
-        1.5
-      stdout: "Volume: 3.375"
-
-    - stdin: |
+        Lina
+        4
+        5
         0.5
-      stdout: "Volume: 0.125"
+      stdout: |-
+        Lina maakt een fotomuur met 16 foto's.
+        Totale prijs: 8.0 euro
+        Volledige pakketten: 3
+        Losse foto's: 1
+
+    - stdin: |
+        Mohamed
+        8
+        10
+        0.2
+      stdout: |-
+        Mohamed maakt een fotomuur met 64 foto's.
+        Totale prijs: 12.8 euro
+        Volledige pakketten: 6
+        Losse foto's: 4
