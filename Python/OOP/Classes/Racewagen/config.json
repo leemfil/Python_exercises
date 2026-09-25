@@ -1,27 +1,14 @@
 {
-  "type": "exercise",
-  "programming_language": "python",
-  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Racewagen – kwalificatie",
+      "en": "Racewagen – kwalificatie"
+    }
+  },
   "evaluation": {
     "handler": "tested",
     "test_suite": "suite.yaml"
   },
-  "description": {
-    "names": {
-      "nl": "Volume van een kubus",
-      "en": "Volume of a cube"
-    }
-  },
-  "labels": [
-    "python",
-    "input",
-    "float",
-    "casting",
-    "variabelen",
-    "machten"
-  ],
-  "internals": {
-    "token": "XhjCMVz7RrsCAw38WeEmSpKjKU-heavPzk8--SzJNF86f2hgnN5ZfgZp7TSCxrW-",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+  "programming_language": "python",
+  "access": "public"
 }
