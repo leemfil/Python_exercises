@@ -22,5 +22,9 @@
     "gehele deling",
     "modulo",
     "machten"
-  ]
+  ],
+  "internals": {
+    "token": "JKNazi348tFHMT6keUBz_8PdyAMmWKvZXE-FpCST7N2vq42QwNQxxB3i7rAJBAXT",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
