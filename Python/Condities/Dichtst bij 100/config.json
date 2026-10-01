@@ -1,0 +1,25 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Dichtst bij 100",
+      "en": "Closest to 100"
+    }
+  },
+  "labels": [
+    "python",
+    "input",
+    "int",
+    "variabelen",
+    "expressies",
+    "machten",
+    "booleans",
+    "vergelijkingen"
+  ]
+}

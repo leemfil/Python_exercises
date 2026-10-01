@@ -1,0 +1,21 @@
+- tab: "Dichtst bij 100"
+  testcases:
+    - stdin: |
+        92
+        115
+      stdout: "True"
+
+    - stdin: |
+        120
+        95
+      stdout: "False"
+
+    - stdin: |
+        98
+        110
+      stdout: "True"
+
+    - stdin: |
+        90
+        110
+      stdout: "False"
