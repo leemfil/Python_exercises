@@ -8,20 +8,16 @@
   },
   "description": {
     "names": {
-      "nl": "Leeftijd volgend jaar",
-      "en": "Age next year"
+      "nl": "Deelbaar door 5",
+      "en": "Divisible by 5"
     }
   },
   "labels": [
     "python",
     "input",
     "int",
-    "casting",
-    "variabelen",
-    "print"
-  ],
-  "internals": {
-    "token": "cc3sac_7kYK25zk9tpJ_agaWFtA5_UrW2HMTpdmk35R_a9cRa4DC8tXh4qdQUUUR",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  }
+    "booleans",
+    "vergelijkingen",
+    "modulo"
+  ]
 }
