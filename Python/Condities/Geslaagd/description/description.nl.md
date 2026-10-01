@@ -1,17 +1,11 @@
-# Leeftijd volgend jaar
+# Geslaagd?
 
-Schrijf een programma dat aan de gebruiker eerst diens **naam** vraagt en daarna diens **leeftijd**. Daarna geeft het de leeftijd van de persoon volgend schooljaar.
+Schrijf een programma dat aan de gebruiker zijn score op 100 vraagt.
 
-Gebruik exact deze vragen:
+Controleer of de score **minstens 50** is.
 
-```text
-Geef je naam: 
-Geef je leeftijd:
-```
-En gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
+Print het resultaat van de vergelijking. De uitvoer is dus `True` of `False`.
 
-## Voorbeeld
-    Geef je naam: Mohamed
-    Geef je leeftijd: 17
+Gebruik exact deze vraag:
 
-    Mohamed is volgend jaar 18 jaar.
+    Geef je score:
