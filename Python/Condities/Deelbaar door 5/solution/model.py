@@ -1,6 +1,5 @@
-naam = input("Geef je naam: ")
-leeftijd = int(input("Geef je leeftijd: "))
+getal = int(input("Geef een geheel getal: "))
 
-volgend_jaar = leeftijd + 1
+deelbaar = getal % 5 == 0
 
-print(naam, "is volgend jaar", volgend_jaar, "jaar.")
+print(deelbaar)
