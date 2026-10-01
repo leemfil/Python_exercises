@@ -21,5 +21,9 @@
     "machten",
     "booleans",
     "vergelijkingen"
-  ]
+  ],
+  "internals": {
+    "token": "wS6jVUaam9_JughAXSevStJsgfcGyAWZxw8YNfaV6HVEaErwaW4Bs6SksE_6Mqd8",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
