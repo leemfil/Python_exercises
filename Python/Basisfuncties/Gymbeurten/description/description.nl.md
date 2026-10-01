@@ -31,4 +31,4 @@ Het aantal beurten wordt omgezet naar een geheel getal.
 
 **Uitvoer**
 
-    Het  aantal beurten is 5.
+    Het aantal beurten is 5.
