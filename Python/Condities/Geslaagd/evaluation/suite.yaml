@@ -1,24 +1,17 @@
-
-### `evaluation/suite.yaml`
-
-- tab: "Leeftijd volgend jaar"
+- tab: "Geslaagd?"
   testcases:
     - stdin: |
-        Noor
-        16
-      stdout: "Noor is volgend jaar 17 jaar."
+        72
+      stdout: "True"
 
     - stdin: |
-        Adam
-        15
-      stdout: "Adam is volgend jaar 16 jaar."
+        50
+      stdout: "True"
 
     - stdin: |
-        Lina
-        17
-      stdout: "Lina is volgend jaar 18 jaar."
+        49
+      stdout: "False"
 
     - stdin: |
-        Jean-Pierre
-        18
-      stdout: "Jean-Pierre is volgend jaar 19 jaar."
+        0
+      stdout: "False"
