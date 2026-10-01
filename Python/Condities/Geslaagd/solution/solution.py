@@ -1,6 +1,5 @@
-naam = input("Geef je naam: ")
-leeftijd = int(input("Geef je leeftijd: "))
+score = int(input("Geef je score: "))
 
-volgend_jaar = leeftijd + 1
+geslaagd = score >= 50
 
-print(naam, "is volgend jaar", volgend_jaar, "jaar.")
+print(geslaagd)
