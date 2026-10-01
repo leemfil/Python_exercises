@@ -1,0 +1,29 @@
+- tab: "Welke aanbieding is goedkoper?"
+  testcases:
+    - stdin: |
+        4
+        2.5
+        3
+        3.75
+      stdout: "True"
+
+    - stdin: |
+        5
+        3.0
+        4
+        2.5
+      stdout: "False"
+
+    - stdin: |
+        2
+        4.5
+        3
+        4.0
+      stdout: "True"
+
+    - stdin: |
+        6
+        2.0
+        4
+        3.0
+      stdout: "False"

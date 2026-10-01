@@ -1,0 +1,25 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Welke aanbieding is goedkoper?",
+      "en": "Which offer is cheaper?"
+    }
+  },
+  "labels": [
+    "python",
+    "input",
+    "int",
+    "float",
+    "variabelen",
+    "expressies",
+    "booleans",
+    "vergelijkingen"
+  ]
+}
