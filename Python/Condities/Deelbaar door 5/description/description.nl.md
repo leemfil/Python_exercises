@@ -1,17 +1,11 @@
-# Leeftijd volgend jaar
+# Deelbaar door 5
 
-Schrijf een programma dat aan de gebruiker eerst diens **naam** vraagt en daarna diens **leeftijd**. Daarna geeft het de leeftijd van de persoon volgend schooljaar.
+Schrijf een programma dat aan de gebruiker een geheel getal vraagt.
 
-Gebruik exact deze vragen:
+Controleer of het getal **deelbaar is door 5**.
 
-```text
-Geef je naam: 
-Geef je leeftijd:
-```
-En gebruik in de uitvoer de tekst zoals weergegeven in het voorbeeld.
+Print het resultaat van de vergelijking. De uitvoer is dus `True` of `False`.
 
-## Voorbeeld
-    Geef je naam: Mohamed
-    Geef je leeftijd: 17
+Gebruik exact deze vraag:
 
-    Mohamed is volgend jaar 18 jaar.
+    Geef een geheel getal:
