@@ -10,7 +10,7 @@ Shrijf een geschikte boodschap op het scherm in functie van het aantal korrels s
 
 ### Invoer
 
-Het aantal gemeten stuifmeelkorrels per kubieke meter.  
+Vraag het aantal gemeten stuifmeelkorrels per kubieke meter aan de gebruiker.  
 
 ### Uitvoer
 
